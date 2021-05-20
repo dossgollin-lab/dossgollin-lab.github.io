@@ -266,7 +266,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #00205b;
@@ -355,8 +355,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
-  font-weight: 500;
+  font-family: 'Rubik', 'Open Sans', sans-serif;
+  font-weight: 600;
   line-height: 1.1;
   color: inherit;
 }
@@ -448,18 +448,19 @@ h3,
 }
 h4,
 .h4 {
-  font-size: 18px;
+  font-size: 20px;
 }
 h5,
 .h5 {
-  font-size: 14px;
+  font-size: 18px;
 }
 h6,
 .h6 {
-  font-size: 12px;
+  font-size: 16px;
 }
 p {
   margin: 0 0 10px;
+  font-size: 14px;
 }
 .lead {
   margin-bottom: 20px;

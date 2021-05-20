@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
-		<title>Doss-Gollin Group @ Rice</title>
+		<title>Doss-Gollin Group @ Rice CEVE</title>
 		<description>The Doss-Gollin Research Group at Rice University (Starting 2021)</description>		
 		<link>https://dossgollin-lab.github.io</link>
 		<atom:link href="https://dossgollin-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>New Preprint: How unprecedented was the February 2021 Texas cold snap?</title>
+				<title>New Paper in Environmental Research Leters</title>
 				        
 				
-					<description>&lt;p&gt;As you may have heard on the news, a cold snap recently left millions of Texans without water and power for several days.
-We published a preprint titled “How unprecedented was the February 2021 Texas cold snap?”
-It’s freely available &lt;a href=&quot;https://doi.org/10.31223/X5003J&quot;&gt;on EarthArXiV&lt;/a&gt;!&lt;/p&gt;
+					<description>&lt;p&gt;A new paper &lt;a class=&quot;citation&quot; href=&quot;#doss-gollin_txtreme:2021&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt; in the journal &lt;em&gt;Environmental Research Letters&lt;/em&gt; examines the drivers of the February 2021 cold snap that left millions across Texas without electricity and water.&lt;/p&gt;
 </description>
 				
-				<pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
+				<pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
 				<link>https://dossgollin-lab.github.io/papers/txtremes.html</link>
 				<guid isPermaLink="true">https://dossgollin-lab.github.io/papers/txtremes.html</guid>
 			</item>
