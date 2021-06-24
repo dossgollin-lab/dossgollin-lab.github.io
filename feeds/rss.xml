@@ -7,6 +7,19 @@
 		<atom:link href="https://dossgollin-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Call for Abstracts: Statistical-Dynamical Models for Hydroclimatic Risk Management and Adaptation</title>
+				        
+				
+					<description>&lt;p&gt;The &lt;a href=&quot;https://agu.confex.com/agu/fm21/prelim.cgi/Session/118811&quot;&gt;session&lt;/a&gt; is listed in Hydrology, Natural Hazards, Global Environmental Change, and Atmospheric Sciences.
+Here’s the description:&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
+				<link>https://dossgollin-lab.github.io/papers/agu21.html</link>
+				<guid isPermaLink="true">https://dossgollin-lab.github.io/papers/agu21.html</guid>
+			</item>
+		
+			<item>
 				<title>New Paper in Environmental Research Leters</title>
 				        
 				
@@ -117,18 +130,6 @@ Here’s the abstract:&lt;/p&gt;
 				<pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
 				<link>https://dossgollin-lab.github.io/papers/paraguay-floods.html</link>
 				<guid isPermaLink="true">https://dossgollin-lab.github.io/papers/paraguay-floods.html</guid>
-			</item>
-		
-			<item>
-				<title>New Paper in Water Resources Research</title>
-				        
-				
-					<description>&lt;p&gt;My paper with David Farnham (lead author) and Upmanu Lall titled “Regional Extreme Precipitation Events: Robust Inference From Credibly Simulated GCM Variables” has been published in Water Resources Research.&lt;/p&gt;
-</description>
-				
-				<pubDate>Mon, 26 Mar 2018 00:00:00 +0000</pubDate>
-				<link>https://dossgollin-lab.github.io/papers/ohio-floods-wrr.html</link>
-				<guid isPermaLink="true">https://dossgollin-lab.github.io/papers/ohio-floods-wrr.html</guid>
 			</item>
 		
 	</channel>
