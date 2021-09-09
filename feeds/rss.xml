@@ -7,6 +7,31 @@
 		<atom:link href="https://dossgollin-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Houston Chronicle Op-Ed: The risks of climate change are great - so are the rewards of solving it</title>
+				        
+				
+					<description>&lt;p&gt;A new Op-Ed by Andrew Dessler, &lt;a href=&quot;/group-members#jdossgollin&quot;&gt;James Doss-Gollin&lt;/a&gt; and Katharine Hayhoe in the Houston Chronicle titled “&lt;a href=&quot;https://www.houstonchronicle.com/opinion/outlook/article/Opinion-The-risks-of-climate-change-are-great-16426616.php&quot;&gt;The risks of climate change are great - so are the rewards of solving it&lt;/a&gt;” discusses how renewable energy can mitigate climate change while also improving health and economic outcomes in Texas and beyond.&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+				<link>https://dossgollin-lab.github.io/announcements/chronicle-oped.html</link>
+				<guid isPermaLink="true">https://dossgollin-lab.github.io/announcements/chronicle-oped.html</guid>
+			</item>
+		
+			<item>
+				<title>NSF Award from EAGER SAI: &apos;Participatory Design for Water Quality Monitoring of Highly Decentralized Water Infrastructure Systems&apos;</title>
+				        
+				
+					<description>&lt;p&gt;A project led by Alicia Cooperman (TAMU), James Doss-Gollin (Rice), Alex Mayer (UTEP), and Shane Walker (UTEP) has been funded through the NSF EAGER SAI program.
+Here’s the description:&lt;/p&gt;
+</description>
+				
+				<pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
+				<link>https://dossgollin-lab.github.io/announcements/nsf-eager-sai.html</link>
+				<guid isPermaLink="true">https://dossgollin-lab.github.io/announcements/nsf-eager-sai.html</guid>
+			</item>
+		
+			<item>
 				<title>Call for Abstracts: Statistical-Dynamical Models for Hydroclimatic Risk Management and Adaptation</title>
 				        
 				
@@ -15,8 +40,8 @@ Here’s the description:&lt;/p&gt;
 </description>
 				
 				<pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
-				<link>https://dossgollin-lab.github.io/papers/agu21.html</link>
-				<guid isPermaLink="true">https://dossgollin-lab.github.io/papers/agu21.html</guid>
+				<link>https://dossgollin-lab.github.io/conference/agu21.html</link>
+				<guid isPermaLink="true">https://dossgollin-lab.github.io/conference/agu21.html</guid>
 			</item>
 		
 			<item>
@@ -106,30 +131,6 @@ Here’s the abstract:&lt;/p&gt;
 				<pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
 				<link>https://dossgollin-lab.github.io/papers/robust-adaptation.html</link>
 				<guid isPermaLink="true">https://dossgollin-lab.github.io/papers/robust-adaptation.html</guid>
-			</item>
-		
-			<item>
-				<title>New Paper in Earth&apos;s Future</title>
-				        
-				
-					<description>&lt;p&gt;My paper with &lt;a href=&quot;http://www.lse.ac.uk/GranthamInstitute/profile/viktor-rozer&quot; target=&quot;_blank&quot;&gt;Viktor Rözer&lt;/a&gt; (lead author) and coauthors has been published in the &lt;strong&gt;open access&lt;/strong&gt; journal Earth’s Future.&lt;/p&gt;
-</description>
-				
-				<pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
-				<link>https://dossgollin-lab.github.io/papers/probabilistic-harvey.html</link>
-				<guid isPermaLink="true">https://dossgollin-lab.github.io/papers/probabilistic-harvey.html</guid>
-			</item>
-		
-			<item>
-				<title>New Paper in Journal of Climate</title>
-				        
-				
-					<description>&lt;p&gt;My paper with Ángel Muñoz, Simon Mason, and Max Pastén titled “Heavy Rainfall in Paraguay during the 2015/16 Austral Summer: Causes and Subseasonal-to-Seasonal Predictive Skill”  has been published in Journal of Climate.&lt;/p&gt;
-</description>
-				
-				<pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
-				<link>https://dossgollin-lab.github.io/papers/paraguay-floods.html</link>
-				<guid isPermaLink="true">https://dossgollin-lab.github.io/papers/paraguay-floods.html</guid>
 			</item>
 		
 	</channel>
