@@ -86,15 +86,26 @@
 
         <ul class="nav navbar-nav navbar-right">
 
-          <li><a href="/research">Research</a></li>
           <li><a href="/group-members">People</a></li>
-          <!-- ADD WHEN WE HAVE FUNDING!
-            <li><a href="/research/Funding">Funding</a></li>
-          -->
-          <li><a href="/publications/">Publications</a></li>
-          <li><a href="/teaching">Teaching</a></li>
-          <li><a href="/contact">Contact</a></li>
-          <li><a href="/join-the-lab">Join</a></li>
+          <li><a href="/funded-projects">Research</a></li>
+          <li><a href="/publications">Publications</a></li>
+          
+          <!--DROPDOWN FOR ABOUT-->
+          <li class="dropdown">
+            <a href="/group-members/" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret hidden-xs"></b></a>
+            <ul class="dropdown-menu hidden-xs">
+              <li><a href="/contact">Contact</a></li>
+              <li><a href="/join-the-lab">Join</a></li>
+              <li><a href="https://dossgollin-lab.github.io/lab-guide/">Lab Manual</a></li>
+              <li><a href="/teaching">Teaching</a></li>
+            </ul>
+            <ul class="visible-xs navbar-nav" style="width:150px">
+              <li><a href="/contact">Contact</a></li>
+              <li><a href="/join-the-lab">Join</a></li>
+              <li><a href="https://dossgollin-lab.github.io/lab-guide/">Lab Manual</a></li>
+              <li><a href="/teaching">Teaching</a></li>
+            </ul>
+          </li>
 
           
           
@@ -107,16 +118,6 @@
               
               
               <li>
-                <a href=https://dossgollin-lab.github.io/lab-guide/>
-                  Lab Guide
-                </a>
-              </li>
-              
-              
-              <li class="divider"></li>
-              
-              
-              <li>
                 <a href=https://github.com/dossgollin-lab/>
                   GitHub
                 </a>
@@ -136,7 +137,7 @@
               
               <li>
                 <a href=https://cee.rice.edu/>
-                  Rice CEE
+                  Rice CEVE Department
                 </a>
               </li>
               
@@ -144,7 +145,7 @@
               
               <li>
                 <a href=https://engineering.rice.edu/>
-                  Rice Engineering
+                  Rice School of Engineering
                 </a>
               </li>
               
@@ -153,6 +154,14 @@
               <li>
                 <a href=https://www.sspeed.rice.edu/>
                   SSPEED Center
+                </a>
+              </li>
+              
+              
+              
+              <li>
+                <a href=https://trei.rice.edu/>
+                  The Rice Environmental Initiative
                 </a>
               </li>
               
@@ -164,16 +173,6 @@
               
               
               <li>
-                <a href=https://dossgollin-lab.github.io/lab-guide/>
-                  Lab Guide
-                </a>
-              </li>
-              
-              
-              <li class="divider"></li>
-              
-              
-              <li>
                 <a href=https://github.com/dossgollin-lab/>
                   GitHub
                 </a>
@@ -193,7 +192,7 @@
               
               <li>
                 <a href=https://cee.rice.edu/>
-                  Rice CEE
+                  Rice CEVE Department
                 </a>
               </li>
               
@@ -201,7 +200,7 @@
               
               <li>
                 <a href=https://engineering.rice.edu/>
-                  Rice Engineering
+                  Rice School of Engineering
                 </a>
               </li>
               
@@ -210,6 +209,14 @@
               <li>
                 <a href=https://www.sspeed.rice.edu/>
                   SSPEED Center
+                </a>
+              </li>
+              
+              
+              
+              <li>
+                <a href=https://trei.rice.edu/>
+                  The Rice Environmental Initiative
                 </a>
               </li>
               
@@ -262,9 +269,6 @@
     </div>
     <div class="panel-heading">
         
-        <p>General circulation models (GCMs) have been demonstrated to produce estimates of precipitation, including the frequency of extreme precipitation, with substantial bias and uncertainty relative to their representation of other fields. Thus, while theory predicts changes in the hydrologic cycle under anthropogenic warming, there is generally low confidence in future projections of extreme precipitation frequency for specific river basins. In this paper, we explore whether a GCM simulates large-scale atmospheric circulation indices that are associated with regional extreme precipitation (REP) days more accurately than it simulates REP days themselves, and thus whether conditional simulation of the precipitation events based on the circulation indices may improve the simulation of REP events. We show that a coupled Geophysical Fluid Dynamics Laboratory GCM simulates too many springtime REP days in the Ohio River Basin in historical (1950–2005) simulations. The GCM, however, does credibly simulate the distributional and persistence properties of several indices (which represent the large-scale atmospheric pressure features, local atmospheric moisture content, and local vertical velocity) that are shown to modulate the likelihood of REP occurrence in the reanalysis/observational record. We show that simulation of REP events based on the GCM-based atmospheric indices greatly reduces the bias of GCM REP frequency relative to the observed record. The simulation is conducted via a Bayesian regression model by imposing the empirical relationship between observed REP occurrence and the reanalysis-based atmospheric indices. Application of this model to future (2006–2100) representative concentration pathway 8.5 scenario suggests an increasing trend in springtime REP incidence in the study region. The proposed approach of simulating precipitation events of interest, particularly those poorly represented in GCMs, with a statistical model based on climate indices that are reasonably simulated by GCMs could be applied to subseasonal to seasonal forecasts as well as future projections.</p>
-        
-        
 
         
         <a href="https://doi.org/10.1002/2017wr021318">
@@ -292,6 +296,13 @@
 
     <div class="list-group" style="margin-bottom:0px;">
       
+      <a href="/announcements/agu21.html" class="list-group-item ">
+        <h4 class="list-group-item-heading">
+          <small class="pull-right">19 Nov 2021</small>Doss-Gollin Lab at AGU21
+        </h4>
+        <p class="list-group-item-text">Look forward to seeing you there!</p>
+      </a>
+      
       <a href="/announcements/chronicle-oped.html" class="list-group-item ">
         <h4 class="list-group-item-heading">
           <small class="pull-right">01 Sep 2021</small>Houston Chronicle Op-Ed: The risks of climate change are great - so are the rewards of solving it
@@ -315,16 +326,9 @@
       
       <a href="/papers/txtremes.html" class="list-group-item ">
         <h4 class="list-group-item-heading">
-          <small class="pull-right">18 May 2021</small>New Paper in Environmental Research Leters
+          <small class="pull-right">18 May 2021</small>How Unprecedented Was the February 2021 Texas Cold Snap?
         </h4>
-        <p class="list-group-item-text">How Unprecedented Was the February 2021 Texas Cold Snap?</p>
-      </a>
-      
-      <a href="/conference/dmdu-2020.html" class="list-group-item ">
-        <h4 class="list-group-item-heading">
-          <small class="pull-right">10 Nov 2020</small>2020 Annual Meeting of the Society for Decision Making under Deep Uncertainty
-        </h4>
-        <p class="list-group-item-text">Valuing Flexibility and Soft Instruments for Sequential Decision Problems</p>
+        <p class="list-group-item-text">New Paper in Environmental Research Leters</p>
       </a>
       
     </div>
@@ -356,12 +360,6 @@
         
         
         
-        <a href="https://dossgollin-lab.github.io/lab-guide/">Lab Guide</a>
-        
-        
-        
-        |
-        
         <a href="https://github.com/dossgollin-lab/"><i class="fab fa-github"></i></a>
         
         
@@ -374,19 +372,25 @@
         
         |
         
-        <a href="https://cee.rice.edu/">Rice CEE</a>
+        <a href="https://cee.rice.edu/">Rice CEVE Department</a>
         
         
         
         |
         
-        <a href="https://engineering.rice.edu/">Rice Engineering</a>
+        <a href="https://engineering.rice.edu/">Rice School of Engineering</a>
         
         
         
         |
         
-        <a href="https://www.sspeed.rice.edu/">SSPEED</a>
+        <a href="https://www.sspeed.rice.edu/">SSPEED Center</a>
+        
+        
+        
+        |
+        
+        <a href="https://trei.rice.edu/">The Rice Environmental Initiative</a>
         
       </div>
     </div>
