@@ -7,6 +7,19 @@
 		<atom:link href="https://dossgollin-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Talk at Risk KAN Compound Events Group</title>
+				        
+				
+					<description>&lt;p&gt;James Doss-Gollin is giving a talk “Extreme impacts don’t require extreme weather: lessons from the Feb 2021 Texas blackouts” at the Risk KAN (Knowledge Action Network) compound events group &lt;a href=&quot;https://www.risk-kan.org/webinars/&quot;&gt;webinar&lt;/a&gt;.
+See &lt;a href=&quot;https://www.risk-kan.org/webinars/&quot;&gt;here&lt;/a&gt; for Zoom information – the event is free!&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+				<link>https://dossgollin-lab.github.io/announcements/risk-kan.html</link>
+				<guid isPermaLink="true">https://dossgollin-lab.github.io/announcements/risk-kan.html</guid>
+			</item>
+		
+			<item>
 				<title>Doss-Gollin Lab at AGU21</title>
 				        
 				
@@ -116,20 +129,6 @@ I’ve had the chance to interact with many wonderful classmates, colleagues, te
 				<pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
 				<link>https://dossgollin-lab.github.io/papers/adaptation-fatalism.html</link>
 				<guid isPermaLink="true">https://dossgollin-lab.github.io/papers/adaptation-fatalism.html</guid>
-			</item>
-		
-			<item>
-				<title>Call for Abstracts: Meeting the challenges of 21st century climate adaptation</title>
-				        
-				
-					<description>&lt;p&gt;Climate information, including observations, predictions on a range of timescales, and projections of longer-term change, can inform adaptation strategies and protect society against the loss of life, property, and productive capacity.
-Successfully developing, evaluating, and actualizing such predictions is difficult, however, given the intrinsic uncertainties and potentially high sensitivity of decisions to such uncertainties.
-In this session we will bring together scientists from fields including climate science, decision sciences, sustainability sciences and engineering to discuss:&lt;/p&gt;
-</description>
-				
-				<pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-				<link>https://dossgollin-lab.github.io/papers/agu-call-abstracts.html</link>
-				<guid isPermaLink="true">https://dossgollin-lab.github.io/papers/agu-call-abstracts.html</guid>
 			</item>
 		
 	</channel>
