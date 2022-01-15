@@ -87,22 +87,33 @@
         <ul class="nav navbar-nav navbar-right">
 
           <li><a href="/group-members">People</a></li>
-          <li><a href="/funded-projects">Research</a></li>
-          <li><a href="/publications">Publications</a></li>
-          
+
+          <!--DROPDOWN FOR RESERCH-->
+          <li class="dropdown">
+            <a href="/publications/" class="dropdown-toggle" data-toggle="dropdown">Research<b
+                class="caret hidden-xs"></b></a>
+            <ul class="dropdown-menu hidden-xs">
+              <li><a href="/funded-projects">Projects</a></li>
+              <li><a href="/publications">Publications</a></li>
+            </ul>
+            <ul class="visible-xs navbar-nav" style="width:150px">
+              <li><a href="/funded-projects">Projects</a></li>
+              <li><a href="/publications">Publications</a></li>
+            </ul>
+          </li>
+
           <!--DROPDOWN FOR ABOUT-->
           <li class="dropdown">
-            <a href="/group-members/" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret hidden-xs"></b></a>
+            <a href="/group-members/" class="dropdown-toggle" data-toggle="dropdown">About<b
+                class="caret hidden-xs"></b></a>
             <ul class="dropdown-menu hidden-xs">
               <li><a href="/contact">Contact</a></li>
               <li><a href="/join-the-lab">Join</a></li>
-              <li><a href="https://dossgollin-lab.github.io/lab-guide/">Lab Manual</a></li>
               <li><a href="/teaching">Teaching</a></li>
             </ul>
             <ul class="visible-xs navbar-nav" style="width:150px">
               <li><a href="/contact">Contact</a></li>
               <li><a href="/join-the-lab">Join</a></li>
-              <li><a href="https://dossgollin-lab.github.io/lab-guide/">Lab Manual</a></li>
               <li><a href="/teaching">Teaching</a></li>
             </ul>
           </li>
@@ -115,6 +126,16 @@
             <a class="dropdown-toggle" data-toggle="dropdown">Links<b class="caret hidden-xs"></b></a>
             <ul class="dropdown-menu hidden-xs">
               
+              
+              
+              <li>
+                <a href=https://dossgollin-lab.github.io/lab-guide/>
+                  Lab Manual
+                </a>
+              </li>
+              
+              
+              <li class="divider"></li>
               
               
               <li>
@@ -167,6 +188,16 @@
               
             </ul>
             <ul class="visible-xs navbar-nav" style="width:150px">
+              
+              
+              <li class="divider"></li>
+              
+              
+              <li>
+                <a href=https://dossgollin-lab.github.io/lab-guide/>
+                  Lab Manual
+                </a>
+              </li>
               
               
               <li class="divider"></li>
@@ -256,34 +287,76 @@
 
 <h1 id="references">References</h1>
 
-<div class="bibliography"><div><div class="panel panel-default" style="font-size: 16px;">
+<div class="bibliography"><div><!--Create a counter to have an entry-->
+
+
+
+
+<div class="panel panel-default" style="font-size: 16px;">
     <div class="panel-body">
-        <span id="DossGollin:2018bn"><u>Doss-Gollin, J.</u>, Muñoz, Á. G., Mason, S. J. &amp; Pastén, M. <b>Heavy Rainfall in Paraguay during the 2015-2016 Austral Summer: Causes and Sub-Seasonal-to-Seasonal Predictive Skill</b>. <i>Journal of Climate</i> 6669–6685 (2018).</span>
+        <span id="DossGollin:2018bn"><b>Doss-Gollin, J.</b>, Muñoz, Á. G., Mason, S. J. &amp; Pastén, M. <b>Heavy Rainfall in Paraguay during the 2015-2016 Austral Summer: Causes and Sub-Seasonal-to-Seasonal Predictive Skill</b>. <i>Journal of Climate</i> 6669–6685 (2018).</span>
     </div>
     <div class="panel-heading">
+
+        <button class="btn btn-primary btn-sm" data-toggle="collapse" href="#DossGollin-2018bn-abs" role="button" aria-expanded="false" aria-controls="DossGollin-2018bn-abs" style="fill:#ebebeb; hover:#ebebeb;">Abstract</button>
+
+        <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#DossGollin-2018bn-bib" aria-expanded="false" aria-controls="DossGollin-2018bn-bib">BibTeX</button>
+
+        
+        <a class="btn btn-primary btn-sm" href="https://doi.org/10.1175/jcli-d-17-0805.1" role="button">DOI</a>
         
 
         
-        <a href="https://doi.org/10.1175/jcli-d-17-0805.1">
-            <img src="https://img.shields.io/static/v1?label=&amp;message=Published: Open&amp;color=success&amp;style=flat" alt="Link" />
-        </a>
+        <a class="btn btn-primary btn-sm" href="https://github.com/jdossgollin/2018-paraguay-floods" role="button">Code</a>
         
+
         
+        <a class="btn btn-primary btn-sm" href="https://eartharxiv.org/gzj8n/" role="button">Preprint</a>
         
-        
-        <a href="https://github.com/jdossgollin/2018-paraguay-floods" color="#000000">
-            <img src="https://img.shields.io/static/v1?style=flat&amp;logo=github&amp;label=&amp;message=Source Code" alt="GitHub Repository" />
-        </a>
-        
-        
-        
-        <a href="https://doi.org/10.1175/jcli-d-17-0805.1">
-            <img src="https://img.shields.io/static/v1?label=&amp;message=Preprint&amp;color=purple&amp;logo=arxiv&amp;style=flat" alt="Link" />
-        </a>
-        
+
+        <!--Hidden popups for abstract and bibtex-->
+        <div class="row">
+            <div class="col">
+                <div class="collapse" id="DossGollin-2018bn-abs">
+                    <div class="card card-body">
+                        <div class="col-sm-12">
+                            &lt;/br&gt;
+                            <p>
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="collapse" id="DossGollin-2018bn-bib">
+                    <div class="card card-body">
+                        <div class="col-sm-12">
+                            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex">                            <span class="nc">@article</span><span class="p">{</span><span class="nl">DossGollin:2018bn</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Heavy Rainfall in {{Paraguay}} during the 2015-2016 Austral Summer: Causes and Sub-Seasonal-to-Seasonal Predictive Skill}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Doss-Gollin, James and Mu\~noz, \'Angel G and Mason, Simon J and Past\'en, Max}</span><span class="p">,</span>
+  <span class="na">date</span> <span class="p">=</span> <span class="s">{2018-09-01}</span><span class="p">,</span>
+  <span class="na">journaltitle</span> <span class="p">=</span> <span class="s">{Journal of Climate}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{31}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{17}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{6669--6685}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1175/jcli-d-17-0805.1}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{http://journals.ametsoc.org/doi/10.1175/JCLI-D-17-0805.1}</span><span class="p">,</span>
+  <span class="na">langid</span> <span class="p">=</span> <span class="s">{english}</span><span class="p">,</span>
+  <span class="na">open</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">preprint</span> <span class="p">=</span> <span class="s">{https://eartharxiv.org/gzj8n/}</span><span class="p">,</span>
+  <span class="na">repo</span> <span class="p">=</span> <span class="s">{https://github.com/jdossgollin/2018-paraguay-floods}</span>
+<span class="p">}</span>
+
+                            </code></pre></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-</div></div>
+
+</div></div></div>
 
  
     </article>
@@ -357,6 +430,12 @@
         
         
         
+        
+        <a href="https://dossgollin-lab.github.io/lab-guide/">Lab Manual</a>
+        
+        
+        
+        |
         
         <a href="https://github.com/dossgollin-lab/"><i class="fab fa-github"></i></a>
         

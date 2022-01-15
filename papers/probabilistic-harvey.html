@@ -87,22 +87,33 @@
         <ul class="nav navbar-nav navbar-right">
 
           <li><a href="/group-members">People</a></li>
-          <li><a href="/funded-projects">Research</a></li>
-          <li><a href="/publications">Publications</a></li>
-          
+
+          <!--DROPDOWN FOR RESERCH-->
+          <li class="dropdown">
+            <a href="/publications/" class="dropdown-toggle" data-toggle="dropdown">Research<b
+                class="caret hidden-xs"></b></a>
+            <ul class="dropdown-menu hidden-xs">
+              <li><a href="/funded-projects">Projects</a></li>
+              <li><a href="/publications">Publications</a></li>
+            </ul>
+            <ul class="visible-xs navbar-nav" style="width:150px">
+              <li><a href="/funded-projects">Projects</a></li>
+              <li><a href="/publications">Publications</a></li>
+            </ul>
+          </li>
+
           <!--DROPDOWN FOR ABOUT-->
           <li class="dropdown">
-            <a href="/group-members/" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret hidden-xs"></b></a>
+            <a href="/group-members/" class="dropdown-toggle" data-toggle="dropdown">About<b
+                class="caret hidden-xs"></b></a>
             <ul class="dropdown-menu hidden-xs">
               <li><a href="/contact">Contact</a></li>
               <li><a href="/join-the-lab">Join</a></li>
-              <li><a href="https://dossgollin-lab.github.io/lab-guide/">Lab Manual</a></li>
               <li><a href="/teaching">Teaching</a></li>
             </ul>
             <ul class="visible-xs navbar-nav" style="width:150px">
               <li><a href="/contact">Contact</a></li>
               <li><a href="/join-the-lab">Join</a></li>
-              <li><a href="https://dossgollin-lab.github.io/lab-guide/">Lab Manual</a></li>
               <li><a href="/teaching">Teaching</a></li>
             </ul>
           </li>
@@ -115,6 +126,16 @@
             <a class="dropdown-toggle" data-toggle="dropdown">Links<b class="caret hidden-xs"></b></a>
             <ul class="dropdown-menu hidden-xs">
               
+              
+              
+              <li>
+                <a href=https://dossgollin-lab.github.io/lab-guide/>
+                  Lab Manual
+                </a>
+              </li>
+              
+              
+              <li class="divider"></li>
               
               
               <li>
@@ -167,6 +188,16 @@
               
             </ul>
             <ul class="visible-xs navbar-nav" style="width:150px">
+              
+              
+              <li class="divider"></li>
+              
+              
+              <li>
+                <a href=https://dossgollin-lab.github.io/lab-guide/>
+                  Lab Manual
+                </a>
+              </li>
               
               
               <li class="divider"></li>
@@ -275,24 +306,71 @@ Here’s our abstract:</p>
 
 <h1 id="references">References</h1>
 
-<div class="bibliography"><div><div class="panel panel-default" style="font-size: 16px;">
+<div class="bibliography"><div><!--Create a counter to have an entry-->
+
+
+
+
+<div class="panel panel-default" style="font-size: 16px;">
     <div class="panel-body">
-        <span id="Rozer:2019">Rözer, V., Kreibich, H., Schröter, K., Müller, M., Sairam, N., <u>Doss-Gollin, J.</u>, Lall, U. &amp; Merz, B. <b>Probabilistic Models Significantly Reduce Uncertainty in Hurricane Harvey Pluvial Flood Loss Estimates</b>. <i>Earth’s Future</i> (2019).</span>
+        <span id="Rozer:2019">Rözer, V., Kreibich, H., Schröter, K., Müller, M., Sairam, N., <b>Doss-Gollin, J.</b>, Lall, U. &amp; Merz, B. <b>Probabilistic Models Significantly Reduce Uncertainty in Hurricane Harvey Pluvial Flood Loss Estimates</b>. <i>Earth’s Future</i> (2019).</span>
     </div>
     <div class="panel-heading">
+
+        <button class="btn btn-primary btn-sm" data-toggle="collapse" href="#Rozer-2019-abs" role="button" aria-expanded="false" aria-controls="Rozer-2019-abs" style="fill:#ebebeb; hover:#ebebeb;">Abstract</button>
+
+        <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#Rozer-2019-bib" aria-expanded="false" aria-controls="Rozer-2019-bib">BibTeX</button>
+
+        
+        <a class="btn btn-primary btn-sm" href="https://doi.org/10.1029/2018ef001074" role="button">DOI</a>
         
 
         
-        <a href="https://doi.org/10.1029/2018ef001074">
-            <img src="https://img.shields.io/static/v1?label=&amp;message=Published: Open&amp;color=success&amp;style=flat" alt="Link" />
-        </a>
+
         
-        
-        
-        
+
+        <!--Hidden popups for abstract and bibtex-->
+        <div class="row">
+            <div class="col">
+                <div class="collapse" id="Rozer-2019-abs">
+                    <div class="card card-body">
+                        <div class="col-sm-12">
+                            &lt;/br&gt;
+                            <p>
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="collapse" id="Rozer-2019-bib">
+                    <div class="card card-body">
+                        <div class="col-sm-12">
+                            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex">                            <span class="nc">@article</span><span class="p">{</span><span class="nl">Rozer:2019</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Probabilistic Models Significantly Reduce Uncertainty in {{Hurricane Harvey}} Pluvial Flood Loss Estimates}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{R\"ozer, Viktor and Kreibich, Heidi and Schr\"oter, Kai and M\"uller, Meike and Sairam, Nivedita and Doss-Gollin, James and Lall, Upmanu and Merz, Bruno}</span><span class="p">,</span>
+  <span class="na">date</span> <span class="p">=</span> <span class="s">{2019}</span><span class="p">,</span>
+  <span class="na">journaltitle</span> <span class="p">=</span> <span class="s">{Earth's Future}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{7}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{4}</span><span class="p">,</span>
+  <span class="na">issn</span> <span class="p">=</span> <span class="s">{2328-4277}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1029/2018ef001074}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{http://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018EF001074}</span><span class="p">,</span>
+  <span class="na">urldate</span> <span class="p">=</span> <span class="s">{2019-03-28}</span><span class="p">,</span>
+  <span class="na">langid</span> <span class="p">=</span> <span class="s">{english}</span><span class="p">,</span>
+  <span class="na">open</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span>
+
+                            </code></pre></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-</div></div>
+
+</div></div></div>
  
     </article>
   </div>
@@ -365,6 +443,12 @@ Here’s our abstract:</p>
         
         
         
+        
+        <a href="https://dossgollin-lab.github.io/lab-guide/">Lab Manual</a>
+        
+        
+        
+        |
         
         <a href="https://github.com/dossgollin-lab/"><i class="fab fa-github"></i></a>
         

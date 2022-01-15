@@ -87,22 +87,33 @@
         <ul class="nav navbar-nav navbar-right">
 
           <li><a href="/group-members">People</a></li>
-          <li><a href="/funded-projects">Research</a></li>
-          <li><a href="/publications">Publications</a></li>
-          
+
+          <!--DROPDOWN FOR RESERCH-->
+          <li class="dropdown">
+            <a href="/publications/" class="dropdown-toggle" data-toggle="dropdown">Research<b
+                class="caret hidden-xs"></b></a>
+            <ul class="dropdown-menu hidden-xs">
+              <li><a href="/funded-projects">Projects</a></li>
+              <li><a href="/publications">Publications</a></li>
+            </ul>
+            <ul class="visible-xs navbar-nav" style="width:150px">
+              <li><a href="/funded-projects">Projects</a></li>
+              <li><a href="/publications">Publications</a></li>
+            </ul>
+          </li>
+
           <!--DROPDOWN FOR ABOUT-->
           <li class="dropdown">
-            <a href="/group-members/" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret hidden-xs"></b></a>
+            <a href="/group-members/" class="dropdown-toggle" data-toggle="dropdown">About<b
+                class="caret hidden-xs"></b></a>
             <ul class="dropdown-menu hidden-xs">
               <li><a href="/contact">Contact</a></li>
               <li><a href="/join-the-lab">Join</a></li>
-              <li><a href="https://dossgollin-lab.github.io/lab-guide/">Lab Manual</a></li>
               <li><a href="/teaching">Teaching</a></li>
             </ul>
             <ul class="visible-xs navbar-nav" style="width:150px">
               <li><a href="/contact">Contact</a></li>
               <li><a href="/join-the-lab">Join</a></li>
-              <li><a href="https://dossgollin-lab.github.io/lab-guide/">Lab Manual</a></li>
               <li><a href="/teaching">Teaching</a></li>
             </ul>
           </li>
@@ -115,6 +126,16 @@
             <a class="dropdown-toggle" data-toggle="dropdown">Links<b class="caret hidden-xs"></b></a>
             <ul class="dropdown-menu hidden-xs">
               
+              
+              
+              <li>
+                <a href=https://dossgollin-lab.github.io/lab-guide/>
+                  Lab Manual
+                </a>
+              </li>
+              
+              
+              <li class="divider"></li>
               
               
               <li>
@@ -167,6 +188,16 @@
               
             </ul>
             <ul class="visible-xs navbar-nav" style="width:150px">
+              
+              
+              <li class="divider"></li>
+              
+              
+              <li>
+                <a href=https://dossgollin-lab.github.io/lab-guide/>
+                  Lab Manual
+                </a>
+              </li>
               
               
               <li class="divider"></li>
@@ -257,24 +288,71 @@ As always, if you don’t have access to the paper but would like to read it, pl
 
 <h1 id="references">References</h1>
 
-<div class="bibliography"><div><div class="panel panel-default" style="font-size: 16px;">
+<div class="bibliography"><div><!--Create a counter to have an entry-->
+
+
+
+
+<div class="panel panel-default" style="font-size: 16px;">
     <div class="panel-body">
-        <span id="doss-gollin_fatalism:2020"><u>Doss-Gollin, J.</u>, Farnham, D. J., Ho, M. &amp; Lall, U. <b>Adaptation over Fatalism: Leveraging High-Impact Climate Disasters to Boost Societal Resilience</b>. <i>Journal of Water Resources Planning and Management</i> (2020).</span>
+        <span id="doss-gollin_fatalism:2020"><b>Doss-Gollin, J.</b>, Farnham, D. J., Ho, M. &amp; Lall, U. <b>Adaptation over Fatalism: Leveraging High-Impact Climate Disasters to Boost Societal Resilience</b>. <i>Journal of Water Resources Planning and Management</i> (2020).</span>
     </div>
     <div class="panel-heading">
+
+        <button class="btn btn-primary btn-sm" data-toggle="collapse" href="#doss-gollin-fatalism-2020-abs" role="button" aria-expanded="false" aria-controls="doss-gollin-fatalism-2020-abs" style="fill:#ebebeb; hover:#ebebeb;">Abstract</button>
+
+        <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#doss-gollin-fatalism-2020-bib" aria-expanded="false" aria-controls="doss-gollin-fatalism-2020-bib">BibTeX</button>
+
+        
+        <a class="btn btn-primary btn-sm" href="https://doi.org/10.1061/(asce)wr.1943-5452.0001190" role="button">DOI</a>
         
 
         
-        <a href="https://doi.org/10.1061/(asce)wr.1943-5452.0001190">
-            <img src="https://img.shields.io/static/v1?label=&amp;message=Published: Open&amp;color=success&amp;style=flat" alt="Link" />
-        </a>
+
         
-        
-        
-        
+
+        <!--Hidden popups for abstract and bibtex-->
+        <div class="row">
+            <div class="col">
+                <div class="collapse" id="doss-gollin-fatalism-2020-abs">
+                    <div class="card card-body">
+                        <div class="col-sm-12">
+                            &lt;/br&gt;
+                            <p>
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="collapse" id="doss-gollin-fatalism-2020-bib">
+                    <div class="card card-body">
+                        <div class="col-sm-12">
+                            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex">                            <span class="nc">@article</span><span class="p">{</span><span class="nl">doss-gollin_fatalism:2020</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Adaptation over Fatalism: Leveraging High-Impact Climate Disasters to Boost Societal Resilience}</span><span class="p">,</span>
+  <span class="na">shorttitle</span> <span class="p">=</span> <span class="s">{Fatalism}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Doss-Gollin, James and Farnham, David J. and Ho, Michelle and Lall, Upmanu}</span><span class="p">,</span>
+  <span class="na">date</span> <span class="p">=</span> <span class="s">{2020-04-01}</span><span class="p">,</span>
+  <span class="na">journaltitle</span> <span class="p">=</span> <span class="s">{Journal of Water Resources Planning and Management}</span><span class="p">,</span>
+  <span class="na">shortjournal</span> <span class="p">=</span> <span class="s">{Journal of Water Resources Planning and Management}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{146}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{4}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1061/(asce)wr.1943-5452.0001190}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{http://ascelibrary.org/doi/10.1061/%28ASCE%29WR.1943-5452.0001190}</span><span class="p">,</span>
+  <span class="na">urldate</span> <span class="p">=</span> <span class="s">{2020-01-29}</span><span class="p">,</span>
+  <span class="na">open</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span>
+
+                            </code></pre></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-</div></div>
+
+</div></div></div>
  
     </article>
   </div>
@@ -347,6 +425,12 @@ As always, if you don’t have access to the paper but would like to read it, pl
         
         
         
+        
+        <a href="https://dossgollin-lab.github.io/lab-guide/">Lab Manual</a>
+        
+        
+        
+        |
         
         <a href="https://github.com/dossgollin-lab/"><i class="fab fa-github"></i></a>
         

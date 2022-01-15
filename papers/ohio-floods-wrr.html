@@ -87,22 +87,33 @@
         <ul class="nav navbar-nav navbar-right">
 
           <li><a href="/group-members">People</a></li>
-          <li><a href="/funded-projects">Research</a></li>
-          <li><a href="/publications">Publications</a></li>
-          
+
+          <!--DROPDOWN FOR RESERCH-->
+          <li class="dropdown">
+            <a href="/publications/" class="dropdown-toggle" data-toggle="dropdown">Research<b
+                class="caret hidden-xs"></b></a>
+            <ul class="dropdown-menu hidden-xs">
+              <li><a href="/funded-projects">Projects</a></li>
+              <li><a href="/publications">Publications</a></li>
+            </ul>
+            <ul class="visible-xs navbar-nav" style="width:150px">
+              <li><a href="/funded-projects">Projects</a></li>
+              <li><a href="/publications">Publications</a></li>
+            </ul>
+          </li>
+
           <!--DROPDOWN FOR ABOUT-->
           <li class="dropdown">
-            <a href="/group-members/" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret hidden-xs"></b></a>
+            <a href="/group-members/" class="dropdown-toggle" data-toggle="dropdown">About<b
+                class="caret hidden-xs"></b></a>
             <ul class="dropdown-menu hidden-xs">
               <li><a href="/contact">Contact</a></li>
               <li><a href="/join-the-lab">Join</a></li>
-              <li><a href="https://dossgollin-lab.github.io/lab-guide/">Lab Manual</a></li>
               <li><a href="/teaching">Teaching</a></li>
             </ul>
             <ul class="visible-xs navbar-nav" style="width:150px">
               <li><a href="/contact">Contact</a></li>
               <li><a href="/join-the-lab">Join</a></li>
-              <li><a href="https://dossgollin-lab.github.io/lab-guide/">Lab Manual</a></li>
               <li><a href="/teaching">Teaching</a></li>
             </ul>
           </li>
@@ -115,6 +126,16 @@
             <a class="dropdown-toggle" data-toggle="dropdown">Links<b class="caret hidden-xs"></b></a>
             <ul class="dropdown-menu hidden-xs">
               
+              
+              
+              <li>
+                <a href=https://dossgollin-lab.github.io/lab-guide/>
+                  Lab Manual
+                </a>
+              </li>
+              
+              
+              <li class="divider"></li>
               
               
               <li>
@@ -167,6 +188,16 @@
               
             </ul>
             <ul class="visible-xs navbar-nav" style="width:150px">
+              
+              
+              <li class="divider"></li>
+              
+              
+              <li>
+                <a href=https://dossgollin-lab.github.io/lab-guide/>
+                  Lab Manual
+                </a>
+              </li>
               
               
               <li class="divider"></li>
@@ -263,30 +294,72 @@
 
 <h1 id="references">References</h1>
 
-<div class="bibliography"><div><div class="panel panel-default" style="font-size: 16px;">
+<div class="bibliography"><div><!--Create a counter to have an entry-->
+
+
+
+
+<div class="panel panel-default" style="font-size: 16px;">
     <div class="panel-body">
-        <span id="Farnham:2018gs">Farnham, D. J., <u>Doss-Gollin, J.</u> &amp; Lall, U. <b>Regional Extreme Precipitation Events: Robust Inference from Credibly Simulated GCM Variables</b>. <i>Water Resources Research</i> (2018).</span>
+        <span id="Farnham:2018gs">Farnham, D. J., <b>Doss-Gollin, J.</b> &amp; Lall, U. <b>Regional Extreme Precipitation Events: Robust Inference from Credibly Simulated GCM Variables</b>. <i>Water Resources Research</i> (2018).</span>
     </div>
     <div class="panel-heading">
+
+        <button class="btn btn-primary btn-sm" data-toggle="collapse" href="#Farnham-2018gs-abs" role="button" aria-expanded="false" aria-controls="Farnham-2018gs-abs" style="fill:#ebebeb; hover:#ebebeb;">Abstract</button>
+
+        <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#Farnham-2018gs-bib" aria-expanded="false" aria-controls="Farnham-2018gs-bib">BibTeX</button>
+
+        
+        <a class="btn btn-primary btn-sm" href="https://doi.org/10.1002/2017wr021318" role="button">DOI</a>
         
 
         
-        <a href="https://doi.org/10.1002/2017wr021318">
-            <img src="https://img.shields.io/static/v1?label=&amp;message=Published: Open&amp;color=success&amp;style=flat" alt="Link" />
-        </a>
+        <a class="btn btn-primary btn-sm" href="https://github.com/d-farnham/ORB_Paper/" role="button">Code</a>
         
+
         
-        
-        
-        <a href="https://github.com/d-farnham/ORB_Paper/" color="#000000">
-            <img src="https://img.shields.io/static/v1?style=flat&amp;logo=github&amp;label=&amp;message=Source Code" alt="GitHub Repository" />
-        </a>
-        
-        
-        
+
+        <!--Hidden popups for abstract and bibtex-->
+        <div class="row">
+            <div class="col">
+                <div class="collapse" id="Farnham-2018gs-abs">
+                    <div class="card card-body">
+                        <div class="col-sm-12">
+                            &lt;/br&gt;
+                            <p>
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="collapse" id="Farnham-2018gs-bib">
+                    <div class="card card-body">
+                        <div class="col-sm-12">
+                            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex">                            <span class="nc">@article</span><span class="p">{</span><span class="nl">Farnham:2018gs</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Regional Extreme Precipitation Events: Robust Inference from Credibly Simulated {{GCM}} Variables}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Farnham, David J and Doss-Gollin, James and Lall, Upmanu}</span><span class="p">,</span>
+  <span class="na">date</span> <span class="p">=</span> <span class="s">{2018}</span><span class="p">,</span>
+  <span class="na">journaltitle</span> <span class="p">=</span> <span class="s">{Water Resources Research}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{54}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{6}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1002/2017wr021318}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1002/2017wr021318}</span><span class="p">,</span>
+  <span class="na">langid</span> <span class="p">=</span> <span class="s">{english}</span><span class="p">,</span>
+  <span class="na">open</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">repo</span> <span class="p">=</span> <span class="s">{https://github.com/d-farnham/ORB\_Paper/}</span>
+<span class="p">}</span>
+
+                            </code></pre></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-</div></div>
+
+</div></div></div>
  
     </article>
   </div>
@@ -359,6 +432,12 @@
         
         
         
+        
+        <a href="https://dossgollin-lab.github.io/lab-guide/">Lab Manual</a>
+        
+        
+        
+        |
         
         <a href="https://github.com/dossgollin-lab/"><i class="fab fa-github"></i></a>
         
