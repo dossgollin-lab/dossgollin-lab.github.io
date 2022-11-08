@@ -7,6 +7,19 @@
 		<atom:link href="https://dossgollin-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Undergraduate Research Opportunity: AI for Sustainability and Resilience to Natural Disasters</title>
+				        
+				
+					<description>&lt;embed src=&quot;/assets/pdf/2022-11-08-ifce-rice-senai.pdf&quot; width=&quot;100%&quot; height=&quot;400&quot; type=&quot;application/pdf&quot; /&gt;
+
+</description>
+				
+				<pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+				<link>https://dossgollin-lab.github.io/announcements/rice-ifce.html</link>
+				<guid isPermaLink="true">https://dossgollin-lab.github.io/announcements/rice-ifce.html</guid>
+			</item>
+		
+			<item>
 				<title>Open positions for undergraduate research assistants</title>
 				        
 				
@@ -119,19 +132,6 @@ You can also find the conference program &lt;a href=&quot;https://2020.deepuncer
 				<pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
 				<link>https://dossgollin-lab.github.io/openings/grad-2021.html</link>
 				<guid isPermaLink="true">https://dossgollin-lab.github.io/openings/grad-2021.html</guid>
-			</item>
-		
-			<item>
-				<title>Excited to join Rice CEE</title>
-				        
-				
-					<description>&lt;p&gt;As you may know, I’ve been at the &lt;a href=&quot;http://water.columbia.edu/&quot; target=&quot;_blank&quot;&gt;Columbia Water Center&lt;/a&gt; since September 2015, pursuing a Ph.D. in &lt;a href=&quot;https://eee.columbia.edu/&quot; target=&quot;_blank&quot;&gt;Earth and Environmental Engineering&lt;/a&gt;.
-I’ve had the chance to interact with many wonderful classmates, colleagues, teachers, and mentors, and have learned more in five years than I ever thought possible.&lt;/p&gt;
-</description>
-				
-				<pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-				<link>https://dossgollin-lab.github.io/announcements/plan.html</link>
-				<guid isPermaLink="true">https://dossgollin-lab.github.io/announcements/plan.html</guid>
 			</item>
 		
 	</channel>
