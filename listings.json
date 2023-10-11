@@ -1,5 +1,54 @@
 [
   {
+    "listing": "/index.html",
+    "items": [
+      "/posts/2023/2023-10-13-sspeed.html",
+      "/posts/2023/2023-08-16-review.html",
+      "/posts/2023/2023-08-14-env-advising.html",
+      "/posts/2023/2023-07-12-mad-water.html",
+      "/posts/2023/2023-04-23-mesoscale.html",
+      "/posts/2023/2023-01-03-ef-elevation-paper.html",
+      "/posts/2022/2022-11-08-rice-ifce.html",
+      "/posts/2022/2022-02-08-reeves-yuchen.html",
+      "/posts/2021/2021-12-08-risk-kan.html",
+      "/posts/2022/2022-11-08-ceve-421-flyer.html",
+      "/posts/2021/2021-09-01-chronicle-oped.html",
+      "/posts/2021/2021-08-27-nsf-eager-sai.html",
+      "/posts/2021/2021-06-24-agu21.html",
+      "/posts/2021/2021-05-18-txtremes.html",
+      "/posts/2020/2020-11-10-dmdu-2020.html"
+    ]
+  },
+  {
+    "listing": "/people/index.html",
+    "items": [
+      "/people/grad-students/true-furrh.html",
+      "/people/grad-students/yuchen-lu.html",
+      "/people/grad-students/kelsey-murphy.html",
+      "/people/pi/james-doss-gollin.html",
+      "/people/alumni/kyle-olcott.html",
+      "/people/alumni/kristina-cibor.html",
+      "/people/alumni/alyssa-graham.html",
+      "/people/alumni/sophia-prieto.html",
+      "/people/alumni/john-cook.html"
+    ]
+  },
+  {
+    "listing": "/research/flood-hazard.html",
+    "items": [
+      "/publications/article/amonkar_compound_2023.html",
+      "/publications/article/doss-gollin_pyfloods_2018.html",
+      "/publications/article/farnham_orbrep_2018.html"
+    ]
+  },
+  {
+    "listing": "/research/electricity-resilience.html",
+    "items": [
+      "/publications/article/doss-gollin_review_2023.html",
+      "/publications/article/doss-gollin_txtreme_2021.html"
+    ]
+  },
+  {
     "listing": "/publications/index.html",
     "items": [
       "/publications/article/doss-gollin_review_2023.html",
@@ -53,18 +102,11 @@
     ]
   },
   {
-    "listing": "/research/flood-hazard.html",
+    "listing": "/research/one-water.html",
     "items": [
-      "/publications/article/amonkar_compound_2023.html",
-      "/publications/article/doss-gollin_pyfloods_2018.html",
-      "/publications/article/farnham_orbrep_2018.html"
-    ]
-  },
-  {
-    "listing": "/research/electricity-resilience.html",
-    "items": [
-      "/publications/article/doss-gollin_review_2023.html",
-      "/publications/article/doss-gollin_txtreme_2021.html"
+      "/publications/article/wutich_madwater_2023.html",
+      "/publications/article/zhou_mesoscale_2022.html",
+      "/publications/article/doss-gollin_rwh_2015.html"
     ]
   },
   {
@@ -76,14 +118,6 @@
     ]
   },
   {
-    "listing": "/research/one-water.html",
-    "items": [
-      "/publications/article/wutich_madwater_2023.html",
-      "/publications/article/zhou_mesoscale_2022.html",
-      "/publications/article/doss-gollin_rwh_2015.html"
-    ]
-  },
-  {
     "listing": "/teaching.html",
     "items": [
       "/teaching/2024-spring-ceve-421-521.html",
@@ -91,39 +125,6 @@
       "/teaching/2023-spring-ceve-421-521.html",
       "/teaching/2022-spring-ceve-543.html",
       "/teaching/2021-fall-ceve-101.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/posts/2023/2023-08-16-review.html",
-      "/posts/2023/2023-08-14-env-advising.html",
-      "/posts/2023/2023-07-12-mad-water.html",
-      "/posts/2023/2023-04-23-mesoscale.html",
-      "/posts/2023/2023-01-03-ef-elevation-paper.html",
-      "/posts/2022/2022-11-08-rice-ifce.html",
-      "/posts/2022/2022-02-08-reeves-yuchen.html",
-      "/posts/2021/2021-12-08-risk-kan.html",
-      "/posts/2022/2022-11-08-ceve-421-flyer.html",
-      "/posts/2021/2021-09-01-chronicle-oped.html",
-      "/posts/2021/2021-08-27-nsf-eager-sai.html",
-      "/posts/2021/2021-06-24-agu21.html",
-      "/posts/2021/2021-05-18-txtremes.html",
-      "/posts/2020/2020-11-10-dmdu-2020.html"
-    ]
-  },
-  {
-    "listing": "/people/index.html",
-    "items": [
-      "/people/grad-students/true-furrh.html",
-      "/people/grad-students/yuchen-lu.html",
-      "/people/grad-students/kelsey-murphy.html",
-      "/people/pi/james-doss-gollin.html",
-      "/people/alumni/kyle-olcott.html",
-      "/people/alumni/kristina-cibor.html",
-      "/people/alumni/alyssa-graham.html",
-      "/people/alumni/sophia-prieto.html",
-      "/people/alumni/john-cook.html"
     ]
   }
 ]
