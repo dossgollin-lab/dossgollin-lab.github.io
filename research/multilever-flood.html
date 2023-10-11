@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Doss-Gollin Lab @ Rice CEVE - Doss-Gollin Research Group</title>
+<title>Doss-Gollin Lab @ Rice CEVE - Multilever Flood Risk Management</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./_assets/img.logos/logo.ico" rel="icon">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../_assets/img.logos/logo.ico" rel="icon">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -65,21 +65,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-news-listings .list');
+    const listingTargetEl = window.document.querySelector('#listing-floods-article .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      page: 8,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-details"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-news-listings'] = new List('listing-news-listings', options);
+    window['quarto-listings']['listing-floods-article'] = new List('listing-floods-article', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -96,8 +95,8 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="alternate" type="application/rss+xml" title="Doss-Gollin Lab @ Rice CEVE" href="index.xml"><meta property="og:title" content="Doss-Gollin Lab @ Rice CEVE - Doss-Gollin Research Group">
-<meta property="og:image" content="https://dossgollin-lab.github.io/_assets/img/logos/james.jpg">
+<meta property="og:title" content="Doss-Gollin Lab @ Rice CEVE - Multilever Flood Risk Management">
+<meta property="og:image" content="https://dossgollin-lab.github.io/_assets/img/research/cisterna-ceara.jpeg">
 <meta property="og:site-name" content="Doss-Gollin Lab @ Rice CEVE">
 </head>
 
@@ -108,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Doss-Gollin Lab @ Rice CEVE</span>
     </a>
   </div>
@@ -119,27 +118,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./people/index.html" rel="" target="">
+    <a class="nav-link" href="../people/index.html" rel="" target="">
  <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications/index.html" rel="" target="">
+    <a class="nav-link" href="../publications/index.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html" rel="" target="">
+    <a class="nav-link" href="../research.html" rel="" target="">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html" rel="" target="">
+    <a class="nav-link" href="../teaching.html" rel="" target="">
  <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./joinus.html" rel="" target="">
+    <a class="nav-link" href="../joinus.html" rel="" target="">
  <span class="menu-text">Opportunities</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html" rel="" target="">
+    <a class="nav-link" href="../contact.html" rel="" target="">
  <span class="menu-text">Contact</span></a>
   </li>  
   <li class="nav-item">
@@ -161,17 +160,25 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#relevant-publications" id="toc-relevant-publications" class="nav-link active" data-scroll-target="#relevant-publications">Relevant Publications</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://www.github.com/dossgollin-lab/dossgollin-lab.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+</nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Doss-Gollin Research Group</h1>
+<h1 class="title">Multilever Flood Risk Management</h1>
 </div>
 
 
@@ -187,46 +194,36 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <div class="columns">
-<div class="column" style="width:40%;">
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-center">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="_assets/img/logos/james.jpg" class="img-fluid"></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p>James Doss-Gollin is an Assistant Professor in the department of <a href="https://cee.rice.edu">Civil and Environmental Engineering</a> at Rice University.<br><br> See his bio <a href="./people/pi/james-doss-gollin.html">here</a></p>
-</div>
-</div>
-</div>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-center">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<iframe width="100%" src="https://www.youtube-nocookie.com/embed/gI2I8Cq-14g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
-</iframe>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p>Through mission-oriented basic applied research, we address fundamental challenges in infrastructure resilience and climate adaptation.</p>
-</div>
-</div>
-</div>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-center">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="_assets/img/group/2022-05-10.jpeg" class="img-fluid"></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p>Do you want to work on intellectually challenging and socially impactful problems? Learn about <a href="./joinus.html">open positions</a> for undergrads, graduate students, and post-docs.</p>
-</div>
-</div>
-</div>
-</div><div class="column" style="width:5%;">
+<div class="column" style="width:48%;">
+<section id="testbeds" class="level2">
+<h2 class="anchored" data-anchor-id="testbeds">Testbeds</h2>
+<p>We are currently working by a project funded by the Texas Water Development Board to develop nonstationary rainfall frequency grids for the state of Texas.</p>
+<p>Additionally, we collaborate with hydrodynamic modelers at the <a href="https://sspeed.rice.edu/">SSPEED Center</a> to study flood risks in the greater Houston region.</p>
+</section>
+</div><div class="column" style="width:4%;">
 
-</div><div class="column" style="width:55%;">
-<div id="listing-news-listings" class="quarto-listing quarto-listing-container-table">
+</div><div class="column" style="width:48%;">
+<section id="collaborate" class="level2">
+<h2 class="anchored" data-anchor-id="collaborate">Collaborate!</h2>
+<p>Please <a href="../contact.html">reach out</a>!</p>
+</section>
+</div>
+</div>
+<section id="relevant-publications" class="level2">
+<h2 class="anchored" data-anchor-id="relevant-publications">Relevant Publications</h2>
+<div id="flood-article">
+
+</div>
+
+
+
+</section>
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-floods-article">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-news-listings-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-news-listings'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+     <select id="listing-floods-article-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-floods-article'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
          <option value="listing-date-sort" data-direction="asc">
@@ -235,7 +232,7 @@ ul.task-list li input[type="checkbox"] {
          <option value="listing-date-sort" data-direction="desc">
           Date - Newest
         </option>
-         <option value="listing-title-sort" data-direction="asc">
+         <option value="listing-title" data-direction="asc">
           Title
         </option>
      </select>
@@ -245,162 +242,87 @@ ul.task-list li input[type="checkbox"] {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-
-<table class="quarto-listing-table table table-striped table-hover">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="Publications" data-listing-date-sort="1692162000000" data-listing-file-modified-sort="1697050166188" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Published: review paper on climate risks to electricity systems" data-listing-filename-sort="2023-08-16-review.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">August 16, 2023</span>
-</td>
-<td>
-<a href="./posts/2023/2023-08-16-review.html" class="title listing-title">Published: review paper on climate risks to electricity systems</a>
-</td>
-</tr>
-<tr data-index="1" data-categories="Announcements" data-listing-date-sort="1691989200000" data-listing-file-modified-sort="1697050166188" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Student advising booklet for environmental education at Rice" data-listing-filename-sort="2023-08-14-env-advising.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">August 14, 2023</span>
-</td>
-<td>
-<a href="./posts/2023/2023-08-14-env-advising.html" class="title listing-title">Student advising booklet for environmental education at Rice</a>
-</td>
-</tr>
-<tr data-index="2" data-categories="Publications" data-listing-date-sort="1689138000000" data-listing-file-modified-sort="1697050166188" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Published: theorizing modular, adaptive, and decentralized water systems" data-listing-filename-sort="2023-07-12-mad-water.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">July 12, 2023</span>
-</td>
-<td>
-<a href="./posts/2023/2023-07-12-mad-water.html" class="title listing-title">Published: theorizing modular, adaptive, and decentralized water systems</a>
-</td>
-</tr>
-<tr data-index="3" data-categories="Publications" data-listing-date-sort="1682226000000" data-listing-file-modified-sort="1697050166188" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="New paper on mesoscale modeling of distributed water systems" data-listing-filename-sort="2023-04-23-mesoscale.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">April 23, 2023</span>
-</td>
-<td>
-<a href="./posts/2023/2023-04-23-mesoscale.html" class="title listing-title">New paper on mesoscale modeling of distributed water systems</a>
-</td>
-</tr>
-<tr data-index="4" data-categories="Publication" data-listing-date-sort="1672725600000" data-listing-file-modified-sort="1697050166188" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Paper bridging DMDU and probabilistic frameworks published in Earth's Future" data-listing-filename-sort="2023-01-03-ef-elevation-paper.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">January 3, 2023</span>
-</td>
-<td>
-<a href="./posts/2023/2023-01-03-ef-elevation-paper.html" class="title listing-title">Paper bridging DMDU and probabilistic frameworks published in Earth’s Future</a>
-</td>
-</tr>
-<tr data-index="5" data-categories="Opportunities" data-listing-date-sort="1667887200000" data-listing-file-modified-sort="1697050166188" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Undergraduate Research Opportunity: AI for Sustainability and Resilience to Natural Disasters" data-listing-filename-sort="2022-11-08-rice-ifce.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">November 8, 2022</span>
-</td>
-<td>
-<a href="./posts/2022/2022-11-08-rice-ifce.html" class="title listing-title">Undergraduate Research Opportunity: AI for Sustainability and Resilience to Natural Disasters</a>
-</td>
-</tr>
-<tr data-index="6" data-categories="Opportunities" data-listing-date-sort="1644300000000" data-listing-file-modified-sort="1697050166188" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Yuchen Lu wins 2022 H.W. Reeves Endowed Scholarship" data-listing-filename-sort="2022-02-08-reeves-yuchen.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">February 8, 2022</span>
-</td>
-<td>
-<a href="./posts/2022/2022-02-08-reeves-yuchen.html" class="title listing-title">Yuchen Lu wins 2022 H.W. Reeves Endowed Scholarship</a>
-</td>
-</tr>
-<tr data-index="7" data-categories="Announcements" data-listing-date-sort="1638943200000" data-listing-file-modified-sort="1697050166188" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Talk at Risk KAN Compound Events Group" data-listing-filename-sort="2021-12-08-risk-kan.md" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">December 8, 2021</span>
-</td>
-<td>
-<a href="./posts/2021/2021-12-08-risk-kan.html" class="title listing-title">Talk at Risk KAN Compound Events Group</a>
-</td>
-</tr>
-<tr data-index="8" data-categories="Announcement" data-listing-date-sort="1636351200000" data-listing-file-modified-sort="1697050166188" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="New Course: Climate Risk Management (CEVE 421/521)" data-listing-filename-sort="2022-11-08-ceve-421-flyer.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">November 8, 2021</span>
-</td>
-<td>
-<a href="./posts/2022/2022-11-08-ceve-421-flyer.html" class="title listing-title">New Course: Climate Risk Management (CEVE 421/521)</a>
-</td>
-</tr>
-<tr data-index="9" data-categories="Publications" data-listing-date-sort="1630472400000" data-listing-file-modified-sort="1697050166188" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Houston Chronicle Op-Ed: The risks of climate change are great - so are the rewards of solving it" data-listing-filename-sort="2021-09-01-chronicle-oped.md" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">September 1, 2021</span>
-</td>
-<td>
-<a href="./posts/2021/2021-09-01-chronicle-oped.html" class="title listing-title">Houston Chronicle Op-Ed: The risks of climate change are great - so are the rewards of solving it</a>
-</td>
-</tr>
-<tr data-index="10" data-categories="Grants" data-listing-date-sort="1630040400000" data-listing-file-modified-sort="1697050166188" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="NSF Award from EAGER SAI: 'Participatory Design for Water Quality Monitoring of Highly Decentralized Water Infrastructure Systems'" data-listing-filename-sort="2021-08-27-nsf-eager-sai.md" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">August 27, 2021</span>
-</td>
-<td>
-<a href="./posts/2021/2021-08-27-nsf-eager-sai.html" class="title listing-title">NSF Award from EAGER SAI: ‘Participatory Design for Water Quality Monitoring of Highly Decentralized Water Infrastructure Systems’</a>
-</td>
-</tr>
-<tr data-index="11" data-categories="Opportunities" data-listing-date-sort="1624510800000" data-listing-file-modified-sort="1697050166187" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Call for Abstracts: Statistical-Dynamical Models for Hydroclimatic Risk Management and Adaptation" data-listing-filename-sort="2021-06-24-agu21.md" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">June 24, 2021</span>
-</td>
-<td>
-<a href="./posts/2021/2021-06-24-agu21.html" class="title listing-title">Call for Abstracts: Statistical-Dynamical Models for Hydroclimatic Risk Management and Adaptation</a>
-</td>
-</tr>
-<tr data-index="12" data-categories="Publications" data-listing-date-sort="1621314000000" data-listing-file-modified-sort="1697050166187" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="How Unprecedented Was the February 2021 Texas Cold Snap? published in Environmental Research Letters" data-listing-filename-sort="2021-05-18-txtremes.md" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">May 18, 2021</span>
-</td>
-<td>
-<a href="./posts/2021/2021-05-18-txtremes.html" class="title listing-title">How Unprecedented Was the February 2021 Texas Cold Snap? published in Environmental Research Letters</a>
-</td>
-</tr>
-<tr data-index="13" data-categories="Presentations" data-listing-date-sort="1604988000000" data-listing-file-modified-sort="1697050166187" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="2020 Annual Meeting of the Society for Decision Making under Deep Uncertainty" data-listing-filename-sort="2020-11-10-dmdu-2020.md" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">November 10, 2020</span>
-</td>
-<td>
-<a href="./posts/2020/2020-11-10-dmdu-2020.html" class="title listing-title">2020 Annual Meeting of the Society for Decision Making under Deep Uncertainty</a>
-</td>
-</tr>
-</tbody>
-
-</table>
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="Climate Risks to Electricity Systems" data-listing-date-sort="1692162000000" data-listing-file-modified-sort="1697050166189" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../publications/article/doss-gollin_review_2023.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../_assets/img/pubs/doss-gollin_review_2023.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Improving the Representation of Climate Risks in Long-Term Electricity Systems Planning: A Critical Review
+</h5>
+<div class="card-text listing-description">
+Purpose of Review Electricity systems face substantial climate risks which are escalating due to electrification, renewable energy intermittency, population changes, and the intensifying impacts of climate change such as extreme temperatures and weather-induced infrastructure damage. This critical review investigates climate risks to the electricity sector and scrutinizes the methodologies used…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+James Doss-Gollin, Yash Amonkar, Katlyn Schmeltzer, Daniel Cohan
+</div>
+<div class="listing-date">
+2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Climate Risks to Electricity Systems" data-listing-date-sort="1623128400000" data-listing-file-modified-sort="1697050166189" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="../publications/article/doss-gollin_txtreme_2021.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../_assets/img/pubs/doss-gollin_txtreme_2021.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+How Unprecedented Was the February 2021 Texas Cold Snap?
+</h5>
+<div class="card-text listing-description">
+Winter storm Uri brought severe cold to the southern United States in February 2021, causing a cascading failure of interdependent systems in Texas where infrastructure was not adequately prepared for such cold. In particular, the failure of interconnected energy systems restricted electricity supply just as demand for heating spiked, leaving millions of Texans without heat or electricity, many…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+James Doss-Gollin, David J. Farnham, Upmanu Lall, Vijay Modi
+</div>
+<div class="listing-date">
+2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Multilever Flood Risk Management" data-listing-date-sort="1546322400000" data-listing-file-modified-sort="1697050166189" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="../publications/article/rozer_lossestimates_2019.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../_assets/img/pubs/rozer_lossestimates_2019.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Probabilistic Models Significantly Reduce Uncertainty in Hurricane Harvey Pluvial Flood Loss Estimates
+</h5>
+<div class="card-text listing-description">
+Pluvial flood risk is mostly excluded in urban flood risk assessment. However, the risk of pluvial flooding is a growing challenge with a projected increase of extreme rainstorms compounding with an ongoing global urbanization. Considered as a flood type with minimal impacts when rainfall rates exceed the capacity of urban drainage systems, the aftermath of rainfall-triggered flooding during…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Viktor Rözer, Heidi Kreibich, Kai Schröter, Meike Müller, Nivedita Sairam, James Doss-Gollin, Upmanu Lall, Bruno Merz
+</div>
+<div class="listing-date">
+2019
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-<nav id="news-listings-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
-</div>
-</div>
-</div>
-
-
-
-
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -719,7 +641,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">View the source on <a href="https://www.github.com/dossgollin-lab/dossgollin-lab.github.io"> GitHub</a></div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://www.github.com/dossgollin-lab/dossgollin-lab.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    </div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
