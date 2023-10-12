@@ -34,21 +34,6 @@
     ]
   },
   {
-    "listing": "/research/flood-hazard.html",
-    "items": [
-      "/publications/article/amonkar_compound_2023.html",
-      "/publications/article/doss-gollin_pyfloods_2018.html",
-      "/publications/article/farnham_orbrep_2018.html"
-    ]
-  },
-  {
-    "listing": "/research/electricity-resilience.html",
-    "items": [
-      "/publications/article/doss-gollin_review_2023.html",
-      "/publications/article/doss-gollin_txtreme_2021.html"
-    ]
-  },
-  {
     "listing": "/publications/index.html",
     "items": [
       "/publications/article/doss-gollin_review_2023.html",
@@ -99,22 +84,6 @@
       "/publications/forthcoming/singh_potential_2023.html",
       "/publications/other/graham_thesis_2022.html",
       "/publications/other/doss-gollin_dissertation_2020.html"
-    ]
-  },
-  {
-    "listing": "/research/one-water.html",
-    "items": [
-      "/publications/article/wutich_madwater_2023.html",
-      "/publications/article/zhou_mesoscale_2022.html",
-      "/publications/article/doss-gollin_rwh_2015.html"
-    ]
-  },
-  {
-    "listing": "/research/multilever-flood.html",
-    "items": [
-      "/publications/article/doss-gollin_review_2023.html",
-      "/publications/article/doss-gollin_txtreme_2021.html",
-      "/publications/article/rozer_lossestimates_2019.html"
     ]
   },
   {
