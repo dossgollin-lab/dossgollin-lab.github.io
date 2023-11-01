@@ -14,16 +14,6 @@
     ]
   },
   {
-    "listing": "/teaching.html",
-    "items": [
-      "/teaching/2024-spring-ceve-421-521.html",
-      "/teaching/2023-fall-ceve-543.html",
-      "/teaching/2023-spring-ceve-421-521.html",
-      "/teaching/2022-spring-ceve-543.html",
-      "/teaching/2021-fall-ceve-101.html"
-    ]
-  },
-  {
     "listing": "/publications/index.html",
     "items": [
       "/publications/article/amonkar_heatingcooling_2023.html",
@@ -79,12 +69,12 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2023/2023-11-01-amonkar-paper.html",
       "/posts/2023/2023-10-13-sspeed.html",
       "/posts/2023/2023-08-16-review.html",
       "/posts/2023/2023-08-14-env-advising.html",
       "/posts/2023/2023-07-12-mad-water.html",
       "/posts/2023/2023-04-23-mesoscale.html",
-      "/posts/2023/2023-11-01-amonkar-paper.html",
       "/posts/2023/2023-01-03-ef-elevation-paper.html",
       "/posts/2022/2022-11-08-rice-ifce.html",
       "/posts/2022/2022-02-08-reeves-yuchen.html",
@@ -95,6 +85,16 @@
       "/posts/2021/2021-06-24-agu21.html",
       "/posts/2021/2021-05-18-txtremes.html",
       "/posts/2020/2020-11-10-dmdu-2020.html"
+    ]
+  },
+  {
+    "listing": "/teaching.html",
+    "items": [
+      "/teaching/2024-spring-ceve-421-521.html",
+      "/teaching/2023-fall-ceve-543.html",
+      "/teaching/2023-spring-ceve-421-521.html",
+      "/teaching/2022-spring-ceve-543.html",
+      "/teaching/2021-fall-ceve-101.html"
     ]
   }
 ]
