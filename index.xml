@@ -10,7 +10,23 @@
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Homepage for {{&lt; var course.number &gt;}}, {{&lt; var course.title &gt;}}, at Rice University, {{&lt; var course.semester &gt;}}.</description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Wed, 01 Nov 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 11 Nov 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>James presents at STAHY 2023</title>
+  <link>https://dossgollin-lab.github.io/posts/2023/2023-11-11-jdg-stahy.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><a href="../../people/pi/james-doss-gollin.html">James</a> presented work led by Ph.D.&nbsp;student <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> and with GMU’s Ben Seiyon Lee at the <a href="https://drive.google.com/file/d/1oDXot_L1fcT43-55tkbU3pArizKmj8xb/view">STAHY 2023</a> conference in Boston, MA. The talk was titled “A Bayesian Spatial Hierarchical Framework for Process-Informed Nonstationary Analysis of Precipitation Frequencies” and is available <a href="https://jamesdossgollin.me/presentations-site/slides-public/2023-11-10-stahy.html#/title-slide">online</a>.</p>
+
+
+
+ ]]></description>
+  <category>Publication</category>
+  <guid>https://dossgollin-lab.github.io/posts/2023/2023-11-11-jdg-stahy.html</guid>
+  <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Paper on trends in heating and cooling demand published in Communications Earth &amp; Environment</title>
   <link>https://dossgollin-lab.github.io/posts/2023/2023-11-01-amonkar-paper.html</link>
