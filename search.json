@@ -497,18 +497,11 @@
     "text": "A paper led by Rice PhD student Xiangnan Zhou is now out in Water Resources Research (Zhou et al., 2023).\nWe know that decentralized water systems can be improve resilient to natural disasters and population growth, though they often require substantial energy. Previous work has shown the importance of carefully considering the spatial layout of these systems, but the computational cost of doing so has limited the size of the systems that can be considered. Here, we present a backbone algorithm for creating physically based water networks that are computationally efficient enough to be used in large-scale optimization problems, yet topologically close to the full network.\nFor more, see the abstract.\n\n\n\n\nReferences\n\nZhou, X., Duenas-Osorio, L., Doss-Gollin, J., Liu, L., Stadler, L., & Li, Q. (2023). Mesoscale modeling of distributed water systems enables policy search. Water Resources Research, 59(5). https://doi.org/10.1029/2022WR033758"
   },
   {
-    "objectID": "people/index.html",
-    "href": "people/index.html",
-    "title": "Group Members",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
     "objectID": "people/index.html#pi",
     "href": "people/index.html#pi",
     "title": "Group Members",
-    "section": "",
-    "text": "No matching items"
+    "section": "PI",
+    "text": "PI\n\n\n\n\n\n\n\n\nDr. James Doss-Gollin\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people/index.html#graduate-students",
