@@ -10,7 +10,50 @@
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Homepage for {{&lt; var course.number &gt;}}, {{&lt; var course.title &gt;}}, at Rice University, {{&lt; var course.semester &gt;}}.</description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Sat, 11 Nov 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 11 Dec 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Catch us at AGU 2023!</title>
+  <link>https://dossgollin-lab.github.io/posts/2023/2023-12-11-agu.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>We’ll be at AGU 2023 in San Francisco, CA, USA. Come say hi!</p>
+<ul>
+<li>On Monday afternoon, James presents <a href="https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1352809">NH14B-07 “Linking Robust Trends in Observations and Models to Develop Nonstationary Rainfall Frequency Grids for the State of Texas”</a>. If you miss the presentation, you can find the slides <a href="https://jdossgollin.github.io/presentation-2023-agu/">here</a>.</li>
+<li>On Tuesday morning, Yuchen has a related poster <a href="https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1328932">H21T-1602 “Spatially Varying Covariate Model: A Hierarchical Bayesian Framework for Precipitation Frequency Analysis in the Gulf Coast”</a>.</li>
+<li>On Wednesday, James is co-organizing an <a href="https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/209779#isCurrent">oral</a> (morning) and <a href="https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/204045#isCurrent">poster</a> (afternoon) session on “Integrating Social, Scientific, and Engineering Approaches to Identify and Address Gaps in Water Infrastructure and Household Water Security”, co-organized with colleagues on the El Paso project. We are presenting a poster on our own ongoing work, <a href="https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1318513">H33P-1999 “Before and After Piped Water Expansion: Water Use Patterns and Trust in Water and Political Institutions”</a>, at our own poster session. Concurrently, Kelsey is presenting her poster <a href="https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1291268">PP33E-1563 “Last Millennium Changes in Mississippi River Basin Hydrology driven by the Bermuda High and Great Plains Low Level Jet”</a>.</li>
+</ul>
+
+
+
+ ]]></description>
+  <category>Publication</category>
+  <guid>https://dossgollin-lab.github.io/posts/2023/2023-12-11-agu.html</guid>
+  <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>New preprint on transparency in peer-reviewed climate change research</title>
+  <link>https://dossgollin-lab.github.io/posts/2023/2023-12-10-pollack-osf.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>We’re pleased to see share a new preprint, “Peer-reviewed climate change research has a transparency problem. The scientific community needs to do better” <span class="citation" data-cites="pollack_transparency:2023">(Pollack et al., 2023)</span>. This effort was led by Adam Pollack at Dartmourth and evolved out of many long discussions with colleagues in climate modeling, decision science, economics, engineering, environmental policy and social science, geosciences, hydrology, law, library science, philosophy, and statistics about the role of openness, transparency, and reproducibility in climate change research.</p>
+<p>In this article, we articulate why transparency and openness matter in climate change research. We also sample papers in the “top” climate change journals and find that only five percent of our sample meets the minimal standard of fully open data and code required for reproducibility and replicability as defined by the National Academies of Sciences, Engineering, and Medicine. We conclude by recognizing the challenges involved and setting commitments to improve the transparency of our own research. We hope you will join us in these commitments and in broader discussions about the role of transparency in climate change research!</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2">
+<div id="ref-pollack_transparency:2023" class="csl-entry">
+Pollack, A., Campbell, J. E., Condon, M., Cooper, C., Coronese, M., Doss-Gollin, J., et al. (2023, December 10). Peer-reviewed climate change research has a transparency problem. <span>The</span> scientific community needs to do better. Retrieved December 10, 2023, from <a href="https://osf.io/29nhv">https://osf.io/29nhv</a>
+</div>
+</div></section></div> ]]></description>
+  <category>Publication</category>
+  <guid>https://dossgollin-lab.github.io/posts/2023/2023-12-10-pollack-osf.html</guid>
+  <pubDate>Sun, 10 Dec 2023 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>James presents at STAHY 2023</title>
   <link>https://dossgollin-lab.github.io/posts/2023/2023-11-11-jdg-stahy.html</link>
