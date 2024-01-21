@@ -10,6 +10,30 @@
     ]
   },
   {
+    "listing": "/index.html",
+    "items": [
+      "/posts/2023/2023-12-11-agu.html",
+      "/posts/2023/2023-12-10-pollack-osf.html",
+      "/posts/2023/2023-11-11-jdg-stahy.html",
+      "/posts/2023/2023-11-01-amonkar-paper.html",
+      "/posts/2023/2023-10-13-sspeed.html",
+      "/posts/2023/2023-08-16-review.html",
+      "/posts/2023/2023-08-14-env-advising.html",
+      "/posts/2023/2023-07-12-mad-water.html",
+      "/posts/2023/2023-04-23-mesoscale.html",
+      "/posts/2023/2023-01-03-ef-elevation-paper.html",
+      "/posts/2022/2022-11-08-rice-ifce.html",
+      "/posts/2022/2022-02-08-reeves-yuchen.html",
+      "/posts/2021/2021-12-08-risk-kan.html",
+      "/posts/2022/2022-11-08-ceve-421-flyer.html",
+      "/posts/2021/2021-09-01-chronicle-oped.html",
+      "/posts/2021/2021-08-27-nsf-eager-sai.html",
+      "/posts/2021/2021-06-24-agu21.html",
+      "/posts/2021/2021-05-18-txtremes.html",
+      "/posts/2020/2020-11-10-dmdu-2020.html"
+    ]
+  },
+  {
     "listing": "/publications/index.html",
     "items": [
       "/publications/article/amonkar_heatingcooling_2023.html",
@@ -64,35 +88,12 @@
     ]
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/posts/2023/2023-12-11-agu.html",
-      "/posts/2023/2023-12-10-pollack-osf.html",
-      "/posts/2023/2023-11-11-jdg-stahy.html",
-      "/posts/2023/2023-11-01-amonkar-paper.html",
-      "/posts/2023/2023-10-13-sspeed.html",
-      "/posts/2023/2023-08-16-review.html",
-      "/posts/2023/2023-08-14-env-advising.html",
-      "/posts/2023/2023-07-12-mad-water.html",
-      "/posts/2023/2023-04-23-mesoscale.html",
-      "/posts/2023/2023-01-03-ef-elevation-paper.html",
-      "/posts/2022/2022-11-08-rice-ifce.html",
-      "/posts/2022/2022-02-08-reeves-yuchen.html",
-      "/posts/2021/2021-12-08-risk-kan.html",
-      "/posts/2022/2022-11-08-ceve-421-flyer.html",
-      "/posts/2021/2021-09-01-chronicle-oped.html",
-      "/posts/2021/2021-08-27-nsf-eager-sai.html",
-      "/posts/2021/2021-06-24-agu21.html",
-      "/posts/2021/2021-05-18-txtremes.html",
-      "/posts/2020/2020-11-10-dmdu-2020.html"
-    ]
-  },
-  {
     "listing": "/people/index.html",
     "items": [
       "/people/grad-students/true-furrh.html",
       "/people/grad-students/yuchen-lu.html",
       "/people/grad-students/kelsey-murphy.html",
+      "/people/grad-students/Jonah-Schaechter.html",
       "/people/pi/james-doss-gollin.html",
       "/people/alumni/kyle-olcott.html",
       "/people/alumni/kristina-cibor.html",
