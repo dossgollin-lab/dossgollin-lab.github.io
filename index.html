@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -48,7 +48,12 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -57,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -96,18 +102,44 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="alternate" type="application/rss+xml" title="Doss-Gollin Lab @ Rice CEVE" href="index.xml"><meta property="og:title" content="Doss-Gollin Lab @ Rice CEVE - Doss-Gollin Research Group">
-<meta property="og:image" content="https://dossgollin-lab.github.io/_assets/img/logos/james.jpg">
-<meta property="og:site-name" content="Doss-Gollin Lab @ Rice CEVE">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="alternate" type="application/rss+xml" title="Doss-Gollin Lab @ Rice CEVE" href="index.xml" data-external="1"><meta property="og:title" content="Doss-Gollin Lab @ Rice CEVE - Doss-Gollin Research Group">
+<meta property="og:site_name" content="Doss-Gollin Lab @ Rice CEVE">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Doss-Gollin Lab @ Rice CEVE</span>
     </a>
@@ -119,49 +151,49 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./people/index.html" rel="" target="">
- <span class="menu-text">People</span></a>
+    <a class="nav-link" href="./people/index.html"> 
+<span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications/index.html" rel="" target="">
- <span class="menu-text">Publications</span></a>
+    <a class="nav-link" href="./publications/index.html"> 
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html" rel="" target="">
- <span class="menu-text">Research</span></a>
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html" rel="" target="">
- <span class="menu-text">Teaching</span></a>
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./joinus.html" rel="" target="">
- <span class="menu-text">Opportunities</span></a>
+    <a class="nav-link" href="./joinus.html"> 
+<span class="menu-text">Opportunities</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html" rel="" target="">
- <span class="menu-text">Contact</span></a>
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-links" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-links" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Links</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-links">    
         <li>
-    <a class="dropdown-item" href="https://dossgollin-lab.github.io/lab-guide/" rel="" target="">
+    <a class="dropdown-item" href="https://dossgollin-lab.github.io/lab-guide/">
  <span class="dropdown-text">Lab Guide</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://github.com/dossgollin-lab/" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="dropdown-item" href="https://github.com/dossgollin-lab/"><i class="bi bi-github" role="img">
 </i> 
  <span class="dropdown-text"></span></a>
   </li>  
     </ul>
   </li>
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -180,7 +212,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -188,37 +220,48 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <div class="columns">
 <div class="column" style="width:40%;">
-<div class="quarto-layout-panel">
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row quarto-layout-valign-center">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="_assets/img/logos/james.jpg" class="img-fluid"></p>
+<p><img src="_assets/img/logos/james.jpg" class="img-fluid" style="width:100.0%"></p>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <p>James Doss-Gollin is an Assistant Professor in the department of <a href="https://cee.rice.edu">Civil and Environmental Engineering</a> at Rice University.<br><br> See his bio <a href="./people/pi/james-doss-gollin.html">here</a></p>
 </div>
 </div>
 </div>
-<div class="quarto-layout-panel">
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row quarto-layout-valign-center">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <iframe width="100%" src="https://www.youtube-nocookie.com/embed/gI2I8Cq-14g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
 </iframe>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <p>Through mission-oriented basic applied research, we address fundamental challenges in infrastructure resilience and climate adaptation.</p>
 </div>
 </div>
 </div>
-<div class="quarto-layout-panel">
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row quarto-layout-valign-center">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="_assets/img/group/2023-12-02.jpeg" class="img-fluid"></p>
+<p><img src="_assets/img/group/2023-12-02.jpeg" class="img-fluid" style="width:100.0%"></p>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <p>Do you want to work on intellectually challenging and socially impactful problems? Learn about <a href="./joinus.html">open positions</a>.</p>
 </div>
 </div>
@@ -249,7 +292,6 @@ ul.task-list li input[type="checkbox"] {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-
 <table class="quarto-listing-table table table-striped table-hover">
 <thead>
 <tr>
@@ -262,7 +304,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="Publication" data-listing-date-sort="1702252800000" data-listing-file-modified-sort="1705863801310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Catch us at AGU 2023!" data-listing-filename-sort="2023-12-11-agu.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="0" data-categories="Publication" data-listing-date-sort="1702252800000" data-listing-file-modified-sort="1707942915436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="169" data-listing-title-sort="Catch us at AGU 2023!" data-listing-filename-sort="2023-12-11-agu.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <span class="listing-date">December 11, 2023</span>
@@ -271,7 +313,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/2023/2023-12-11-agu.html" class="title listing-title">Catch us at AGU 2023!</a>
 </td>
 </tr>
-<tr data-index="1" data-categories="Publication" data-listing-date-sort="1702166400000" data-listing-file-modified-sort="1705863801310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="New preprint on transparency in peer-reviewed climate change research" data-listing-filename-sort="2023-12-10-pollack-osf.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="1" data-categories="Publication" data-listing-date-sort="1702166400000" data-listing-file-modified-sort="1707942915436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="171" data-listing-title-sort="New preprint on transparency in peer-reviewed climate change research" data-listing-filename-sort="2023-12-10-pollack-osf.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <span class="listing-date">December 10, 2023</span>
@@ -280,7 +322,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/2023/2023-12-10-pollack-osf.html" class="title listing-title">New preprint on transparency in peer-reviewed climate change research</a>
 </td>
 </tr>
-<tr data-index="2" data-categories="Publication" data-listing-date-sort="1699660800000" data-listing-file-modified-sort="1705863801310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="James presents at STAHY 2023" data-listing-filename-sort="2023-11-11-jdg-stahy.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="2" data-categories="Publication" data-listing-date-sort="1699660800000" data-listing-file-modified-sort="1707942915436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="42" data-listing-title-sort="James presents at STAHY 2023" data-listing-filename-sort="2023-11-11-jdg-stahy.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <span class="listing-date">November 11, 2023</span>
@@ -289,7 +331,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/2023/2023-11-11-jdg-stahy.html" class="title listing-title">James presents at STAHY 2023</a>
 </td>
 </tr>
-<tr data-index="3" data-categories="Publication" data-listing-date-sort="1698796800000" data-listing-file-modified-sort="1705863801310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Paper on trends in heating and cooling demand published in Communications Earth &amp; Environment" data-listing-filename-sort="2023-11-01-amonkar-paper.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="3" data-categories="Publication" data-listing-date-sort="1698796800000" data-listing-file-modified-sort="1707942915436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="144" data-listing-title-sort="Paper on trends in heating and cooling demand published in Communications Earth &amp; Environment" data-listing-filename-sort="2023-11-01-amonkar-paper.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <span class="listing-date">November 1, 2023</span>
@@ -298,7 +340,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/2023/2023-11-01-amonkar-paper.html" class="title listing-title">Paper on trends in heating and cooling demand published in Communications Earth &amp; Environment</a>
 </td>
 </tr>
-<tr data-index="4" data-categories="Publications" data-listing-date-sort="1697155200000" data-listing-file-modified-sort="1705863801310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="James Presents at SSPEED Center Conference" data-listing-filename-sort="2023-10-13-sspeed.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="4" data-categories="Publications" data-listing-date-sort="1697155200000" data-listing-file-modified-sort="1707942915436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32" data-listing-title-sort="James Presents at SSPEED Center Conference" data-listing-filename-sort="2023-10-13-sspeed.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <span class="listing-date">October 13, 2023</span>
@@ -307,7 +349,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/2023/2023-10-13-sspeed.html" class="title listing-title">James Presents at SSPEED Center Conference</a>
 </td>
 </tr>
-<tr data-index="5" data-categories="Publications" data-listing-date-sort="1692144000000" data-listing-file-modified-sort="1705863801310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Published: review paper on climate risks to electricity systems" data-listing-filename-sort="2023-08-16-review.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="5" data-categories="Publications" data-listing-date-sort="1692144000000" data-listing-file-modified-sort="1707942915436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65" data-listing-title-sort="Published: review paper on climate risks to electricity systems" data-listing-filename-sort="2023-08-16-review.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <span class="listing-date">August 16, 2023</span>
@@ -316,7 +358,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/2023/2023-08-16-review.html" class="title listing-title">Published: review paper on climate risks to electricity systems</a>
 </td>
 </tr>
-<tr data-index="6" data-categories="Announcements" data-listing-date-sort="1691971200000" data-listing-file-modified-sort="1705863801310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="New student advising booklet for undergraduate environmental education at Rice" data-listing-filename-sort="2023-08-14-env-advising.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="6" data-categories="Announcements" data-listing-date-sort="1691971200000" data-listing-file-modified-sort="1707942915436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="51" data-listing-title-sort="New student advising booklet for undergraduate environmental education at Rice" data-listing-filename-sort="2023-08-14-env-advising.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <span class="listing-date">August 14, 2023</span>
@@ -325,7 +367,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/2023/2023-08-14-env-advising.html" class="title listing-title">New student advising booklet for undergraduate environmental education at Rice</a>
 </td>
 </tr>
-<tr data-index="7" data-categories="Publications" data-listing-date-sort="1689120000000" data-listing-file-modified-sort="1705863801310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Published: theorizing modular, adaptive, and decentralized water systems" data-listing-filename-sort="2023-07-12-mad-water.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="7" data-categories="Publications" data-listing-date-sort="1689120000000" data-listing-file-modified-sort="1707942915436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="137" data-listing-title-sort="Published: theorizing modular, adaptive, and decentralized water systems" data-listing-filename-sort="2023-07-12-mad-water.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <span class="listing-date">July 12, 2023</span>
@@ -334,7 +376,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/2023/2023-07-12-mad-water.html" class="title listing-title">Published: theorizing modular, adaptive, and decentralized water systems</a>
 </td>
 </tr>
-<tr data-index="8" data-categories="Publications" data-listing-date-sort="1682208000000" data-listing-file-modified-sort="1705863801310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="New paper on mesoscale modeling of distributed water systems" data-listing-filename-sort="2023-04-23-mesoscale.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="8" data-categories="Publications" data-listing-date-sort="1682208000000" data-listing-file-modified-sort="1707942915436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="105" data-listing-title-sort="New paper on mesoscale modeling of distributed water systems" data-listing-filename-sort="2023-04-23-mesoscale.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <span class="listing-date">April 23, 2023</span>
@@ -343,7 +385,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/2023/2023-04-23-mesoscale.html" class="title listing-title">New paper on mesoscale modeling of distributed water systems</a>
 </td>
 </tr>
-<tr data-index="9" data-categories="Publication" data-listing-date-sort="1672704000000" data-listing-file-modified-sort="1705863801310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Paper bridging DMDU and probabilistic frameworks published in Earth's Future" data-listing-filename-sort="2023-01-03-ef-elevation-paper.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="9" data-categories="Publication" data-listing-date-sort="1672704000000" data-listing-file-modified-sort="1707942915436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="80" data-listing-title-sort="Paper bridging DMDU and probabilistic frameworks published in Earth's Future" data-listing-filename-sort="2023-01-03-ef-elevation-paper.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <span class="listing-date">January 3, 2023</span>
@@ -352,7 +394,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/2023/2023-01-03-ef-elevation-paper.html" class="title listing-title">Paper bridging DMDU and probabilistic frameworks published in Earth’s Future</a>
 </td>
 </tr>
-<tr data-index="10" data-categories="Opportunities" data-listing-date-sort="1667865600000" data-listing-file-modified-sort="1705863801310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Undergraduate Research Opportunity: AI for Sustainability and Resilience to Natural Disasters" data-listing-filename-sort="2022-11-08-rice-ifce.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="10" data-categories="Opportunities" data-listing-date-sort="1667865600000" data-listing-file-modified-sort="1707942915436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34" data-listing-title-sort="Undergraduate Research Opportunity: AI for Sustainability and Resilience to Natural Disasters" data-listing-filename-sort="2022-11-08-rice-ifce.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <span class="listing-date">November 8, 2022</span>
@@ -361,7 +403,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/2022/2022-11-08-rice-ifce.html" class="title listing-title">Undergraduate Research Opportunity: AI for Sustainability and Resilience to Natural Disasters</a>
 </td>
 </tr>
-<tr data-index="11" data-categories="Opportunities" data-listing-date-sort="1644278400000" data-listing-file-modified-sort="1705863801310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Yuchen Lu wins 2022 H.W. Reeves Endowed Scholarship" data-listing-filename-sort="2022-02-08-reeves-yuchen.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="11" data-categories="Opportunities" data-listing-date-sort="1644278400000" data-listing-file-modified-sort="1707942915436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21" data-listing-title-sort="Yuchen Lu wins 2022 H.W. Reeves Endowed Scholarship" data-listing-filename-sort="2022-02-08-reeves-yuchen.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <span class="listing-date">February 8, 2022</span>
@@ -370,7 +412,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/2022/2022-02-08-reeves-yuchen.html" class="title listing-title">Yuchen Lu wins 2022 H.W. Reeves Endowed Scholarship</a>
 </td>
 </tr>
-<tr data-index="12" data-categories="Announcements" data-listing-date-sort="1638921600000" data-listing-file-modified-sort="1705863801310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Talk at Risk KAN Compound Events Group" data-listing-filename-sort="2021-12-08-risk-kan.md" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="12" data-categories="Announcements" data-listing-date-sort="1638921600000" data-listing-file-modified-sort="1707942915436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65" data-listing-title-sort="Talk at Risk KAN Compound Events Group" data-listing-filename-sort="2021-12-08-risk-kan.md" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <span class="listing-date">December 8, 2021</span>
@@ -379,7 +421,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/2021/2021-12-08-risk-kan.html" class="title listing-title">Talk at Risk KAN Compound Events Group</a>
 </td>
 </tr>
-<tr data-index="13" data-categories="Announcement" data-listing-date-sort="1636329600000" data-listing-file-modified-sort="1705863801310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="New Course: Climate Risk Management (CEVE 421/521)" data-listing-filename-sort="2022-11-08-ceve-421-flyer.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="13" data-categories="Announcement" data-listing-date-sort="1636329600000" data-listing-file-modified-sort="1707942915436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="New Course: Climate Risk Management (CEVE 421/521)" data-listing-filename-sort="2022-11-08-ceve-421-flyer.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <span class="listing-date">November 8, 2021</span>
@@ -388,7 +430,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/2022/2022-11-08-ceve-421-flyer.html" class="title listing-title">New Course: Climate Risk Management (CEVE 421/521)</a>
 </td>
 </tr>
-<tr data-index="14" data-categories="Publications" data-listing-date-sort="1630454400000" data-listing-file-modified-sort="1705863801310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Houston Chronicle Op-Ed: The risks of climate change are great - so are the rewards of solving it" data-listing-filename-sort="2021-09-01-chronicle-oped.md" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="14" data-categories="Publications" data-listing-date-sort="1630454400000" data-listing-file-modified-sort="1707942915436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="50" data-listing-title-sort="Houston Chronicle Op-Ed: The risks of climate change are great - so are the rewards of solving it" data-listing-filename-sort="2021-09-01-chronicle-oped.md" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <span class="listing-date">September 1, 2021</span>
@@ -397,7 +439,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/2021/2021-09-01-chronicle-oped.html" class="title listing-title">Houston Chronicle Op-Ed: The risks of climate change are great - so are the rewards of solving it</a>
 </td>
 </tr>
-<tr data-index="15" data-categories="Grants" data-listing-date-sort="1630022400000" data-listing-file-modified-sort="1705863801310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="NSF Award from EAGER SAI: 'Participatory Design for Water Quality Monitoring of Highly Decentralized Water Infrastructure Systems'" data-listing-filename-sort="2021-08-27-nsf-eager-sai.md" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="15" data-categories="Grants" data-listing-date-sort="1630022400000" data-listing-file-modified-sort="1707942915432" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="416" data-listing-title-sort="NSF Award from EAGER SAI: 'Participatory Design for Water Quality Monitoring of Highly Decentralized Water Infrastructure Systems'" data-listing-filename-sort="2021-08-27-nsf-eager-sai.md" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <span class="listing-date">August 27, 2021</span>
@@ -406,7 +448,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/2021/2021-08-27-nsf-eager-sai.html" class="title listing-title">NSF Award from EAGER SAI: ‘Participatory Design for Water Quality Monitoring of Highly Decentralized Water Infrastructure Systems’</a>
 </td>
 </tr>
-<tr data-index="16" data-categories="Opportunities" data-listing-date-sort="1624492800000" data-listing-file-modified-sort="1705863801310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Call for Abstracts: Statistical-Dynamical Models for Hydroclimatic Risk Management and Adaptation" data-listing-filename-sort="2021-06-24-agu21.md" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="16" data-categories="Opportunities" data-listing-date-sort="1624492800000" data-listing-file-modified-sort="1707942915432" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="130" data-listing-title-sort="Call for Abstracts: Statistical-Dynamical Models for Hydroclimatic Risk Management and Adaptation" data-listing-filename-sort="2021-06-24-agu21.md" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <span class="listing-date">June 24, 2021</span>
@@ -415,7 +457,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/2021/2021-06-24-agu21.html" class="title listing-title">Call for Abstracts: Statistical-Dynamical Models for Hydroclimatic Risk Management and Adaptation</a>
 </td>
 </tr>
-<tr data-index="17" data-categories="Publications" data-listing-date-sort="1621296000000" data-listing-file-modified-sort="1705863801310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="How Unprecedented Was the February 2021 Texas Cold Snap? published in Environmental Research Letters" data-listing-filename-sort="2021-05-18-txtremes.md" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="17" data-categories="Publications" data-listing-date-sort="1621296000000" data-listing-file-modified-sort="1707942915432" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="42" data-listing-title-sort="How Unprecedented Was the February 2021 Texas Cold Snap? published in Environmental Research Letters" data-listing-filename-sort="2021-05-18-txtremes.md" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <span class="listing-date">May 18, 2021</span>
@@ -424,7 +466,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/2021/2021-05-18-txtremes.html" class="title listing-title">How Unprecedented Was the February 2021 Texas Cold Snap? published in Environmental Research Letters</a>
 </td>
 </tr>
-<tr data-index="18" data-categories="Presentations" data-listing-date-sort="1604966400000" data-listing-file-modified-sort="1705863801310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="2020 Annual Meeting of the Society for Decision Making under Deep Uncertainty" data-listing-filename-sort="2020-11-10-dmdu-2020.md" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="18" data-categories="Presentations" data-listing-date-sort="1604966400000" data-listing-file-modified-sort="1707942915432" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="63" data-listing-title-sort="2020 Annual Meeting of the Society for Decision Making under Deep Uncertainty" data-listing-filename-sort="2020-11-10-dmdu-2020.md" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <span class="listing-date">November 10, 2020</span>
@@ -434,7 +476,6 @@ ul.task-list li input[type="checkbox"] {
 </td>
 </tr>
 </tbody>
-
 </table>
 <div class="listing-no-matching d-none">
 No matching items
@@ -529,10 +570,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/dossgollin-lab\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -542,8 +600,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -556,6 +623,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -599,6 +785,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -624,8 +811,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
-      // Handle positioning of the toggle
-      window.addEventListener(
+        // Handle positioning of the toggle
+    window.addEventListener(
       "resize",
       throttle(() => {
         elRect = undefined;
@@ -633,23 +820,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
           selectCodeLines(selectedAnnoteEl);
         }
       }, 10)
-      );
-      function throttle(fn, ms) {
-      let throttle = false;
-      let timer;
-        return (...args) => {
-          if(!throttle) { // first call gets through
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
               fn.apply(this, args);
-              throttle = true;
-          } else { // all the others get throttled
-              if(timer) clearTimeout(timer); // cancel #2
-              timer = setTimeout(() => {
-                fn.apply(this, args);
-                timer = throttle = false;
-              }, ms);
-          }
-        };
-      }
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       const annoteTargets = window.document.querySelectorAll('.code-annotation-anchor');
       for (let i=0; i<annoteTargets.length; i++) {
         const annoteTarget = annoteTargets[i];
@@ -694,7 +881,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
               options: {
                 flipVariations: false, // true by default
                 allowedAutoPlacements: ['right'],
-                fallbackPlacements: ['right', 'top', 'top-start', 'top-end'],
+                fallbackPlacements: ['right', 'top', 'top-start', 'top-end', 'bottom', 'bottom-start', 'bottom-end', 'left'],
               },
             },
             {
@@ -746,34 +933,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("https:\/\/dossgollin-lab\.github\.io\/");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-      }
-    }
 });
 </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">View the source on <a href="https://www.github.com/dossgollin-lab/dossgollin-lab.github.io"> GitHub</a></div>   
+    <div class="nav-footer-left">
+<p>View the source on <a href="https://www.github.com/dossgollin-lab/dossgollin-lab.github.io">{{&lt; fa brands github &gt;}} GitHub</a></p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://www.github.com/dossgollin-lab/dossgollin-lab.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    <div class="toc-actions"><ul><li><a href="https://www.github.com/dossgollin-lab/dossgollin-lab.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
 </footer>
+
 
 
 
