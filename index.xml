@@ -41,18 +41,13 @@
 
 
 
-<p>We’re pleased to see share a new preprint, “Peer-reviewed climate change research has a transparency problem. The scientific community needs to do better” <span class="citation" data-cites="pollack_transparency:2023">(Pollack et al., 2024)</span>. This effort was led by Adam Pollack at Dartmourth and evolved out of many long discussions with colleagues in climate modeling, decision science, economics, engineering, environmental policy and social science, geosciences, hydrology, law, library science, philosophy, and statistics about the role of openness, transparency, and reproducibility in climate change research.</p>
+<p>We’re pleased to see share a new preprint, “Peer-reviewed climate change research has a transparency problem. The scientific community needs to do better” <span class="citation" data-cites="pollack_transparency:2023">(<strong>pollack_transparency:2023?</strong>)</span>. This effort was led by Adam Pollack at Dartmourth and evolved out of many long discussions with colleagues in climate modeling, decision science, economics, engineering, environmental policy and social science, geosciences, hydrology, law, library science, philosophy, and statistics about the role of openness, transparency, and reproducibility in climate change research.</p>
 <p>In this article, we articulate why transparency and openness matter in climate change research. We also sample papers in the “top” climate change journals and find that only five percent of our sample meets the minimal standard of fully open data and code required for reproducibility and replicability as defined by the National Academies of Sciences, Engineering, and Medicine. We conclude by recognizing the challenges involved and setting commitments to improve the transparency of our own research. We hope you will join us in these commitments and in broader discussions about the role of transparency in climate change research!</p>
-<p>Read the abstract <a href="../../publications/forthcoming/pollack_transparency_2023.html">here</a>.</p>
+<p>Read the abstract <a href="../../publications/forthcoming/pollack_transparency_2023.qmd">here</a>.</p>
 
 
 
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
-<div id="ref-pollack_transparency:2023" class="csl-entry">
-Pollack, A., Campbell, J. E., Condon, M., Cooper, C., Coronese, M., Doss-Gollin, J., et al. (2024, February 1). Peer-reviewed climate change research has a transparency problem. <span>The</span> scientific community needs to do better. Retrieved December 10, 2023, from <a href="https://osf.io/29nhv">https://osf.io/29nhv</a>
-</div>
-</div></section></div> ]]></description>
+ ]]></description>
   <category>Publication</category>
   <guid>https://dossgollin-lab.github.io/posts/2023/2023-12-10-pollack-osf.html</guid>
   <pubDate>Sun, 10 Dec 2023 00:00:00 GMT</pubDate>

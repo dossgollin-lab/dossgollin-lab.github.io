@@ -2,6 +2,7 @@
   {
     "listing": "/publications/index.html",
     "items": [
+      "/publications/article/singh_potential_2024.html",
       "/publications/article/amonkar_heatingcooling_2023.html",
       "/publications/article/doss-gollin_review_2023.html",
       "/publications/article/wutich_madwater_2023.html",
@@ -46,13 +47,12 @@
       "/publications/conference/farnham_moisturetransport_2015.html",
       "/publications/conference/araujojunior_simposio_2014.html",
       "/publications/conference/doss-gollin_simposio_2014.html",
-      "/publications/forthcoming/pollack_transparency_2023.html",
+      "/publications/forthcoming/pollack_transparency_2024.html",
       "/publications/forthcoming/geldner_equity_2023.html",
       "/publications/forthcoming/haider_mrb_2023.html",
       "/publications/forthcoming/kazadi_floodgnn-gru_2023.html",
       "/publications/forthcoming/liu_functional_2023.html",
       "/publications/forthcoming/murphy_mrb_2023.html",
-      "/publications/forthcoming/singh_potential_2023.html",
       "/publications/other/graham_thesis_2022.html",
       "/publications/other/doss-gollin_dissertation_2020.html"
     ]
