@@ -2,15 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Arnold N. Kazadi">
+<meta name="author" content="Arnold Kazadi">
 <meta name="author" content="James Doss-Gollin">
 <meta name="author" content="Antonia Sebastian">
 <meta name="author" content="Arlei Silva">
-<meta name="dcterms.date" content="2023-01-01">
+<meta name="dcterms.date" content="2024-01-01">
 
 <title>Doss-Gollin Lab @ Rice CEVE - FloodGNN-GRU: A Spatio-Temporal Graph Neural Network for Flood Prediction</title>
 <style>
@@ -73,7 +73,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Doss-Gollin Lab @ Rice CEVE - FloodGNN-GRU: A Spatio-Temporal Graph Neural Network for Flood Prediction">
-<meta property="og:description" content="">
 <meta property="og:site_name" content="Doss-Gollin Lab @ Rice CEVE">
 </head>
 
@@ -158,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
-             <p>Arnold N. Kazadi </p>
+             <p>Arnold Kazadi </p>
              <p>James Doss-Gollin </p>
              <p>Antonia Sebastian </p>
              <p>Arlei Silva </p>
@@ -167,13 +166,12 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 1, 2023</p>
+      <p class="date">January 1, 2024</p>
     </div>
   </div>
   </div>
 </header> 
       <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-<p>Classical approaches for flood prediction apply numerical methods for the solution of partial differential equations that capture the physics of inundation processes (e.g.&nbsp;the 2D Shallow Water equations). However, traditional inundation models are still unable to satisfy the requirements of many relevant applications, including early-warning systems, high-resolution (or large spatial domain) simulations, and robust inference over distributions of inputs (e.g.&nbsp;rainfall events). Machine learning (ML) approaches are a promising alternative to physics-based models due to their ability to efficiently capture correlations between relevant inputs and outputs in a data-driven fashion. In particular, once trained, ML models can be tested/deployed much more efficiently than classical approaches. Yet, few ML-based solutions for spatio-temporal flood prediction have been developed and their reliability/accuracy is poorly understood. In this paper, we propose FloodGNN-GRU, a spatio-temporal flood prediction model that combines a graph neural network (GNN) and a Gated Recurrent Unit (GRU) architecture. Compared to existing approaches, FloodGNN-GRU (i) employs a graph-based model (GNN); (ii) operates on both spatial and temporal dimensions; and (iii) processes the water flow velocities as vector features, instead of scalar features. We evaluate FloodGNN-GRU using a LISFLOOD-FP simulation of Hurricane Harvey (2017) in Houston, Texas. Our results, based on several metrics, show that FloodGNN-GRU outperforms several data-driven alternatives in terms of accuracy. Moreover, our approach can be trained 100x faster and tested 1000x faster than the time required to run a comparable simulation. These findings illustrate the potential of ML-based methods to efficiently emulate physics-based inundation models, especially for short-term predictions.</p>
 
 
 </main></div>
@@ -264,6 +262,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
           // target, if specified
           link.setAttribute("target", "_blank");
           if (link.getAttribute("rel") === null) {
@@ -305,7 +308,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
