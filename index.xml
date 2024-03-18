@@ -10,7 +10,42 @@
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.551</generator>
-<lastBuildDate>Mon, 11 Dec 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 18 Mar 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Paper on solar and wind potential during temperature extremes published in Environmental Research Letters</title>
+  <link>https://dossgollin-lab.github.io/posts/2024/2024-03-18-singh-paper.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A new paper <span class="citation" data-cites="singh_potential:2024">(<strong>singh_potential:2024?</strong>)</span> in the journal <em>Environmental Research Letters</em> examines shows that increasing solar and wind energy capacity could help keep the lights on during widespread hot and cold spells across the U.S. The study found that solar and wind energy potential often increases during the types of large-scale heat waves and cold snaps that drive up energy demand and can cause power outages. While wind potential varied by region, solar potential was higher during both hot and cold extremes in nearly every part of the country. The findings suggest that expanding renewable energy could boost grid reliability while also reducing emissions.</p>
+<p>For more, see <a href="../../publications/article/singh_potential_2024.html">the paper</a>.</p>
+
+
+
+ ]]></description>
+  <category>Publications</category>
+  <guid>https://dossgollin-lab.github.io/posts/2024/2024-03-18-singh-paper.html</guid>
+  <pubDate>Mon, 18 Mar 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Welcome Jonah!</title>
+  <link>https://dossgollin-lab.github.io/posts/2024/2024-01-01-welcome-jonah.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We’re delighted to welcome <a href="../../people/grad-students/Jonah-Schaechter.html">Jonah Schaecter</a> to the lab! Jonah joins us from working as a software engineer at Epic. Prior that that, he earned a BS and MS in Mechanical Engineering from Columbia University. Jonah’s interests include optimization, sustainability, machine learning, and flooding.</p>
+
+
+
+ ]]></description>
+  <category>Welcome</category>
+  <guid>https://dossgollin-lab.github.io/posts/2024/2024-01-01-welcome-jonah.html</guid>
+  <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Catch us at AGU 2023!</title>
   <link>https://dossgollin-lab.github.io/posts/2023/2023-12-11-agu.html</link>
@@ -295,22 +330,6 @@ Doss-Gollin, J., &amp; Keller, K. (2023). A subjective <span>Bayesian</span> fra
   <category>Announcements</category>
   <guid>https://dossgollin-lab.github.io/posts/2021/2021-12-08-risk-kan.html</guid>
   <pubDate>Wed, 08 Dec 2021 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>New Course: Climate Risk Management (CEVE 421/521)</title>
-  <link>https://dossgollin-lab.github.io/posts/2022/2022-11-08-ceve-421-flyer.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
-
- ]]></description>
-  <category>Announcement</category>
-  <guid>https://dossgollin-lab.github.io/posts/2022/2022-11-08-ceve-421-flyer.html</guid>
-  <pubDate>Mon, 08 Nov 2021 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Houston Chronicle Op-Ed: The risks of climate change are great - so are the rewards of solving it</title>
