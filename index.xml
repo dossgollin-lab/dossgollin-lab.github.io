@@ -12,6 +12,25 @@
 <generator>quarto-1.4.553</generator>
 <lastBuildDate>Wed, 27 Mar 2024 00:00:00 GMT</lastBuildDate>
 <item>
+  <title>Video for World Water Day / ASU Water Institute Kickoff</title>
+  <link>https://dossgollin-lab.github.io/posts/2024/2024-04-12-water-day.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>To celebrate World Water Day 2024 and the kickoff of a new water institute at ASU, we were asked to create a five minute video on a local water challenge. While Houston has important challenges related to droughts, infrastructure financing, and water infrastructure, we created a video titled “how to equitably and sustinably manage intensifying rainfall in fast-changing cities?” You can watch the video <a href="https://www.youtube.com/watch?v=4EbLGppjN2I&amp;list=PL3E_J0n3vAthGB3fNscCABwxrB35c3dSa&amp;index=13">here</a>, view it below, or check out the full <a href="https://www.youtube.com/playlist?list=PL3E_J0n3vAthGB3fNscCABwxrB35c3dSa">playlist</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4EbLGppjN2I?si=eJ3dsK3NlFEHVEUr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+
+
+
+ ]]></description>
+  <category>Publications</category>
+  <guid>https://dossgollin-lab.github.io/posts/2024/2024-04-12-water-day.html</guid>
+  <pubDate>Wed, 27 Mar 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
   <title>James gives seminar at UNC Chapel Hill</title>
   <link>https://dossgollin-lab.github.io/posts/2024/2024-03-27-unc.html</link>
   <description><![CDATA[ 
@@ -36,12 +55,17 @@
 
 
 
-<p>A new paper <span class="citation" data-cites="singh_potential:2024">(<strong>singh_potential:2024?</strong>)</span> in the journal <em>Environmental Research Letters</em> examines shows that increasing solar and wind energy capacity could help keep the lights on during widespread hot and cold spells across the U.S. The study found that solar and wind energy potential often increases during the types of large-scale heat waves and cold snaps that drive up energy demand and can cause power outages. While wind potential varied by region, solar potential was higher during both hot and cold extremes in nearly every part of the country. The findings suggest that expanding renewable energy could boost grid reliability while also reducing emissions.</p>
+<p>A new paper <span class="citation" data-cites="singh_potential:2024">(Singh et al., 2024)</span> in the journal <em>Environmental Research Letters</em> examines shows that increasing solar and wind energy capacity could help keep the lights on during widespread hot and cold spells across the U.S. The study found that solar and wind energy potential often increases during the types of large-scale heat waves and cold snaps that drive up energy demand and can cause power outages. While wind potential varied by region, solar potential was higher during both hot and cold extremes in nearly every part of the country. The findings suggest that expanding renewable energy could boost grid reliability while also reducing emissions.</p>
 <p>For more, see <a href="../../publications/article/singh_potential_2024.html">the paper</a> or read <a href="https://twitter.com/ClimateChirper/status/1774821916924363142">this Twitter thread</a>.</p>
 
 
 
- ]]></description>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
+<div id="ref-singh_potential:2024" class="csl-entry">
+Singh, D., Bekris, Y. S., Rogers, C. D. W., Doss-Gollin, J., Coffel, E. D., &amp; Kalashnikov, D. A. (2024). Enhanced solar and wind potential during widespread temperature extremes across the <span>U</span>.<span>S</span>. Interconnected energy grids. <em>Environmental Research Letters</em>, <em>19</em>(4), 044018. <a href="https://doi.org/10.1088/1748-9326/ad2e72">https://doi.org/10.1088/1748-9326/ad2e72</a>
+</div>
+</div></section></div> ]]></description>
   <category>Publications</category>
   <guid>https://dossgollin-lab.github.io/posts/2024/2024-03-18-singh-paper.html</guid>
   <pubDate>Mon, 18 Mar 2024 00:00:00 GMT</pubDate>
@@ -408,29 +432,6 @@ Doss-Gollin, J., &amp; Keller, K. (2023). A subjective <span>Bayesian</span> fra
   <category>Opportunities</category>
   <guid>https://dossgollin-lab.github.io/posts/2021/2021-06-24-agu21.html</guid>
   <pubDate>Thu, 24 Jun 2021 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>How Unprecedented Was the February 2021 Texas Cold Snap? published in Environmental Research Letters</title>
-  <link>https://dossgollin-lab.github.io/posts/2021/2021-05-18-txtremes.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>A new paper <span class="citation" data-cites="doss-gollin_txtreme:2021">(Doss-Gollin et al., 2021)</span> in the journal <em>Environmental Research Letters</em> examines the drivers of the February 2021 cold snap that left millions across Texas without electricity and water.</p>
-<p>For a summary, see our short write-up in the Columbia <a href="https://news.climate.columbia.edu/2021/03/16/unprecedented-texas-cold-snap/">State of the Planet</a> blog</p>
-
-
-
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
-<div id="ref-doss-gollin_txtreme:2021" class="csl-entry">
-Doss-Gollin, J., Farnham, D. J., Lall, U., &amp; Modi, V. (2021). How unprecedented was the <span>February</span> 2021 <span>Texas</span> cold snap? <em>Environmental Research Letters</em>. <a href="https://doi.org/10.1088/1748-9326/ac0278">https://doi.org/10.1088/1748-9326/ac0278</a>
-</div>
-</div></section></div> ]]></description>
-  <category>Publications</category>
-  <guid>https://dossgollin-lab.github.io/posts/2021/2021-05-18-txtremes.html</guid>
-  <pubDate>Tue, 18 May 2021 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
