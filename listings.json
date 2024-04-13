@@ -1,17 +1,12 @@
 [
   {
-    "listing": "/people/index.html",
+    "listing": "/teaching.html",
     "items": [
-      "/people/grad-students/true-furrh.html",
-      "/people/grad-students/yuchen-lu.html",
-      "/people/grad-students/kelsey-murphy.html",
-      "/people/grad-students/Jonah-Schaechter.html",
-      "/people/pi/james-doss-gollin.html",
-      "/people/alumni/kyle-olcott.html",
-      "/people/alumni/kristina-cibor.html",
-      "/people/alumni/alyssa-graham.html",
-      "/people/alumni/sophia-prieto.html",
-      "/people/alumni/john-cook.html"
+      "/teaching/2024-spring-ceve-421-521.html",
+      "/teaching/2023-fall-ceve-543.html",
+      "/teaching/2023-spring-ceve-421-521.html",
+      "/teaching/2022-spring-ceve-543.html",
+      "/teaching/2021-fall-ceve-101.html"
     ]
   },
   {
@@ -95,18 +90,24 @@
       "/publications/forthcoming/haider_mrb_2023.html",
       "/publications/forthcoming/liu_functional_2023.html",
       "/publications/forthcoming/murphy_mrb_2023.html",
+      "/publications/other/cohan_whitepaper_2023.html",
       "/publications/other/graham_thesis_2022.html",
       "/publications/other/doss-gollin_dissertation_2020.html"
     ]
   },
   {
-    "listing": "/teaching.html",
+    "listing": "/people/index.html",
     "items": [
-      "/teaching/2024-spring-ceve-421-521.html",
-      "/teaching/2023-fall-ceve-543.html",
-      "/teaching/2023-spring-ceve-421-521.html",
-      "/teaching/2022-spring-ceve-543.html",
-      "/teaching/2021-fall-ceve-101.html"
+      "/people/grad-students/true-furrh.html",
+      "/people/grad-students/yuchen-lu.html",
+      "/people/grad-students/kelsey-murphy.html",
+      "/people/grad-students/Jonah-Schaechter.html",
+      "/people/pi/james-doss-gollin.html",
+      "/people/alumni/kyle-olcott.html",
+      "/people/alumni/kristina-cibor.html",
+      "/people/alumni/alyssa-graham.html",
+      "/people/alumni/sophia-prieto.html",
+      "/people/alumni/john-cook.html"
     ]
   }
 ]
