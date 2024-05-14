@@ -9,8 +9,28 @@
 <link>https://dossgollin-lab.github.io/</link>
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.553</generator>
-<lastBuildDate>Wed, 27 Mar 2024 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.4.554</generator>
+<lastBuildDate>Tue, 14 May 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>How extreme was the recent San Jacinto River rainfall?</title>
+  <link>https://dossgollin-lab.github.io/posts/2024/2024-05-14-san-jac-idf.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Earlier this month, persistent and intense rainfall to the northeast of Houston caused severe flooding on the San Jacinto River, <a href="https://www.pbs.org/newshour/nation/southeastern-texas-sees-torrential-rain-causing-flooding-along-san-jacinto-river">affecting</a> thousands of residents. Our sincere best wishes are with everyone affected!</p>
+<p>As we look to risk assessment, it’s important to determine how extreme this rainfall really was. <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a>, a third-year PhD student, compared the rainfall at different durations to Atlas 14 estimates of rainfall probability, finding that this was a 10 to 25-year event depending on how it’s analyzed. This underscores the importance of vulnerability reduction and flood preparedness.</p>
+<p>You can find Yuchen’s more detailed analysis <a href="https://dossgollin-lab.github.io/SanJac2024_IDF/">here</a> or the source code <a href="https://github.com/dossgollin-lab/SanJac2024_IDF">on GitHub</a>.</p>
+<p>As we look to managing future flood risks, further improvements to risk assessment are needed. Atlas 14 estimates are useful but do not account for the increasing likelihood of extreme weather. More fundamentally, probability distributions of annual maximum rainfall at a single point are completely silent on the spatial or temporal structure of rainfall, which can matter for flood impacts. We are working hard to address both of these limitations in our research – stay tuned for more updates!</p>
+
+
+
+ ]]></description>
+  <category>News</category>
+  <guid>https://dossgollin-lab.github.io/posts/2024/2024-05-14-san-jac-idf.html</guid>
+  <pubDate>Tue, 14 May 2024 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Video for World Water Day / ASU Water Institute Kickoff</title>
   <link>https://dossgollin-lab.github.io/posts/2024/2024-04-12-water-day.html</link>
@@ -412,26 +432,6 @@ Doss-Gollin, J., &amp; Keller, K. (2023). A subjective <span>Bayesian</span> fra
   <category>Grants</category>
   <guid>https://dossgollin-lab.github.io/posts/2021/2021-08-27-nsf-eager-sai.html</guid>
   <pubDate>Fri, 27 Aug 2021 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Call for Abstracts: Statistical-Dynamical Models for Hydroclimatic Risk Management and Adaptation</title>
-  <link>https://dossgollin-lab.github.io/posts/2021/2021-06-24-agu21.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>The <a href="https://agu.confex.com/agu/fm21/prelim.cgi/Session/118811">session</a> is listed in Hydrology, Natural Hazards, Global Environmental Change, and Atmospheric Sciences. Here’s the description:</p>
-<blockquote class="blockquote">
-<p>Decision-making for climate adaptation relies on projections of hydroclimate variables at a range of interconnected spatial and temporal scales. Many simulation and optimization frameworks rely on such projections as an input to system models, and so analysts must balance a desire for large ensembles to explore risk and grounding in physical principles for credible out-of-sample simulation against computational cost and interpretability. We welcome submissions related to the development and validation of statistical-dynamical models of hydroclimate variables, as well as their applications to infrastructure design, operation, and hazard assessment. Submissions related to weather and streamflow generators, emulators of sea level and storm surge, weather downscaling methods, and optimal sampling of design events are particularly encouraged.</p>
-</blockquote>
-
-
-
- ]]></description>
-  <category>Opportunities</category>
-  <guid>https://dossgollin-lab.github.io/posts/2021/2021-06-24-agu21.html</guid>
-  <pubDate>Thu, 24 Jun 2021 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
