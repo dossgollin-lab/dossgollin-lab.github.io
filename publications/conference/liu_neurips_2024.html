@@ -6,11 +6,13 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Daniel Cohan">
+<meta name="author" content="Yuhao Liu">
 <meta name="author" content="James Doss-Gollin">
-<meta name="dcterms.date" content="2023-11-10">
+<meta name="author" content="Guha Balakrishnan">
+<meta name="author" content="Ashok Veeraraghavan">
+<meta name="dcterms.date" content="2024-05-14">
 
-<title>Doss-Gollin Lab @ Rice CEVE - Revamping the Texas Power Grid: Insights From Rice University’s Electricity Research</title>
+<title>Doss-Gollin Lab @ Rice CEVE - Generative Precipitation Downscaling Using Score-based Diffusion With Wasserstein Regularization</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Doss-Gollin Lab @ Rice CEVE - Revamping the Texas Power Grid: Insights From Rice University’s Electricity Research">
+<meta property="og:title" content="Doss-Gollin Lab @ Rice CEVE - Generative Precipitation Downscaling Using Score-based Diffusion With Wasserstein Regularization">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="Doss-Gollin Lab @ Rice CEVE">
 </head>
@@ -150,31 +152,33 @@ ul.task-list li input[type="checkbox"] {
     <div class="entity-contents">
       <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Revamping the Texas Power Grid: Insights From Rice University’s Electricity Research</h1>
+<h1 class="title">Generative Precipitation Downscaling Using Score-based Diffusion With Wasserstein Regularization</h1>
 </div>
 <div class="quarto-title-meta column-page">
     <div>
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
-             <p>Daniel Cohan </p>
+             <p>Yuhao Liu </p>
              <p>James Doss-Gollin </p>
+             <p>Guha Balakrishnan </p>
+             <p>Ashok Veeraraghavan </p>
           </div>
   </div>
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 10, 2023</p>
+      <p class="date">May 14, 2024</p>
     </div>
   </div>
   </div>
 </header> <div class="about-links">
-  <a href="https://doi.org/10.25613/5FJJ-T074" class="about-link" rel="" target="">
+  <a href="https://openreview.net/forum?id=mlpYnp10IQ" class="about-link" rel="" target="">
     <i class="bi bi-link"></i>
      <span class="about-link-text">Link</span>
   </a>
 </div>
       <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-<p>How can Texas secure an affordable, sustainable, and reliable power supply for all its citizens? This report explores key insights from research conducted at Rice University.</p>
+<p>Understanding local risks from extreme rainfall, such as flooding, requires both long records (to sample rare events) and high-resolution products (to assess localized hazards). Unfortunately, there is a dearth of long-record and high-resolution products that can be used to understand local risk and precipitation science. In this paper, we present a novel generative diffusion model that downscales (super-resolves) globally available CPC gauge-based precipitation products and ERA5 reanalysis data to generate kilometer-scale precipitation estimates. Downscaling gauge-based precipitation from 55 km to 1 km while recovering extreme rainfall signals poses significant challenges. To enforce our model (named WassDiff) to produce well-calibrated precipitation intensity values, we introduce a Wasserstein Distance Regularization (WDR) term for the score-matching training objective in the diffusion denoising process. We show that WDR greatly enhances the model’s ability to capture extreme values compared to vanilla diffusion. Extensive evaluation shows that WassDiff has better reconstruction accuracy and bias scores than conventional score-based diffusion models. Case studies of extreme weather phenomena, like tropical storms and cold fronts, demonstrate WassDiff’s ability to produce appropriate spatial patterns while capturing extremes. Such downscaling capability enables the generation of extensive kilometer-scale precipitation datasets from existing historical global gauge records and current gauge measurements in areas without high-resolution radar.</p>
 
 
 </main></div>

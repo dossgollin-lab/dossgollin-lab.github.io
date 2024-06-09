@@ -17,7 +17,8 @@
       "/publications/article/doss-gollin_pyfloods_2018.html",
       "/publications/article/farnham_credibly_2018.html",
       "/publications/article/doss-gollin_rwh_2015.html",
-      "/publications/conference/kazadi_icml.html",
+      "/publications/conference/liu_neurips_2024.html",
+      "/publications/conference/kazadi_icml_2024.html",
       "/publications/conference/cooperman_agu_2023.html",
       "/publications/conference/murphy_agu_2023.html",
       "/publications/conference/lu_agu_2023.html",
@@ -48,11 +49,12 @@
       "/publications/conference/farnham_moisturetransport_2015.html",
       "/publications/conference/araujojunior_simposio_2014.html",
       "/publications/conference/doss-gollin_simposio_2014.html",
+      "/publications/forthcoming/pollack_unsafe_2024.html",
+      "/publications/forthcoming/liu_functional_2024.html",
       "/publications/forthcoming/pollack_transparency_2024.html",
       "/publications/forthcoming/kazadi_eds_2024.html",
       "/publications/forthcoming/geldner_equity_2023.html",
       "/publications/forthcoming/haider_mrb_2023.html",
-      "/publications/forthcoming/liu_functional_2023.html",
       "/publications/forthcoming/murphy_mrb_2023.html",
       "/publications/other/cohan_whitepaper_2023.html",
       "/publications/other/graham_thesis_2022.html",
@@ -67,21 +69,6 @@
       "/teaching/2023-spring-ceve-421-521.html",
       "/teaching/2022-spring-ceve-543.html",
       "/teaching/2021-fall-ceve-101.html"
-    ]
-  },
-  {
-    "listing": "/people/index.html",
-    "items": [
-      "/people/grad-students/true-furrh.html",
-      "/people/grad-students/yuchen-lu.html",
-      "/people/grad-students/kelsey-murphy.html",
-      "/people/grad-students/Jonah-Schaechter.html",
-      "/people/pi/james-doss-gollin.html",
-      "/people/alumni/kyle-olcott.html",
-      "/people/alumni/kristina-cibor.html",
-      "/people/alumni/alyssa-graham.html",
-      "/people/alumni/sophia-prieto.html",
-      "/people/alumni/john-cook.html"
     ]
   },
   {
@@ -110,6 +97,21 @@
       "/posts/2021/2021-06-24-agu21.html",
       "/posts/2021/2021-05-18-txtremes.html",
       "/posts/2020/2020-11-10-dmdu-2020.html"
+    ]
+  },
+  {
+    "listing": "/people/index.html",
+    "items": [
+      "/people/grad-students/true-furrh.html",
+      "/people/grad-students/yuchen-lu.html",
+      "/people/grad-students/kelsey-murphy.html",
+      "/people/grad-students/Jonah-Schaechter.html",
+      "/people/pi/james-doss-gollin.html",
+      "/people/alumni/kyle-olcott.html",
+      "/people/alumni/kristina-cibor.html",
+      "/people/alumni/alyssa-graham.html",
+      "/people/alumni/sophia-prieto.html",
+      "/people/alumni/john-cook.html"
     ]
   }
 ]
