@@ -1,5 +1,15 @@
 [
   {
+    "listing": "/teaching.html",
+    "items": [
+      "/teaching/2024-spring-ceve-421-521.html",
+      "/teaching/2023-fall-ceve-543.html",
+      "/teaching/2023-spring-ceve-421-521.html",
+      "/teaching/2022-spring-ceve-543.html",
+      "/teaching/2021-fall-ceve-101.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/posts/2024/2024-06-09-kazadi-icml.html",
@@ -26,16 +36,6 @@
       "/posts/2021/2021-06-24-agu21.html",
       "/posts/2021/2021-05-18-txtremes.html",
       "/posts/2020/2020-11-10-dmdu-2020.html"
-    ]
-  },
-  {
-    "listing": "/teaching.html",
-    "items": [
-      "/teaching/2024-spring-ceve-421-521.html",
-      "/teaching/2023-fall-ceve-543.html",
-      "/teaching/2023-spring-ceve-421-521.html",
-      "/teaching/2022-spring-ceve-543.html",
-      "/teaching/2021-fall-ceve-101.html"
     ]
   },
   {
@@ -88,6 +88,7 @@
       "/publications/conference/farnham_moisturetransport_2015.html",
       "/publications/conference/araujojunior_simposio_2014.html",
       "/publications/conference/doss-gollin_simposio_2014.html",
+      "/publications/forthcoming/odonnell_cesm_2024.html",
       "/publications/forthcoming/pollack_unsafe_2024.html",
       "/publications/forthcoming/liu_functional_2024.html",
       "/publications/forthcoming/pollack_transparency_2024.html",
