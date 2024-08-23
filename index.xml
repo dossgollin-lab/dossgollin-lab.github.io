@@ -24,8 +24,26 @@
 
 
  ]]></description>
-  <category>Publications</category>
+  <category>Welcome</category>
   <guid>https://dossgollin-lab.github.io/posts/2024/2024-08-22-welcome-dongwook.html</guid>
+  <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>AI for Climate Risk and Resilience at Rice</title>
+  <link>https://dossgollin-lab.github.io/posts/2024/2024-08-23-ai4climaterrr.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We’re delighted to announce the launch of a new project, <em>AI for Climate Risk and Resilience at Rice</em> (AI4ClimateRRR), which will bring together researchers from across the university to develop new tools for understanding and addressing climate risks. AI4ClimateRRR is a cluster within the Ken Kennedy Institute. Monthly meetings are available to the Rice community.</p>
+<p>For more, see <a href="https://ai4climaterrr.rice.edu/">the project website</a>.</p>
+
+
+
+ ]]></description>
+  <category>News</category>
+  <guid>https://dossgollin-lab.github.io/posts/2024/2024-08-23-ai4climaterrr.html</guid>
   <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -411,28 +429,6 @@ Doss-Gollin, J., &amp; Keller, K. (2023). A subjective <span>Bayesian</span> fra
   <category>Opportunities</category>
   <guid>https://dossgollin-lab.github.io/posts/2022/2022-02-08-reeves-yuchen.html</guid>
   <pubDate>Tue, 08 Feb 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Talk at Risk KAN Compound Events Group</title>
-  <link>https://dossgollin-lab.github.io/posts/2021/2021-12-08-risk-kan.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>James Doss-Gollin is giving a talk “Extreme impacts don’t require extreme weather: lessons from the Feb 2021 Texas blackouts” at the Risk KAN (Knowledge Action Network) compound events group <a href="https://www.risk-kan.org/webinars/">webinar</a>. See <a href="https://www.risk-kan.org/webinars/">here</a> for Zoom information – the event is free!</p>
-<p>Check out the slides</p>
-<embed src="../../_assets/pdf/2021-12-09-txtreme-risk-kan.pdf" width="100%" height="400" type="application/pdf">
-<p>or watch the recording on YouTube</p>
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/q8Qeb_sXCxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
-
-
-
- ]]></description>
-  <category>Announcements</category>
-  <guid>https://dossgollin-lab.github.io/posts/2021/2021-12-08-risk-kan.html</guid>
-  <pubDate>Wed, 08 Dec 2021 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
