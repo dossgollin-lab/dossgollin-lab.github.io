@@ -2,19 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.56">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Kelsey Murphy">
-<meta name="author" content="Sylvia Dee">
-<meta name="author" content="Samuel E. Muñoz">
+<meta name="author" content="Yuhao Liu">
 <meta name="author" content="James Doss-Gollin">
-<meta name="author" content="Kieran Dunne">
-<meta name="author" content="Michelle O’Donnell">
-<meta name="dcterms.date" content="2023-01-01">
+<meta name="author" content="Guha Balakrishnan">
+<meta name="author" content="Ashok Veeraraghavan">
+<meta name="dcterms.date" content="2024-01-01">
 
-<title>Competing Influences of Land Use and Greenhouse Gas Emissions on Mississippi River Basin Hydroclimate Simulated Over the Last Millennium – Doss-Gollin Lab @ Rice CEVE</title>
+<title>Generative Precipitation Downscaling Using Score-based Diffusion With Wasserstein Regularization – Doss-Gollin Lab @ Rice CEVE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Competing Influences of Land Use and Greenhouse Gas Emissions on Mississippi River Basin Hydroclimate Simulated Over the Last Millennium – Doss-Gollin Lab @ Rice CEVE">
+<meta property="og:title" content="Generative Precipitation Downscaling Using Score-based Diffusion With Wasserstein Regularization – Doss-Gollin Lab @ Rice CEVE">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="Doss-Gollin Lab @ Rice CEVE">
 </head>
@@ -130,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Lab Guide</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../ai4climaterrr.rice.edu">
+    <a class="dropdown-item" href="https://ai4climaterrr.rice.edu">
  <span class="dropdown-text">AI 4 Climate Risk and Resilience @ Rice</span></a>
   </li>  
         <li>
@@ -158,30 +156,33 @@ ul.task-list li input[type="checkbox"] {
     <div class="entity-contents">
       <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Competing Influences of Land Use and Greenhouse Gas Emissions on Mississippi River Basin Hydroclimate Simulated Over the Last Millennium</h1>
+<h1 class="title">Generative Precipitation Downscaling Using Score-based Diffusion With Wasserstein Regularization</h1>
 </div>
 <div class="quarto-title-meta column-page">
     <div>
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
-             <p>Kelsey Murphy </p>
-             <p>Sylvia Dee </p>
-             <p>Samuel E. Muñoz </p>
+             <p>Yuhao Liu </p>
              <p>James Doss-Gollin </p>
-             <p>Kieran Dunne </p>
-             <p>Michelle O’Donnell </p>
+             <p>Guha Balakrishnan </p>
+             <p>Ashok Veeraraghavan </p>
           </div>
   </div>
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 1, 2023</p>
+      <p class="date">January 1, 2024</p>
     </div>
   </div>
   </div>
-</header> 
+</header> <div class="about-links">
+  <a href="https://doi.org/10.48550/ARXIV.2410.00381" class="about-link" rel="" target="">
+    <i class="bi bi-link"></i>
+     <span class="about-link-text">DOI: 10.48550/ARXIV.2410.00381</span>
+  </a>
+</div>
       <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-<p>The Mississippi River is an important economic corridor used for generating hydroelectric power, transporting agricultural products, and providing water for municipalities and industries. The communities, industries, and infrastructure along the Mississippi River face an uncertain future as it becomes more vulnerable to climate extremes. One of the main challenges in predicting future hydroclimate conditions in the Mississippi River basin is determining whether river discharge will increase or decrease during the 21st century. Due to the limited time coverage of the 20th century record, paleoclimate data and model simulations are used to gain a better understanding of how the basin’s hydroclimate responds to external influences. In this study, we investigate how human activities during the 20th century have affected the statistics of river discharge compared to a baseline representing the last millennium. We use simulations from the Community Earth System Model Last Millennium Ensemble (CESM-LME) to assess changes in key hydroclimate variables over various time scales, ranging from monthly to centennial. By conducting simulations with both anthropogenic and natural single-forcing, we can identify the hydrological responses to each type of climate forcing separately. We also conduct full-forcing simulations to evaluate projected changes in the 21st century. The results indicate that greenhouse gas emissions and land use changes generally led to wetter conditions in the 20th century compared to the pre-industrial era. However, the 21st century is projected to have more extreme precipitation events, while the overall basin is expected to be drier compared to the 20th century. The Last Millennium simulations provide additional climate information, which improves the predictive power by expanding the pool of statistics available. Understanding the factors that contributed to past flooding events can help in developing strategies to mitigate future regional floods.</p>
+<p>Understanding local risks from extreme rainfall, such as flooding, requires both long records (to sample rare events) and high-resolution products (to assess localized hazards). Unfortunately, there is a dearth of long-record and high-resolution products that can be used to understand local risk and precipitation science. In this paper, we present a novel generative diffusion model that downscales (super-resolves) globally available Climate Prediction Center (CPC) gauge-based precipitation products and ERA5 reanalysis data to generate kilometer-scale precipitation estimates. Downscaling gauge-based precipitation from 55 km to 1 km while recovering extreme rainfall signals poses significant challenges. To enforce our model (named WassDiff) to produce well-calibrated precipitation intensity values, we introduce a Wasserstein Distance Regularization (WDR) term for the score-matching training objective in the diffusion denoising process. We show that WDR greatly enhances the model’s ability to capture extreme values compared to diffusion without WDR. Extensive evaluation shows that WassDiff has better reconstruction accuracy and bias scores than conventional score-based diffusion models. Case studies of extreme weather phenomena, like tropical storms and cold fronts, demonstrate WassDiff’s ability to produce appropriate spatial patterns while capturing extremes. Such downscaling capability enables the generation of extensive km-scale precipitation datasets from existing historical global gauge records and current gauge measurements in areas without high-resolution radar.</p>
 
 
 </main></div>

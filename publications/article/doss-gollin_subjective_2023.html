@@ -2,17 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.56">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Yuhao Liu">
 <meta name="author" content="James Doss-Gollin">
-<meta name="author" content="Guha Balakrishnan">
-<meta name="author" content="Ashok Veeraraghavan">
-<meta name="dcterms.date" content="2024-05-14">
+<meta name="author" content="Klaus Keller">
+<meta name="dcterms.date" content="2023-01-01">
 
-<title>Generative Precipitation Downscaling Using Score-based Diffusion With Wasserstein Regularization – Doss-Gollin Lab @ Rice CEVE</title>
+<title>A Subjective Bayesian Framework for Synthesizing Deep Uncertainties in Climate Risk Management – Doss-Gollin Lab @ Rice CEVE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Generative Precipitation Downscaling Using Score-based Diffusion With Wasserstein Regularization – Doss-Gollin Lab @ Rice CEVE">
+<meta property="og:title" content="A Subjective Bayesian Framework for Synthesizing Deep Uncertainties in Climate Risk Management – Doss-Gollin Lab @ Rice CEVE">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="Doss-Gollin Lab @ Rice CEVE">
 </head>
@@ -128,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Lab Guide</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../ai4climaterrr.rice.edu">
+    <a class="dropdown-item" href="https://ai4climaterrr.rice.edu">
  <span class="dropdown-text">AI 4 Climate Risk and Resilience @ Rice</span></a>
   </li>  
         <li>
@@ -156,33 +154,39 @@ ul.task-list li input[type="checkbox"] {
     <div class="entity-contents">
       <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Generative Precipitation Downscaling Using Score-based Diffusion With Wasserstein Regularization</h1>
+<h1 class="title">A Subjective Bayesian Framework for Synthesizing Deep Uncertainties in Climate Risk Management</h1>
 </div>
 <div class="quarto-title-meta column-page">
     <div>
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
-             <p>Yuhao Liu </p>
              <p>James Doss-Gollin </p>
-             <p>Guha Balakrishnan </p>
-             <p>Ashok Veeraraghavan </p>
+             <p>Klaus Keller </p>
           </div>
   </div>
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 14, 2024</p>
+      <p class="date">January 1, 2023</p>
     </div>
   </div>
   </div>
 </header> <div class="about-links">
-  <a href="https://openreview.net/forum?id=mlpYnp10IQ" class="about-link" rel="" target="">
+  <a href="https://doi.org/10.1029/2022EF003044" class="about-link" rel="" target="">
     <i class="bi bi-link"></i>
-     <span class="about-link-text">Link</span>
+     <span class="about-link-text">DOI: 10.1029/2022EF003044</span>
+  </a>
+  <a href="https://github.com/jdossgollin/2022-elevation-robustness" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Code</span>
+  </a>
+  <a href="https://doi.org/10.1002/essoar.10511798.4" class="about-link" rel="" target="">
+    <i class="bi bi-file-pdf"></i>
+     <span class="about-link-text">Preprint</span>
   </a>
 </div>
       <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-<p>Understanding local risks from extreme rainfall, such as flooding, requires both long records (to sample rare events) and high-resolution products (to assess localized hazards). Unfortunately, there is a dearth of long-record and high-resolution products that can be used to understand local risk and precipitation science. In this paper, we present a novel generative diffusion model that downscales (super-resolves) globally available CPC gauge-based precipitation products and ERA5 reanalysis data to generate kilometer-scale precipitation estimates. Downscaling gauge-based precipitation from 55 km to 1 km while recovering extreme rainfall signals poses significant challenges. To enforce our model (named WassDiff) to produce well-calibrated precipitation intensity values, we introduce a Wasserstein Distance Regularization (WDR) term for the score-matching training objective in the diffusion denoising process. We show that WDR greatly enhances the model’s ability to capture extreme values compared to vanilla diffusion. Extensive evaluation shows that WassDiff has better reconstruction accuracy and bias scores than conventional score-based diffusion models. Case studies of extreme weather phenomena, like tropical storms and cold fronts, demonstrate WassDiff’s ability to produce appropriate spatial patterns while capturing extremes. Such downscaling capability enables the generation of extensive kilometer-scale precipitation datasets from existing historical global gauge records and current gauge measurements in areas without high-resolution radar.</p>
+<p>Projections of nonstationary climate risks can vary considerably from one source to another, posing considerable communication and decision-analytical challenges. One such challenge is how to present trade-offs under deep uncertainty in a salient and interpretable manner. Some common approaches include analyzing a small subset of projections or treating all considered projections as equally likely. These approaches can underestimate risks, hide deep uncertainties, and are mostly silent on which assumptions drive decision-relevant outcomes. Here we introduce and demonstrate a transparent Bayesian framework for synthesizing deep uncertainties to inform climate risk management. The first step of this workflow is to generate an ensemble of simulations representing possible futures and analyze them through standard exploratory modeling techniques. Next, a small set of probability distributions representing subjective beliefs about the likelihood of possible futures is used to weight the scenarios. Finally, these weights are used to compute and characterize trade-offs, conduct robustness checks, and reveal implicit assumptions. We demonstrate the framework through a didactic case study analyzing how high to elevate a house to manage coastal flood risks.</p>
 
 
 </main></div>

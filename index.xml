@@ -9,8 +9,26 @@
 <link>https://dossgollin-lab.github.io/</link>
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.5.56</generator>
-<lastBuildDate>Thu, 22 Aug 2024 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.5.57</generator>
+<lastBuildDate>Fri, 23 Aug 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Announcing AI for Climate Risk and Resilience at Rice</title>
+  <link>https://dossgollin-lab.github.io/posts/2024/2024-08-23-ai4climaterrr.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We’re delighted to announce the launch of a new project, <em>AI for Climate Risk and Resilience at Rice</em> (AI4ClimateRRR), which will bring together researchers from across the university to develop new tools for understanding and addressing climate risks. AI4ClimateRRR is a cluster within the Ken Kennedy Institute. Monthly meetings are available to the Rice community.</p>
+<p>For more, see <a href="https://ai4climaterrr.rice.edu/">the project website</a>.</p>
+
+
+
+ ]]></description>
+  <category>News</category>
+  <guid>https://dossgollin-lab.github.io/posts/2024/2024-08-23-ai4climaterrr.html</guid>
+  <pubDate>Fri, 23 Aug 2024 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Welcome Dongwook!</title>
   <link>https://dossgollin-lab.github.io/posts/2024/2024-08-22-welcome-dongwook.html</link>
@@ -26,24 +44,6 @@
  ]]></description>
   <category>Welcome</category>
   <guid>https://dossgollin-lab.github.io/posts/2024/2024-08-22-welcome-dongwook.html</guid>
-  <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>AI for Climate Risk and Resilience at Rice</title>
-  <link>https://dossgollin-lab.github.io/posts/2024/2024-08-23-ai4climaterrr.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>We’re delighted to announce the launch of a new project, <em>AI for Climate Risk and Resilience at Rice</em> (AI4ClimateRRR), which will bring together researchers from across the university to develop new tools for understanding and addressing climate risks. AI4ClimateRRR is a cluster within the Ken Kennedy Institute. Monthly meetings are available to the Rice community.</p>
-<p>For more, see <a href="https://ai4climaterrr.rice.edu/">the project website</a>.</p>
-
-
-
- ]]></description>
-  <category>News</category>
-  <guid>https://dossgollin-lab.github.io/posts/2024/2024-08-23-ai4climaterrr.html</guid>
   <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -341,18 +341,13 @@ Doss-Gollin, J., Amonkar, Y., Schmeltzer, K., &amp; Cohan, D. (2023). Improving 
 
 
 
-<p>A paper led by Rice PhD student Xiangnan Zhou is now out in <em>Water Resources Research</em> <span class="citation" data-cites="zhou_mesoscale:2022">(Zhou et al., 2023)</span>.</p>
+<p>A paper led by Rice PhD student Xiangnan Zhou is now out in <em>Water Resources Research</em> <span class="citation" data-cites="zhou_mesoscale:2022">(<strong>zhou_mesoscale:2022?</strong>)</span>.</p>
 <p>We know that decentralized water systems can be improve resilient to natural disasters and population growth, though they often require substantial energy. Previous work has shown the importance of carefully considering the spatial layout of these systems, but the computational cost of doing so has limited the size of the systems that can be considered. Here, we present a backbone algorithm for creating physically based water networks that are computationally efficient enough to be used in large-scale optimization problems, yet topologically close to the full network.</p>
-<p>For more, see <a href="../../publications/article/zhou_mesoscale_2022.html">the abstract</a>.</p>
+<p>For more, see <a href="../../publications/article/zhou_mesoscale_2022.qmd">the abstract</a>.</p>
 
 
 
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
-<div id="ref-zhou_mesoscale:2022" class="csl-entry">
-Zhou, X., Duenas-Osorio, L., Doss-Gollin, J., Liu, L., Stadler, L., &amp; Li, Q. (2023). Mesoscale modeling of distributed water systems enables policy search. <em>Water Resources Research</em>, <em>59</em>(5). <a href="https://doi.org/10.1029/2022WR033758">https://doi.org/10.1029/2022WR033758</a>
-</div>
-</div></section></div> ]]></description>
+ ]]></description>
   <category>Publications</category>
   <guid>https://dossgollin-lab.github.io/posts/2023/2023-04-23-mesoscale.html</guid>
   <pubDate>Sun, 23 Apr 2023 00:00:00 GMT</pubDate>
@@ -365,11 +360,9 @@ Zhou, X., Duenas-Osorio, L., Doss-Gollin, J., Liu, L., Stadler, L., &amp; Li, Q.
 
 
 
-<p>Our paper titled “a subjective Bayesian framework for synthesizing deep uncertainties in climate risk management” was just published in the journal Earth’s Future <span class="citation" data-cites="doss-gollin_subjective:2022">(Doss-Gollin &amp; Keller, 2023)</span>.</p>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
-<div id="ref-doss-gollin_subjective:2022" class="csl-entry">
-Doss-Gollin, J., &amp; Keller, K. (2023). A subjective <span>Bayesian</span> framework for synthesizing deep uncertainties in climate risk management. <em>Earth’s Future</em>, <em>11</em>(1). <a href="https://doi.org/10.1029/2022EF003044">https://doi.org/10.1029/2022EF003044</a>
-</div>
+<p>Our paper titled “a subjective Bayesian framework for synthesizing deep uncertainties in climate risk management” was just published in the journal Earth’s Future <span class="citation" data-cites="doss-gollin_subjective:2022">(<strong>doss-gollin_subjective:2022?</strong>)</span>.</p>
+<div id="refs">
+
 </div>
 <p>For a recap, see the Mastodon thread:</p>
 <iframe src="https://fediscience.org/@jdossgollin/109608726903360968/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen">
