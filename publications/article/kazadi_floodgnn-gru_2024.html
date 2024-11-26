@@ -2,29 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Adam Pollack">
-<meta name="author" content="Jentry E. Campbell">
-<meta name="author" content="Madison Condon">
-<meta name="author" content="Courtney Cooper">
-<meta name="author" content="Matteo Coronese">
+<meta name="author" content="Arnold Kazadi">
 <meta name="author" content="James Doss-Gollin">
-<meta name="author" content="Prabhat Hegde">
-<meta name="author" content="Casey Helgeson">
-<meta name="author" content="Jan Kwakkel">
-<meta name="author" content="Corey Lesk">
-<meta name="author" content="Justin Mankin">
-<meta name="author" content="Erin Mayfield">
-<meta name="author" content="Samantha Roth">
-<meta name="author" content="Vivek Srikrishnan">
-<meta name="author" content="Nancy Tuana">
-<meta name="author" content="Klaus Keller">
-<meta name="dcterms.date" content="2024-02-01">
+<meta name="author" content="Antonia Sebastian">
+<meta name="author" content="Arlei Silva">
+<meta name="dcterms.date" content="2024-01-01">
 
-<title>Peer-Reviewed Climate Change Research Has a Transparency Problem. The Scientific Community Needs to Do Better – Doss-Gollin Lab @ Rice CEVE</title>
+<title>FloodGNN-GRU: A Spatio-Temporal Graph Neural Network for Flood Prediction – Doss-Gollin Lab @ Rice CEVE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -52,10 +40,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-29e2c20b02301cfff04dc8050bf30c7e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-d680675395ea457b0dc2e16d704bfe7c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -84,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Peer-Reviewed Climate Change Research Has a Transparency Problem. The Scientific Community Needs to Do Better – Doss-Gollin Lab @ Rice CEVE">
+<meta property="og:title" content="FloodGNN-GRU: A Spatio-Temporal Graph Neural Network for Flood Prediction – Doss-Gollin Lab @ Rice CEVE">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="Doss-Gollin Lab @ Rice CEVE">
 </head>
@@ -168,45 +156,33 @@ ul.task-list li input[type="checkbox"] {
     <div class="entity-contents">
       <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Peer-Reviewed Climate Change Research Has a Transparency Problem. The Scientific Community Needs to Do Better</h1>
+<h1 class="title">FloodGNN-GRU: A Spatio-Temporal Graph Neural Network for Flood Prediction</h1>
 </div>
 <div class="quarto-title-meta column-page">
     <div>
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
-             <p>Adam Pollack </p>
-             <p>Jentry E. Campbell </p>
-             <p>Madison Condon </p>
-             <p>Courtney Cooper </p>
-             <p>Matteo Coronese </p>
+             <p>Arnold Kazadi </p>
              <p>James Doss-Gollin </p>
-             <p>Prabhat Hegde </p>
-             <p>Casey Helgeson </p>
-             <p>Jan Kwakkel </p>
-             <p>Corey Lesk </p>
-             <p>Justin Mankin </p>
-             <p>Erin Mayfield </p>
-             <p>Samantha Roth </p>
-             <p>Vivek Srikrishnan </p>
-             <p>Nancy Tuana </p>
-             <p>Klaus Keller </p>
+             <p>Antonia Sebastian </p>
+             <p>Arlei Silva </p>
           </div>
   </div>
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 1, 2024</p>
+      <p class="date">January 1, 2024</p>
     </div>
   </div>
   </div>
 </header> <div class="about-links">
-  <a href="https://osf.io/29nhv" class="about-link" rel="" target="">
+  <a href="https://doi.org/10.1017/eds.2024.19" class="about-link" rel="" target="">
     <i class="bi bi-link"></i>
-     <span class="about-link-text">Link</span>
+     <span class="about-link-text">DOI: 10.1017/eds.2024.19</span>
   </a>
 </div>
       <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-<p>Mission-oriented climate change research is often unverifiable. Therefore, many stakeholders look to peer-reviewed climate change research for trustworthy information about deeply uncertain and impactful phenomena. This is because peer-review signals that research has been vetted for scientific standards like reproducibility and replicability. Here we evaluate the transparency of research methodologies in mission-oriented computational climate research. We find that only five percent of our sample meets the minimal standard of fully open data and code required for reproducibility and replicability. The widespread lack of minimal openness standards in peer-reviewed climate change research jeopardizes scientific credibility and risks poor societal outcomes as we manage growing climate risks. The scientific community can and must do better. We, the authors, outline necessary openness standards that we commit to as researchers, reviewers, and readers. We invite you to join us.</p>
+<p>Classical approaches for flood prediction apply numerical methods for the solution of partial differential equations that capture the physics of inundation processes (e.g., the 2D Shallow Water equations). However, traditional inundation models are still unable to satisfy the requirements of many relevant applications, including early-warning systems, high-resolution (or large spatial domain) simulations, and robust inference over distributions of inputs (e.g., rainfall events). Machine learning (ML) approaches are a promising alternative to physics-based models due to their ability to efficiently capture correlations between relevant inputs and outputs in a data-driven fashion. In particular, once trained, ML models can be tested/deployed much more efficiently than classical approaches. Yet, few ML-based solutions for spatio-temporal flood prediction have been developed, and their reliability/accuracy is poorly understood. In this paper, we propose FloodGNN-GRU, a spatio-temporal flood prediction model that combines a graph neural network (GNN) and a gated recurrent unit (GRU) architecture. Compared to existing approaches, FloodGNN-GRU (i) employs a graph-based model (GNN); (ii) operates on both spatial and temporal dimensions; and (iii) processes the water flow velocities as vector features, instead of scalar features. We evaluate FloodGNN-GRU using a LISFLOOD-FP simulation of Hurricane Harvey (2017) in Houston, Texas. Our results, based on several metrics, show that FloodGNN-GRU outperforms several data-driven alternatives in terms of accuracy. Moreover, our approach can be trained 100x faster and tested 1000x faster than the time required to run a comparable simulation. These findings illustrate the potential of ML-based methods to efficiently emulate physics-based inundation models, especially for short-term predictions.</p>
 
 
 </main></div>
@@ -289,8 +265,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -406,7 +380,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
