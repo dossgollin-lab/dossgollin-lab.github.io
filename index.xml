@@ -9,8 +9,46 @@
 <link>https://dossgollin-lab.github.io/</link>
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.37</generator>
-<lastBuildDate>Fri, 23 Aug 2024 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.6.39</generator>
+<lastBuildDate>Thu, 05 Dec 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Doss-Gollin Lab at AGU 2024</title>
+  <link>https://dossgollin-lab.github.io/posts/2024/2024-12-05-agu.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We look forward to seeing you at AGU 2024! Our friends at the <a href="https://ai4climaterrr.rice.edu/">AI4ClimateRRR cluster</a> will be at the conference as well – for a list of presentations, see <a href="https://ai4climaterrr.rice.edu/posts/2024-12-05-agu.html">here</a></p>
+<section id="tuesday" class="level3">
+<h3 class="anchored" data-anchor-id="tuesday">Tuesday</h3>
+<ul>
+<li>Poster: <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1709468">GC23D-0279Graph Residual Transformer + Gated Recurrent Unit (GRU) for Global Numerical Weather Prediction</a></li>
+<li>Poster: <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1621742">PP21C-0473Changes in Texas Rainfall Characteristics During the Last Deglaciation in Speleothem Proxies and Water Isotope-enabled Model Simulations</a></li>
+<li>Talk: <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1711820">GC24H-01Assessing and Managing Climate Risks to Electricity Systems in an Era of Climate Change and Energy Transition</a></li>
+<li>Talk: <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1624973">NH23G-06TxRAIN-Observational: A Hierarchical Bayesian Spatial Framework to Assess Nonstationary Rainfall Intensity, Frequency, and Duration in Texas</a></li>
+</ul>
+</section>
+<section id="thursday" class="level3">
+<h3 class="anchored" data-anchor-id="thursday">Thursday</h3>
+<ul>
+<li>Poster Session: <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Session/224843">NH41C - Hybrid Modeling and Digital Twin Systems for Flood Hazard Prediction and Risk Assessment at Different Spatial Scales</a></li>
+<li>Poster: <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1638085">NH41C-2328Pluvial Flood Emulation with Hydraulics-informed Message Passing</a></li>
+</ul>
+</section>
+<section id="friday" class="level3">
+<h3 class="anchored" data-anchor-id="friday">Friday</h3>
+<ul>
+<li>Talk: <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1711605">NH51A-01Advancing Urban Flood Hazard Characterization through Machine Learning: Challenges and Opportunities</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://dossgollin-lab.github.io/posts/2024/2024-12-05-agu.html</guid>
+  <pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Announcing AI for Climate Risk and Resilience at Rice</title>
   <link>https://dossgollin-lab.github.io/posts/2024/2024-08-23-ai4climaterrr.html</link>
@@ -405,23 +443,6 @@ Doss-Gollin, J., Amonkar, Y., Schmeltzer, K., &amp; Cohan, D. (2023). Improving 
   <category>Opportunities</category>
   <guid>https://dossgollin-lab.github.io/posts/2022/2022-11-08-rice-ifce.html</guid>
   <pubDate>Tue, 08 Nov 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Yuchen Lu wins 2022 H.W. Reeves Endowed Scholarship</title>
-  <link>https://dossgollin-lab.github.io/posts/2022/2022-02-08-reeves-yuchen.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Congratulations to <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a>, winner of the 2022 H.W. Reeves Endowed Scholarship, administered by the department of Civil and Environmental Engineering!</p>
-
-
-
- ]]></description>
-  <category>Opportunities</category>
-  <guid>https://dossgollin-lab.github.io/posts/2022/2022-02-08-reeves-yuchen.html</guid>
-  <pubDate>Tue, 08 Feb 2022 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
