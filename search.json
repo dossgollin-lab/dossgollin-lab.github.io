@@ -319,7 +319,7 @@
     "href": "people/index.html#graduate-students",
     "title": "Group Members",
     "section": "Graduate Students",
-    "text": "Graduate Students\n\n\n\n\n\n\n\n\nDongwook Kim\n\n\n\n\nStarted\n\n\nFall 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nYuchen Lu\n\n\n\n\nStarted\n\n\nFall 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nJonah Schaechter\n\n\n\n\nStarted\n\n\nSpring 2024\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Graduate Students\n\n\n\n\n\n\n\n\nDongwook Kim\n\n\n\n\nStarted\n\n\nFall 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nYuchen Lu\n\n\n\n\nStarted\n\n\nFall 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nJonah Schaechter\n\n\n\n\nStarted\n\n\nSpring 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nKatlyn Schmeltzer\n\n\n\n\nStarted\n\n\nSpring 2025\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people/index.html#coadvised-graduate-students",
@@ -364,32 +364,25 @@
     "text": "Hanyang University | Seoul, Republic of KoreaMS in Civil and Environmental System Engineering, 2021\nHanyang University ERICA | Ansan, Republic of KoreaBS in Civil Engineering, 2019"
   },
   {
-    "objectID": "people/undergrad-students/Zain-Rahman.html",
-    "href": "people/undergrad-students/Zain-Rahman.html",
-    "title": "Zain Rahman",
+    "objectID": "people/grad-students/katlyn-schmeltzer.html",
+    "href": "people/grad-students/katlyn-schmeltzer.html",
+    "title": "Katlyn Schmeltzer",
     "section": "",
-    "text": "Email\n  \n  \n    \n     Github\n  \n  \n    \n     LinkedIN\n  \n\n  \n  \n\n\nHey Everyone! My name is Zain Rahman and I’m an Undergraduate student majoring in Computer Science and Finance. I’m orignially from Northern Virginia, and I’m excited to apply neural networks and machine learning applications to the project!\n\n\n\n\nRice University | Houston, TexasComputer Science, 2027"
+    "text": "Github\n  \n  \n    \n     Email\n  \n\n  \n  \n\n\nKatlyn Schmeltzer is an MCEE student in the Civil and Environmental Engineering department at Rice University focusing on environmental engineering. Katlyn completed her BS in Chemistry at Rice University. She is interested in emerging contaminants and hydrologic modeling to inform remediation efforts amid climate change.\n\n\n\n\nRice University | Houston, TX, USABS in Chemistry, 2024"
   },
   {
-    "objectID": "people/undergrad-students/Zain-Rahman.html#bio",
-    "href": "people/undergrad-students/Zain-Rahman.html#bio",
-    "title": "Zain Rahman",
+    "objectID": "people/grad-students/katlyn-schmeltzer.html#bio",
+    "href": "people/grad-students/katlyn-schmeltzer.html#bio",
+    "title": "Katlyn Schmeltzer",
     "section": "",
-    "text": "Hey Everyone! My name is Zain Rahman and I’m an Undergraduate student majoring in Computer Science and Finance. I’m orignially from Northern Virginia, and I’m excited to apply neural networks and machine learning applications to the project!"
+    "text": "Katlyn Schmeltzer is an MCEE student in the Civil and Environmental Engineering department at Rice University focusing on environmental engineering. Katlyn completed her BS in Chemistry at Rice University. She is interested in emerging contaminants and hydrologic modeling to inform remediation efforts amid climate change."
   },
   {
-    "objectID": "people/undergrad-students/Zain-Rahman.html#education",
-    "href": "people/undergrad-students/Zain-Rahman.html#education",
-    "title": "Zain Rahman",
+    "objectID": "people/grad-students/katlyn-schmeltzer.html#education",
+    "href": "people/grad-students/katlyn-schmeltzer.html#education",
+    "title": "Katlyn Schmeltzer",
     "section": "",
-    "text": "Rice University | Houston, TexasComputer Science, 2027"
-  },
-  {
-    "objectID": "people/alumni/kyle-olcott.html",
-    "href": "people/alumni/kyle-olcott.html",
-    "title": "Kyle Olcott",
-    "section": "",
-    "text": "Kyle Olcott is an undergraduate student at Rice University majoring in civil and environmental engineering. Kyle worked on an NSF-funded project exploring decentralized solutions to water security in El Paso’s Colonias. He grew up in the DC Metropolitan Area and is interested in attending law school after graduating to pursue a career in environmental law."
+    "text": "Rice University | Houston, TX, USABS in Chemistry, 2024"
   },
   {
     "objectID": "people/pi/james-doss-gollin.html",
@@ -411,6 +404,34 @@
     "title": "Dr. James Doss-Gollin",
     "section": "",
     "text": "Columbia University | New York, NY, USAPhD in Earth and Environmental Engineering, 2020MS in Earth and Environmental Engineering, 2016\nYale University | New Haven, CT, USABS in Mechanical Engineering, 2015"
+  },
+  {
+    "objectID": "people/alumni/kyle-olcott.html",
+    "href": "people/alumni/kyle-olcott.html",
+    "title": "Kyle Olcott",
+    "section": "",
+    "text": "Kyle Olcott is an undergraduate student at Rice University majoring in civil and environmental engineering. Kyle worked on an NSF-funded project exploring decentralized solutions to water security in El Paso’s Colonias. He grew up in the DC Metropolitan Area and is interested in attending law school after graduating to pursue a career in environmental law."
+  },
+  {
+    "objectID": "people/undergrad-students/Zain-Rahman.html",
+    "href": "people/undergrad-students/Zain-Rahman.html",
+    "title": "Zain Rahman",
+    "section": "",
+    "text": "Email\n  \n  \n    \n     Github\n  \n  \n    \n     LinkedIN\n  \n\n  \n  \n\n\nHey Everyone! My name is Zain Rahman and I’m an Undergraduate student majoring in Computer Science and Finance. I’m orignially from Northern Virginia, and I’m excited to apply neural networks and machine learning applications to the project!\n\n\n\n\nRice University | Houston, TexasComputer Science, 2027"
+  },
+  {
+    "objectID": "people/undergrad-students/Zain-Rahman.html#bio",
+    "href": "people/undergrad-students/Zain-Rahman.html#bio",
+    "title": "Zain Rahman",
+    "section": "",
+    "text": "Hey Everyone! My name is Zain Rahman and I’m an Undergraduate student majoring in Computer Science and Finance. I’m orignially from Northern Virginia, and I’m excited to apply neural networks and machine learning applications to the project!"
+  },
+  {
+    "objectID": "people/undergrad-students/Zain-Rahman.html#education",
+    "href": "people/undergrad-students/Zain-Rahman.html#education",
+    "title": "Zain Rahman",
+    "section": "",
+    "text": "Rice University | Houston, TexasComputer Science, 2027"
   },
   {
     "objectID": "people/grad-students/yuchen-lu.html",
