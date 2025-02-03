@@ -10,7 +10,25 @@
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.6.40</generator>
-<lastBuildDate>Thu, 05 Dec 2024 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 02 Feb 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>NSF Grant to Study Flood Resilience in Rural Texas</title>
+  <link>https://dossgollin-lab.github.io/posts/2024/2025-01-24-nsf-rural-flood.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We’re excited to announce that Rice University, in collaboration with The University of Texas at Austin and Texas A&amp;M University’s Institute for Disaster Resilient Texas (IDRT), has been awarded a $1 million grant from the National Science Foundation’s <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2440167">Confronting Hazards, Impacts and Risks for a Resilient Planet Program (CHIRRP)</a>. Led by PI Avantika Gori and Co-PIs <a href="../../people/pi/james-doss-gollin.html">James Doss-Gollin</a> (Rice), Keri Stephens (UT Austin), and Andrew Juan (TAMU), this three-year project will develop transformative approaches for improving flood resilience in rural Texas communities.</p>
+<p>We aim to create a performance-based framework that bridges critical gaps in flood hazard assessment and mitigation strategies for rural communities. Working with Fort Hancock and Premont, Texas, we will develop new methods to characterize flood risks and co-design mitigation strategies that reflect local priorities. For more details, see the <a href="https://idrt.tamug.edu/idrt-team-builds-upon-drip-work-for-new-nsf-grant/">press relsease from IDRT</a>.</p>
+
+
+
+ ]]></description>
+  <category>News</category>
+  <guid>https://dossgollin-lab.github.io/posts/2024/2025-01-24-nsf-rural-flood.html</guid>
+  <pubDate>Sun, 02 Feb 2025 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Doss-Gollin Lab at AGU 2024</title>
   <link>https://dossgollin-lab.github.io/posts/2024/2024-12-05-agu.html</link>
@@ -427,24 +445,6 @@ Doss-Gollin, J., &amp; Keller, K. (2023). A subjective <span>Bayesian</span> fra
   <category>Publication</category>
   <guid>https://dossgollin-lab.github.io/posts/2023/2023-01-03-ef-elevation-paper.html</guid>
   <pubDate>Tue, 03 Jan 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Undergraduate Research Opportunity: AI for Sustainability and Resilience to Natural Disasters</title>
-  <link>https://dossgollin-lab.github.io/posts/2022/2022-11-08-rice-ifce.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>This position is part of an international collaboration with Doss-Gollin Lab, Arlei Silva (Rice CS), Instituto Federal do Ceará, and Instituto de Inovação para Tecnologia da Informação e Comunicação (Brazil).</p>
-<embed src="../../_assets/pdf/2022-11-08-ifce-rice-senai.pdf" width="100%" height="400" type="application/pdf">
-
-
-
- ]]></description>
-  <category>Opportunities</category>
-  <guid>https://dossgollin-lab.github.io/posts/2022/2022-11-08-rice-ifce.html</guid>
-  <pubDate>Tue, 08 Nov 2022 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
