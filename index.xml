@@ -10,23 +10,49 @@
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.6.40</generator>
-<lastBuildDate>Sun, 02 Feb 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 05 Feb 2025 00:00:00 GMT</lastBuildDate>
 <item>
-  <title>NSF Grant to Study Flood Resilience in Rural Texas</title>
-  <link>https://dossgollin-lab.github.io/posts/2024/2025-01-24-nsf-rural-flood.html</link>
+  <title>New preprint on Bayesian Spatiotemporal Nonstationary Model for Extreme Rainfall</title>
+  <link>https://dossgollin-lab.github.io/posts/2025/2025-02-05-preprint-bayesian-precip.html</link>
   <description><![CDATA[ 
 
 
 
 
-<p>We’re excited to announce that Rice University, in collaboration with The University of Texas at Austin and Texas A&amp;M University’s Institute for Disaster Resilient Texas (IDRT), has been awarded a $1 million grant from the National Science Foundation’s <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2440167">Confronting Hazards, Impacts and Risks for a Resilient Planet Program (CHIRRP)</a>. Led by PI Avantika Gori and Co-PIs <a href="../../people/pi/james-doss-gollin.html">James Doss-Gollin</a> (Rice), Keri Stephens (UT Austin), and Andrew Juan (TAMU), this three-year project will develop transformative approaches for improving flood resilience in rural Texas communities.</p>
-<p>We aim to create a performance-based framework that bridges critical gaps in flood hazard assessment and mitigation strategies for rural communities. Working with Fort Hancock and Premont, Texas, we will develop new methods to characterize flood risks and co-design mitigation strategies that reflect local priorities. For more details, see the <a href="https://idrt.tamug.edu/idrt-team-builds-upon-drip-work-for-new-nsf-grant/">press relsease from IDRT</a>.</p>
+<p>Our preprint, led by <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> and titled “Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the Western Gulf Coast”, is now live on ArXiV <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu et al., 2025)</span>.</p>
+<p>Extreme rainfall events are becoming more frequent and intense due to climate change, posing significant risks to communities and infrastructure. Traditional methods for estimating rainfall probabilities often assume that these patterns are stationary over time, which can lead to underestimations of future risks. However, efforts to incorporate this nonstationarity have typically struggled with the challenge of robustly estimating trends in extremes given limited data.</p>
+<p>To address this gap, we developed a Bayesian statistical model that incorporates nonstationarity and regionalization, providing more accurate estimates of extreme rainfall probabilities. Our model, validated through rigorous testing, reveals increasing trends in extreme rainfall across the Western Gulf Coast, highlighting the need for updated risk assessments and infrastructure planning. This approach can be applied to other hazards and regions to improve risk assessment and is especially relevant for site-scale flood-risk management applications like stormwater management.</p>
+<p>Our paper is currently undergoing peer review, so results should be treated as preliminary. For more details, see <a href="../../publications/forthcoming/lu_spatiotemporal_2025.html">the publication page</a>.</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
+<div id="ref-lu_spatiotemporal:2025" class="csl-entry">
+Lu, Y., Lee, B. S., &amp; Doss-Gollin, J. (2025, February 4). Bayesian <span>Spatiotemporal Nonstationary Model Quantifies Robust Increases</span> in <span>Daily Extreme Rainfall Across</span> the <span>Western Gulf Coast</span>. <a href="https://doi.org/10.48550/arXiv.2502.02000">https://doi.org/10.48550/arXiv.2502.02000</a>
+</div>
+</div></section></div> ]]></description>
+  <category>Publications</category>
+  <guid>https://dossgollin-lab.github.io/posts/2025/2025-02-05-preprint-bayesian-precip.html</guid>
+  <pubDate>Wed, 05 Feb 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>NSF Grant to Study Flood Resilience in Rural Texas</title>
+  <link>https://dossgollin-lab.github.io/posts/2025/2025-01-24-nsf-rural-flood.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We’re excited to announce that Rice University, in collaboration with The University of Texas at Austin and Texas A&amp;M University’s Institute for Disaster Resilient Texas (IDRT), has been awarded a $1 million grant from the National Science Foundation’s Confronting Hazards, Impacts and Risks for a Resilient Planet Program (CHIRRP). <a href="../../people/pi/james-doss-gollin.html">James Doss-Gollin</a> and <a href="https://gori.blogs.rice.edu/team/">Avantika Gori</a> (Rice) will join Keri Stephens (UT Austin), and Andrew Juan (TAMU) on a project to develop transformative approaches for improving flood resilience in rural Texas communities.</p>
+<p>The project aims to create a performance-based framework that bridges critical gaps in flood hazard assessment and mitigation strategies for rural communities. Working in the rural communities of <a href="https://maps.app.goo.gl/au1qoQeuwNLF7Pp68">Fort Hancock</a> and <a href="https://maps.app.goo.gl/XxeSF3fvVr41vHXE7">Premont</a>, Texas, we will develop new methods to characterize flood risks and co-design mitigation strategies that reflect local priorities. We’re particularly focused on identifying adaptations that address both frequent and extreme flood events, and that are scalable to communities with similar characteristics.</p>
+<p>For more details, see the <a href="https://idrt.tamug.edu/idrt-team-builds-upon-drip-work-for-new-nsf-grant/">press release from IDRT</a> or <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2440167">the NSF award</a>).</p>
 
 
 
  ]]></description>
   <category>News</category>
-  <guid>https://dossgollin-lab.github.io/posts/2024/2025-01-24-nsf-rural-flood.html</guid>
+  <guid>https://dossgollin-lab.github.io/posts/2025/2025-01-24-nsf-rural-flood.html</guid>
   <pubDate>Sun, 02 Feb 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -407,44 +433,6 @@ Doss-Gollin, J., Amonkar, Y., Schmeltzer, K., &amp; Cohan, D. (2023). Improving 
   <category>Publications</category>
   <guid>https://dossgollin-lab.github.io/posts/2023/2023-04-23-mesoscale.html</guid>
   <pubDate>Sun, 23 Apr 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Paper bridging DMDU and probabilistic frameworks published in Earth’s Future</title>
-  <link>https://dossgollin-lab.github.io/posts/2023/2023-01-03-ef-elevation-paper.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Our paper titled “a subjective Bayesian framework for synthesizing deep uncertainties in climate risk management” was just published in the journal Earth’s Future <span class="citation" data-cites="doss-gollin_subjective:2023">(Doss-Gollin &amp; Keller, 2023)</span>.</p>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
-<div id="ref-doss-gollin_subjective:2023" class="csl-entry">
-Doss-Gollin, J., &amp; Keller, K. (2023). A subjective <span>Bayesian</span> framework for synthesizing deep uncertainties in climate risk management. <em>Earth’s Future</em>, <em>11</em>(1). <a href="https://doi.org/10.1029/2022EF003044">https://doi.org/10.1029/2022EF003044</a>
-</div>
-</div>
-<p>For a recap, see the Mastodon thread:</p>
-<iframe src="https://fediscience.org/@jdossgollin/109608726903360968/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen">
-</iframe>
-<script src="https://fediscience.org/embed.js" async="async"></script>
-<iframe src="https://fediscience.org/@jdossgollin/109608726927115153/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen">
-</iframe>
-<script src="https://fediscience.org/embed.js" async="async"></script>
-<iframe src="https://fediscience.org/@jdossgollin/109608726963454336/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen">
-</iframe>
-<script src="https://fediscience.org/embed.js" async="async"></script>
-<iframe src="https://fediscience.org/@jdossgollin/109608726986285112/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen">
-</iframe>
-<script src="https://fediscience.org/embed.js" async="async"></script>
-<iframe src="https://fediscience.org/@jdossgollin/109608727009172242/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen">
-</iframe>
-<script src="https://fediscience.org/embed.js" async="async"></script>
-
-
-
- ]]></description>
-  <category>Publication</category>
-  <guid>https://dossgollin-lab.github.io/posts/2023/2023-01-03-ef-elevation-paper.html</guid>
-  <pubDate>Tue, 03 Jan 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
