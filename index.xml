@@ -9,8 +9,100 @@
 <link>https://dossgollin-lab.github.io/</link>
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.41</generator>
-<lastBuildDate>Wed, 05 Feb 2025 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.6.42</generator>
+<lastBuildDate>Wed, 02 Apr 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Join Us at the Texas Climate Conference 2025</title>
+  <link>https://dossgollin-lab.github.io/posts/2025/2025-04-02-texas-climate-conference.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://si.rice.edu/sites/g/files/bxs5416/files/inline-images/TX%20Climate%20Conference-Header.jpg" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Texas Climate Conference</figcaption>
+</figure>
+</div>
+<p>We are excited to invite you to the <strong>Texas Climate Conference 2025</strong>, a 1.5-day event at Rice University on April 10-11, 2025. This conference will bring together scientists, policymakers, and community stakeholders to discuss science and solutions on four critical Texas climate themes:</p>
+<ul>
+<li><strong>Extreme Heat</strong></li>
+<li><strong>Flooding and Water Resources</strong></li>
+<li><strong>Sea Level Rise and Coastal Hazards</strong></li>
+<li><strong>Human Health</strong></li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+More info
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For more details and registration, visit the <a href="https://si.rice.edu/texas-climate-conference-2025">conference website</a>.</p>
+</div>
+</div>
+<section id="event-highlights" class="level3">
+<h3 class="anchored" data-anchor-id="event-highlights">Event Highlights</h3>
+<ul>
+<li><strong>Keynote Address</strong> by Katharine Hayhoe (The Nature Conservancy): “Climate Change in the Gulf Coast: Challenges, Opportunities, Solutions”</li>
+<li><strong>Thematic Keynotes</strong> on extreme heat, flooding, sea level rise, and health challenges</li>
+<li><strong>Networking Opportunities</strong> for students and early-career researchers</li>
+<li><strong>Working Group Sessions</strong> to develop actionable strategies for climate resilience</li>
+</ul>
+<p>We hope to see you there!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Events</category>
+  <guid>https://dossgollin-lab.github.io/posts/2025/2025-04-02-texas-climate-conference.html</guid>
+  <pubDate>Wed, 02 Apr 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Successful Nature-Based Solutions Workshop at Rice University</title>
+  <link>https://dossgollin-lab.github.io/posts/2025/2025-03-03-nbs-workshop.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We are thrilled to share the success of the <strong>Nature-Based Solutions for a Resilient Gulf Coast Workshop</strong>, held on March 3-4, 2025, at Rice University. This two-day event, funded by the Rice Sustainability Institute, Rice Creative Ventures, and Rice Water Institute, with administrative support from the Rice SSPEED Center, brought together experts from academia, government, non-profits, and industry to discuss innovative strategies for enhancing resilience through nature-based solutions (NBS) in the Gulf Coast region.</p>
+<div class="center">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://dossgollin-lab.github.io/_assets/img/research/2025-03-03-nbs-workshop.jpg" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Dr.&nbsp;Phil Bedient (Rice), True Furrh (Rice), Dr.&nbsp;Nick Fang (UT Arlington), Dr.&nbsp;Noemi Vergopolan (Rice), Dr.&nbsp;James Doss-Gollin (Rice), Jerry Cotter, and Dr.&nbsp;Fouad Jaber (TAMU AgriLife) following the Inland Flood &amp; Hydrologic Modeling/ Rainfall &amp; Climate Impacts panel</figcaption>
+</figure>
+</div>
+</div>
+<section id="workshop-highlights" class="level2">
+<h2 class="anchored" data-anchor-id="workshop-highlights">Workshop Highlights</h2>
+<p>The workshop featured:</p>
+<ul>
+<li><strong>Technical presentations</strong> on quantifying NBS benefits, design strategies, and co-production with communities.</li>
+<li><strong>Interactive breakout sessions</strong> where participants worked collaboratively to identify challenges and opportunities for NBS implementation.</li>
+<li><strong>Panel discussions</strong> with representatives from academia, government, and industry, focusing on fostering partnerships and scaling solutions.</li>
+<li><strong>Networking opportunities</strong> to build connections and strengthen collaborations among attendees.</li>
+</ul>
+<p>Participants shared insights, discussed ongoing research, and explored actionable strategies to advance NBS implementation across the Gulf Coast.</p>
+</section>
+<section id="thank-you" class="level2">
+<h2 class="anchored" data-anchor-id="thank-you">Thank You!</h2>
+<p>A heartfelt thank you to the attendees, sponsors, organizers, and staff. We look forward to continuing these important conversations and building on the connections established during the workshop.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Events</category>
+  <guid>https://dossgollin-lab.github.io/posts/2025/2025-03-03-nbs-workshop.html</guid>
+  <pubDate>Mon, 03 Mar 2025 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Bayesian Model Reveals Rising Extreme Rainfall on Gulf Coast</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-02-05-preprint-bayesian-precip.html</link>
@@ -401,44 +493,6 @@ Doss-Gollin, J., Amonkar, Y., Schmeltzer, K., &amp; Cohan, D. (2023). Improving 
   <category>Announcements</category>
   <guid>https://dossgollin-lab.github.io/posts/2023/2023-08-14-env-advising.html</guid>
   <pubDate>Mon, 14 Aug 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Published: theorizing modular, adaptive, and decentralized water systems</title>
-  <link>https://dossgollin-lab.github.io/posts/2023/2023-07-12-mad-water.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>A paper resulting from an exciting interdisciplinary workshop on “MAD” (Modular, Adaptive, and Decentralized) water systems is now published.</p>
-<p>Centralized water systems are a truly awesome accomplishment, but they face financial, climatic, and governance stressors and aren’t going to meet the needs of every person in every community. Modular, Adaptive, and Decentralized approaches to water harvesting, treatment, distribution, monitoring, and governance can help! At the same time, there are key risks and limitations. In general, MAD water is not intrinsically good or bad, but it’s an emerging phenomenon and opportunity that water folks should pay attention to.</p>
-<p>I had a ton of fun collaborating with new colleagues, especially those with social science expertise. This is a pretty accessible read, with lots of examples and jargon restricted to what the whole team was able to follow. For more, see <a href="../../publications/article/wutich_madwater_2023.html">the abstract</a>.</p>
-
-
-
- ]]></description>
-  <category>Publications</category>
-  <guid>https://dossgollin-lab.github.io/posts/2023/2023-07-12-mad-water.html</guid>
-  <pubDate>Wed, 12 Jul 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>New paper on mesoscale modeling of distributed water systems</title>
-  <link>https://dossgollin-lab.github.io/posts/2023/2023-04-23-mesoscale.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>A paper led by Rice PhD student Xiangnan Zhou is now out in <em>Water Resources Research</em> <span class="citation" data-cites="zhou_mesoscale:2022">(<strong>zhou_mesoscale:2022?</strong>)</span>.</p>
-<p>We know that decentralized water systems can be improve resilient to natural disasters and population growth, though they often require substantial energy. Previous work has shown the importance of carefully considering the spatial layout of these systems, but the computational cost of doing so has limited the size of the systems that can be considered. Here, we present a backbone algorithm for creating physically based water networks that are computationally efficient enough to be used in large-scale optimization problems, yet topologically close to the full network.</p>
-<p>For more, see <a href="../../publications/article/zhou_mesoscale_2022.qmd">the abstract</a>.</p>
-
-
-
- ]]></description>
-  <category>Publications</category>
-  <guid>https://dossgollin-lab.github.io/posts/2023/2023-04-23-mesoscale.html</guid>
-  <pubDate>Sun, 23 Apr 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
