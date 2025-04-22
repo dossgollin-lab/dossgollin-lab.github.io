@@ -91,11 +91,11 @@
     "text": "We are an inclusive and mission-oriented group addressing fundamental challenges in infrastructure resilience, risk assessment, and climate adaptation. Specifically, we are motivated by two related problems. First, how can we understand and predict weather and climate hazards? Second, how can we use this information to design adaptive, sustainable, equitable, and robust risk management strategies?\nTo accomplish this, we leverage tools from Earth science (e.g., hydrology, atmospheric science), data science (e.g., graph neural nets, Bayesian extreme value models), and decision science (e.g., decision making under deep uncertainty, optimization). We apply these methods to complex problems in coastal resilience, urban flood risk management, energy reliability, and water resources.\nFor more information, please see our publications."
   },
   {
-    "objectID": "research.html#funding",
-    "href": "research.html#funding",
+    "objectID": "research.html#research-support",
+    "href": "research.html#research-support",
     "title": "Research",
-    "section": "Funding",
-    "text": "Funding\nWe gratefully acknowedge the support of our funders.\n\nActive Funders\n\n\n\n\n\n\n\n\n\nTexas Water Development Board\n\n\n\n\n \n\n\n\n\n\nNational Science Foundation\n\n\n\n\n \n\n\n\n\n\nNVIDIA\n\n\n\n\n \n\n\n\n\n\nEleven Labs\n\n\n\n\n \n\n\n \n\n\n\n\n\nPast Funders\n\n\n\n\n\n\n\n\n\n100,000 Strong in the Americas"
+    "section": "Research Support",
+    "text": "Research Support\nWe would like to thank the following organizations for their research funding and/or in-kind support.\n\nActive Support\n\n\n\n\n\n\n\n\n\nTexas Water Development Board\n\n\n\n\n \n\n\n\n\n\nNational Science Foundation\n\n\n\n\n \n\n\n\n\n\nNVIDIA Academic Grant Program\n\n\n\n\n \n\n\n\n\n\nEleven Labs\n\n\n\n\n\n\n\n\n\nKen Kennedy Institute\n\n\n\n\n \n\n\n \n\n\n \n\n\n\n\n\nPast Support\n\n\n\n\n\n\n\n\n\n100,000 Strong in the Americas\n\n\n\n\n \n\n\n\n\n\nRice Creative Ventures"
   },
   {
     "objectID": "posts/2022/2022-11-08-rice-ifce.html",
@@ -634,7 +634,7 @@
     "href": "joinus.html",
     "title": "Join Us",
     "section": "",
-    "text": "We are an inclusive group driven by our intellectual curiosity and sense of purpose. Join us to use Earth science, decision science, data science, and engineering to address critical societal challenges!\n\n\n\n\n\n\nLearn more\n\n\n\nRead our lab guide to learn more about our expectations and culture.\n\n\n\n\nUndergraduates\nThere is support for motivated undergraduates to work for pay or credit. See the lab guide’s instructions for prospective undergraduates.\n\n\nGraduate Students\nWe are not recruiting graduate students to start in Spring 2025, but may have openings for Fall 2025. All positions are funded.\n\n\nPostdocs\nWe are not actively recruiting a postdoc, but there are fellowships and flexible funds available for an outstanding candidate.\n\n\n\n\nHow to apply\nEmail James a 1-2 page research statement describing the project you would like to carry out.\n\n\nHow to apply\nGraduate admissions are handled through a formal application to the department. See the lab guide’s instructions for prospective graduate students.\n\n\nHow to apply\nIf you’re interested, please email a CV and 2-3 page research statement to James. This research statement should clearly describe the project you would like to carry out, how it fits with our lab’s expertise, what skillset you can bring to bear to the project, and what skills you would like to develop."
+    "text": "We are an inclusive group driven by our intellectual curiosity and sense of purpose. Join us to use Earth science, decision science, data science, and engineering to address critical societal challenges!\n\n\n\n\n\n\nLearn more\n\n\n\nRead our lab guide to learn more about our expectations and culture.\n\n\n\n\nUndergraduates\nThere is support for motivated undergraduates to work for pay or credit. See the lab guide’s instructions for prospective undergraduates.\n\n\nGraduate Students\nIn light of the evolving federal science funding landscape, we are not actively recruiting graduate students at this time. Students with external funding are welcome to apply.\n\n\nPostdocs\nWe are not actively recruiting a postdoc at this time.\n\n\n\n\nHow to apply\nEmail James a 1-2 page research statement describing the project you would like to carry out.\n\n\nHow to apply\nGraduate admissions are handled through a formal application to the department. See the lab guide’s instructions for prospective graduate students.\n\n\nHow to apply\nIf you’re interested, please email a CV and 2-3 page research statement to James. This research statement should clearly describe the project you would like to carry out, how it fits with our lab’s expertise, what skillset you can bring to bear to the project, and what skills you would like to develop."
   },
   {
     "objectID": "teaching/2024-spring-ceve-421-521.html",
