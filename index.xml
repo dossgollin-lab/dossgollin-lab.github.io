@@ -9,8 +9,38 @@
 <link>https://dossgollin-lab.github.io/</link>
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.43</generator>
-<lastBuildDate>Wed, 02 Apr 2025 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.7.29</generator>
+<lastBuildDate>Wed, 30 Apr 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Congratulations to Yuchen Lu for Passing Her Thesis Proposal!</title>
+  <link>https://dossgollin-lab.github.io/posts/2025/2025-04-30-yuchen-proposal.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We are thrilled to announce that <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> has successfully passed her thesis proposal defense titled “Probabilistic Analysis of Nonstationary Hydroclimate Extremes!” ]This marks a significant milestone as Yuchen becomes the first PhD candidate in our research group.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://dossgollin-lab.github.io/_assets/img/news/2025-04-30-yuchen-proposal.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Yuchen and her committee members</figcaption>
+</figure>
+</div>
+<p>Yuchen presented her research with confidence and expertise, demonstrating a deep understanding of nonstationary hydroclimate extremes and her innovative approaches to probabilistic analysis. Her work promises to make significant contributions to our understanding of changing extreme weather patterns and their implications for infrastructure design and risk management. Her first paper is already under review <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu, Lee, and Doss-Gollin 2025)</span>, and future work is forthcoming.</p>
+<p>We would like to express our sincere gratitude to her committee members, Dr.&nbsp;Phil Bedient, Dr.&nbsp;Katherine Ensor, and Dr.&nbsp;Avantika Gori, for their thoughtful feedback and guidance throughout this process.</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="ref-lu_spatiotemporal:2025" class="csl-entry">
+Lu, Yuchen, Ben Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian <span>Spatiotemporal Nonstationary Model Quantifies Robust Increases</span> in <span>Daily Extreme Rainfall Across</span> the <span>Western Gulf Coast</span>.”</span> February 4, 2025. <a href="https://doi.org/10.48550/arXiv.2502.02000">https://doi.org/10.48550/arXiv.2502.02000</a>.
+</div>
+</div></section></div> ]]></description>
+  <category>Congratulations</category>
+  <guid>https://dossgollin-lab.github.io/posts/2025/2025-04-30-yuchen-proposal.html</guid>
+  <pubDate>Wed, 30 Apr 2025 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Join Us at the Texas Climate Conference 2025</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-04-02-texas-climate-conference.html</link>
@@ -111,7 +141,7 @@ More info
 
 
 
-<p>Our preprint, led by <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> and titled “Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the Western Gulf Coast”, is now live on ArXiV <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu et al., 2025)</span>.</p>
+<p>Our preprint, led by <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> and titled “Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the Western Gulf Coast”, is now live on ArXiV <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu, Lee, and Doss-Gollin 2025)</span>.</p>
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
 <p>We develop a novel Bayesian hierarchical model, the Spatially Varying Covariates Model, to address the challenges of estimating nonstationary extreme precipitation probabilities. Traditional models often assume stationarity, potentially underestimating risks due to climate change. Our model integrates nonstationarity and regionalization, leveraging spatial statistics and extreme value theory to provide robust estimates of extreme precipitation events. We validate our approach using daily rainfall data from the Western Gulf Coast, revealing significant increases in extreme precipitation intensity and variability, particularly around Houston and New Orleans.</p>
@@ -125,9 +155,9 @@ More info
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
 <div id="ref-lu_spatiotemporal:2025" class="csl-entry">
-Lu, Y., Lee, B. S., &amp; Doss-Gollin, J. (2025, February 4). Bayesian <span>Spatiotemporal Nonstationary Model Quantifies Robust Increases</span> in <span>Daily Extreme Rainfall Across</span> the <span>Western Gulf Coast</span>. <a href="https://doi.org/10.48550/arXiv.2502.02000">https://doi.org/10.48550/arXiv.2502.02000</a>
+Lu, Yuchen, Ben Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian <span>Spatiotemporal Nonstationary Model Quantifies Robust Increases</span> in <span>Daily Extreme Rainfall Across</span> the <span>Western Gulf Coast</span>.”</span> February 4, 2025. <a href="https://doi.org/10.48550/arXiv.2502.02000">https://doi.org/10.48550/arXiv.2502.02000</a>.
 </div>
 </div></section></div> ]]></description>
   <category>Publications</category>
@@ -234,7 +264,7 @@ Lu, Y., Lee, B. S., &amp; Doss-Gollin, J. (2025, February 4). Bayesian <span>Spa
 
 
 
-<p>Our paper titled “Pluvial Flood Emulation with Hydraulics-informed Message Passing” has been accepted to the 2024 International Conference on Machine Learning (ICML) <span class="citation" data-cites="kazadi_icml:2024">(Kazadi et al., 2024)</span>.</p>
+<p>Our paper titled “Pluvial Flood Emulation with Hydraulics-informed Message Passing” has been accepted to the 2024 International Conference on Machine Learning (ICML) <span class="citation" data-cites="kazadi_icml:2024">(Kazadi, Doss-Gollin, and Silva 2024)</span>.</p>
 <p>Given a geographical region and precipitation data, our model predicts water depths in an auto-regressive fashion using a message-passing framework inspired by the conservation of momentum and mass as expressed in the shallow-water equations. This allows the model to effectively capture the propagation of water flow, particularly during the early stages of flooding when the water is scarce.</p>
 <p>Our empirical results, based on a dataset covering 9 regions and 7 historical precipitation events, demonstrate that our model outperforms existing baselines, providing accurate simulations even in complex topographies. This solution achieves accurate results using real ground elevation data. Additionally, our model excels in predicting flood dynamics for unseen storms and watersheds, showcasing its robustness and generalization capabilities.</p>
 <p>For more details, see <a href="../../publications/conference/kazadi_icml_2024.html">here</a>. This is an exciting space, and we are looking forward to sharing more updates on our ongoing research in this critical area!</p>
@@ -242,9 +272,9 @@ Lu, Y., Lee, B. S., &amp; Doss-Gollin, J. (2025, February 4). Bayesian <span>Spa
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
 <div id="ref-kazadi_icml:2024" class="csl-entry">
-Kazadi, A., Doss-Gollin, J., &amp; Silva, A. (2024). Pluvial flood emulation with hydraulics-informed message passing. In <em>Forty-<span>First International Conference</span> on <span>Machine Learning</span></em>. Retrieved from <a href="https://openreview.net/forum?id=kIHIA6Lr0B">https://openreview.net/forum?id=kIHIA6Lr0B</a>
+Kazadi, Arnold, James Doss-Gollin, and Arlei Silva. 2024. <span>“Pluvial Flood Emulation with Hydraulics-Informed Message Passing.”</span> In <em>Forty-<span>First International Conference</span> on <span>Machine Learning</span></em>. <a href="https://openreview.net/forum?id=kIHIA6Lr0B">https://openreview.net/forum?id=kIHIA6Lr0B</a>.
 </div>
 </div></section></div> ]]></description>
   <category>Publications</category>
@@ -315,15 +345,15 @@ Kazadi, A., Doss-Gollin, J., &amp; Silva, A. (2024). Pluvial flood emulation wit
 
 
 
-<p>A new paper <span class="citation" data-cites="singh_potential:2024">(Singh et al., 2024)</span> in the journal <em>Environmental Research Letters</em> examines shows that increasing solar and wind energy capacity could help keep the lights on during widespread hot and cold spells across the U.S. The study found that solar and wind energy potential often increases during the types of large-scale heat waves and cold snaps that drive up energy demand and can cause power outages. While wind potential varied by region, solar potential was higher during both hot and cold extremes in nearly every part of the country. The findings suggest that expanding renewable energy could boost grid reliability while also reducing emissions.</p>
+<p>A new paper <span class="citation" data-cites="singh_potential:2024">(Singh et al. 2024)</span> in the journal <em>Environmental Research Letters</em> examines shows that increasing solar and wind energy capacity could help keep the lights on during widespread hot and cold spells across the U.S. The study found that solar and wind energy potential often increases during the types of large-scale heat waves and cold snaps that drive up energy demand and can cause power outages. While wind potential varied by region, solar potential was higher during both hot and cold extremes in nearly every part of the country. The findings suggest that expanding renewable energy could boost grid reliability while also reducing emissions.</p>
 <p>For more, see <a href="../../publications/article/singh_potential_2024.html">the paper</a> or read <a href="https://twitter.com/ClimateChirper/status/1774821916924363142">this Twitter thread</a>.</p>
 
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
 <div id="ref-singh_potential:2024" class="csl-entry">
-Singh, D., Bekris, Y. S., Rogers, C. D. W., Doss-Gollin, J., Coffel, E. D., &amp; Kalashnikov, D. A. (2024). Enhanced solar and wind potential during widespread temperature extremes across the <span>U</span>.<span>S</span>. Interconnected energy grids. <em>Environmental Research Letters</em>, <em>19</em>(4), 044018. <a href="https://doi.org/10.1088/1748-9326/ad2e72">https://doi.org/10.1088/1748-9326/ad2e72</a>
+Singh, Deepti, Yianna S. Bekris, Cassandra D. W. Rogers, James Doss-Gollin, Ethan D. Coffel, and Dmitri A. Kalashnikov. 2024. <span>“Enhanced Solar and Wind Potential During Widespread Temperature Extremes Across the <span>U</span>.<span>S</span>. Interconnected Energy Grids.”</span> <em>Environmental Research Letters</em> 19 (4): 044018. <a href="https://doi.org/10.1088/1748-9326/ad2e72">https://doi.org/10.1088/1748-9326/ad2e72</a>.
 </div>
 </div></section></div> ]]></description>
   <category>Publications</category>
@@ -413,13 +443,13 @@ Singh, D., Bekris, Y. S., Rogers, C. D. W., Doss-Gollin, J., Coffel, E. D., &amp
 
 
 
-<p>Our paper titled “Differential effects of climate change on average and peak demand for heating and cooling across the contiguous USA” was just published in the journal Communications Earth &amp; Environment <span class="citation" data-cites="amonkar_heatingcooling:2023">(Amonkar et al., 2023)</span>.</p>
+<p>Our paper titled “Differential effects of climate change on average and peak demand for heating and cooling across the contiguous USA” was just published in the journal Communications Earth &amp; Environment <span class="citation" data-cites="amonkar_heatingcooling:2023">(Amonkar et al. 2023)</span>.</p>
 <p>In this paper, we examine how climate change has impacted average and peak demands for heating (i.e., in the winter) and cooling (i.e., in the summer) in the United States in the observational record. This is an important problem because energy systems, including electricity systems with high shares of renewable energy, must be designed to meet peak demand. We find that while climate change has increased average and peak demand for cooling, but that peak demand for heating, which is an important driver of electricity demand in the winter, is dominated by year to year variability. System design and management must take rare winter peaks into account, especially as building heating electrifies.</p>
 <p>For more, see <a href="../../publications/article/wutich_madwater_2023.html">the abstract</a>.</p>
 <p><img src="https://dossgollin-lab.github.io/_assets/img/pubs/amonkar_heatingcooling_2023.png" class="img-fluid" style="width:100.0%"></p>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
 <div id="ref-amonkar_heatingcooling:2023" class="csl-entry">
-Amonkar, Y., Doss-Gollin, J., Farnham, D. J., Modi, V., &amp; Lall, U. (2023). Differential effects of climate change on average and peak demand for heating and cooling across the contiguous <span>USA</span>. <em>Communications Earth &amp; Environment</em>, <em>4</em>(1, 1), 1–9. <a href="https://doi.org/10.1038/s43247-023-01048-1">https://doi.org/10.1038/s43247-023-01048-1</a>
+Amonkar, Yash, James Doss-Gollin, David J. Farnham, Vijay Modi, and Upmanu Lall. 2023. <span>“Differential Effects of Climate Change on Average and Peak Demand for Heating and Cooling Across the Contiguous <span>USA</span>.”</span> <em>Communications Earth &amp; Environment</em> 4 (1, 1): 1–9. <a href="https://doi.org/10.1038/s43247-023-01048-1">https://doi.org/10.1038/s43247-023-01048-1</a>.
 </div>
 </div>
 
@@ -461,38 +491,20 @@ Amonkar, Y., Doss-Gollin, J., Farnham, D. J., Modi, V., &amp; Lall, U. (2023). D
 
 
 <p>Our review paper titled “Improving the representation of climate risks in long-term electricity systems planning: a critical review” has been published in the journal Current Sustainable/Renewable Energy Reports.</p>
-<p>In this paper <span class="citation" data-cites="doss-gollin_review:2023">(Doss-Gollin et al., 2023)</span>, we review the literature on long-term electricity systems planning under climate change and identify key gaps in the representation of climate risks.</p>
+<p>In this paper <span class="citation" data-cites="doss-gollin_review:2023">(Doss-Gollin et al. 2023)</span>, we review the literature on long-term electricity systems planning under climate change and identify key gaps in the representation of climate risks.</p>
 <p>For more information, including a link to the open-access preprint, see <a href="../../publications/article/doss-gollin_review_2023.html">the abstract</a>.</p>
 
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
 <div id="ref-doss-gollin_review:2023" class="csl-entry">
-Doss-Gollin, J., Amonkar, Y., Schmeltzer, K., &amp; Cohan, D. (2023). Improving the representation of climate risks in long-term electricity systems planning: A critical review. <em>Current Sustainable/Renewable Energy Reports</em>. <a href="https://doi.org/10.1007/s40518-023-00224-3">https://doi.org/10.1007/s40518-023-00224-3</a>
+Doss-Gollin, James, Yash Amonkar, Katlyn Schmeltzer, and Daniel Cohan. 2023. <span>“Improving the Representation of Climate Risks in Long-Term Electricity Systems Planning: A Critical Review.”</span> <em>Current Sustainable/Renewable Energy Reports</em>, August. <a href="https://doi.org/10.1007/s40518-023-00224-3">https://doi.org/10.1007/s40518-023-00224-3</a>.
 </div>
 </div></section></div> ]]></description>
   <category>Publications</category>
   <guid>https://dossgollin-lab.github.io/posts/2023/2023-08-16-review.html</guid>
   <pubDate>Wed, 16 Aug 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>New student advising booklet for undergraduate environmental education at Rice</title>
-  <link>https://dossgollin-lab.github.io/posts/2023/2023-08-14-env-advising.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>A new student advising <a href="https://trei.rice.edu/education" target="_blank">booklet</a> for environmental education at Rice has been published. This booklet seeks to provide a comprehensive overview of the environmental education opportunities <em>for undergraduates</em> at Rice, including courses, minors, and certificates.</p>
-<p>Thanks to all who contributed to this effort, and especially to <a href="https://profiles.rice.edu/faculty/sylvia-dee" target="_blank">Dr.&nbsp;Sylvia Dee</a> for leading the effort.</p>
-
-
-
- ]]></description>
-  <category>Announcements</category>
-  <guid>https://dossgollin-lab.github.io/posts/2023/2023-08-14-env-advising.html</guid>
-  <pubDate>Mon, 14 Aug 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
