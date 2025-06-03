@@ -9,8 +9,32 @@
 <link>https://dossgollin-lab.github.io/</link>
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.7.29</generator>
-<lastBuildDate>Wed, 30 Apr 2025 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.7.31</generator>
+<lastBuildDate>Sun, 01 Jun 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>James on Telemundo Special Bajo la Amenaza del Golfo</title>
+  <link>https://dossgollin-lab.github.io/posts/2025/2025-06-01-telemundo.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>James Doss-Gollin was interviewed by <a href="https://www.linkedin.com/in/pablosancheztv/">Pablo Sánchez Núñez</a> of Telemundo Houston for a special report titled “Bajo la Amenaza del Golfo” (Under the Threat of the Gulf). The program explored the risks of hurricanes and other extreme weather events facing Houston, and the region’s ongoing efforts to build resilience. A brief segment from James’s interview was featured. This was a wonderful opportunity to connect with Spanish-speaking members of the community!</p>
+<p>You can watch the segment <a href="https://www.telemundohouston.com/noticias/bajo-la-amenaza-del-golfo-parte-1-2/2494095/">here</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://dossgollin-lab.github.io/_assets/img/news/2025-06-01-telemundo.png" class="img-fluid figure-img"></p>
+<figcaption>James and Pablo</figcaption>
+</figure>
+</div>
+
+
+
+ ]]></description>
+  <category>News</category>
+  <guid>https://dossgollin-lab.github.io/posts/2025/2025-06-01-telemundo.html</guid>
+  <pubDate>Sun, 01 Jun 2025 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Congratulations to Yuchen Lu for Passing Her Thesis Proposal!</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-04-30-yuchen-proposal.html</link>
@@ -481,30 +505,6 @@ Amonkar, Yash, James Doss-Gollin, David J. Farnham, Vijay Modi, and Upmanu Lall.
   <category>Publications</category>
   <guid>https://dossgollin-lab.github.io/posts/2023/2023-10-13-sspeed.html</guid>
   <pubDate>Fri, 13 Oct 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Published: review paper on climate risks to electricity systems</title>
-  <link>https://dossgollin-lab.github.io/posts/2023/2023-08-16-review.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Our review paper titled “Improving the representation of climate risks in long-term electricity systems planning: a critical review” has been published in the journal Current Sustainable/Renewable Energy Reports.</p>
-<p>In this paper <span class="citation" data-cites="doss-gollin_review:2023">(Doss-Gollin et al. 2023)</span>, we review the literature on long-term electricity systems planning under climate change and identify key gaps in the representation of climate risks.</p>
-<p>For more information, including a link to the open-access preprint, see <a href="../../publications/article/doss-gollin_review_2023.html">the abstract</a>.</p>
-
-
-
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
-<div id="ref-doss-gollin_review:2023" class="csl-entry">
-Doss-Gollin, James, Yash Amonkar, Katlyn Schmeltzer, and Daniel Cohan. 2023. <span>“Improving the Representation of Climate Risks in Long-Term Electricity Systems Planning: A Critical Review.”</span> <em>Current Sustainable/Renewable Energy Reports</em>, August. <a href="https://doi.org/10.1007/s40518-023-00224-3">https://doi.org/10.1007/s40518-023-00224-3</a>.
-</div>
-</div></section></div> ]]></description>
-  <category>Publications</category>
-  <guid>https://dossgollin-lab.github.io/posts/2023/2023-08-16-review.html</guid>
-  <pubDate>Wed, 16 Aug 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
