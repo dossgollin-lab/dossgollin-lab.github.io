@@ -9,8 +9,58 @@
 <link>https://dossgollin-lab.github.io/</link>
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.7.31</generator>
-<lastBuildDate>Sun, 01 Jun 2025 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Wed, 18 Jun 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Call for Abstracts: AGU Fall Meeting 2025 Sessions</title>
+  <link>https://dossgollin-lab.github.io/posts/2025/2025-06-18-agu2025-sessions.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The abstract submission deadline for AGU Fall Meeting 2025 is approaching! <a href="../../people/pi/james-doss-gollin.html">James</a> is co-convening three exciting sessions that span the interdisciplinary challenges at the intersection of natural hazards, human systems, and decision-making under uncertainty. We encourage submissions from researchers across disciplines who are working on these critical challenges.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Submit Your Abstract!
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Don’t miss the opportunity to share your research and connect with leading experts in these areas. Visit the <a href="https://www.agu.org/fall-meeting">AGU Fall Meeting website</a> for submission guidelines and deadlines.</p>
+</div>
+</div>
+<p>These sessions represent exciting opportunities to engage with cutting-edge research that bridges disciplines and advances our understanding of complex environmental challenges. Questions about any of these sessions? Feel free to <a href="../../contact.html">reach out</a>!</p>
+<section id="session-1-multisector-dynamics-and-uncertainty" class="level2">
+<h2 class="anchored" data-anchor-id="session-1-multisector-dynamics-and-uncertainty">Session 1: MultiSector Dynamics and Uncertainty</h2>
+<p><strong><a href="https://agu.confex.com/agu/agu25/prelim.cgi/Session/250235">GC081 - MultiSector Dynamics: Uncertainty Characterization for Coupled Natural-Human Systems</a></strong></p>
+<p>Multi-sector and coupled natural-human systems often feature complex adaptive dynamics, including feedbacks and tipping points, and involve many uncertainties. However, models of coupled natural-human systems often fail to characterize uncertainty and its propagation across systems. This session invites contributions addressing the challenge of uncertainty characterization for systems that bridge sectors (e.g., energy, water, transportation) and scales to understand their dynamics and improve decision-making.</p>
+<p><strong>Conveners:</strong> Abigail Nora Birnbaum (PNNL), James Doss-Gollin (Rice), Jonathan Lamontagne (Tufts), Vivek Srikrishnan (Cornell)</p>
+</section>
+<section id="session-2-urban-flood-risk-assessment" class="level2">
+<h2 class="anchored" data-anchor-id="session-2-urban-flood-risk-assessment">Session 2: Urban Flood Risk Assessment</h2>
+<p><strong><a href="https://agu.confex.com/agu/agu25/prelim.cgi/Session/251344">NH001 - Advances in Urban Flood Risk Assessment and Adaptation</a></strong></p>
+<p>Flooding is the natural hazard with the greatest economic and social impacts in the United States. This session invites contributions aimed at improving the understanding and quantification of urban flood risks, including multi-scale hazards, exposure and vulnerability dynamics, model validation, stakeholder engagement insights, and adaptation strategies that leverage generalizable insights across watersheds.</p>
+<p><strong>Conveners:</strong> James Doss-Gollin (Rice), Adam Pollack (Dartmouth), Vivek Srikrishnan (Cornell), Abby Sullivan (Philadelphia Office of Sustainability), Marissa Webber (UNC Chapel Hill)</p>
+</section>
+<section id="session-3-catastrophe-modeling-and-disaster-resilience" class="level2">
+<h2 class="anchored" data-anchor-id="session-3-catastrophe-modeling-and-disaster-resilience">Session 3: Catastrophe Modeling and Disaster Resilience</h2>
+<p><strong><a href="https://agu.confex.com/agu/agu25/prelim.cgi/Session/249693">NH026 - Interdisciplinary Advances in Catastrophe Modeling and Disaster Resilience: Bridging Science, Policy, and Practice</a></strong></p>
+<p>Climate change and growing exposure drive increases in the frequency and impact of natural hazards, emphasizing the need for accurate, ethical, and actionable catastrophe models. This session seeks interdisciplinary approaches that integrate geophysical, hydrological, and socio-technical systems, with particular encouragement for submissions exploring ethical, equity, and policy-relevant dimensions of catastrophe modeling.</p>
+<p><strong>Conveners:</strong> Benjamin S Felzer (Lehigh), James Doss-Gollin (Rice), Avantika Gori (Rice), Yi-Chen Ethan Yang (UMASS)</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Events</category>
+  <category>AGU</category>
+  <guid>https://dossgollin-lab.github.io/posts/2025/2025-06-18-agu2025-sessions.html</guid>
+  <pubDate>Wed, 18 Jun 2025 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>James on Telemundo Special Bajo la Amenaza del Golfo</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-06-01-telemundo.html</link>
@@ -483,28 +533,6 @@ Amonkar, Yash, James Doss-Gollin, David J. Farnham, Vijay Modi, and Upmanu Lall.
   <category>Publication</category>
   <guid>https://dossgollin-lab.github.io/posts/2023/2023-11-01-amonkar-paper.html</guid>
   <pubDate>Wed, 01 Nov 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>James Presents at SSPEED Center Conference</title>
-  <link>https://dossgollin-lab.github.io/posts/2023/2023-10-13-sspeed.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Dr.&nbsp;Doss-Gollin is presenting on 10/15 at the <a href="https://www.sspeed.rice.edu/conference-2023">SSPEED Conference</a>.</p>
-<ul>
-<li>Session: Machine Learning for Flood Prediction and Management</li>
-<li>Title: A Spatiotemporal Hierarchical Bayesian Model for Nonstationary Intensity-Duration-Frequency Curves</li>
-<li>Slides: posted at <a href="https://jdossgollin.github.io/presentations-site/slides-public/2023-10-13-sspeed.html">jdossgollin.github.io/presentations-site/slides-public/2023-10-13-sspeed.html</a></li>
-</ul>
-
-
-
- ]]></description>
-  <category>Publications</category>
-  <guid>https://dossgollin-lab.github.io/posts/2023/2023-10-13-sspeed.html</guid>
-  <pubDate>Fri, 13 Oct 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
