@@ -9,7 +9,7 @@
 <link>https://dossgollin-lab.github.io/</link>
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.7.32</generator>
+<generator>quarto-1.7.33</generator>
 <lastBuildDate>Tue, 08 Jul 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Updated Thoughts on the Guadalupe Flood</title>
@@ -161,7 +161,7 @@ Submit Your Abstract!
 <figcaption>Yuchen and her committee members</figcaption>
 </figure>
 </div>
-<p>Yuchen presented her research with confidence and expertise, demonstrating a deep understanding of nonstationary hydroclimate extremes and her innovative approaches to probabilistic analysis. Her work promises to make significant contributions to our understanding of changing extreme weather patterns and their implications for infrastructure design and risk management. Her first paper is already under review <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu, Lee, and Doss-Gollin 2025)</span>, and future work is forthcoming.</p>
+<p>Yuchen presented her research with confidence and expertise, demonstrating a deep understanding of nonstationary hydroclimate extremes and her innovative approaches to probabilistic analysis. Her work promises to make significant contributions to our understanding of changing extreme weather patterns and their implications for infrastructure design and risk management. Her first paper is already under review <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu, Seiyon Lee, and Doss-Gollin 2025)</span>, and future work is forthcoming.</p>
 <p>We would like to express our sincere gratitude to her committee members, Dr.&nbsp;Phil Bedient, Dr.&nbsp;Katherine Ensor, and Dr.&nbsp;Avantika Gori, for their thoughtful feedback and guidance throughout this process.</p>
 
 
@@ -169,7 +169,7 @@ Submit Your Abstract!
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
 <div id="ref-lu_spatiotemporal:2025" class="csl-entry">
-Lu, Yuchen, Ben Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian <span>Spatiotemporal Nonstationary Model Quantifies Robust Increases</span> in <span>Daily Extreme Rainfall Across</span> the <span>Western Gulf Coast</span>.”</span> February 4, 2025. <a href="https://doi.org/10.48550/arXiv.2502.02000">https://doi.org/10.48550/arXiv.2502.02000</a>.
+Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the <span>Western Gulf Coast</span>.”</span> <em>Environmental Research: Climate</em> 4 (3): 035016. <a href="https://doi.org/10.1088/2752-5295/adf56e">https://doi.org/10.1088/2752-5295/adf56e</a>.
 </div>
 </div></section></div> ]]></description>
   <category>Congratulations</category>
@@ -276,7 +276,7 @@ More info
 
 
 
-<p>Our preprint, led by <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> and titled “Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the Western Gulf Coast”, is now live on ArXiV <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu, Lee, and Doss-Gollin 2025)</span>.</p>
+<p>Our preprint, led by <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> and titled “Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the Western Gulf Coast”, is now live on ArXiV <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu, Seiyon Lee, and Doss-Gollin 2025)</span>.</p>
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
 <p>We develop a novel Bayesian hierarchical model, the Spatially Varying Covariates Model, to address the challenges of estimating nonstationary extreme precipitation probabilities. Traditional models often assume stationarity, potentially underestimating risks due to climate change. Our model integrates nonstationarity and regionalization, leveraging spatial statistics and extreme value theory to provide robust estimates of extreme precipitation events. We validate our approach using daily rainfall data from the Western Gulf Coast, revealing significant increases in extreme precipitation intensity and variability, particularly around Houston and New Orleans.</p>
@@ -284,7 +284,7 @@ More info
 </section>
 <section id="read-more" class="level2">
 <h2 class="anchored" data-anchor-id="read-more">Read More</h2>
-<p>Our paper is currently undergoing peer review, so results should be treated as preliminary. For more details, see <a href="../../publications/forthcoming/lu_spatiotemporal_2025.html">here</a>.</p>
+<p>Our paper is currently undergoing peer review, so results should be treated as preliminary. For more details, see <a href="../../publications/forthcoming/lu_spatiotemporal_2025.qmd">here</a>.</p>
 
 
 
@@ -292,7 +292,7 @@ More info
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
 <div id="ref-lu_spatiotemporal:2025" class="csl-entry">
-Lu, Yuchen, Ben Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian <span>Spatiotemporal Nonstationary Model Quantifies Robust Increases</span> in <span>Daily Extreme Rainfall Across</span> the <span>Western Gulf Coast</span>.”</span> February 4, 2025. <a href="https://doi.org/10.48550/arXiv.2502.02000">https://doi.org/10.48550/arXiv.2502.02000</a>.
+Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the <span>Western Gulf Coast</span>.”</span> <em>Environmental Research: Climate</em> 4 (3): 035016. <a href="https://doi.org/10.1088/2752-5295/adf56e">https://doi.org/10.1088/2752-5295/adf56e</a>.
 </div>
 </div></section></div> ]]></description>
   <category>Publications</category>
