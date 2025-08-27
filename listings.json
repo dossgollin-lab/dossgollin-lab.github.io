@@ -18,6 +18,17 @@
     ]
   },
   {
+    "listing": "/teaching.html",
+    "items": [
+      "/teaching/2024-fall-ceve-101.html",
+      "/teaching/2024-spring-ceve-421-521.html",
+      "/teaching/2023-fall-ceve-543.html",
+      "/teaching/2023-spring-ceve-421-521.html",
+      "/teaching/2022-spring-ceve-543.html",
+      "/teaching/2021-fall-ceve-101.html"
+    ]
+  },
+  {
     "listing": "/publications/index.html",
     "items": [
       "/publications/article/lu_spatiotemporal_2025.html",
@@ -92,19 +103,9 @@
     ]
   },
   {
-    "listing": "/teaching.html",
-    "items": [
-      "/teaching/2024-fall-ceve-101.html",
-      "/teaching/2024-spring-ceve-421-521.html",
-      "/teaching/2023-fall-ceve-543.html",
-      "/teaching/2023-spring-ceve-421-521.html",
-      "/teaching/2022-spring-ceve-543.html",
-      "/teaching/2021-fall-ceve-101.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
+      "/posts/2025/2025-08-26-lu-spatiotemporal.html",
       "/posts/2025/2025-07-08-guadalupe-flood.html",
       "/posts/2025/2025-06-18-agu2025-sessions.html",
       "/posts/2025/2025-06-01-telemundo.html",

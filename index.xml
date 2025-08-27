@@ -10,7 +10,44 @@
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.7.33</generator>
-<lastBuildDate>Tue, 08 Jul 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 26 Aug 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Bayesian Spatiotemporal Model Published in Environmental Research: Climate</title>
+  <link>https://dossgollin-lab.github.io/posts/2025/2025-08-26-lu-spatiotemporal.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Congratulations to <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> on her first first-author paper, “Bayesian spatiotemporal nonstationary model quantifies robust increases in daily extreme rainfall across the Western Gulf Coast,” which has been published open-access in Environmental Research: Climate <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu, Seiyon Lee, and Doss-Gollin 2025)</span>!</p>
+<p>This research represents the first step in Yuchen’s work, funded by Rice and the Texas Water Development Board, on incorporating robust estimates of nonstationarity into precipitation frequency estimates. She is currently working with colleagues at TAMU and TWDB to incorporate these insights and methods into Intensity-Duration-Frequency (IDF) curves for Texas, and we will be presenting updates at the upcoming AGU Fall meeting.</p>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>We develop the Spatially Varying Covariates Model, a novel Bayesian hierarchical framework that integrates nonstationarity and regionalization to address the challenges of estimating extreme precipitation probabilities. Traditional models like NOAA Atlas 14 assume stationarity, potentially underestimating current and future risks due to climate change. Our model leverages spatial statistics, extreme value theory, and Bayesian inference to provide robust estimates that pool information across nearby locations while allowing for temporal trends.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://dossgollin-lab.github.io/_assets/img/pubs/lu_spatiotemporal_2025.png" class="img-fluid figure-img"></p>
+<figcaption>Out-of-sample validation results showing the model’s ability to predict at ungauged locations</figcaption>
+</figure>
+</div>
+<p>Applying this framework to daily rainfall data from the Western Gulf Coast, we identify robustly increasing trends in extreme precipitation intensity and variability throughout the study area, with notable spatial heterogeneity. The findings indicate a 10-35% increase in extreme rainfall over the past 80 years, with the largest changes around Houston and New Orleans. Through rigorous cross-validation, we demonstrate that our estimates are well-calibrated and reliable, even at ungauged locations.</p>
+<p>Compared to NOAA Atlas 14, our model suggests that current guidelines may underestimate future risks in many locations, highlighting the need for updated engineering designs that account for climate change impacts. Future projections for 2050 indicate that return levels will exceed current guidelines at most locations across the region.</p>
+<p>Shout out also to coauthor Ben Seiyon Lee for patiently sharing his insights and expertise, and to colleagues at Rice, AGU, STAHY 2023, and ER: Climate for helpful suggestions and discussion.</p>
+<p>For more details, see <a href="../../publications/published/lu_spatiotemporal_2025.qmd">here</a>.</p>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="ref-lu_spatiotemporal:2025" class="csl-entry">
+Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the <span>Western Gulf Coast</span>.”</span> <em>Environmental Research: Climate</em> 4 (3): 035016. <a href="https://doi.org/10.1088/2752-5295/adf56e">https://doi.org/10.1088/2752-5295/adf56e</a>.
+</div>
+</div></section></div> ]]></description>
+  <category>Publications</category>
+  <guid>https://dossgollin-lab.github.io/posts/2025/2025-08-26-lu-spatiotemporal.html</guid>
+  <pubDate>Tue, 26 Aug 2025 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Updated Thoughts on the Guadalupe Flood</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-07-08-guadalupe-flood.html</link>
@@ -552,23 +589,6 @@ Singh, Deepti, Yianna S. Bekris, Cassandra D. W. Rogers, James Doss-Gollin, Etha
   <category>Publication</category>
   <guid>https://dossgollin-lab.github.io/posts/2023/2023-12-10-pollack-osf.html</guid>
   <pubDate>Sun, 10 Dec 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>James presents at STAHY 2023</title>
-  <link>https://dossgollin-lab.github.io/posts/2023/2023-11-11-jdg-stahy.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><a href="../../people/pi/james-doss-gollin.html">James</a> presented work led by Ph.D.&nbsp;student <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> and with GMU’s Ben Seiyon Lee at the <a href="https://drive.google.com/file/d/1oDXot_L1fcT43-55tkbU3pArizKmj8xb/view">STAHY 2023</a> conference in Boston, MA. The talk was titled “A Bayesian Spatial Hierarchical Framework for Process-Informed Nonstationary Analysis of Precipitation Frequencies” and is available <a href="https://jamesdossgollin.me/presentations-site/slides-public/2023-11-10-stahy.html#/title-slide">online</a>.</p>
-
-
-
- ]]></description>
-  <category>Publication</category>
-  <guid>https://dossgollin-lab.github.io/posts/2023/2023-11-11-jdg-stahy.html</guid>
-  <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

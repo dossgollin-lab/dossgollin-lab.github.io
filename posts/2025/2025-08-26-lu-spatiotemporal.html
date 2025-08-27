@@ -6,12 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Yuchen Lu">
-<meta name="author" content="Benjamin Seiyon Lee">
-<meta name="author" content="James Doss-Gollin">
-<meta name="dcterms.date" content="2025-08-01">
+<meta name="dcterms.date" content="2025-08-26">
 
-<title>Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the Western Gulf Coast – Doss-Gollin Lab @ Rice CEVE</title>
+<title>Bayesian Spatiotemporal Model Published in Environmental Research: Climate – Doss-Gollin Lab @ Rice CEVE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,7 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -39,6 +56,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -72,15 +90,15 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the Western Gulf Coast – Doss-Gollin Lab @ Rice CEVE">
-<meta property="og:description" content="">
+<meta property="og:title" content="Bayesian Spatiotemporal Model Published in Environmental Research: Climate – Doss-Gollin Lab @ Rice CEVE">
+<meta property="og:description" content="Yuchen Lu’s first-author paper demonstrates robust increases in Gulf Coast extreme rainfall using novel statistical framework.">
 <meta property="og:image" content="https://dossgollin-lab.github.io/_assets/img/pubs/lu_spatiotemporal_2025.png">
 <meta property="og:site_name" content="Doss-Gollin Lab @ Rice CEVE">
 <meta property="og:image:height" content="892">
 <meta property="og:image:width" content="1378">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -149,53 +167,76 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-solana column-page">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the Western Gulf Coast</h1>
-</div>
-<div class="quarto-title-meta column-page">
-    <div>
-    <div class="quarto-title-meta-heading">Authors</div>
-    <div class="quarto-title-meta-contents">
-             <p>Yuchen Lu </p>
-             <p>Benjamin Seiyon Lee </p>
-             <p>James Doss-Gollin </p>
-          </div>
+<h1 class="title">Bayesian Spatiotemporal Model Published in Environmental Research: Climate</h1>
+<p class="subtitle lead">Yuchen Lu’s first-author paper demonstrates robust increases in Gulf Coast extreme rainfall using novel statistical framework.</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Publications</div>
   </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 1, 2025</p>
+      <p class="date">August 26, 2025</p>
     </div>
   </div>
+  
+    
   </div>
-</header> <div class="about-links">
-  <a href="https://doi.org/10.1088/2752-5295/adf56e" class="about-link" rel="" target="">
-    <i class="bi bi-link"></i>
-     <span class="about-link-text">DOI: 10.1088/2752-5295/adf56e</span>
-  </a>
-</div>
-      <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-<p>Precipitation exceedance probabilities are widely used in engineering design, risk assessment, and floodplain management. While common approaches like National Oceanographic and Atmospheric Administration (NOAA) Atlas 14 assume that extreme precipitation characteristics are stationary over time, this assumption may underestimate current and future hazards due to anthropogenic climate change. However, the incorporation of nonstationarity in statistical modeling of extreme precipitation has faced practical challenges, which have restricted its applications. In particular, random sampling variability challenges the reliable estimation of trends and parameters, especially when observational records are limited. To address this methodological gap, we propose the Spatially Varying Covariates Model, a hierarchical Bayesian spatial framework that integrates nonstationarity and regionalization for robust frequency analysis of extreme precipitation. This model draws from extreme value theory, spatial statistics, and Bayesian statistics, and is validated through cross-validation and multiple performance metrics. Applying this framework to a case study of daily rainfall in the Western Gulf Coast, we identify robustly increasing trends in extreme precipitation intensity and variability throughout the study area, with notable spatial heterogeneity. This flexible model accommodates stations with varying observation records, yields smooth return level estimates, and can be straightforwardly adapted to the analysis of precipitation frequencies at different durations and for other regions.</p>
+  
 
 
-</main></div>
-    </div>
-    <img src="../../_assets/img/pubs/lu_spatiotemporal_2025.png" class="about-image
-  rounded " style="width: 15em;">
-  </div>
+</header>
+
+
+<p>Congratulations to <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> on her first first-author paper, “Bayesian spatiotemporal nonstationary model quantifies robust increases in daily extreme rainfall across the Western Gulf Coast,” which has been published open-access in Environmental Research: Climate <span class="citation" data-cites="lu_spatiotemporal:2025">(<a href="#ref-lu_spatiotemporal:2025" role="doc-biblioref">Lu, Seiyon Lee, and Doss-Gollin 2025</a>)</span>!</p>
+<p>This research represents the first step in Yuchen’s work, funded by Rice and the Texas Water Development Board, on incorporating robust estimates of nonstationarity into precipitation frequency estimates. She is currently working with colleagues at TAMU and TWDB to incorporate these insights and methods into Intensity-Duration-Frequency (IDF) curves for Texas, and we will be presenting updates at the upcoming AGU Fall meeting.</p>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>We develop the Spatially Varying Covariates Model, a novel Bayesian hierarchical framework that integrates nonstationarity and regionalization to address the challenges of estimating extreme precipitation probabilities. Traditional models like NOAA Atlas 14 assume stationarity, potentially underestimating current and future risks due to climate change. Our model leverages spatial statistics, extreme value theory, and Bayesian inference to provide robust estimates that pool information across nearby locations while allowing for temporal trends.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../_assets/img/pubs/lu_spatiotemporal_2025.png" class="img-fluid figure-img"></p>
+<figcaption>Out-of-sample validation results showing the model’s ability to predict at ungauged locations</figcaption>
+</figure>
 </div>
- <!-- /main -->
+<p>Applying this framework to daily rainfall data from the Western Gulf Coast, we identify robustly increasing trends in extreme precipitation intensity and variability throughout the study area, with notable spatial heterogeneity. The findings indicate a 10-35% increase in extreme rainfall over the past 80 years, with the largest changes around Houston and New Orleans. Through rigorous cross-validation, we demonstrate that our estimates are well-calibrated and reliable, even at ungauged locations.</p>
+<p>Compared to NOAA Atlas 14, our model suggests that current guidelines may underestimate future risks in many locations, highlighting the need for updated engineering designs that account for climate change impacts. Future projections for 2050 indicate that return levels will exceed current guidelines at most locations across the region.</p>
+<p>Shout out also to coauthor Ben Seiyon Lee for patiently sharing his insights and expertise, and to colleagues at Rice, AGU, STAHY 2023, and ER: Climate for helpful suggestions and discussion.</p>
+<p>For more details, see <a href="../../publications/published/lu_spatiotemporal_2025.qmd">here</a>.</p>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-lu_spatiotemporal:2025" class="csl-entry" role="listitem">
+Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the <span>Western Gulf Coast</span>.”</span> <em>Environmental Research: Climate</em> 4 (3): 035016. <a href="https://doi.org/10.1088/2752-5295/adf56e">https://doi.org/10.1088/2752-5295/adf56e</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
