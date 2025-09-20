@@ -54,7 +54,7 @@
 <p>Applying this framework to daily rainfall data from the Western Gulf Coast, we identify robustly increasing trends in extreme precipitation intensity and variability throughout the study area, with notable spatial heterogeneity. The findings indicate a 10-35% increase in extreme rainfall over the past 80 years, with the largest changes around Houston and New Orleans. Through rigorous cross-validation, we demonstrate that our estimates are well-calibrated and reliable, even at ungauged locations.</p>
 <p>Compared to NOAA Atlas 14, our model suggests that current guidelines may underestimate future risks in many locations, highlighting the need for updated engineering designs that account for climate change impacts. Future projections for 2050 indicate that return levels will exceed current guidelines at most locations across the region.</p>
 <p>Shout out also to coauthor Ben Seiyon Lee for patiently sharing his insights and expertise, and to colleagues at Rice, AGU, STAHY 2023, and ER: Climate for helpful suggestions and discussion.</p>
-<p>For more details, see <a href="../../publications/published/lu_spatiotemporal_2025.qmd">here</a>.</p>
+<p>For more details, see <a href="../../bibliography/publications/article/lu_spatiotemporal_2025.html">here</a>.</p>
 
 
 
@@ -342,7 +342,7 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
 </section>
 <section id="read-more" class="level2">
 <h2 class="anchored" data-anchor-id="read-more">Read More</h2>
-<p>Our paper is currently undergoing peer review, so results should be treated as preliminary. For more details, see <a href="../../publications/forthcoming/lu_spatiotemporal_2025.qmd">here</a>.</p>
+<p>Our paper is currently undergoing peer review, so results should be treated as preliminary. For more details, see <a href="../../bibliography/publications/article/lu_spatiotemporal_2025.html">here</a>.</p>
 
 
 
@@ -460,7 +460,7 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
 <p>Our paper titled “Pluvial Flood Emulation with Hydraulics-informed Message Passing” has been accepted to the 2024 International Conference on Machine Learning (ICML) <span class="citation" data-cites="kazadi_icml:2024">(Kazadi, Doss-Gollin, and Silva 2024)</span>.</p>
 <p>Given a geographical region and precipitation data, our model predicts water depths in an auto-regressive fashion using a message-passing framework inspired by the conservation of momentum and mass as expressed in the shallow-water equations. This allows the model to effectively capture the propagation of water flow, particularly during the early stages of flooding when the water is scarce.</p>
 <p>Our empirical results, based on a dataset covering 9 regions and 7 historical precipitation events, demonstrate that our model outperforms existing baselines, providing accurate simulations even in complex topographies. This solution achieves accurate results using real ground elevation data. Additionally, our model excels in predicting flood dynamics for unseen storms and watersheds, showcasing its robustness and generalization capabilities.</p>
-<p>For more details, see <a href="../../publications/conference/kazadi_icml_2024.html">here</a>. This is an exciting space, and we are looking forward to sharing more updates on our ongoing research in this critical area!</p>
+<p>For more details, see <a href="../../bibliography/publications/conference/kazadi_icml_2024.html">here</a>. This is an exciting space, and we are looking forward to sharing more updates on our ongoing research in this critical area!</p>
 
 
 
@@ -539,7 +539,7 @@ Kazadi, Arnold, James Doss-Gollin, and Arlei Silva. 2024. <span>“Pluvial Flood
 
 
 <p>A new paper <span class="citation" data-cites="singh_potential:2024">(Singh et al. 2024)</span> in the journal <em>Environmental Research Letters</em> examines shows that increasing solar and wind energy capacity could help keep the lights on during widespread hot and cold spells across the U.S. The study found that solar and wind energy potential often increases during the types of large-scale heat waves and cold snaps that drive up energy demand and can cause power outages. While wind potential varied by region, solar potential was higher during both hot and cold extremes in nearly every part of the country. The findings suggest that expanding renewable energy could boost grid reliability while also reducing emissions.</p>
-<p>For more, see <a href="../../publications/article/singh_potential_2024.html">the paper</a> or read <a href="https://twitter.com/ClimateChirper/status/1774821916924363142">this Twitter thread</a>.</p>
+<p>For more, see <a href="../../bibliography/publications/article/singh_potential_2024.html">the paper</a> or read <a href="https://twitter.com/ClimateChirper/status/1774821916924363142">this Twitter thread</a>.</p>
 
 
 
