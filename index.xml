@@ -9,7 +9,7 @@
 <link>https://dossgollin-lab.github.io/</link>
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.7.34</generator>
+<generator>quarto-1.8.24</generator>
 <lastBuildDate>Tue, 02 Sep 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>CERCAT Funding for Tropical Cyclone Hazard Assessment Project</title>
@@ -145,7 +145,7 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Submit Your Abstract!
+<span class="screen-reader-only">Important</span>Submit Your Abstract!
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -261,7 +261,7 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-More info
+<span class="screen-reader-only">Tip</span>More info
 </div>
 </div>
 <div class="callout-body-container callout-body">
