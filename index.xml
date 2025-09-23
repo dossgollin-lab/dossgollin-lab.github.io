@@ -10,10 +10,49 @@
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.24</generator>
-<lastBuildDate>Tue, 02 Sep 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 23 Sep 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>New Paper on AI for Climate Published in IEEE TGRS</title>
+  <link>https://dossgollin-lab.github.io/posts/2025/2025-09-02-cercat-tropical-cyclone copy.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A new paper “Downscaling Extreme Precipitation with Wasserstein Regularized Diffusion,” published in IEEE Transactions on Geoscience and Remote Sensing <span class="citation" data-cites="liu_generative:2025">(Liu et al. 2025)</span>. This work is led by <a href="https://www.yuhaoliu.net/">Yuhao Liu</a>, a PhD student in Electrical and Computer Engineering, and is the culmination of extensive brainstorming and research collaboration with coauthors <a href="https://www.ece.rice.edu/~ashok/">Ashok Veeraraghavan</a>, <a href="https://www.ece.rice.edu/~guha/">Guha Balakrishnan</a>, and Qiushi Dai as well as <a href="../../people/pi/james-doss-gollin.html">James Doss-Gollin</a>.</p>
+<p>Many assessments of rainfall and flood hazard require high-resolution precipitation data (e.g., 1-4 km). While coarse global datasets from reanalysis products exist, and fine-grained radar data is available for recent years, there is a critical gap in producing long-term, high-resolution historical datasets needed for robust climate and hydrological modeling. Existing deep learning methods for this <em>downscaling</em> or <em>super-resolution</em> task often fail to accurately capture the statistical properties of the most extreme, and therefore most dangerous, events.</p>
+<p>We developed Wasserstein Regularized Diffusion (<code>WassDiff</code>), a novel generative AI framework. Unlike other diffusion models that can replicate the general distribution of rainfall, <code>WassDiff</code> is specifically designed to get the tails of the distribution right. It integrates a Wasserstein distribution-matching regularizer directly into the denoising process. This forces the model to pay close attention to the frequency and magnitude of extreme values, reducing the biases commonly seen in generative models for climate data.</p>
+<p>Experiments show that <code>WassDiff</code> generates high-resolution precipitation fields that are more physically realistic and statistically accurate than those from competing models. It more faithfully reproduces the spatial patterns and, most importantly, the statistical characteristics of extreme rainfall, making it a more reliable tool for climate impact studies.</p>
+<p>This work provides a significant step forward for both the machine learning and climate science communities. By creating more reliable high-resolution precipitation data, <code>WassDiff</code> can help scientists and engineers better assess flood risk, design more resilient infrastructure, and ultimately improve our understanding of how climate change impacts local communities.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Access
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We are happy to share a copy upon request if you don’t have access to this journal.</p>
+</div>
+</div>
+
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="ref-liu_generative:2025" class="csl-entry">
+Liu, Yuhao, James Doss-Gollin, Qiushi Dai, Ashok Veeraraghavan, and Guha Balakrishnan. 2025. <span>“Downscaling <span>Extreme Precipitation</span> with <span>Wasserstein Regularized Diffusion</span>.”</span> <em>IEEE Transactions on Geoscience and Remote Sensing</em>, 1–1. <a href="https://doi.org/10.1109/TGRS.2025.3611872">https://doi.org/10.1109/TGRS.2025.3611872</a>.
+</div>
+</div></section></div> ]]></description>
+  <category>Publications</category>
+  <guid>https://dossgollin-lab.github.io/posts/2025/2025-09-02-cercat-tropical-cyclone copy.html</guid>
+  <pubDate>Tue, 23 Sep 2025 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>CERCAT Funding for Tropical Cyclone Hazard Assessment Project</title>
-  <link>https://dossgollin-lab.github.io/posts/2025/2025-09-02-cercat-tropical-cyclone.html</link>
+  <link>https://dossgollin-lab.github.io/posts/2025/2025-09-23-liu-generative.html</link>
   <description><![CDATA[ 
 
 
@@ -29,7 +68,7 @@
 
  ]]></description>
   <category>News</category>
-  <guid>https://dossgollin-lab.github.io/posts/2025/2025-09-02-cercat-tropical-cyclone.html</guid>
+  <guid>https://dossgollin-lab.github.io/posts/2025/2025-09-23-liu-generative.html</guid>
   <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -569,28 +608,6 @@ Singh, Deepti, Yianna S. Bekris, Cassandra D. W. Rogers, James Doss-Gollin, Etha
   <category>Welcome</category>
   <guid>https://dossgollin-lab.github.io/posts/2024/2024-01-01-welcome-jonah.html</guid>
   <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Catch us at AGU 2023!</title>
-  <link>https://dossgollin-lab.github.io/posts/2023/2023-12-11-agu.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>We’ll be at AGU 2023 in San Francisco, CA, USA. Come say hi!</p>
-<ul>
-<li>On Monday afternoon, James presents <a href="https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1352809">NH14B-07 “Linking Robust Trends in Observations and Models to Develop Nonstationary Rainfall Frequency Grids for the State of Texas”</a>. If you miss the presentation, you can find the slides <a href="https://jdossgollin.github.io/presentation-2023-agu/">here</a>.</li>
-<li>On Tuesday morning, Yuchen has a related poster <a href="https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1328932">H21T-1602 “Spatially Varying Covariate Model: A Hierarchical Bayesian Framework for Precipitation Frequency Analysis in the Gulf Coast”</a>.</li>
-<li>On Wednesday, James is co-organizing an <a href="https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/209779#isCurrent">oral</a> (morning) and <a href="https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/204045#isCurrent">poster</a> (afternoon) session on “Integrating Social, Scientific, and Engineering Approaches to Identify and Address Gaps in Water Infrastructure and Household Water Security”, co-organized with colleagues on the El Paso project. We are presenting a poster on our own ongoing work, <a href="https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1318513">H33P-1999 “Before and After Piped Water Expansion: Water Use Patterns and Trust in Water and Political Institutions”</a>, at our own poster session. Concurrently, Kelsey is presenting her poster <a href="https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1291268">PP33E-1563 “Last Millennium Changes in Mississippi River Basin Hydrology driven by the Bermuda High and Great Plains Low Level Jet”</a>.</li>
-</ul>
-
-
-
- ]]></description>
-  <category>Publication</category>
-  <guid>https://dossgollin-lab.github.io/posts/2023/2023-12-11-agu.html</guid>
-  <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
