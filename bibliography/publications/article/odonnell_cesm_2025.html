@@ -2,16 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Yash Vijay Amonkar">
+<meta name="author" content="Michelle O’Donnell">
+<meta name="author" content="Kelsey Murphy">
 <meta name="author" content="James Doss-Gollin">
-<meta name="author" content="Upmanu Lall">
-<meta name="dcterms.date" content="2019-12-09">
+<meta name="author" content="Sylvia Dee">
+<meta name="author" content="Samuel Munoz">
+<meta name="dcterms.date" content="2025-09-25">
 
-<title>H13T-2050: Preserving Long-Term Variability In Simulation Of Multisite Streamflow Extremes – Doss-Gollin Lab @ Rice CEVE</title>
+<title>Evaluation Of Hydroclimatic Biases In The Community Earth System Model (CESM1) Within The Mississippi River Basin – Doss-Gollin Lab @ Rice CEVE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -59,7 +61,27 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -76,7 +98,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../../site_libs/bootstrap/bootstrap-157a7e86ed45ef1010a8719deedd1770.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -108,7 +130,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<meta property="og:title" content="H13T-2050: Preserving Long-Term Variability In Simulation Of Multisite Streamflow Extremes – Doss-Gollin Lab @ Rice CEVE">
+<meta property="og:title" content="Evaluation Of Hydroclimatic Biases In The Community Earth System Model (CESM1) Within The Mississippi River Basin – Doss-Gollin Lab @ Rice CEVE">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="Doss-Gollin Lab @ Rice CEVE">
 </head>
 
@@ -193,48 +216,59 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div class="entity-contents">
       <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">H13T-2050: Preserving Long-Term Variability In Simulation Of Multisite Streamflow Extremes</h1>
+<h1 class="title">Evaluation Of Hydroclimatic Biases In The Community Earth System Model (CESM1) Within The Mississippi River Basin</h1>
 </div>
 <div class="quarto-title-meta column-page">
     <div>
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
-             <p>Yash Vijay Amonkar </p>
+             <p>Michelle O’Donnell </p>
+             <p>Kelsey Murphy </p>
              <p><strong>James Doss-Gollin</strong> </p>
-             <p>Upmanu Lall </p>
+             <p>Sylvia Dee </p>
+             <p>Samuel Munoz </p>
           </div>
   </div>
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 9, 2019</p>
+      <p class="date">September 25, 2025</p>
     </div>
   </div>
   </div>
 </header> <div class="about-links">
-  <a href="https://doi.org/10.6084/m9.figshare.11444238.v1" class="about-link" rel="" target="">
+  <a href="https://doi.org/10.5194/hess-29-4637-2025" class="about-link" rel="" target="">
     <i class="bi bi-link"></i>
-     <span class="about-link-text">DOI: 10.6084/m9.figshare.11444238.v1 (Open Access)</span>
+     <span class="about-link-text">DOI: 10.5194/hess-29-4637-2025</span>
   </a>
 </div>
       <div class="about-contents"><main class="content column-page" id="quarto-document-content">
+<p>The Mississippi River is a critical waterway in the United States, and hydrologic variability along its course represents a perennial consideration for trade, agriculture, industry, ecosystems, the economy, and communities. Simulations of past, historic, and projected river discharge have been widely used to assess the dynamics and causes of changes in the hydrology of the Mississippi River basin over long time scales and to put changes of climate in context. The Community Earth System Model version 1 (CESM1) offers such simulations to complement observational records of river discharge by providing fully coupled output from a state-of-the-art earth system model that includes a river transport model. Here, we compare observations and reanalysis datasets of key hydrologic variables to CESM1 output within the Mississippi River basin to evaluate model performance and bias. We show that the seasonality of simulated river discharge in CESM1 is shifted 3 months late relative to observations. This offset is attributed to seasonal biases in precipitation and runoff in the region. We also evaluate performance of several Coupled Model Intercomparison Phase 6 (CMIP6) models over the Mississippi River basin, and show that runoff in other models – notably the Community Earth System Model version 2 (CESM2) – more closely simulates the seasonal trends in the reanalysis data. Our results have implications for model selection when assessing hydroclimate variability on the Mississippi River basin, and show that the seasonal timing of runoff can vary widely between models. Our findings point to (1) a need for continued developments in the representation of land surface hydrology in earth system models for improvements in our ability to assess the causes and consequences of environmental change on terrestrial water resources and major river systems globally, and (2) a need for caution and understanding of biases when applying these tools to practical risk assessment.</p>
 <section id="bibtex" class="level2">
 <h2 data-anchor-id="bibtex">BibTeX</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@inproceedings</span>{<span class="ot">amonkar_agu:2019</span>,</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">open</span> = {true},</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">eventtitle</span> = {Fall {{Meeting}} 2019},</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">urldate</span> = {2019-12-18},</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">url</span> = {https://agu-do03.confex.com/agu/fm19/meetingapp.cgi/Paper/620477},</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">doi</span> = {10.6084/m9.figshare.11444238.v1},</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publisher</span> = {AGU},</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">date</span> = {2019-12-09},</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span> = {Amonkar, Yash Vijay and Doss-Gollin, James and Lall, Upmanu},</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span> = {{{H13T-2050}}: {{Preserving}} Long-Term Variability in Simulation of Multisite Streamflow Extremes},</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">odonnell_cesm:2025</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">urldate</span> = {2025-09-25},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">url</span> = {https://hess.copernicus.org/articles/29/4637/2025/},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">doi</span> = {10.5194/hess-29-4637-2025},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">issn</span> = {1027-5606},</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publisher</span> = {Copernicus GmbH},</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span> = {4637--4660},</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">number</span> = {18},</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span> = {29},</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journaltitle</span> = {Hydrology and Earth System Sciences},</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="dt">date</span> = {2025-09-25},</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span> = {O'Donnell, Michelle and Murphy, Kelsey and Doss-Gollin, James and Dee, Sylvia and Munoz, Samuel},</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span> = {Evaluation of Hydroclimatic Biases in the {{Community Earth System Model}} ({{CESM1}}) within the {{Mississippi River}} Basin},</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+
 
 
 </section>
-</main></div>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-odonnell_cesm:2025" class="csl-entry" role="listitem">
+O’Donnell, M., Murphy, K., Doss-Gollin, J., Dee, S., &amp; Munoz, S. (2025). Evaluation of hydroclimatic biases in the <span>Community Earth System Model</span> (<span>CESM1</span>) within the <span>Mississippi River</span> basin. <em>Hydrology and Earth System Sciences</em>, <em>29</em>(18), 4637–4660. <a href="https://doi.org/10.5194/hess-29-4637-2025">https://doi.org/10.5194/hess-29-4637-2025</a>
+</div>
+</div></section></div></main></div>
     </div>
   </div>
 </div>

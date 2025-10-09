@@ -18,6 +18,18 @@
     ]
   },
   {
+    "listing": "/teaching.html",
+    "items": [
+      "/teaching/2025-fall-ceve-543.html",
+      "/teaching/2024-fall-ceve-101.html",
+      "/teaching/2024-spring-ceve-421-521.html",
+      "/teaching/2023-fall-ceve-543.html",
+      "/teaching/2023-spring-ceve-421-521.html",
+      "/teaching/2022-spring-ceve-543.html",
+      "/teaching/2021-fall-ceve-101.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/posts/2025/2025-09-23-liu-generative.html",
@@ -61,20 +73,9 @@
     ]
   },
   {
-    "listing": "/teaching.html",
-    "items": [
-      "/teaching/2025-fall-ceve-543.html",
-      "/teaching/2024-fall-ceve-101.html",
-      "/teaching/2024-spring-ceve-421-521.html",
-      "/teaching/2023-fall-ceve-543.html",
-      "/teaching/2023-spring-ceve-421-521.html",
-      "/teaching/2022-spring-ceve-543.html",
-      "/teaching/2021-fall-ceve-101.html"
-    ]
-  },
-  {
     "listing": "/publications.html",
     "items": [
+      "/bibliography/publications/article/odonnell_cesm_2025.html",
       "/bibliography/publications/article/lu_spatiotemporal_2025.html",
       "/bibliography/publications/article/haider_mrb_2025.html",
       "/bibliography/publications/article/liu_functional_2025.html",
@@ -96,53 +97,15 @@
       "/bibliography/publications/article/doss-gollin_pyfloods_2018.html",
       "/bibliography/publications/article/farnham_credibly_2018.html",
       "/bibliography/publications/article/doss-gollin_rwh_2015.html",
-      "/bibliography/publications/conference/cooperman_agu_2024.html",
-      "/bibliography/publications/conference/doss-gollin_agu_2024a.html",
-      "/bibliography/publications/conference/baule_agu_2024.html",
-      "/bibliography/publications/conference/murphy_agu_2024.html",
-      "/bibliography/publications/conference/nielsen-gammon_agu_2024.html",
-      "/bibliography/publications/conference/doss-gollin_agu_2024.html",
-      "/bibliography/publications/conference/lu_agu_2024.html",
-      "/bibliography/publications/conference/odonnell_agu_2024.html",
       "/bibliography/publications/conference/kazadi_icml_2024.html",
-      "/bibliography/publications/conference/cooperman_agu_2023.html",
-      "/bibliography/publications/conference/murphy_agu_2023.html",
-      "/bibliography/publications/conference/lu_agu_2023.html",
-      "/bibliography/publications/conference/doss-gollin_agu_2023.html",
-      "/bibliography/publications/conference/amonkar_agu_2022.html",
-      "/bibliography/publications/conference/lu_agu_2022.html",
-      "/bibliography/publications/conference/murphy_agu_2022.html",
-      "/bibliography/publications/conference/odonnell_agu_2022.html",
-      "/bibliography/publications/conference/dee_agu_2022.html",
-      "/bibliography/publications/conference/doss-gollin_agu_2022.html",
       "/bibliography/publications/conference/kazadi_neurips_2022.html",
-      "/bibliography/publications/conference/lall_agu_2021.html",
-      "/bibliography/publications/conference/zhou_agu_2021.html",
-      "/bibliography/publications/conference/doss-gollin_aguelevation_2021.html",
-      "/bibliography/publications/conference/doss-gollin_agutxtreme_2021.html",
-      "/bibliography/publications/conference/geldner_societyriskanalysis_2021.html",
-      "/bibliography/publications/conference/lall_agu20_2020.html",
-      "/bibliography/publications/conference/amonkar_agu_2019.html",
-      "/bibliography/publications/conference/doss-gollin_agu_2019.html",
-      "/bibliography/publications/conference/doss-gollin_agu_2018.html",
-      "/bibliography/publications/conference/doss-gollin_agu_2017.html",
-      "/bibliography/publications/conference/doss-gollin_agu_2017a.html",
-      "/bibliography/publications/conference/faranda_agu_2017.html",
-      "/bibliography/publications/conference/rozer_bn-flemops_2017.html",
-      "/bibliography/publications/conference/farnham_agu_2016.html",
-      "/bibliography/publications/conference/doss-gollin_agu_2016.html",
-      "/bibliography/publications/conference/spence_agu_2016.html",
-      "/bibliography/publications/conference/farnham_moisturetransport_2015.html",
       "/bibliography/publications/conference/araujojunior_simposio_2014.html",
       "/bibliography/publications/conference/doss-gollin_simposio_2014.html",
       "/bibliography/publications/forthcoming/hancock_cmip6_2025.html",
       "/bibliography/publications/forthcoming/baer_designstorm_2024.html",
       "/bibliography/publications/forthcoming/pollack_transparency_2024.html",
-      "/bibliography/publications/forthcoming/odonnell_cesm_2024.html",
       "/bibliography/publications/forthcoming/pollack_unsafe_2024.html",
-      "/bibliography/publications/forthcoming/geldner_equity_2023.html",
       "/bibliography/publications/other/cohan_whitepaper_2023.html",
-      "/bibliography/publications/other/graham_thesis_2022.html",
       "/bibliography/publications/other/doss-gollin_dissertation_2020.html"
     ]
   }
