@@ -10,7 +10,56 @@
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Tue, 23 Sep 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 30 Dec 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Doss-Gollin Lab at AGU 2025</title>
+  <link>https://dossgollin-lab.github.io/posts/2025/2025-12-30-agu.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The Doss-Gollin Lab had an active presence at AGU 2025, held December 15-19 in New Orleans, Louisiana.</p>
+<section id="lab-presentations" class="level2">
+<h2 class="anchored" data-anchor-id="lab-presentations">Lab Presentations</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://dossgollin-lab.github.io/_assets/img/news/2025-12-15-agu-yuchen-poster.jpeg" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Yuchen Lu presenting her poster at AGU 2025</figcaption>
+</figure>
+</div>
+<p><a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> presented a poster titled “A Hierarchical Bayesian Spatial Framework to Assess Nonstationary Rainfall Intensity, Frequency, and Duration in Texas” (NH13D-0410). The work proposes a hierarchical Bayesian spatial model that efficiently pools information across space and jointly models precipitation across multiple time durations, enabling nonstationary IDF curve analysis across Texas.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://dossgollin-lab.github.io/_assets/img/news/2025-12-15-agu-james-talk.jpeg" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>James Doss-Gollin giving his talk at AGU 2025</figcaption>
+</figure>
+</div>
+<p><a href="../../people/pi/james-doss-gollin.html">James Doss-Gollin</a> delivered a talk titled “TxRain: A Bayesian framework for integrating historical observations and model projections to develop nonstationary IDF curves” (H24A-07). This work addresses the challenge of developing nonstationary extreme rainfall models by integrating accurate but short weather station records with long-term climate model projections. James was also a coauthor on several other presentations at the conference.</p>
+</section>
+<section id="session-convening" class="level2">
+<h2 class="anchored" data-anchor-id="session-convening">Session Convening</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://dossgollin-lab.github.io/_assets/img/news/2025-12-15-agu-james-chair.jpeg" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>James Doss-Gollin chairing a session at AGU 2025</figcaption>
+</figure>
+</div>
+<p>James served as chair for two sessions at AGU 2025:</p>
+<ul>
+<li><strong>NH31A: Advances in Urban Flood Risk Assessment and Adaptation I</strong> (co-chaired with Vivek Srikrishnan)</li>
+<li><strong>NH43B: Interdisciplinary Advances in Catastrophe Modeling and Disaster Resilience: Bridging Science, Policy, and Practice II</strong> (co-chaired with Benjamin Felzer)</li>
+</ul>
+<p>Thanks to all our coauthors and session co-organizers for their collaboration, and we look forward to continuing these partnerships.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Events</category>
+  <guid>https://dossgollin-lab.github.io/posts/2025/2025-12-30-agu.html</guid>
+  <pubDate>Tue, 30 Dec 2025 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>New Paper on Diffusion for Precipitation Downscaling Published in IEEE TGRS</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-09-23-liu-generative.html</link>
@@ -591,23 +640,6 @@ Singh, Deepti, Yianna S. Bekris, Cassandra D. W. Rogers, James Doss-Gollin, Etha
   <category>Publications</category>
   <guid>https://dossgollin-lab.github.io/posts/2024/2024-03-18-singh-paper.html</guid>
   <pubDate>Mon, 18 Mar 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Welcome Jonah!</title>
-  <link>https://dossgollin-lab.github.io/posts/2024/2024-01-01-welcome-jonah.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>We’re delighted to welcome <a href="../../people/grad-students/Jonah-Schaechter.qmd">Jonah Schaecter</a> to the lab! Jonah joins us from working as a software engineer at Epic. Prior that that, he earned a BS and MS in Mechanical Engineering from Columbia University. Jonah’s interests include optimization, sustainability, machine learning, and flooding.</p>
-
-
-
- ]]></description>
-  <category>Welcome</category>
-  <guid>https://dossgollin-lab.github.io/posts/2024/2024-01-01-welcome-jonah.html</guid>
-  <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

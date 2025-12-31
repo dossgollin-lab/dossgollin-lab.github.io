@@ -56,21 +56,9 @@
     ]
   },
   {
-    "listing": "/teaching.html",
-    "items": [
-      "/teaching/2026-spring-ceve-421-521.html",
-      "/teaching/2025-fall-ceve-543.html",
-      "/teaching/2024-fall-ceve-101.html",
-      "/teaching/2024-spring-ceve-421-521.html",
-      "/teaching/2023-fall-ceve-543.html",
-      "/teaching/2023-spring-ceve-421-521.html",
-      "/teaching/2022-spring-ceve-543.html",
-      "/teaching/2021-fall-ceve-101.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
+      "/posts/2025/2025-12-30-agu.html",
       "/posts/2025/2025-09-23-liu-generative.html",
       "/posts/2025/2025-09-02-cercat-tropical-cyclone.html",
       "/posts/2025/2025-08-26-lu-spatiotemporal.html",
@@ -109,6 +97,19 @@
       "/posts/2021/2021-06-24-agu21.html",
       "/posts/2021/2021-05-18-txtremes.html",
       "/posts/2020/2020-11-10-dmdu-2020.html"
+    ]
+  },
+  {
+    "listing": "/teaching.html",
+    "items": [
+      "/teaching/2026-spring-ceve-421-521.html",
+      "/teaching/2025-fall-ceve-543.html",
+      "/teaching/2024-fall-ceve-101.html",
+      "/teaching/2024-spring-ceve-421-521.html",
+      "/teaching/2023-fall-ceve-543.html",
+      "/teaching/2023-spring-ceve-421-521.html",
+      "/teaching/2022-spring-ceve-543.html",
+      "/teaching/2021-fall-ceve-101.html"
     ]
   }
 ]
