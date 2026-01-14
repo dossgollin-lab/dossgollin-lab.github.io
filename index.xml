@@ -10,7 +10,69 @@
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Tue, 30 Dec 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 14 Jan 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Undergrad Position: Flood Extent Labeling</title>
+  <link>https://dossgollin-lab.github.io/posts/2026/2026-01-14-flood-labeling-undergrad.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We are recruiting undergraduate students to assist labeling flood extents using NOAA aerial imagery. This work involves manually identifying and delineating flooded areas using GIS software and will contribute directly to an active research project on flood mapping.</p>
+<section id="what-you-will-do" class="level2">
+<h2 class="anchored" data-anchor-id="what-you-will-do">What You Will Do</h2>
+<ul>
+<li>Manually identify and mask flood extent using GIS tools (QGIS)</li>
+<li>Follow labeling guidelines to ensure data quality</li>
+</ul>
+</section>
+<section id="time-commitment" class="level2">
+<h2 class="anchored" data-anchor-id="time-commitment">Time Commitment</h2>
+<ul>
+<li>Approximately 8-10 hours per week, flexible schedule</li>
+<li>Weekly progress check-in (less than 15 minutes)</li>
+<li>Feedback session after finishing one region or target area</li>
+</ul>
+</section>
+<section id="schedule-and-location" class="level2">
+<h2 class="anchored" data-anchor-id="schedule-and-location">Schedule and Location</h2>
+<ul>
+<li>Mostly remote</li>
+<li>In-person meetings for feedback sessions (Ryon 111)</li>
+</ul>
+</section>
+<section id="skills-and-requirements" class="level2">
+<h2 class="anchored" data-anchor-id="skills-and-requirements">Skills and Requirements</h2>
+<ul>
+<li>Basic familiarity with GIS software is helpful but not required</li>
+<li>Reliable and able to meet weekly time commitments</li>
+</ul>
+</section>
+<section id="what-youll-gain" class="level2">
+<h2 class="anchored" data-anchor-id="what-youll-gain">What You’ll Gain</h2>
+<ul>
+<li>Hands-on experience with GIS and remote sensing data</li>
+<li>Co-authorship on the resulting published dataset</li>
+<li>A great opportunity to strengthen your resume or prepare for graduate school or research careers</li>
+</ul>
+</section>
+<section id="compensation" class="level2">
+<h2 class="anchored" data-anchor-id="compensation">Compensation</h2>
+<p>This position is available for pay or for course credit, depending on your interest. If you are interested in credit, you will need to sign up soon.</p>
+</section>
+<section id="interested" class="level2">
+<h2 class="anchored" data-anchor-id="interested">Interested?</h2>
+<p>If you are interested in this opportunity, please reach out to <a href="../../people/pi/james-doss-gollin.html">James Doss-Gollin</a>, <a href="https://gori.blogs.rice.edu/team/">Avi Gori</a>, or <a href="../../people/grad-students/dongwook-kim.html">Dongwook Kim</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>News</category>
+  <guid>https://dossgollin-lab.github.io/posts/2026/2026-01-14-flood-labeling-undergrad.html</guid>
+  <pubDate>Wed, 14 Jan 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Doss-Gollin Lab at AGU 2025</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-12-30-agu.html</link>
@@ -617,29 +679,6 @@ Kazadi, Arnold, James Doss-Gollin, and Arlei Silva. 2024. <span>“Pluvial Flood
   <category>Publications</category>
   <guid>https://dossgollin-lab.github.io/posts/2024/2024-03-27-unc.html</guid>
   <pubDate>Wed, 27 Mar 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Paper on solar and wind potential during temperature extremes published in Environmental Research Letters</title>
-  <link>https://dossgollin-lab.github.io/posts/2024/2024-03-18-singh-paper.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>A new paper <span class="citation" data-cites="singh_potential:2024">(Singh et al. 2024)</span> in the journal <em>Environmental Research Letters</em> examines shows that increasing solar and wind energy capacity could help keep the lights on during widespread hot and cold spells across the U.S. The study found that solar and wind energy potential often increases during the types of large-scale heat waves and cold snaps that drive up energy demand and can cause power outages. While wind potential varied by region, solar potential was higher during both hot and cold extremes in nearly every part of the country. The findings suggest that expanding renewable energy could boost grid reliability while also reducing emissions.</p>
-<p>For more, see <a href="../../bibliography/publications/article/singh_potential_2024.html">the paper</a> or read <a href="https://twitter.com/ClimateChirper/status/1774821916924363142">this Twitter thread</a>.</p>
-
-
-
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
-<div id="ref-singh_potential:2024" class="csl-entry">
-Singh, Deepti, Yianna S. Bekris, Cassandra D. W. Rogers, James Doss-Gollin, Ethan D. Coffel, and Dmitri A. Kalashnikov. 2024. <span>“Enhanced Solar and Wind Potential During Widespread Temperature Extremes Across the <span>U</span>.<span>S</span>. Interconnected Energy Grids.”</span> <em>Environmental Research Letters</em> 19 (4): 044018. <a href="https://doi.org/10.1088/1748-9326/ad2e72">https://doi.org/10.1088/1748-9326/ad2e72</a>.
-</div>
-</div></section></div> ]]></description>
-  <category>Publications</category>
-  <guid>https://dossgollin-lab.github.io/posts/2024/2024-03-18-singh-paper.html</guid>
-  <pubDate>Mon, 18 Mar 2024 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

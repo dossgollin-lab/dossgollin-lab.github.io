@@ -81,7 +81,7 @@
     "href": "joinus/open-positions.html",
     "title": "Open Positions",
     "section": "",
-    "text": "We are an inclusive research group driven by intellectual curiosity and a shared sense of purpose. Join us to leverage Earth science, decision science, statistics, and machine learning to address critical societal challenges and build climate resilience.\n\n\nUndergraduates\nWe welcome highly motivated and creative undergraduates to work for pay or credit on cutting-edge projects. Current opportunities focus on:\n\nDeveloping adaptation strategies for rural and underserved Texas communities.\nUsing statistical and machine learning frameworks to assess and manage climate-related risks.\nApplying machine learning to simulate complex environmental systems and hazards.\nBuilding robust software tools for data-driven environmental engineering.\n\nSee our page for prospective undergraduates for application instructions.\n\n\nPhD Students\nWe have open positions for outstanding and highly motivated PhD students to start in summer or fall 2026. Potential research topics include:\n\nIntegrating statistical and AI tools to sample and characterize precipitation extremes.\nAdvancing multi-process flood prediction across spatial and temporal scales using physics-informed ML.\nDeveloping frameworks to identify robust decision pathways for infrastructure systems under deep uncertainty.\n\nSee our page for prospective PhD students for application instructions.\n\n\nPostdocs\nWe are not actively recruiting a postdoc at this time, but welcome inquiries from exceptional candidates with external funding or interest in developing joint proposals. Research topics are flexible and can be tailored to align your interests with the group’s expertise in climate science, hydrology, risk analysis, and decision science.\nSee our page for prospective postdocs for more information."
+    "text": "We are an inclusive research group driven by intellectual curiosity and a shared sense of purpose. Join us to leverage Earth science, decision science, statistics, and machine learning to address critical societal challenges and build climate resilience.\n\n\nUndergraduates\nWe welcome highly motivated and creative undergraduates to work for pay or credit on cutting-edge projects.\nCurrent opening: Flood Extent Labeling – help label flood extents from NOAA aerial imagery using GIS software.\nCurrent opportunities focus on:\n\nDeveloping adaptation strategies for rural and underserved Texas communities.\nUsing statistical and machine learning frameworks to assess and manage climate-related risks.\nApplying machine learning to simulate complex environmental systems and hazards.\nBuilding robust software tools for data-driven environmental engineering.\n\nSee our page for prospective undergraduates for application instructions.\n\n\nPhD Students\nWe have open positions for outstanding and highly motivated PhD students to start in summer or fall 2026. Potential research topics include:\n\nIntegrating statistical and AI tools to sample and characterize precipitation extremes.\nAdvancing multi-process flood prediction across spatial and temporal scales using physics-informed ML.\nDeveloping frameworks to identify robust decision pathways for infrastructure systems under deep uncertainty.\n\nSee our page for prospective PhD students for application instructions.\n\n\nPostdocs\nWe are not actively recruiting a postdoc at this time, but welcome inquiries from exceptional candidates with external funding or interest in developing joint proposals. Research topics are flexible and can be tailored to align your interests with the group’s expertise in climate science, hydrology, risk analysis, and decision science.\nSee our page for prospective postdocs for more information."
   },
   {
     "objectID": "joinus/phd.html",
@@ -630,95 +630,116 @@
     "text": "Congratulations to Yuchen Lu, winner of the 2022 H.W. Reeves Endowed Scholarship, administered by the department of Civil and Environmental Engineering!"
   },
   {
-    "objectID": "posts/2024/2024-06-09-kazadi-icml.html",
-    "href": "posts/2024/2024-06-09-kazadi-icml.html",
-    "title": "Pluvial Flood Emulation with Hydraulics-informed Message Passing accepted to ICML 2024",
+    "objectID": "posts/2026/2026-01-14-flood-labeling-undergrad.html",
+    "href": "posts/2026/2026-01-14-flood-labeling-undergrad.html",
+    "title": "Undergrad Position: Flood Extent Labeling",
     "section": "",
-    "text": "Our paper titled “Pluvial Flood Emulation with Hydraulics-informed Message Passing” has been accepted to the 2024 International Conference on Machine Learning (ICML) (Kazadi, Doss-Gollin, and Silva 2024).\nGiven a geographical region and precipitation data, our model predicts water depths in an auto-regressive fashion using a message-passing framework inspired by the conservation of momentum and mass as expressed in the shallow-water equations. This allows the model to effectively capture the propagation of water flow, particularly during the early stages of flooding when the water is scarce.\nOur empirical results, based on a dataset covering 9 regions and 7 historical precipitation events, demonstrate that our model outperforms existing baselines, providing accurate simulations even in complex topographies. This solution achieves accurate results using real ground elevation data. Additionally, our model excels in predicting flood dynamics for unseen storms and watersheds, showcasing its robustness and generalization capabilities.\nFor more details, see here. This is an exciting space, and we are looking forward to sharing more updates on our ongoing research in this critical area!\n\n\n\n\nReferences\n\nKazadi, Arnold, James Doss-Gollin, and Arlei Silva. 2024. “Pluvial Flood Emulation with Hydraulics-Informed Message Passing.” In Forty-First International Conference on Machine Learning. https://openreview.net/forum?id=kIHIA6Lr0B."
+    "text": "We are recruiting undergraduate students to assist labeling flood extents using NOAA aerial imagery. This work involves manually identifying and delineating flooded areas using GIS software and will contribute directly to an active research project on flood mapping."
   },
   {
-    "objectID": "posts/2024/2024-08-22-welcome-dongwook.html",
-    "href": "posts/2024/2024-08-22-welcome-dongwook.html",
-    "title": "Welcome Dongwook!",
+    "objectID": "posts/2026/2026-01-14-flood-labeling-undergrad.html#what-you-will-do",
+    "href": "posts/2026/2026-01-14-flood-labeling-undergrad.html#what-you-will-do",
+    "title": "Undergrad Position: Flood Extent Labeling",
+    "section": "What You Will Do",
+    "text": "What You Will Do\n\nManually identify and mask flood extent using GIS tools (QGIS)\nFollow labeling guidelines to ensure data quality"
+  },
+  {
+    "objectID": "posts/2026/2026-01-14-flood-labeling-undergrad.html#time-commitment",
+    "href": "posts/2026/2026-01-14-flood-labeling-undergrad.html#time-commitment",
+    "title": "Undergrad Position: Flood Extent Labeling",
+    "section": "Time Commitment",
+    "text": "Time Commitment\n\nApproximately 8-10 hours per week, flexible schedule\nWeekly progress check-in (less than 15 minutes)\nFeedback session after finishing one region or target area"
+  },
+  {
+    "objectID": "posts/2026/2026-01-14-flood-labeling-undergrad.html#schedule-and-location",
+    "href": "posts/2026/2026-01-14-flood-labeling-undergrad.html#schedule-and-location",
+    "title": "Undergrad Position: Flood Extent Labeling",
+    "section": "Schedule and Location",
+    "text": "Schedule and Location\n\nMostly remote\nIn-person meetings for feedback sessions (Ryon 111)"
+  },
+  {
+    "objectID": "posts/2026/2026-01-14-flood-labeling-undergrad.html#skills-and-requirements",
+    "href": "posts/2026/2026-01-14-flood-labeling-undergrad.html#skills-and-requirements",
+    "title": "Undergrad Position: Flood Extent Labeling",
+    "section": "Skills and Requirements",
+    "text": "Skills and Requirements\n\nBasic familiarity with GIS software is helpful but not required\nReliable and able to meet weekly time commitments"
+  },
+  {
+    "objectID": "posts/2026/2026-01-14-flood-labeling-undergrad.html#what-youll-gain",
+    "href": "posts/2026/2026-01-14-flood-labeling-undergrad.html#what-youll-gain",
+    "title": "Undergrad Position: Flood Extent Labeling",
+    "section": "What You’ll Gain",
+    "text": "What You’ll Gain\n\nHands-on experience with GIS and remote sensing data\nCo-authorship on the resulting published dataset\nA great opportunity to strengthen your resume or prepare for graduate school or research careers"
+  },
+  {
+    "objectID": "posts/2026/2026-01-14-flood-labeling-undergrad.html#compensation",
+    "href": "posts/2026/2026-01-14-flood-labeling-undergrad.html#compensation",
+    "title": "Undergrad Position: Flood Extent Labeling",
+    "section": "Compensation",
+    "text": "Compensation\nThis position is available for pay or for course credit, depending on your interest. If you are interested in credit, you will need to sign up soon."
+  },
+  {
+    "objectID": "posts/2026/2026-01-14-flood-labeling-undergrad.html#interested",
+    "href": "posts/2026/2026-01-14-flood-labeling-undergrad.html#interested",
+    "title": "Undergrad Position: Flood Extent Labeling",
+    "section": "Interested?",
+    "text": "Interested?\nIf you are interested in this opportunity, please reach out to James Doss-Gollin, Avi Gori, or Dongwook Kim."
+  },
+  {
+    "objectID": "posts/2024/2024-08-23-ai4climaterrr.html",
+    "href": "posts/2024/2024-08-23-ai4climaterrr.html",
+    "title": "Announcing AI for Climate Risk and Resilience at Rice",
     "section": "",
-    "text": "We’re delighted to welcome Dongwook Kim to the lab! Dongwook joins us Burin Co., Ltd. in Seoul, where he was working as a research engineer. Prior that that, he earned a BS and MS at Hanyang University. Dongwook’s interests include water resources, flood risk, tropical cyclones, and infrastructure risk assessment."
+    "text": "We’re delighted to announce the launch of a new project, AI for Climate Risk and Resilience at Rice (AI4ClimateRRR), which will bring together researchers from across the university to develop new tools for understanding and addressing climate risks. AI4ClimateRRR is a cluster within the Ken Kennedy Institute. Monthly meetings are available to the Rice community.\nFor more, see the project website."
   },
   {
-    "objectID": "posts/2024/2024-03-27-water-day.html",
-    "href": "posts/2024/2024-03-27-water-day.html",
-    "title": "Video for World Water Day / ASU Water Institute Kickoff",
+    "objectID": "posts/2024/2024-12-05-agu.html",
+    "href": "posts/2024/2024-12-05-agu.html",
+    "title": "Doss-Gollin Lab at AGU 2024",
     "section": "",
-    "text": "To celebrate World Water Day 2024 and the kickoff of a new water institute at ASU, we were asked to create a five minute video on a local water challenge. While Houston has important challenges related to droughts, infrastructure financing, and water infrastructure, we created a video titled “how to equitably and sustinably manage intensifying rainfall in fast-changing cities?” You can watch the video here, view it below, or check out the full playlist"
+    "text": "We look forward to seeing you at AGU 2024! Our friends at the AI4ClimateRRR cluster will be at the conference as well – for a list of presentations, see here\n\nTuesday\n\nPoster: GC23D-0279Graph Residual Transformer + Gated Recurrent Unit (GRU) for Global Numerical Weather Prediction\nPoster: PP21C-0473Changes in Texas Rainfall Characteristics During the Last Deglaciation in Speleothem Proxies and Water Isotope-enabled Model Simulations\nTalk: GC24H-01Assessing and Managing Climate Risks to Electricity Systems in an Era of Climate Change and Energy Transition\nTalk: NH23G-06TxRAIN-Observational: A Hierarchical Bayesian Spatial Framework to Assess Nonstationary Rainfall Intensity, Frequency, and Duration in Texas\n\n\n\nThursday\n\nPoster Session: NH41C - Hybrid Modeling and Digital Twin Systems for Flood Hazard Prediction and Risk Assessment at Different Spatial Scales\nPoster: NH41C-2328Pluvial Flood Emulation with Hydraulics-informed Message Passing\n\n\n\nFriday\n\nTalk: NH51A-01Advancing Urban Flood Hazard Characterization through Machine Learning: Challenges and Opportunities"
   },
   {
-    "objectID": "posts/2024/2024-03-27-unc.html",
-    "href": "posts/2024/2024-03-27-unc.html",
-    "title": "James gives seminar at UNC Chapel Hill",
+    "objectID": "posts/2024/2024-01-01-welcome-jonah.html",
+    "href": "posts/2024/2024-01-01-welcome-jonah.html",
+    "title": "Welcome Jonah!",
     "section": "",
-    "text": "James gave a seminar titled “Advancing Urban Flood Risk Management through Physics-informed, Data-Driven Hazard Assessment” at the University of North Carolina at Chapel Hill. The seminar was hosted by the Earth, Marine, and Environmental Science department. Thanks to the wonderful faculty, students, and staff for hosting and for great discussions."
+    "text": "We’re delighted to welcome Jonah Schaecter to the lab! Jonah joins us from working as a software engineer at Epic. Prior that that, he earned a BS and MS in Mechanical Engineering from Columbia University. Jonah’s interests include optimization, sustainability, machine learning, and flooding."
   },
   {
-    "objectID": "posts/2024/2024-03-18-singh-paper.html",
-    "href": "posts/2024/2024-03-18-singh-paper.html",
-    "title": "Paper on solar and wind potential during temperature extremes published in Environmental Research Letters",
+    "objectID": "posts/2024/2024-05-14-san-jac-idf.html",
+    "href": "posts/2024/2024-05-14-san-jac-idf.html",
+    "title": "How extreme was the recent San Jacinto River rainfall?",
     "section": "",
-    "text": "A new paper (Singh et al. 2024) in the journal Environmental Research Letters examines shows that increasing solar and wind energy capacity could help keep the lights on during widespread hot and cold spells across the U.S. The study found that solar and wind energy potential often increases during the types of large-scale heat waves and cold snaps that drive up energy demand and can cause power outages. While wind potential varied by region, solar potential was higher during both hot and cold extremes in nearly every part of the country. The findings suggest that expanding renewable energy could boost grid reliability while also reducing emissions.\nFor more, see the paper or read this Twitter thread.\n\n\n\n\nReferences\n\nSingh, Deepti, Yianna S. Bekris, Cassandra D. W. Rogers, James Doss-Gollin, Ethan D. Coffel, and Dmitri A. Kalashnikov. 2024. “Enhanced Solar and Wind Potential During Widespread Temperature Extremes Across the U.S. Interconnected Energy Grids.” Environmental Research Letters 19 (4): 044018. https://doi.org/10.1088/1748-9326/ad2e72."
+    "text": "Earlier this month, persistent and intense rainfall to the northeast of Houston caused severe flooding on the San Jacinto River, affecting thousands of residents. Our sincere best wishes are with everyone affected!\nAs we look to risk assessment, it’s important to determine how extreme this rainfall really was. Yuchen Lu, a third-year PhD student, compared the rainfall at different durations to Atlas 14 estimates of rainfall probability, finding that this was a 10 to 25-year event depending on how it’s analyzed. This underscores the importance of vulnerability reduction and flood preparedness.\nYou can find Yuchen’s more detailed analysis here or the source code on GitHub.\nAs we look to managing future flood risks, further improvements to risk assessment are needed. Atlas 14 estimates are useful but do not account for the increasing likelihood of extreme weather. More fundamentally, probability distributions of annual maximum rainfall at a single point are completely silent on the spatial or temporal structure of rainfall, which can matter for flood impacts. We are working hard to address both of these limitations in our research – stay tuned for more updates!"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
     "section": "",
-    "text": "James Doss-Gollin\n\n\n\n\njdossgollin@rice.edu\n\n\n\nRyon Lab #215\n\n\n\n\n\nMailing Address\nRice University Department of Civil and Environmental Engineering 6100 Main Street Ryon Lab 204-MS 318 Houston, Texas 77005\n\n\nUseful Links\n\nRice visitors guide\nParking information\nCampus map\nCampus shuttle\nRice COVID information"
+    "text": "I strive to create high-quality open-source materials for my courses. Texts are usually available under a CC BY-SA 4.0 license, so you may share and adapt them provided you provide credit and also license your derivative work under the same terms.\nFor questions about these materials, please raise an Issue on the relevant GitHub repository (preferred) or contact me by email."
   },
   {
-    "objectID": "culture/harassment-policy.html",
-    "href": "culture/harassment-policy.html",
-    "title": "Harassment Policy",
+    "objectID": "teaching.html#open-source-teaching-materials",
+    "href": "teaching.html#open-source-teaching-materials",
+    "title": "Teaching",
     "section": "",
-    "text": "This policy represents our commitment to building an inclusive, welcoming, and excellent environment. We celebrate the diverse experiences, perspectives, and backgrounds of our group members, colleagues, and broader community, recognizing that this diversity strengthens our research, fosters innovation, and enhances our collective growth. All members of the research group must abide by and collectively enforce these guidelines."
+    "text": "I strive to create high-quality open-source materials for my courses. Texts are usually available under a CC BY-SA 4.0 license, so you may share and adapt them provided you provide credit and also license your derivative work under the same terms.\nFor questions about these materials, please raise an Issue on the relevant GitHub repository (preferred) or contact me by email."
   },
   {
-    "objectID": "culture/harassment-policy.html#the-quick-version",
-    "href": "culture/harassment-policy.html#the-quick-version",
-    "title": "Harassment Policy",
-    "section": "The quick version",
-    "text": "The quick version\nOur research group is dedicated to providing a harassment-free experience for everyone, regardless of personal characteristics or background. We do not tolerate harassment in any form. Professional conduct is expected in all settings, including online interactions. Violations may result in sanctions or expulsion from the group."
+    "objectID": "teaching.html#course-offerings",
+    "href": "teaching.html#course-offerings",
+    "title": "Teaching",
+    "section": "Course offerings",
+    "text": "Course offerings\n\n\n\n\n\n\nWarningHeads Up\n\n\n\nAll information on this page is preliminary; please see official course listings at courses.rice.edu.\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nSemester\n\n\n\nYear\n\n\n\nCourse Number\n\n\n\nTitle\n\n\n\n\n\n\n\n\nSpring\n\n\n2026\n\n\nCEVE 421/521\n\n\nClimate Risk Management\n\n\n\n\n\n\nFall\n\n\n2025\n\n\nCEVE 543\n\n\nStatistical-Physical Methods for Hydroclimate Extremes and Catastrophes\n\n\n\n\n\n\nFall\n\n\n2024\n\n\nCEVE 101\n\n\nFundamentals of Civil and Environmental Engineering\n\n\n\n\n\n\nSpring\n\n\n2024\n\n\nCEVE 421/521\n\n\nClimate Risk Management\n\n\n\n\n\n\nFall\n\n\n2023\n\n\nCEVE 543\n\n\nEnvironmental Data Science\n\n\n\n\n\n\nSpring\n\n\n2023\n\n\nCEVE 421/521\n\n\nClimate Risk Management\n\n\n\n\n\n\nSpring\n\n\n2022\n\n\nCEVE 543\n\n\nEnvironmental Data Science\n\n\n\n\n\n\nFall\n\n\n2021\n\n\nCEVE 101\n\n\nFundamentals of Civil and Environmental Engineering\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "culture/harassment-policy.html#the-less-quick-version",
-    "href": "culture/harassment-policy.html#the-less-quick-version",
-    "title": "Harassment Policy",
-    "section": "The less quick version",
-    "text": "The less quick version\nAll Rice employees and students must understand and comply with the University’s policies and procedures regarding harassment and discrimination, including but not limited to the Policy on Harassment and Sexual Misconduct and the Prohibited Behaviors. Our group adopts additional guidelines.\nHarassment includes, but is not limited to:\n\nOffensive comments related to personal characteristics\nUnwelcome sexual attention or imagery\nIntimidation or stalking\nDisruption of the research environment\nInappropriate physical contact\n\nIf you experience or witness harassment, please contact James Doss-Gollin immediately. James can assist with security, law enforcement, or official University reporting channels. Please note that James is a mandatory reporter as defined in University Policy. For concerns about James, or if you prefer he not be involved, contact the Office for Interpersonal Misconduct Prevention and Support, Office of Diversity and Inclusion, or Title IX Office.\nWe expect professional, respectful behavior in all work-related settings, including conferences and social events."
-  },
-  {
-    "objectID": "culture/harassment-policy.html#additional-notes",
-    "href": "culture/harassment-policy.html#additional-notes",
-    "title": "Harassment Policy",
-    "section": "Additional Notes",
-    "text": "Additional Notes\n\nCultural sensitivity: We recognize that cultural norms vary, but within our group, these standards apply to all members regardless of background. We actively encourage open dialogue, seek opportunities to learn from one another, and strive to create an environment where all members feel welcomed, respected, and supported.\nTaking concerns seriously: If someone asks you to stop a behavior that is bothering them, take their request seriously and stop the behavior immediately, even if you don’t understand why it’s problematic.\n\nBy joining this research group, you agree to uphold these standards and contribute to a harassment-free environment that values and celebrates the diversity within our community."
-  },
-  {
-    "objectID": "culture/values.html",
-    "href": "culture/values.html",
-    "title": "Our Values",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Doss-Gollin Research Group",
     "section": "",
-    "text": "Our research group is guided by five core values that shape how we approach our work and interact with one another."
-  },
-  {
-    "objectID": "culture/values.html#core-values",
-    "href": "culture/values.html#core-values",
-    "title": "Our Values",
-    "section": "Core Values",
-    "text": "Core Values\n\nCreativity: As academics, we enjoy the luxuries of freedom and space that allow us to question the status quo and explore new ideas. With this privilege comes a responsibility to imagine new possibilities and speak uncomfortable truths.\nEquity: We recognize the existence and impacts of systematic inequalities and work to promote fairness and justice in our research and teaching.\nExcellence: Believing that better tools and knowledge can support better decisions and outcomes, we strive for excellence in all our activities.\nHumility: We understand the limitations of our expertise and celebrate the academic and community partners with whom we coproduce knowledge. We overcome our limitations by actively seeking out diverse perspectives and challenging our preexisting assumptions.\nOpen Science: Our research is accessible to all levels of society. We approach complex problems with a collaborative mindset. When we make mistakes, we recognize them and do our best to fix them."
-  },
-  {
-    "objectID": "culture/values.html#open-science-in-practice",
-    "href": "culture/values.html#open-science-in-practice",
-    "title": "Our Values",
-    "section": "Open Science in Practice",
-    "text": "Open Science in Practice\nOpen science is the idea that scientific research should be transparent and accessible to everyone, especially including the taxpaying public that funds a substantial portion of our research. Open science is about democratizing knowledge and accelerating scientific progress to address urgent challenges like climate change, flooding, and poverty. Some key concepts of open science are:\n\nReproducibility: obtaining consistent computational results using the same input data, methods, code, and conditions of analysis.\nReplicability: obtaining consistent results across different studies aimed at answering the same scientific question, each with its own data.\nAccessibility: making research findings, data, and methods available to all levels of society, both amateur and professional.\n\nWe implement these principles in the following ways:\n\nWe make our data, code, and computational environments publicly available, typically no later than the publication of our work.\nWe prioritize using fully open-source tools whenever possible. When proprietary software or data is necessary, we document its use clearly and provide alternatives where possible.\nWe publish in open-access journals where appropriate and make post-prints freely available when not. We also share preprints on open-access servers.\nWe summarize our findings in non-technical blog posts, translate papers as needed, and use social media to share key findings.\nWe use permissive open-source licenses for our code, respecting and complying with licensing terms.\nWe employ various tools to facilitate reproducible science, including Python, Julia, Git, GitHub, Snakemake, Zenodo, and more.\n\n\n\n\n\n\n\nNoteCredit\n\n\n\nThe organization and framing of our lab values borrows heavily from lab guides written by Lab Carpentry, the Advanced Reactors and Fuel Cycles group at UIUC, the Andersen Lab at Northwestern, the Computer-Oriented Geoscience Lab at University of Liverpool, the Ocean Transport Group at the Lamont-Doherty Earth Observatory, the Aly lab at Columbia, the Srikrishnan Lab at Cornell, and the Keller Lab Group at Dartmouth."
+    "text": "Our infrastructure was designed for a world that no longer exists. Today, these systems face converging pressures from climate extremes, aging assets, and demographic shifts.\n\n\n\n\n\n\nOur research vision is to advance climate risk analysis and adaptive planning for complex, interdependent infrastructure systems.\n\n\nTo achieve this, we integrate Earth science, risk analysis, and probabilistic machine learning to research three interrelated questions. First, how can we understand and simulate nonstationary hydroclimatic hazards and quantify relevant uncertainties given imperfect physical models and short observational records? Second, how do these hazards create risks to critical infrastructure systems and the communities that rely on them? Third, what adaptation strategies can robustly meet multiple, potentially competing, performance objectives, given deep uncertainty in future conditions? We build open-source tools and actionable insights to tackle critical challenges in urban flood resilience, energy reliability, and catastrophe modeling.\n\n\n\n\n\n\n\n\nDr. James Doss-Gollin is an Assistant Professor in the Department of Civil and Environmental Engineering at Rice University.\nRead his full bio →\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\n\n\n\n\n\n2026-01-14\n\n\nUndergrad Position: Flood Extent Labeling\n\n\n\n\n\n\n2025-12-30\n\n\nDoss-Gollin Lab at AGU 2025\n\n\n\n\n\n\n2025-09-23\n\n\nNew Paper on Diffusion for Precipitation Downscaling Published in IEEE TGRS\n\n\n\n\n\n\n2025-09-02\n\n\nCERCAT Funding for Tropical Cyclone Hazard Assessment Project\n\n\n\n\n\n\n2025-08-26\n\n\nNew Paper on Bayesian Spatiotemporal Analysis of Extreme Rainfall in Environmental Research: Climate\n\n\n\n\n\n\n2025-07-08\n\n\nUpdated Thoughts on the Guadalupe Flood\n\n\n\n\n\n\n2025-06-18\n\n\nCall for Abstracts: AGU Fall Meeting 2025 Sessions\n\n\n\n\n\n\n2025-06-01\n\n\nJames on Telemundo Special Bajo la Amenaza del Golfo\n\n\n\n\n\n\n2025-04-30\n\n\nCongratulations to Yuchen Lu for Passing Her Thesis Proposal!\n\n\n\n\n\n\n2025-04-02\n\n\nJoin Us at the Texas Climate Conference 2025\n\n\n\n\n\n\n2025-03-03\n\n\nSuccessful Nature-Based Solutions Workshop at Rice University\n\n\n\n\n\n\n2025-02-05\n\n\nBayesian Model Reveals Rising Extreme Rainfall on Gulf Coast\n\n\n\n\n\n\n2025-01-24\n\n\nNSF Grant to Study Flood Resilience in Rural Texas\n\n\n\n\n\n\n2024-12-05\n\n\nDoss-Gollin Lab at AGU 2024\n\n\n\n\n\n\n2024-08-23\n\n\nAnnouncing AI for Climate Risk and Resilience at Rice\n\n\n\n\n\n\n2024-08-22\n\n\nWelcome Dongwook!\n\n\n\n\n\n\n2024-06-09\n\n\nPluvial Flood Emulation with Hydraulics-informed Message Passing accepted to ICML 2024\n\n\n\n\n\n\n2024-05-14\n\n\nHow extreme was the recent San Jacinto River rainfall?\n\n\n\n\n\n\n2024-03-27\n\n\nVideo for World Water Day / ASU Water Institute Kickoff\n\n\n\n\n\n\n2024-03-27\n\n\nJames gives seminar at UNC Chapel Hill\n\n\n\n\n\n\n2024-03-18\n\n\nPaper on solar and wind potential during temperature extremes published in Environmental Research Letters\n\n\n\n\n\n\n2024-01-01\n\n\nWelcome Jonah!\n\n\n\n\n\n\n2023-12-11\n\n\nCatch us at AGU 2023!\n\n\n\n\n\n\n2023-12-10\n\n\nNew preprint on transparency in peer-reviewed climate change research\n\n\n\n\n\n\n2023-11-11\n\n\nJames presents at STAHY 2023\n\n\n\n\n\n\n2023-11-01\n\n\nPaper on trends in heating and cooling demand published in Communications Earth & Environment\n\n\n\n\n\n\n2023-10-13\n\n\nJames Presents at SSPEED Center Conference\n\n\n\n\n\n\n2023-08-16\n\n\nPublished: review paper on climate risks to electricity systems\n\n\n\n\n\n\n2023-08-14\n\n\nNew student advising booklet for undergraduate environmental education at Rice\n\n\n\n\n\n\n2023-07-12\n\n\nPublished: theorizing modular, adaptive, and decentralized water systems\n\n\n\n\n\n\n2023-04-23\n\n\nNew paper on mesoscale modeling of distributed water systems\n\n\n\n\n\n\n2023-01-03\n\n\nPaper bridging DMDU and probabilistic frameworks published in Earth’s Future\n\n\n\n\n\n\n2022-11-08\n\n\nUndergraduate Research Opportunity: AI for Sustainability and Resilience to Natural Disasters\n\n\n\n\n\n\n2022-02-08\n\n\nYuchen Lu wins 2022 H.W. Reeves Endowed Scholarship\n\n\n\n\n\n\n2021-12-08\n\n\nTalk at Risk KAN Compound Events Group\n\n\n\n\n\n\n2021-09-01\n\n\nHouston Chronicle Op-Ed: The risks of climate change are great - so are the rewards of solving it\n\n\n\n\n\n\n2021-08-27\n\n\nNSF Award from EAGER SAI: ‘Participatory Design for Water Quality Monitoring of Highly Decentralized Water Infrastructure Systems’\n\n\n\n\n\n\n2021-06-24\n\n\nCall for Abstracts: Statistical-Dynamical Models for Hydroclimatic Risk Management and Adaptation\n\n\n\n\n\n\n2021-05-18\n\n\nHow Unprecedented Was the February 2021 Texas Cold Snap? published in Environmental Research Letters\n\n\n\n\n\n\n2020-11-10\n\n\n2020 Annual Meeting of the Society for Decision Making under Deep Uncertainty\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "culture/expectations.html",
@@ -756,60 +777,95 @@
     "text": "Harassment Policy\nAll group members are expected to follow our Harassment Policy."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Doss-Gollin Research Group",
+    "objectID": "culture/values.html",
+    "href": "culture/values.html",
+    "title": "Our Values",
     "section": "",
-    "text": "Our infrastructure was designed for a world that no longer exists. Today, these systems face converging pressures from climate extremes, aging assets, and demographic shifts.\n\n\n\n\n\n\nOur research vision is to advance climate risk analysis and adaptive planning for complex, interdependent infrastructure systems.\n\n\nTo achieve this, we integrate Earth science, risk analysis, and probabilistic machine learning to research three interrelated questions. First, how can we understand and simulate nonstationary hydroclimatic hazards and quantify relevant uncertainties given imperfect physical models and short observational records? Second, how do these hazards create risks to critical infrastructure systems and the communities that rely on them? Third, what adaptation strategies can robustly meet multiple, potentially competing, performance objectives, given deep uncertainty in future conditions? We build open-source tools and actionable insights to tackle critical challenges in urban flood resilience, energy reliability, and catastrophe modeling.\n\n\n\n\n\n\n\n\nDr. James Doss-Gollin is an Assistant Professor in the Department of Civil and Environmental Engineering at Rice University.\nRead his full bio →\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\n\n\n\n\n\n2025-12-30\n\n\nDoss-Gollin Lab at AGU 2025\n\n\n\n\n\n\n2025-09-23\n\n\nNew Paper on Diffusion for Precipitation Downscaling Published in IEEE TGRS\n\n\n\n\n\n\n2025-09-02\n\n\nCERCAT Funding for Tropical Cyclone Hazard Assessment Project\n\n\n\n\n\n\n2025-08-26\n\n\nNew Paper on Bayesian Spatiotemporal Analysis of Extreme Rainfall in Environmental Research: Climate\n\n\n\n\n\n\n2025-07-08\n\n\nUpdated Thoughts on the Guadalupe Flood\n\n\n\n\n\n\n2025-06-18\n\n\nCall for Abstracts: AGU Fall Meeting 2025 Sessions\n\n\n\n\n\n\n2025-06-01\n\n\nJames on Telemundo Special Bajo la Amenaza del Golfo\n\n\n\n\n\n\n2025-04-30\n\n\nCongratulations to Yuchen Lu for Passing Her Thesis Proposal!\n\n\n\n\n\n\n2025-04-02\n\n\nJoin Us at the Texas Climate Conference 2025\n\n\n\n\n\n\n2025-03-03\n\n\nSuccessful Nature-Based Solutions Workshop at Rice University\n\n\n\n\n\n\n2025-02-05\n\n\nBayesian Model Reveals Rising Extreme Rainfall on Gulf Coast\n\n\n\n\n\n\n2025-01-24\n\n\nNSF Grant to Study Flood Resilience in Rural Texas\n\n\n\n\n\n\n2024-12-05\n\n\nDoss-Gollin Lab at AGU 2024\n\n\n\n\n\n\n2024-08-23\n\n\nAnnouncing AI for Climate Risk and Resilience at Rice\n\n\n\n\n\n\n2024-08-22\n\n\nWelcome Dongwook!\n\n\n\n\n\n\n2024-06-09\n\n\nPluvial Flood Emulation with Hydraulics-informed Message Passing accepted to ICML 2024\n\n\n\n\n\n\n2024-05-14\n\n\nHow extreme was the recent San Jacinto River rainfall?\n\n\n\n\n\n\n2024-03-27\n\n\nVideo for World Water Day / ASU Water Institute Kickoff\n\n\n\n\n\n\n2024-03-27\n\n\nJames gives seminar at UNC Chapel Hill\n\n\n\n\n\n\n2024-03-18\n\n\nPaper on solar and wind potential during temperature extremes published in Environmental Research Letters\n\n\n\n\n\n\n2024-01-01\n\n\nWelcome Jonah!\n\n\n\n\n\n\n2023-12-11\n\n\nCatch us at AGU 2023!\n\n\n\n\n\n\n2023-12-10\n\n\nNew preprint on transparency in peer-reviewed climate change research\n\n\n\n\n\n\n2023-11-11\n\n\nJames presents at STAHY 2023\n\n\n\n\n\n\n2023-11-01\n\n\nPaper on trends in heating and cooling demand published in Communications Earth & Environment\n\n\n\n\n\n\n2023-10-13\n\n\nJames Presents at SSPEED Center Conference\n\n\n\n\n\n\n2023-08-16\n\n\nPublished: review paper on climate risks to electricity systems\n\n\n\n\n\n\n2023-08-14\n\n\nNew student advising booklet for undergraduate environmental education at Rice\n\n\n\n\n\n\n2023-07-12\n\n\nPublished: theorizing modular, adaptive, and decentralized water systems\n\n\n\n\n\n\n2023-04-23\n\n\nNew paper on mesoscale modeling of distributed water systems\n\n\n\n\n\n\n2023-01-03\n\n\nPaper bridging DMDU and probabilistic frameworks published in Earth’s Future\n\n\n\n\n\n\n2022-11-08\n\n\nUndergraduate Research Opportunity: AI for Sustainability and Resilience to Natural Disasters\n\n\n\n\n\n\n2022-02-08\n\n\nYuchen Lu wins 2022 H.W. Reeves Endowed Scholarship\n\n\n\n\n\n\n2021-12-08\n\n\nTalk at Risk KAN Compound Events Group\n\n\n\n\n\n\n2021-09-01\n\n\nHouston Chronicle Op-Ed: The risks of climate change are great - so are the rewards of solving it\n\n\n\n\n\n\n2021-08-27\n\n\nNSF Award from EAGER SAI: ‘Participatory Design for Water Quality Monitoring of Highly Decentralized Water Infrastructure Systems’\n\n\n\n\n\n\n2021-06-24\n\n\nCall for Abstracts: Statistical-Dynamical Models for Hydroclimatic Risk Management and Adaptation\n\n\n\n\n\n\n2021-05-18\n\n\nHow Unprecedented Was the February 2021 Texas Cold Snap? published in Environmental Research Letters\n\n\n\n\n\n\n2020-11-10\n\n\n2020 Annual Meeting of the Society for Decision Making under Deep Uncertainty\n\n\n\n\n\n\nNo matching items"
+    "text": "Our research group is guided by five core values that shape how we approach our work and interact with one another."
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "I strive to create high-quality open-source materials for my courses. Texts are usually available under a CC BY-SA 4.0 license, so you may share and adapt them provided you provide credit and also license your derivative work under the same terms.\nFor questions about these materials, please raise an Issue on the relevant GitHub repository (preferred) or contact me by email."
+    "objectID": "culture/values.html#core-values",
+    "href": "culture/values.html#core-values",
+    "title": "Our Values",
+    "section": "Core Values",
+    "text": "Core Values\n\nCreativity: As academics, we enjoy the luxuries of freedom and space that allow us to question the status quo and explore new ideas. With this privilege comes a responsibility to imagine new possibilities and speak uncomfortable truths.\nEquity: We recognize the existence and impacts of systematic inequalities and work to promote fairness and justice in our research and teaching.\nExcellence: Believing that better tools and knowledge can support better decisions and outcomes, we strive for excellence in all our activities.\nHumility: We understand the limitations of our expertise and celebrate the academic and community partners with whom we coproduce knowledge. We overcome our limitations by actively seeking out diverse perspectives and challenging our preexisting assumptions.\nOpen Science: Our research is accessible to all levels of society. We approach complex problems with a collaborative mindset. When we make mistakes, we recognize them and do our best to fix them."
   },
   {
-    "objectID": "teaching.html#open-source-teaching-materials",
-    "href": "teaching.html#open-source-teaching-materials",
-    "title": "Teaching",
-    "section": "",
-    "text": "I strive to create high-quality open-source materials for my courses. Texts are usually available under a CC BY-SA 4.0 license, so you may share and adapt them provided you provide credit and also license your derivative work under the same terms.\nFor questions about these materials, please raise an Issue on the relevant GitHub repository (preferred) or contact me by email."
+    "objectID": "culture/values.html#open-science-in-practice",
+    "href": "culture/values.html#open-science-in-practice",
+    "title": "Our Values",
+    "section": "Open Science in Practice",
+    "text": "Open Science in Practice\nOpen science is the idea that scientific research should be transparent and accessible to everyone, especially including the taxpaying public that funds a substantial portion of our research. Open science is about democratizing knowledge and accelerating scientific progress to address urgent challenges like climate change, flooding, and poverty. Some key concepts of open science are:\n\nReproducibility: obtaining consistent computational results using the same input data, methods, code, and conditions of analysis.\nReplicability: obtaining consistent results across different studies aimed at answering the same scientific question, each with its own data.\nAccessibility: making research findings, data, and methods available to all levels of society, both amateur and professional.\n\nWe implement these principles in the following ways:\n\nWe make our data, code, and computational environments publicly available, typically no later than the publication of our work.\nWe prioritize using fully open-source tools whenever possible. When proprietary software or data is necessary, we document its use clearly and provide alternatives where possible.\nWe publish in open-access journals where appropriate and make post-prints freely available when not. We also share preprints on open-access servers.\nWe summarize our findings in non-technical blog posts, translate papers as needed, and use social media to share key findings.\nWe use permissive open-source licenses for our code, respecting and complying with licensing terms.\nWe employ various tools to facilitate reproducible science, including Python, Julia, Git, GitHub, Snakemake, Zenodo, and more.\n\n\n\n\n\n\n\nNoteCredit\n\n\n\nThe organization and framing of our lab values borrows heavily from lab guides written by Lab Carpentry, the Advanced Reactors and Fuel Cycles group at UIUC, the Andersen Lab at Northwestern, the Computer-Oriented Geoscience Lab at University of Liverpool, the Ocean Transport Group at the Lamont-Doherty Earth Observatory, the Aly lab at Columbia, the Srikrishnan Lab at Cornell, and the Keller Lab Group at Dartmouth."
   },
   {
-    "objectID": "teaching.html#course-offerings",
-    "href": "teaching.html#course-offerings",
-    "title": "Teaching",
-    "section": "Course offerings",
-    "text": "Course offerings\n\n\n\n\n\n\nWarningHeads Up\n\n\n\nAll information on this page is preliminary; please see official course listings at courses.rice.edu.\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nSemester\n\n\n\nYear\n\n\n\nCourse Number\n\n\n\nTitle\n\n\n\n\n\n\n\n\nSpring\n\n\n2026\n\n\nCEVE 421/521\n\n\nClimate Risk Management\n\n\n\n\n\n\nFall\n\n\n2025\n\n\nCEVE 543\n\n\nStatistical-Physical Methods for Hydroclimate Extremes and Catastrophes\n\n\n\n\n\n\nFall\n\n\n2024\n\n\nCEVE 101\n\n\nFundamentals of Civil and Environmental Engineering\n\n\n\n\n\n\nSpring\n\n\n2024\n\n\nCEVE 421/521\n\n\nClimate Risk Management\n\n\n\n\n\n\nFall\n\n\n2023\n\n\nCEVE 543\n\n\nEnvironmental Data Science\n\n\n\n\n\n\nSpring\n\n\n2023\n\n\nCEVE 421/521\n\n\nClimate Risk Management\n\n\n\n\n\n\nSpring\n\n\n2022\n\n\nCEVE 543\n\n\nEnvironmental Data Science\n\n\n\n\n\n\nFall\n\n\n2021\n\n\nCEVE 101\n\n\nFundamentals of Civil and Environmental Engineering\n\n\n\n\n\n\nNo matching items"
+    "objectID": "culture/harassment-policy.html",
+    "href": "culture/harassment-policy.html",
+    "title": "Harassment Policy",
+    "section": "",
+    "text": "This policy represents our commitment to building an inclusive, welcoming, and excellent environment. We celebrate the diverse experiences, perspectives, and backgrounds of our group members, colleagues, and broader community, recognizing that this diversity strengthens our research, fosters innovation, and enhances our collective growth. All members of the research group must abide by and collectively enforce these guidelines."
   },
   {
-    "objectID": "posts/2024/2024-05-14-san-jac-idf.html",
-    "href": "posts/2024/2024-05-14-san-jac-idf.html",
-    "title": "How extreme was the recent San Jacinto River rainfall?",
-    "section": "",
-    "text": "Earlier this month, persistent and intense rainfall to the northeast of Houston caused severe flooding on the San Jacinto River, affecting thousands of residents. Our sincere best wishes are with everyone affected!\nAs we look to risk assessment, it’s important to determine how extreme this rainfall really was. Yuchen Lu, a third-year PhD student, compared the rainfall at different durations to Atlas 14 estimates of rainfall probability, finding that this was a 10 to 25-year event depending on how it’s analyzed. This underscores the importance of vulnerability reduction and flood preparedness.\nYou can find Yuchen’s more detailed analysis here or the source code on GitHub.\nAs we look to managing future flood risks, further improvements to risk assessment are needed. Atlas 14 estimates are useful but do not account for the increasing likelihood of extreme weather. More fundamentally, probability distributions of annual maximum rainfall at a single point are completely silent on the spatial or temporal structure of rainfall, which can matter for flood impacts. We are working hard to address both of these limitations in our research – stay tuned for more updates!"
+    "objectID": "culture/harassment-policy.html#the-quick-version",
+    "href": "culture/harassment-policy.html#the-quick-version",
+    "title": "Harassment Policy",
+    "section": "The quick version",
+    "text": "The quick version\nOur research group is dedicated to providing a harassment-free experience for everyone, regardless of personal characteristics or background. We do not tolerate harassment in any form. Professional conduct is expected in all settings, including online interactions. Violations may result in sanctions or expulsion from the group."
   },
   {
-    "objectID": "posts/2024/2024-01-01-welcome-jonah.html",
-    "href": "posts/2024/2024-01-01-welcome-jonah.html",
-    "title": "Welcome Jonah!",
-    "section": "",
-    "text": "We’re delighted to welcome Jonah Schaecter to the lab! Jonah joins us from working as a software engineer at Epic. Prior that that, he earned a BS and MS in Mechanical Engineering from Columbia University. Jonah’s interests include optimization, sustainability, machine learning, and flooding."
+    "objectID": "culture/harassment-policy.html#the-less-quick-version",
+    "href": "culture/harassment-policy.html#the-less-quick-version",
+    "title": "Harassment Policy",
+    "section": "The less quick version",
+    "text": "The less quick version\nAll Rice employees and students must understand and comply with the University’s policies and procedures regarding harassment and discrimination, including but not limited to the Policy on Harassment and Sexual Misconduct and the Prohibited Behaviors. Our group adopts additional guidelines.\nHarassment includes, but is not limited to:\n\nOffensive comments related to personal characteristics\nUnwelcome sexual attention or imagery\nIntimidation or stalking\nDisruption of the research environment\nInappropriate physical contact\n\nIf you experience or witness harassment, please contact James Doss-Gollin immediately. James can assist with security, law enforcement, or official University reporting channels. Please note that James is a mandatory reporter as defined in University Policy. For concerns about James, or if you prefer he not be involved, contact the Office for Interpersonal Misconduct Prevention and Support, Office of Diversity and Inclusion, or Title IX Office.\nWe expect professional, respectful behavior in all work-related settings, including conferences and social events."
   },
   {
-    "objectID": "posts/2024/2024-12-05-agu.html",
-    "href": "posts/2024/2024-12-05-agu.html",
-    "title": "Doss-Gollin Lab at AGU 2024",
-    "section": "",
-    "text": "We look forward to seeing you at AGU 2024! Our friends at the AI4ClimateRRR cluster will be at the conference as well – for a list of presentations, see here\n\nTuesday\n\nPoster: GC23D-0279Graph Residual Transformer + Gated Recurrent Unit (GRU) for Global Numerical Weather Prediction\nPoster: PP21C-0473Changes in Texas Rainfall Characteristics During the Last Deglaciation in Speleothem Proxies and Water Isotope-enabled Model Simulations\nTalk: GC24H-01Assessing and Managing Climate Risks to Electricity Systems in an Era of Climate Change and Energy Transition\nTalk: NH23G-06TxRAIN-Observational: A Hierarchical Bayesian Spatial Framework to Assess Nonstationary Rainfall Intensity, Frequency, and Duration in Texas\n\n\n\nThursday\n\nPoster Session: NH41C - Hybrid Modeling and Digital Twin Systems for Flood Hazard Prediction and Risk Assessment at Different Spatial Scales\nPoster: NH41C-2328Pluvial Flood Emulation with Hydraulics-informed Message Passing\n\n\n\nFriday\n\nTalk: NH51A-01Advancing Urban Flood Hazard Characterization through Machine Learning: Challenges and Opportunities"
+    "objectID": "culture/harassment-policy.html#additional-notes",
+    "href": "culture/harassment-policy.html#additional-notes",
+    "title": "Harassment Policy",
+    "section": "Additional Notes",
+    "text": "Additional Notes\n\nCultural sensitivity: We recognize that cultural norms vary, but within our group, these standards apply to all members regardless of background. We actively encourage open dialogue, seek opportunities to learn from one another, and strive to create an environment where all members feel welcomed, respected, and supported.\nTaking concerns seriously: If someone asks you to stop a behavior that is bothering them, take their request seriously and stop the behavior immediately, even if you don’t understand why it’s problematic.\n\nBy joining this research group, you agree to uphold these standards and contribute to a harassment-free environment that values and celebrates the diversity within our community."
   },
   {
-    "objectID": "posts/2024/2024-08-23-ai4climaterrr.html",
-    "href": "posts/2024/2024-08-23-ai4climaterrr.html",
-    "title": "Announcing AI for Climate Risk and Resilience at Rice",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
     "section": "",
-    "text": "We’re delighted to announce the launch of a new project, AI for Climate Risk and Resilience at Rice (AI4ClimateRRR), which will bring together researchers from across the university to develop new tools for understanding and addressing climate risks. AI4ClimateRRR is a cluster within the Ken Kennedy Institute. Monthly meetings are available to the Rice community.\nFor more, see the project website."
+    "text": "James Doss-Gollin\n\n\n\n\njdossgollin@rice.edu\n\n\n\nRyon Lab #215\n\n\n\n\n\nMailing Address\nRice University Department of Civil and Environmental Engineering 6100 Main Street Ryon Lab 204-MS 318 Houston, Texas 77005\n\n\nUseful Links\n\nRice visitors guide\nParking information\nCampus map\nCampus shuttle\nRice COVID information"
+  },
+  {
+    "objectID": "posts/2024/2024-03-18-singh-paper.html",
+    "href": "posts/2024/2024-03-18-singh-paper.html",
+    "title": "Paper on solar and wind potential during temperature extremes published in Environmental Research Letters",
+    "section": "",
+    "text": "A new paper (Singh et al. 2024) in the journal Environmental Research Letters examines shows that increasing solar and wind energy capacity could help keep the lights on during widespread hot and cold spells across the U.S. The study found that solar and wind energy potential often increases during the types of large-scale heat waves and cold snaps that drive up energy demand and can cause power outages. While wind potential varied by region, solar potential was higher during both hot and cold extremes in nearly every part of the country. The findings suggest that expanding renewable energy could boost grid reliability while also reducing emissions.\nFor more, see the paper or read this Twitter thread.\n\n\n\n\nReferences\n\nSingh, Deepti, Yianna S. Bekris, Cassandra D. W. Rogers, James Doss-Gollin, Ethan D. Coffel, and Dmitri A. Kalashnikov. 2024. “Enhanced Solar and Wind Potential During Widespread Temperature Extremes Across the U.S. Interconnected Energy Grids.” Environmental Research Letters 19 (4): 044018. https://doi.org/10.1088/1748-9326/ad2e72."
+  },
+  {
+    "objectID": "posts/2024/2024-03-27-unc.html",
+    "href": "posts/2024/2024-03-27-unc.html",
+    "title": "James gives seminar at UNC Chapel Hill",
+    "section": "",
+    "text": "James gave a seminar titled “Advancing Urban Flood Risk Management through Physics-informed, Data-Driven Hazard Assessment” at the University of North Carolina at Chapel Hill. The seminar was hosted by the Earth, Marine, and Environmental Science department. Thanks to the wonderful faculty, students, and staff for hosting and for great discussions."
+  },
+  {
+    "objectID": "posts/2024/2024-03-27-water-day.html",
+    "href": "posts/2024/2024-03-27-water-day.html",
+    "title": "Video for World Water Day / ASU Water Institute Kickoff",
+    "section": "",
+    "text": "To celebrate World Water Day 2024 and the kickoff of a new water institute at ASU, we were asked to create a five minute video on a local water challenge. While Houston has important challenges related to droughts, infrastructure financing, and water infrastructure, we created a video titled “how to equitably and sustinably manage intensifying rainfall in fast-changing cities?” You can watch the video here, view it below, or check out the full playlist"
+  },
+  {
+    "objectID": "posts/2024/2024-08-22-welcome-dongwook.html",
+    "href": "posts/2024/2024-08-22-welcome-dongwook.html",
+    "title": "Welcome Dongwook!",
+    "section": "",
+    "text": "We’re delighted to welcome Dongwook Kim to the lab! Dongwook joins us Burin Co., Ltd. in Seoul, where he was working as a research engineer. Prior that that, he earned a BS and MS at Hanyang University. Dongwook’s interests include water resources, flood risk, tropical cyclones, and infrastructure risk assessment."
+  },
+  {
+    "objectID": "posts/2024/2024-06-09-kazadi-icml.html",
+    "href": "posts/2024/2024-06-09-kazadi-icml.html",
+    "title": "Pluvial Flood Emulation with Hydraulics-informed Message Passing accepted to ICML 2024",
+    "section": "",
+    "text": "Our paper titled “Pluvial Flood Emulation with Hydraulics-informed Message Passing” has been accepted to the 2024 International Conference on Machine Learning (ICML) (Kazadi, Doss-Gollin, and Silva 2024).\nGiven a geographical region and precipitation data, our model predicts water depths in an auto-regressive fashion using a message-passing framework inspired by the conservation of momentum and mass as expressed in the shallow-water equations. This allows the model to effectively capture the propagation of water flow, particularly during the early stages of flooding when the water is scarce.\nOur empirical results, based on a dataset covering 9 regions and 7 historical precipitation events, demonstrate that our model outperforms existing baselines, providing accurate simulations even in complex topographies. This solution achieves accurate results using real ground elevation data. Additionally, our model excels in predicting flood dynamics for unseen storms and watersheds, showcasing its robustness and generalization capabilities.\nFor more details, see here. This is an exciting space, and we are looking forward to sharing more updates on our ongoing research in this critical area!\n\n\n\n\nReferences\n\nKazadi, Arnold, James Doss-Gollin, and Arlei Silva. 2024. “Pluvial Flood Emulation with Hydraulics-Informed Message Passing.” In Forty-First International Conference on Machine Learning. https://openreview.net/forum?id=kIHIA6Lr0B."
   },
   {
     "objectID": "posts/2020/2020-11-10-dmdu-2020.html",
