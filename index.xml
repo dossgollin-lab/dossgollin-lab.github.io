@@ -10,7 +10,50 @@
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Wed, 14 Jan 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 20 Jan 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>James Quoted in WSJ Article on Flood Risk Scores</title>
+  <link>https://dossgollin-lab.github.io/posts/2026/2026-01-20-wsj-flood-risk.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>James was quoted in a <a href="https://www.wsj.com/real-estate/home-sales-zillow-first-street-disaster-score-bf91e565">Wall Street Journal article</a> by Jean Eaglesham and Nicole Friedman examining the accuracy and limitations of climate-disaster scores used by home listing platforms like Zillow and Redfin.</p>
+<p>From the article:</p>
+<blockquote class="blockquote">
+<p>“Accurately estimating future flood risk at every property in a single city or watershed—let alone the entire United States—is fundamentally not possible given current knowledge,” said James Doss-Gollin, an assistant professor of engineering and a climate-risks specialist at Rice University in Houston.</p>
+</blockquote>
+<p>While flood risk models serve an important role in informing homebuyers and leveling the playing field between buyers, lenders, and insurers, we must be skeptical of claims that national, building-scale flood risk models are empirically “validated.” Probabilistic flood risk estimation involves not just flood modeling, but also estimates of the probability of extreme weather events based on imperfect models and short records—which cannot be validated in the traditional sense.</p>
+<p>For more on this topic, see our recent <a href="https://doi.org/10.1073/pnas.2409657122">PNAS paper</a> led by Adam Pollack on how uncertainty in flood risk estimates affects flood insurance policy.</p>
+
+
+
+ ]]></description>
+  <category>News</category>
+  <guid>https://dossgollin-lab.github.io/posts/2026/2026-01-20-wsj-flood-risk.html</guid>
+  <pubDate>Tue, 20 Jan 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>New PNAS Paper on the Need for Transparent Climate-Risk Research</title>
+  <link>https://dossgollin-lab.github.io/posts/2026/2026-01-15-pnas-transparency.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A new paper in <em>Proceedings of the National Academy of Sciences</em>, led by Adam Pollack (now at the University of Iowa), argues that transparency is especially critical for climate-risk research—and that current practices fall short.</p>
+<p>Most engineering products can be tested directly: a new material can be stress-tested regardless of whether its formula is secret. Climate risk estimates can’t. There’s no instrument that measures the probability of a 100-year flood, so when two models disagree—as they do for 76% of Los Angeles properties—we have no independent way to settle the question. Scrutiny of methods and assumptions is the only path to trust, yet only 4% of highly-cited climate-risk studies share both data and code.</p>
+<p>The paper charts a course forward: climate-risk tools should be explainable, benchmarked, built on open foundations, and comparable across providers. Getting there will take more than good intentions from individual researchers—it requires institutional commitment to open science infrastructure.</p>
+<p>See the <a href="../../bibliography/publications/article/pollack_transparency_2026.html">full paper</a> or the <a href="https://engineering.dartmouth.edu/news/researchers-call-for-more-transparency-in-climate-risk-science">Dartmouth press release</a>.</p>
+
+
+
+ ]]></description>
+  <category>Publications</category>
+  <guid>https://dossgollin-lab.github.io/posts/2026/2026-01-15-pnas-transparency.html</guid>
+  <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Undergrad Position: Flood Extent Labeling</title>
   <link>https://dossgollin-lab.github.io/posts/2026/2026-01-14-flood-labeling-undergrad.html</link>
@@ -643,42 +686,6 @@ Kazadi, Arnold, James Doss-Gollin, and Arlei Silva. 2024. <span>“Pluvial Flood
   <category>News</category>
   <guid>https://dossgollin-lab.github.io/posts/2024/2024-05-14-san-jac-idf.html</guid>
   <pubDate>Tue, 14 May 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Video for World Water Day / ASU Water Institute Kickoff</title>
-  <link>https://dossgollin-lab.github.io/posts/2024/2024-03-27-water-day.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>To celebrate World Water Day 2024 and the kickoff of a new water institute at ASU, we were asked to create a five minute video on a local water challenge. While Houston has important challenges related to droughts, infrastructure financing, and water infrastructure, we created a video titled “how to equitably and sustinably manage intensifying rainfall in fast-changing cities?” You can watch the video <a href="https://www.youtube.com/watch?v=4EbLGppjN2I&amp;list=PL3E_J0n3vAthGB3fNscCABwxrB35c3dSa&amp;index=13">here</a>, view it below, or check out the full <a href="https://www.youtube.com/playlist?list=PL3E_J0n3vAthGB3fNscCABwxrB35c3dSa">playlist</a></p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4EbLGppjN2I?si=eJ3dsK3NlFEHVEUr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
-</iframe>
-
-
-
- ]]></description>
-  <category>Publications</category>
-  <guid>https://dossgollin-lab.github.io/posts/2024/2024-03-27-water-day.html</guid>
-  <pubDate>Wed, 27 Mar 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>James gives seminar at UNC Chapel Hill</title>
-  <link>https://dossgollin-lab.github.io/posts/2024/2024-03-27-unc.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>James gave a seminar titled “Advancing Urban Flood Risk Management through Physics-informed, Data-Driven Hazard Assessment” at the University of North Carolina at Chapel Hill. The <a href="https://emes.unc.edu/event/spring-2024-colloquium-seminar-series-dr-james-doss-gollin-rice-university/">seminar</a> was hosted by the <a href="https://emes.unc.edu/">Earth, Marine, and Environmental Science</a> department. Thanks to the wonderful faculty, students, and staff for hosting and for great discussions.</p>
-
-
-
- ]]></description>
-  <category>Publications</category>
-  <guid>https://dossgollin-lab.github.io/posts/2024/2024-03-27-unc.html</guid>
-  <pubDate>Wed, 27 Mar 2024 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
