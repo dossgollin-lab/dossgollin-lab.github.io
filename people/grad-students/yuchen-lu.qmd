@@ -18,6 +18,8 @@ about:
         -   icon: envelope
             text: Email
             href: mailto:yl238@rice.edu
+        -   text: Google Scholar
+            href: https://scholar.google.com/citations?user=Uo7wKWUAAAAJ&hl=en
 
 format: 
   html:
