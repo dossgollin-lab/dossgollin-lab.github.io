@@ -12,14 +12,18 @@ about:
         -   icon: envelope
             text: Email
             href: mailto:dongwook.kim@rice.edu
-        -   text: Google Scholar
-            href: https://scholar.google.com/citations?user=VR9cB8EAAAAJ&hl=en
         -   icon: github
             text: Github
             href: https://github.com/hydkim
         -   icon: linkedin
             text: LinkedIN
             href: https://www.linkedin.com/in/dongwookkimwater/
+        -   icon: graduation-cap
+            text: Google Scholar
+            href: https://scholar.google.com/citations?hl=en&user=VR9cB8EAAAAJ&view_op=list_works&sortby=pubdate
+        -   icon: globe
+            text: Personal Website
+            href: https://hydkim.github.io/
 
 format: 
   html:
@@ -31,6 +35,7 @@ format:
 
 Dongwook Kim is a Ph.D. student in the Department of Civil and Environmental Engineering at Rice University.
 His research integrates knowledge and methodologies from various disciplines, including hydrology, climate science, statistics, and machine learning, to quantify hydroclimate risk due to climate change and to develop effective mitigation strategies.
+His current research focuses on flood extent mapping in urban and rural environments using synthetic aperture radar (SAR) and deep learning.
 Dongwook is coadvised by [Prof. Avantika Gori](https://gori.blogs.rice.edu/).
 
 ## Education
