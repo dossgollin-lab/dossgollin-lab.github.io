@@ -1,8 +1,12 @@
 ---
-title: "Undergrad Position: Flood Extent Labeling"
+title: "Undergrad Position: Flood Extent Labeling (Closed)"
 categories: News
 date: 2026-01-14
 ---
+
+::: {.callout-important}
+This position has been filled and is no longer accepting applications.
+:::
 
 We are recruiting undergraduate students to assist labeling flood extents using NOAA aerial imagery.
 This work involves manually identifying and delineating flooded areas using GIS software and will contribute directly to an active research project on flood mapping.
