@@ -9,7 +9,7 @@
 <link>https://dossgollin-lab.github.io/</link>
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.8.27</generator>
+<generator>quarto-1.9.37</generator>
 <lastBuildDate>Tue, 20 Jan 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>James Quoted in WSJ Article on Flood Risk Scores</title>
@@ -55,13 +55,26 @@
   <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Undergrad Position: Flood Extent Labeling</title>
+  <title>Undergrad Position: Flood Extent Labeling (Closed)</title>
   <link>https://dossgollin-lab.github.io/posts/2026/2026-01-14-flood-labeling-undergrad.html</link>
   <description><![CDATA[ 
 
 
 
 
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This position has been filled and is no longer accepting applications.</p>
+</div>
+</div>
 <p>We are recruiting undergraduate students to assist labeling flood extents using NOAA aerial imagery. This work involves manually identifying and delineating flooded areas using GIS software and will contribute directly to an active research project on flood mapping.</p>
 <section id="what-you-will-do" class="level2">
 <h2 class="anchored" data-anchor-id="what-you-will-do">What You Will Do</h2>
@@ -195,7 +208,7 @@
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-liu_generative:2025" class="csl-entry">
 Liu, Yuhao, James Doss-Gollin, Qiushi Dai, Ashok Veeraraghavan, and Guha Balakrishnan. 2025. <span>“Downscaling Extreme Precipitation with Wasserstein Regularized Diffusion.”</span> <em>IEEE Transactions on Geoscience and Remote Sensing</em>, 1–1. <a href="https://doi.org/10.1109/TGRS.2025.3611872">https://doi.org/10.1109/TGRS.2025.3611872</a>.
 </div>
@@ -233,7 +246,7 @@ Liu, Yuhao, James Doss-Gollin, Qiushi Dai, Ashok Veeraraghavan, and Guha Balakri
 
 
 
-<p>Congratulations to <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> on her first first-author paper, “Bayesian spatiotemporal nonstationary model quantifies robust increases in daily extreme rainfall across the Western Gulf Coast,” which has been published open-access in Environmental Research: Climate <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu, Seiyon Lee, and Doss-Gollin 2025)</span>!</p>
+<p>Congratulations to <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> on her first first-author paper, “Bayesian spatiotemporal nonstationary model quantifies robust increases in daily extreme rainfall across the Western Gulf Coast,” which has been published open-access in Environmental Research: Climate <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu et al. 2025)</span>!</p>
 <p>This research represents the first step in Yuchen’s work, funded by Rice and the Texas Water Development Board, on incorporating robust estimates of nonstationarity into precipitation frequency estimates. She is currently working with colleagues at TAMU and TWDB to incorporate these insights and methods into Intensity-Duration-Frequency (IDF) curves for Texas, and we will be presenting updates at the upcoming AGU Fall meeting.</p>
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
@@ -253,7 +266,7 @@ Liu, Yuhao, James Doss-Gollin, Qiushi Dai, Ashok Veeraraghavan, and Guha Balakri
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-lu_spatiotemporal:2025" class="csl-entry">
 Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the Western Gulf Coast.”</span> <em>Environmental Research: Climate</em> 4 (3): 035016. <a href="https://doi.org/10.1088/2752-5295/adf56e">https://doi.org/10.1088/2752-5295/adf56e</a>.
 </div>
@@ -412,13 +425,13 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
 <figcaption>Yuchen and her committee members</figcaption>
 </figure>
 </div>
-<p>Yuchen presented her research with confidence and expertise, demonstrating a deep understanding of nonstationary hydroclimate extremes and her innovative approaches to probabilistic analysis. Her work promises to make significant contributions to our understanding of changing extreme weather patterns and their implications for infrastructure design and risk management. Her first paper is already under review <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu, Seiyon Lee, and Doss-Gollin 2025)</span>, and future work is forthcoming.</p>
+<p>Yuchen presented her research with confidence and expertise, demonstrating a deep understanding of nonstationary hydroclimate extremes and her innovative approaches to probabilistic analysis. Her work promises to make significant contributions to our understanding of changing extreme weather patterns and their implications for infrastructure design and risk management. Her first paper is already under review <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu et al. 2025)</span>, and future work is forthcoming.</p>
 <p>We would like to express our sincere gratitude to her committee members, Dr.&nbsp;Phil Bedient, Dr.&nbsp;Katherine Ensor, and Dr.&nbsp;Avantika Gori, for their thoughtful feedback and guidance throughout this process.</p>
 
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-lu_spatiotemporal:2025" class="csl-entry">
 Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the Western Gulf Coast.”</span> <em>Environmental Research: Climate</em> 4 (3): 035016. <a href="https://doi.org/10.1088/2752-5295/adf56e">https://doi.org/10.1088/2752-5295/adf56e</a>.
 </div>
@@ -527,7 +540,7 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
 
 
 
-<p>Our preprint, led by <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> and titled “Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the Western Gulf Coast”, is now live on ArXiV <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu, Seiyon Lee, and Doss-Gollin 2025)</span>.</p>
+<p>Our preprint, led by <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> and titled “Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the Western Gulf Coast”, is now live on ArXiV <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu et al. 2025)</span>.</p>
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
 <p>We develop a novel Bayesian hierarchical model, the Spatially Varying Covariates Model, to address the challenges of estimating nonstationary extreme precipitation probabilities. Traditional models often assume stationarity, potentially underestimating risks due to climate change. Our model integrates nonstationarity and regionalization, leveraging spatial statistics and extreme value theory to provide robust estimates of extreme precipitation events. We validate our approach using daily rainfall data from the Western Gulf Coast, revealing significant increases in extreme precipitation intensity and variability, particularly around Houston and New Orleans.</p>
@@ -541,7 +554,7 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-lu_spatiotemporal:2025" class="csl-entry">
 Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the Western Gulf Coast.”</span> <em>Environmental Research: Climate</em> 4 (3): 035016. <a href="https://doi.org/10.1088/2752-5295/adf56e">https://doi.org/10.1088/2752-5295/adf56e</a>.
 </div>
@@ -650,7 +663,7 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
 
 
 
-<p>Our paper titled “Pluvial Flood Emulation with Hydraulics-informed Message Passing” has been accepted to the 2024 International Conference on Machine Learning (ICML) <span class="citation" data-cites="kazadi_icml:2024">(Kazadi, Doss-Gollin, and Silva 2024)</span>.</p>
+<p>Our paper titled “Pluvial Flood Emulation with Hydraulics-informed Message Passing” has been accepted to the 2024 International Conference on Machine Learning (ICML) <span class="citation" data-cites="kazadi_icml:2024">(Kazadi et al. 2024)</span>.</p>
 <p>Given a geographical region and precipitation data, our model predicts water depths in an auto-regressive fashion using a message-passing framework inspired by the conservation of momentum and mass as expressed in the shallow-water equations. This allows the model to effectively capture the propagation of water flow, particularly during the early stages of flooding when the water is scarce.</p>
 <p>Our empirical results, based on a dataset covering 9 regions and 7 historical precipitation events, demonstrate that our model outperforms existing baselines, providing accurate simulations even in complex topographies. This solution achieves accurate results using real ground elevation data. Additionally, our model excels in predicting flood dynamics for unseen storms and watersheds, showcasing its robustness and generalization capabilities.</p>
 <p>For more details, see <a href="../../bibliography/publications/conference/kazadi_icml_2024.html">here</a>. This is an exciting space, and we are looking forward to sharing more updates on our ongoing research in this critical area!</p>
@@ -658,9 +671,9 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-kazadi_icml:2024" class="csl-entry">
-Kazadi, Arnold, James Doss-Gollin, and Arlei Silva. 2024. <span>“Pluvial Flood Emulation with Hydraulics-Informed Message Passing.”</span> In <em>Forty-<span>First International Conference</span> on <span>Machine Learning</span></em>. <a href="https://openreview.net/forum?id=kIHIA6Lr0B">https://openreview.net/forum?id=kIHIA6Lr0B</a>.
+Kazadi, Arnold, James Doss-Gollin, and Arlei Silva. 2024. <span>“Pluvial Flood Emulation with Hydraulics-Informed Message Passing.”</span> <em>Forty-<span>First International Conference</span> on <span>Machine Learning</span></em>, June 24. <a href="https://openreview.net/forum?id=kIHIA6Lr0B">https://openreview.net/forum?id=kIHIA6Lr0B</a>.
 </div>
 </div></section></div> ]]></description>
   <category>Publications</category>
