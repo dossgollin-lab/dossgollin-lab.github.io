@@ -1,0 +1,33 @@
+# lychee link checker config — https://lychee.cli.rs/
+# Shared by CI (.github/workflows/pr-checks.yml) and local `make linkcheck`.
+
+max_concurrency = 8
+max_redirects = 5
+timeout = 30
+retry_wait_time = 2
+max_retries = 2
+
+# Accept common success codes plus bot-block / paywall codes that are usually
+# false positives (Rice profile pages return 406; WSJ returns 401; some sites
+# return 403/415 when bot-detection kicks in).
+accept = [200, 201, 203, 206, 401, 403, 406, 415, 429]
+
+exclude_path = [
+    "_site",
+    ".quarto",
+    "_freeze",
+    "bibliography/publications",
+    "node_modules",
+]
+
+# Domains that block automated checking reliably enough to skip entirely.
+exclude = [
+    "^https?://(www\\.)?linkedin\\.com/",
+    "^https?://(www\\.)?x\\.com/",
+    "^https?://(www\\.)?twitter\\.com/",
+    "^https?://scholar\\.google\\.com/",
+    "^https?://doi\\.org/",
+    "^mailto:",
+    # Private lab-guide repo / wiki — visible to lab members when authenticated.
+    "^https?://github\\.com/dossgollin-lab/lab-guide",
+]

@@ -5,7 +5,7 @@ date: 2025-04-02
 ---
 
 
-![Texas Climate Conference](https://si.rice.edu/sites/g/files/bxs5416/files/inline-images/TX%20Climate%20Conference-Header.jpg){fig-align="center" width="80%"}
+![](https://si.rice.edu/sites/g/files/bxs5416/files/inline-images/TX%20Climate%20Conference-Header.jpg){fig-align="center" width="80%" fig-alt="Texas Climate Conference 2025 header banner"}
 
 We are excited to invite you to the **Texas Climate Conference 2025**, a 1.5-day event at Rice University on April 10-11, 2025.
 This conference will bring together scientists, policymakers, and community stakeholders to discuss science and solutions on four critical Texas climate themes:

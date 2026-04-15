@@ -4,7 +4,7 @@ categories: Welcome
 date: 2024-01-01
 ---
 
-We're delighted to welcome [Jonah Schaecter](../../people/grad-students/Jonah-Schaechter.qmd) to the lab!
+We're delighted to welcome [Jonah Schaechter](../../people/alumni/jonah-schaechter.qmd) to the lab!
 Jonah joins us from working as a software engineer at Epic.
 Prior that that, he earned a BS and MS in Mechanical Engineering from Columbia University.
 Jonah's interests include optimization, sustainability, machine learning, and flooding.

@@ -4,7 +4,7 @@ date: 2024-12-05
 ---
 
 We look forward to seeing you at AGU 2024!
-Our friends at the [AI4ClimateRRR cluster](https://ai4climaterrr.rice.edu/) will be at the conference as well -- for a list of presentations, see [here](https://ai4climaterrr.rice.edu/posts/2024-12-05-agu.html)
+Our friends at the [AI for Urban Resilience](https://ai4urbanresilience.rice.edu/) cluster (formerly AI4ClimateRRR) will be at the conference as well.
 
 ### Tuesday
 

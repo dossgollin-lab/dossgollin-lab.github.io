@@ -1,5 +1,6 @@
 ---
 title: Teaching
+description: "Courses taught by James Doss-Gollin at Rice University in climate risk, probability, and environmental data analysis."
 
 listing:
     id: teaching

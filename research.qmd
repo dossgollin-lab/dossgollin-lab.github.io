@@ -1,47 +1,34 @@
 ---
 title: Research
+description: "Research themes of the Doss-Gollin Lab: nonstationary rainfall and tropical cyclone hazards, urban flood modeling, and community-engaged adaptation planning."
 
-format: 
+format:
   html:
     page-layout: full
     suppress-bibliography: true
 ---
 
-We are a mission-oriented research group addressing fundamental challenges in infrastructure resilience, risk assessment, and climate adaptation.
-Our research vision is to **advance climate risk analysis and adaptive planning** for the complex, interdependent infrastructure systems that underpin modern society.
+Urban climate risks are growing, but so is the complexity of managing them.
+For example, planners managing flood risks must choose how to design, prioritize, and sequence combinations of green and gray infrastructure, centralized and decentralized systems, drainage and retention across a city or watershed.
+Our research asks:
 
-::: {.grid}
+- How are rainfall extremes, tropical cyclones, and other climate hazards changing, and how do we represent associated uncertainty?
+- How do those hazards propagate through urban systems to create risk for communities and infrastructure?
+- How can planners make robust investment decisions despite deep uncertainty in future conditions?
 
-::: {.g-col-12 .g-col-md-7}
-To achieve this, we integrate Earth science, risk analysis, and probabilistic machine learning.
-While motivated by the downstream need for robust adaptation, our primary technical focus is on improving the upstream characterization of hazards and their interaction with complex systems.
+We explore these questions through four interrelated research themes:
 
-Our work is organized around **three interrelated questions**:
-
-1. How can we simulate nonstationary extremes using physics-informed AI?
-2. How do these hazards propagate to create risk in critical infrastructure?
-3. What strategies robustly meet competing objectives under deep uncertainty?
-
-We explore these questions through four specific research themes:
-:::
-
-::: {.g-col-12 .g-col-md-5}
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/gI2I8Cq-14g" title="Overview of Doss-Gollin Research Group (March 2023)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; aspect-ratio: 16/9;"></iframe>
-:::
-
-:::
-
-## Research Themes
-
-::: {.grid}
+::: {.grid .mb-5}
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.callout-note appearance="minimal" icon=false .research-card}
 ## Probabilistic Hydroclimate Hazard
 
-We develop advanced statistical and machine learning methods, including hierarchical Bayesian models and generative diffusion models, to characterize the hazard associated with nonstationary hydroclimate extremes.
+Design standards for flood infrastructure typically assume a stationary climate and spatial uniformity.
+Yet rainfall extremes are intensifying, and their space-time structure shapes downstream impacts.
+We develop hierarchical Bayesian models and generative machine learning methods that characterize nonstationary hydroclimate extremes and produce realistic scenarios for decision-relevant analysis.
 
-**Read More:** [@liu_generative:2025](/bibliography/publications/article/liu_generative_2025.qmd), [@lu_spatiotemporal:2025](/bibliography/publications/article/lu_spatiotemporal_2025.qmd).
+**Read more:** [@liu_generative:2025](/bibliography/publications/article/liu_generative_2025.qmd), [@lu_spatiotemporal:2025](/bibliography/publications/article/lu_spatiotemporal_2025.qmd).
 :::
 :::
 
@@ -49,9 +36,10 @@ We develop advanced statistical and machine learning methods, including hierarch
 ::: {.callout-note appearance="minimal" icon=false .research-card}
 ## AI-Accelerated Flood Modeling
 
-To translate rainfall into urban flood hazard at scale, we are developing physics-informed machine learning (e.g., Graph Neural Networks) to rapidly and accurately predict flood extent and depth.
+Physics-based 2D hydrodynamic models illuminate urban flood behavior, but they omit critical processes, are difficult to build, and are too expensive to run at the ensemble sizes that uncertainty quantification demands.
+We develop physics-informed machine learning emulators — including graph neural networks — that simulate compound urban flood processes rapidly and at high resolution.
 
-**Read More:** [@kazadi_floodgnn-gru:2024](/bibliography/publications/article/kazadi_floodgnn-gru_2024.qmd), [@kazadi_icml:2024](/bibliography/publications/conference/kazadi_icml_2024.qmd).
+**Read more:** [@kazadi_floodgnn-gru:2024](/bibliography/publications/article/kazadi_floodgnn-gru_2024.qmd), [@kazadi_icml:2024](/bibliography/publications/conference/kazadi_icml_2024.qmd).
 :::
 :::
 
@@ -59,9 +47,10 @@ To translate rainfall into urban flood hazard at scale, we are developing physic
 ::: {.callout-note appearance="minimal" icon=false .research-card}
 ## Infrastructure and Systems Risk
 
-We quantify the risks these hazards pose to infrastructure systems and the people who use them.
+Flood hazard becomes risk only when it interacts with people, buildings, and infrastructure.
+Working with structural engineers, economists, and community partners, we quantify how flooding translates into damage, disruption, and cascading consequences — from flooded roads that sever access to medical and emergency services to infrastructure failures that propagate across interconnected systems.
 
-**Read More:** [@rozer_lossestimates:2019](/bibliography/publications/article/rozer_lossestimates_2019.qmd), [@doss-gollin_txtreme:2021](/bibliography/publications/article/doss-gollin_txtreme_2021.qmd), [@pollack_unsafe:2025](/bibliography/publications/article/pollack_unsafe_2025.qmd).
+**Read more:** [@rozer_lossestimates:2019](/bibliography/publications/article/rozer_lossestimates_2019.qmd), [@doss-gollin_txtreme:2021](/bibliography/publications/article/doss-gollin_txtreme_2021.qmd), [@pollack_unsafe:2025](/bibliography/publications/article/pollack_unsafe_2025.qmd).
 :::
 :::
 
@@ -69,16 +58,14 @@ We quantify the risks these hazards pose to infrastructure systems and the peopl
 ::: {.callout-note appearance="minimal" icon=false .research-card}
 ## Adaptive Decision Making Under Uncertainty
 
-We develop decision frameworks that identify robust and adaptive pathways for managing climate risks, enabling planners to balance multiple objectives under deep uncertainty.
+Planning flood resilience is a combinatorial problem: which mix of green and gray, centralized and decentralized investments to deploy, where, and in what sequence.
+Current guidance offers little help.
+We develop decision frameworks that help planners sequence and prioritize investments, balance competing objectives, and adapt as conditions and knowledge evolve under deep uncertainty.
 
-**Read More:** [@doss-gollin_subjective:2023](/bibliography/publications/article/doss-gollin_subjective_2023.qmd), [@zhou_mesoscale:2023](/bibliography/publications/article/zhou_mesoscale_2023.qmd).
+**Read more:** [@doss-gollin_subjective:2023](/bibliography/publications/article/doss-gollin_subjective_2023.qmd), [@zhou_mesoscale:2023](/bibliography/publications/article/zhou_mesoscale_2023.qmd).
 :::
 :::
 :::
-
-## Project Pages
-
-- Rice [AI for Climate Risk and Urban Resilience](https://ai4urbanresilience.rice.edu/){target=_blank} cluster
 
 ## Research Support
 
@@ -88,24 +75,20 @@ We would like to thank the following organizations for their research funding an
 
 ::: {.grid .justify-content-center .align-items-center}
 
-::: {.g-col-6 .g-col-md-2 .text-center}
+::: {.g-col-6 .g-col-md-3 .text-center}
 [![Texas Water Development Board](_assets/img/logos/twdb.svg)](https://www.twdb.texas.gov/){target=_blank}
 :::
 
-::: {.g-col-6 .g-col-md-2 .text-center}
+::: {.g-col-6 .g-col-md-3 .text-center}
 [![National Science Foundation](_assets/img/logos/NSF.png)](https://www.nsf.gov/){target=_blank}
 :::
 
-::: {.g-col-6 .g-col-md-2 .text-center}
-[![NVIDIA Academic Grant Program](_assets/img/logos/nvidia.png)](https://www.nvidia.com/){target=_blank}
-:::
-
-::: {.g-col-6 .g-col-md-2 .text-center}
-[![Eleven Labs](_assets/img/logos/elevenlabs-logo-black.svg)](https://elevenlabs.io/){target=_blank}
-:::
-
-::: {.g-col-6 .g-col-md-2 .text-center}
+::: {.g-col-6 .g-col-md-3 .text-center}
 [![Ken Kennedy Institute](_assets/img/logos/k2i.png)](https://ai.rice.edu){target=_blank}
+:::
+
+::: {.g-col-6 .g-col-md-3 .text-center}
+[![Consortium for Enhancing Resilience and Catastrophe Modeling (CERCat)](_assets/img/logos/cercat.png)](https://www.catmodeling.org/home){target=_blank}
 :::
 
 :::
@@ -114,12 +97,20 @@ We would like to thank the following organizations for their research funding an
 
 ::: {.grid .justify-content-center .align-items-center}
 
-::: {.g-col-6 .g-col-md-2 .text-center}
+::: {.g-col-6 .g-col-md-3 .text-center}
 [![100,000 Strong in the Americas](_assets/img/logos/100k-strong.jpg)](https://www.100kstrongamericas.org/){target=_blank}
 :::
 
-::: {.g-col-6 .g-col-md-2 .text-center}
+::: {.g-col-6 .g-col-md-3 .text-center}
 [![Rice Creative Ventures](_assets/img/logos/creative-ventures.png)](https://research.rice.edu/cvent/){target=_blank}
+:::
+
+::: {.g-col-6 .g-col-md-3 .text-center}
+[![Eleven Labs](_assets/img/logos/elevenlabs-logo-black.svg)](https://elevenlabs.io/){target=_blank}
+:::
+
+::: {.g-col-6 .g-col-md-3 .text-center}
+[![NVIDIA Academic Grant Program](_assets/img/logos/nvidia.png)](https://www.nvidia.com/){target=_blank}
 :::
 
 :::

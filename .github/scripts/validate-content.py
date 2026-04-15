@@ -1,7 +1,16 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#     "Pillow>=10.0.0",
+#     "PyYAML>=6.0",
+# ]
+# ///
 """
 Content validation script for Doss-Gollin Lab website.
 Validates frontmatter, image dimensions, and cross-references.
+
+Run locally with `uv run .github/scripts/validate-content.py`.
 
 Exit codes:
     0 - All validations passed (may have warnings)

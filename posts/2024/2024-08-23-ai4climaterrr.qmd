@@ -8,4 +8,4 @@ We're delighted to announce the launch of a new project, *AI for Climate Risk an
 AI4ClimateRRR is a cluster within the Ken Kennedy Institute.
 Monthly meetings are available to the Rice community.
 
-For more, see [the project website](https://ai4climaterrr.rice.edu/).
+The initiative has since evolved into the [AI for Urban Resilience](https://ai4urbanresilience.rice.edu/) cluster at the Ken Kennedy Institute.

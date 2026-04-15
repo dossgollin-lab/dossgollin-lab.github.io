@@ -12,9 +12,9 @@ This is an important problem because energy systems, including electricity syste
 We find that while climate change has increased average and peak demand for cooling, but that peak demand for heating, which is an important driver of electricity demand in the winter, is dominated by year to year variability.
 System design and management must take rare winter peaks into account, especially as building heating electrifies.
 
-For more, see [the abstract](/bibliography/publications/article/wutich_madwater_2023.qmd).
+For more, see [the abstract](/bibliography/publications/article/amonkar_heatingcooling_2023.qmd).
 
-![](../../_assets/img/pubs/amonkar_heatingcooling_2023.png){width=100%}
+![](../../_assets/img/pubs/amonkar_heatingcooling_2023.png){width=100% fig-alt="Thumbnail of the Amonkar et al. 2023 paper on heating and cooling demand"}
 
 
 :::{#refs}

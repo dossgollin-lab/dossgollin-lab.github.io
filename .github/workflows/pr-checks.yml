@@ -92,6 +92,9 @@ jobs:
     needs: build-site
     continue-on-error: true  # Don't fail the PR on external link issues
     steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
       - name: Download site artifact
         uses: actions/download-artifact@v4
         with:
@@ -108,18 +111,10 @@ jobs:
       - name: Check external links
         id: lychee
         run: |
-          # Run lychee and capture output
+          # Uses shared config at .lychee.toml so CI and local `make linkcheck`
+          # accept the same status codes and excludes.
           lychee \
-            --exclude-mail \
-            --exclude 'linkedin.com' \
-            --exclude 'twitter.com' \
-            --exclude 'x.com' \
-            --exclude 'scholar.google.com' \
-            --exclude 'localhost' \
-            --exclude '127.0.0.1' \
-            --timeout 30 \
-            --max-retries 2 \
-            --accept 200,403,429 \
+            --config .lychee.toml \
             --format markdown \
             _site/ > lychee-report.md 2>&1 || true
 

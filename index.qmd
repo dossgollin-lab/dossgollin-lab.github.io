@@ -1,6 +1,5 @@
 ---
-title: Doss-Gollin Research Group
-
+description: "The Doss-Gollin Research Group at Rice CEVE develops Bayesian statistical and machine learning tools for climate risk, flood hazard, and community-engaged infrastructure planning."
 listing:
     id: news-listings
     type: table
@@ -33,35 +32,25 @@ format:
 Our infrastructure was designed for a world that no longer exists.
 Today, these systems face converging pressures from climate extremes, aging assets, and demographic shifts.
 
-::: {.grid .align-items-center}
-::: {.g-col-12 .g-col-md-6}
 <iframe
     width="100%"
-    height="150"
     src="https://www.youtube-nocookie.com/embed/gI2I8Cq-14g"
     title="YouTube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen>
 </iframe>
-:::
-::: {.g-col-12 .g-col-md-6}
-Our research vision is to **advance climate risk analysis and adaptive planning** for complex, interdependent infrastructure systems.
-:::
-:::
 
-To achieve this, we integrate Earth science, risk analysis, and probabilistic machine learning to research three interrelated questions.
-First, how can we understand and simulate nonstationary hydroclimatic hazards and quantify relevant uncertainties given imperfect physical models and short observational records?
-Second, how do these hazards create risks to critical infrastructure systems and the communities that rely on them?
-Third, what adaptation strategies can robustly meet multiple, potentially competing, performance objectives, given deep uncertainty in future conditions?
-We build open-source tools and actionable insights to tackle critical challenges in urban flood resilience, energy reliability, and catastrophe modeling.
+
+We develop probabilistic and machine learning models to understand how rainfall and compound flood drivers are changing, how those changes create risk for critical urban infrastructure, and how to make robust decisions despite deep uncertainty.
+Our work spans Bayesian statistical modeling, AI-accelerated flood emulation, and adaptive decision frameworks, always motivated by helping communities understand and manage these risks.
 
 ::: {style="border-top: 1px solid var(--bs-border-color); margin: 1.5rem 0;"}
 :::
 
 ::: {.grid .align-items-center}
 ::: {.g-col-12 .g-col-md-3}
-![](_assets/img/logos/james.jpg){width=100%}
+![](_assets/img/logos/james.jpg){width=100% fig-alt="Portrait of James Doss-Gollin"}
 :::
 ::: {.g-col-12 .g-col-md-9}
 **Dr. James Doss-Gollin** is an Assistant Professor in the Department of [Civil and Environmental Engineering](https://cee.rice.edu) at Rice University. 
