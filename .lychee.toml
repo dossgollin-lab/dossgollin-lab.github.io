@@ -28,8 +28,6 @@ exclude = [
     "^https?://scholar\\.google\\.com/",
     "^https?://doi\\.org/",
     "^mailto:",
-    "^https?://localhost",
-    "^https?://127\\.0\\.0\\.1",
     # Private lab-guide repo / wiki — visible to lab members when authenticated.
     "^https?://github\\.com/dossgollin-lab/lab-guide",
 ]
