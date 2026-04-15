@@ -11,12 +11,13 @@ Directly editing the site is prohibited, so all changes must be made by forking,
 ## Build Commands
 
 ```bash
-# Preview site locally (port 4200)
-quarto preview
-
-# Build site
-quarto render
+quarto preview                                                         # Live preview on port 4200
+quarto render                                                          # Build site
+uv run .github/scripts/validate-content.py                             # Validate frontmatter / images
+lychee --config .lychee.toml --root-dir "$(pwd)" '**/*.qmd' '**/*.md'  # Link check (pre-commit)
 ```
+
+Run the validator + lychee locally before committing. Install tools with `brew install lychee uv`. The validator uses PEP 723 inline dependencies, so `uv run` installs Pillow/PyYAML on first invocation without any venv setup.
 
 ## Repository Structure
 
@@ -98,4 +99,4 @@ Other image conventions:
 
 GitHub Actions workflow (`.github/workflows/publish-quarto.yml`) renders and publishes to `gh-pages` branch on push to `master`. The workflow also updates the bibliography submodule before rendering.
 
-A separate workflow (`.github/workflows/link-check.yml`) runs [lychee](https://lychee.cli.rs/) on pull requests and weekly to catch broken links. Configuration lives in `.lychee.toml`.
+The `.github/workflows/pr-checks.yml` workflow runs on every pull request: it validates frontmatter, renders the site, and runs [lychee](https://lychee.cli.rs/) against the rendered HTML. Link-check config lives in `.lychee.toml` and is shared with the local `lychee` invocation.
