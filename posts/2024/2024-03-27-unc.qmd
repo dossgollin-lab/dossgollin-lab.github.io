@@ -5,5 +5,5 @@ date: 2024-03-27
 ---
 
 James gave a seminar titled "Advancing Urban Flood Risk Management through Physics-informed, Data-Driven Hazard Assessment" at the University of North Carolina at Chapel Hill.
-The [seminar](https://emes.unc.edu/event/spring-2024-colloquium-seminar-series-dr-james-doss-gollin-rice-university/) was hosted by the [Earth, Marine, and Environmental Science](https://emes.unc.edu/) department.
+The seminar was hosted by the [Earth, Marine, and Environmental Science](https://emes.unc.edu/) department.
 Thanks to the wonderful faculty, students, and staff for hosting and for great discussions.

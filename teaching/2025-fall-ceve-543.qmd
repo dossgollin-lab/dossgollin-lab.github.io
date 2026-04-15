@@ -16,4 +16,4 @@ Description: This course explores the integration of physics-based and statistic
 
 ## More information
 
-For details, see [the course website](https://ceve-543.github.io/){target=_blank}.
+Contact [James Doss-Gollin](mailto:jdossgollin@rice.edu) for the current syllabus and course materials.

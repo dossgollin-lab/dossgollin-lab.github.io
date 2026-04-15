@@ -6,4 +6,4 @@ bibliography: ../../bibliography/my-papers.bib
 ---
 
 [James](../../people/pi/james-doss-gollin.qmd) presented work led by Ph.D. student [Yuchen Lu](../../people/grad-students/yuchen-lu.qmd) and with GMU's Ben Seiyon Lee at the [STAHY 2023](https://drive.google.com/file/d/1oDXot_L1fcT43-55tkbU3pArizKmj8xb/view) conference in Boston, MA.
-The talk was titled "A Bayesian Spatial Hierarchical Framework for Process-Informed Nonstationary Analysis of Precipitation Frequencies" and is available [online](https://jamesdossgollin.me/presentations-site/slides-public/2023-11-10-stahy.html#/title-slide).
+The talk was titled "A Bayesian Spatial Hierarchical Framework for Process-Informed Nonstationary Analysis of Precipitation Frequencies" and is available [online](https://jdossgollin.github.io/presentations-site/slides-public/2023-11-10-stahy.html).

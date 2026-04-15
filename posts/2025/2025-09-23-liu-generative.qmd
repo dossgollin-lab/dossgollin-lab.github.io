@@ -7,7 +7,7 @@ bibliography: ../../bibliography/my-papers.bib
 ---
 
 A new paper "Downscaling Extreme Precipitation with Wasserstein Regularized Diffusion," published in IEEE Transactions on Geoscience and Remote Sensing [@liu_generative:2025].
-This work is led by [Yuhao Liu](https://www.yuhaoliu.net/), a PhD student in Electrical and Computer Engineering, and is the culmination of extensive brainstorming and research collaboration with coauthors [Ashok Veeraraghavan](https://www.ece.rice.edu/~ashok/), [Guha Balakrishnan](https://www.ece.rice.edu/~guha/), and Qiushi Dai as well as [James Doss-Gollin](/people/pi/james-doss-gollin.qmd).
+This work is led by [Yuhao Liu](https://www.yuhaoliu.net/), a PhD student in Electrical and Computer Engineering, and is the culmination of extensive brainstorming and research collaboration with coauthors [Ashok Veeraraghavan](https://profiles.rice.edu/faculty/ashok-veeraraghavan), [Guha Balakrishnan](https://profiles.rice.edu/faculty/guha-balakrishnan), and Qiushi Dai as well as [James Doss-Gollin](/people/pi/james-doss-gollin.qmd).
 
 Many assessments of rainfall and flood hazard require high-resolution precipitation data (e.g., 1-4 km).
 While coarse global datasets from reanalysis products exist, and fine-grained radar data is available for recent years, there is a critical gap in producing long-term, high-resolution historical datasets needed for robust climate and hydrological modeling.
