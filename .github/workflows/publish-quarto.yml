@@ -38,6 +38,9 @@ jobs:
           cd ..
           git submodule update --remote --recursive
 
+      - name: Quarto check
+        run: quarto check
+
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
         with:

@@ -78,6 +78,24 @@ In the bibliography repository, add a thumbnail to `_assets/img/pubs/`; the cite
 
 When editing Markdown or Quarto files, use one sentence per line to produce cleaner git diffs.
 
+## Images
+
+Every image must be accessible. Choose the syntax based on whether you want a visible caption:
+
+- **Alt text without a visible caption** (most cases, e.g., portraits, logos, banner headers): `![](path){fig-alt="Description here"}`
+- **Alt text with a visible caption** (e.g., news photos where the caption adds context): `![Descriptive caption that also serves as alt text](path)`
+
+Do not use `![](path)` with no `fig-alt` — that leaves the image inaccessible to screen readers and search engines.
+
+Other image conventions:
+
+- **Sizing**: resize photos to at most 1600px on the long edge before committing. Posters and print-quality images can go up to ~2500px.
+- **File size targets**: content photos under ~500 KB; large scene/poster shots under ~2 MB. Images over 5 MB should be resized.
+- **Optimize**: run PNGs through `pngquant` or `oxipng`, JPEGs through `jpegoptim` or `mozjpeg` before committing.
+- **Format**: prefer JPEG for photos, PNG for logos/diagrams, SVG for vector logos when available.
+
 ## Deployment
 
 GitHub Actions workflow (`.github/workflows/publish-quarto.yml`) renders and publishes to `gh-pages` branch on push to `master`. The workflow also updates the bibliography submodule before rendering.
+
+A separate workflow (`.github/workflows/link-check.yml`) runs [lychee](https://lychee.cli.rs/) on pull requests and weekly to catch broken links. Configuration lives in `.lychee.toml`.

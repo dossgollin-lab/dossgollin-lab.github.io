@@ -1,4 +1,6 @@
 ---
+title: Publications
+description: "Peer-reviewed journal and conference publications from the Doss-Gollin Lab on climate risk, flood hazard, and Bayesian statistical methods."
 listing:
   - id: pubs-article
     contents:
@@ -38,16 +40,6 @@ listing:
     date-format: "YYYY"
     page-size: 50
     fields: [author, title]
-  - id: pubs-other
-    contents:
-        - /bibliography/publications/other/*.qmd
-    type: table
-    sort: "date desc"
-    categories: false
-    sort-ui: [date, author desc, title]
-    filter-ui: [date, title, author, details]
-    date-format: "YYYY"
-    page-size: 50
 
 format:
   html:

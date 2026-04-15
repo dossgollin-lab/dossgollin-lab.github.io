@@ -1,5 +1,6 @@
 ---
 title: People
+description: "Members of the Doss-Gollin Research Group at Rice CEVE — PI, graduate students, co-advised students, and alumni."
 listing:
     - id: grad-students
       contents: "grad-students/*.qmd"
@@ -13,18 +14,18 @@ listing:
           position: "Position"
       grid-item-align: left
 
-    # - id: grad-students-coadvised
-    #   contents: "grad-students-coadvised/*.qmd"
-    #   type: grid
-    #   image-height: 225px
-    #   grid-columns: 3
-    #   sort: sortby
-    #   fields: [image, title, started, primary_advisor]
-    #   field-display-names:
-    #       started: "Started"
-    #       position: "Position"
-    #       primary_advisor: "Primary Advisor"
-    #   grid-item-align: left
+    - id: grad-students-coadvised
+      contents: "grad-students-coadvised/*.qmd"
+      type: grid
+      image-height: 225px
+      grid-columns: 3
+      sort: sortby
+      fields: [image, title, started, primary_advisor]
+      field-display-names:
+          started: "Started"
+          position: "Position"
+          primary_advisor: "Primary Advisor"
+      grid-item-align: left
 
     - id: pi
       contents: "pi/*.qmd"
@@ -65,14 +66,14 @@ listing:
 :::
 
 ## Ph.D. Students
+
 :::{#grad-students}
 :::
 
-<!-- ## Undergraduate Students
-## Coadvised Graduate Students
+## Co-Advised Ph.D. Students
+
 :::{#grad-students-coadvised}
 :::
--->
 
 <!--
 :::{#undergrads}
@@ -80,5 +81,6 @@ listing:
 -->
 
 ## Alumni
+
 :::{#alumni}
 :::

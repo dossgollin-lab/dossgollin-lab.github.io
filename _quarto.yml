@@ -13,7 +13,6 @@ website:
   repo-url: https://www.github.com/dossgollin-lab/dossgollin-lab.github.io
   repo-actions: [issue]
   open-graph: true
-  favicon: _assets/img/logos/logo.ico
 
   search:
     location: navbar
