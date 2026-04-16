@@ -39,10 +39,12 @@ format:
 ## Bio
 
 James Doss-Gollin is an Assistant Professor in the Department of Civil and Environmental Engineering at Rice University.
-His research asks how communities and critical infrastructure systems can make robust decisions in the face of intensifying rainfall and flood hazards -- a question that demands better probabilistic models of how rainfall is changing, how those changes propagate through urban flood systems, and how to act on deeply uncertain information.
-His group develops Bayesian statistical and machine learning tools to bridge these gaps, with current projects including nonstationary rainfall and tropical cyclone hazard assessment, AI models for compound urban flood processes, and community-engaged flood resilience planning in rural Texas.
+His research asks how communities and critical infrastructure systems can make robust decisions in the face of evolving climate hazards -- particularly intensifying rainfall and urban flood risk.
+Answering this question demands better probabilistic models of how rainfall and compound flood drivers are changing, how those changes propagate through urban systems, and how to act on deeply uncertain information.
+To achieve this, his group uses AI to integrate Earth science, probabilistic modeling, and decision analysis.
+Current projects include nonstationary rainfall and tropical cyclone hazard assessment, physics-informed machine learning models for compound urban flood processes, and community-engaged flood resilience planning in rural Texas.
 His work has been funded by the National Science Foundation, the Texas Water Development Board, and industry through the Consortium for Enhancing Resilience and Catastrophe Modeling (CERCat).
 He leads the Cluster for AI for Climate Risk and Urban Resilience at the Ken Kennedy Institute.
-Before joining Rice, James was a postdoctoral researcher at Pennsylvania State University; he earned his PhD from Columbia University and his BS from Yale University
+Before joining Rice, James was a postdoctoral researcher at Pennsylvania State University; he earned his PhD from Columbia University and his BS from Yale University.
 
 :::
