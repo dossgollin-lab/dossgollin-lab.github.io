@@ -8,6 +8,11 @@ format:
 We are an inclusive research group driven by intellectual curiosity and a shared sense of purpose.
 Join us to leverage Earth science, decision science, statistics, and machine learning to address critical societal challenges and build climate resilience.
 
+::: {.callout-note}
+We are not able to offer opportunities to high school students or unpaid volunteers.
+:::
+
+
 :::: {.grid}
 ::: {.g-col-4}
 ### Undergraduates
