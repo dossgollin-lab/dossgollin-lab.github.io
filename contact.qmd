@@ -30,7 +30,7 @@ Houston, Texas 77005<br />
 - [Parking information](https://parking.rice.edu/visitor)
 - [Campus map](https://www.rice.edu/campus-maps)
 - [Campus shuttle](https://transportation.rice.edu/)
-- [Rice COVID information](https://coronavirus.rice.edu/)
+
 
 ::::
 :::: {.column width="5%"}
