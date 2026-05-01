@@ -13,6 +13,7 @@ into the corresponding listing card in the rendered publications page.
 
 import re
 import sys
+from html import escape
 from pathlib import Path
 
 import yaml
@@ -23,6 +24,7 @@ PUBS_QMD_DIRS = [
     Path("bibliography/publications/article"),
     Path("bibliography/publications/conference"),
     Path("bibliography/publications/forthcoming"),
+    # "other/" (dissertation, whitepapers) intentionally excluded — not in the site listing
 ]
 
 
@@ -33,7 +35,7 @@ def load_pub_links() -> dict[str, list[dict]]:
         if not pub_dir.exists():
             continue
         for qmd_path in pub_dir.glob("*.qmd"):
-            text = qmd_path.read_text()
+            text = qmd_path.read_text().replace("\r\n", "\n")
             match = re.match(r"^---\n(.*?)\n---", text, re.DOTALL)
             if not match:
                 continue
@@ -66,16 +68,17 @@ def make_button_html(links: list[dict]) -> str:
         if "doi.org" in href and text.upper().startswith("DOI"):
             text = "Paper"
         buttons.append(
-            f'<a href="{href}" class="btn btn-outline-primary btn-sm me-1" '
-            f'target="_blank" rel="noopener">{text}</a>'
+            f'<a href="{escape(href)}" class="btn btn-outline-primary btn-sm me-1" '
+            f'target="_blank" rel="noopener">{escape(text)}</a>'
         )
     return '<div class="pub-links mt-1">' + "".join(buttons) + "</div>"
 
 
 def inject_buttons(html: str, pub_links: dict[str, list[dict]]) -> str:
     soup = BeautifulSoup(html, "html.parser")
-    # Titles are in <h5 class="no-anchor card-title listing-title"> (no <a> wrapper)
-    for title_el in soup.select("h5.listing-title"):
+    for title_el in soup.select(".listing-title"):
+        if title_el.name == "th":
+            continue  # skip column header cells
         title_text = title_el.get_text()
         normalized = _normalize(title_text)
         links = pub_links.get(normalized)
@@ -83,7 +86,7 @@ def inject_buttons(html: str, pub_links: dict[str, list[dict]]) -> str:
             continue
         button_html = make_button_html(links)
         button_soup = BeautifulSoup(button_html, "html.parser")
-        title_el.insert_after(button_soup)
+        title_el.parent.insert_after(button_soup)
     return str(soup)
 
 
