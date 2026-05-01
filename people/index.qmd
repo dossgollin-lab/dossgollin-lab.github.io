@@ -2,16 +2,22 @@
 title: People
 description: "Members of the Doss-Gollin Research Group at Rice CEVE — PI, graduate students, co-advised students, and alumni."
 listing:
+    - id: pi
+      contents: "pi/*.qmd"
+      type: grid
+      image-height: 225px
+      grid-columns: 3
+      sort: sortby
+      fields: [image, title, position]
+      grid-item-align: left
+
     - id: grad-students
       contents: "grad-students/*.qmd"
       type: grid
       image-height: 225px
       grid-columns: 3
       sort: sortby
-      fields: [image, title, started]
-      field-display-names:
-          started: "Started"
-          position: "Position"
+      fields: [image, title, position]
       grid-item-align: left
 
     - id: grad-students-coadvised
@@ -20,34 +26,8 @@ listing:
       image-height: 225px
       grid-columns: 3
       sort: sortby
-      fields: [image, title, started, primary_advisor]
-      field-display-names:
-          started: "Started"
-          position: "Position"
-          primary_advisor: "Primary Advisor"
+      fields: [image, title, position]
       grid-item-align: left
-
-    - id: pi
-      contents: "pi/*.qmd"
-      type: grid
-      image-height: 225px
-      grid-columns: 3
-      sort: sortby
-      fields: [image, title]
-      grid-item-align: left
-
-    - id: alumni
-      contents: "alumni/*.qmd"
-      type: table
-      sort: [ended desc, sortby]
-      fields: [title, position, started, ended]
-      sort-ui: [title, position, started, ended]
-      filter-ui: [title, position, started, ended]
-      field-display-names:
-          title: "Name"
-          position: "Role"
-          started: "Started"
-          ended: "Ended"
 
     # - id: undergrads
     #   contents: "undergrad-students/*.qmd"
@@ -55,32 +35,38 @@ listing:
     #   image-height: 225px
     #   grid-columns: 3
     #   sort: sortby
-    #   fields: [image, title, started]
-    #   field-display-names:
-    #       started: "Started"
-    #       position: "Position"
+    #   fields: [image, title, position]
     #   grid-item-align: left
+
+    - id: alumni
+      contents: "alumni/*.qmd"
+      type: table
+      sort: [ended desc, sortby]
+      fields: [title, position, started, ended]
+      field-display-names:
+          title: "Name"
+          position: "Role"
+          started: "Started"
+          ended: "Ended"
 ---
 
-:::{#pi}
+## Current People
+
+::: {#pi}
 :::
 
-## Ph.D. Students
-
-:::{#grad-students}
+::: {#grad-students}
 :::
 
-## Co-Advised Ph.D. Students
-
-:::{#grad-students-coadvised}
+::: {#grad-students-coadvised}
 :::
 
 <!--
-:::{#undergrads}
+::: {#undergrads}
 :::
 -->
 
 ## Alumni
 
-:::{#alumni}
+::: {#alumni}
 :::
