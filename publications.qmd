@@ -47,8 +47,6 @@ format:
     toc: false
 ---
 
-# Publications
-
 :::: {.panel-tabset}
 ## Journal Papers
 
