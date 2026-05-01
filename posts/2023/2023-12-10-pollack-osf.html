@@ -24,7 +24,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -43,7 +62,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-ee7752aacf741891f4311f90fc0348ac.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-874b752fd880ec2dd1d91ddbfedc4953.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -107,10 +126,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../teaching.html"> 
-<span class="menu-text">Teaching</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
@@ -139,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lab-guide" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">lab guide</span>
+ <span class="menu-text">Lab Guide</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-lab-guide">    
         <li>
@@ -157,29 +172,6 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="https://github.com/dossgollin-lab/lab-guide/wiki">
  <span class="dropdown-text">Wiki (Members Only) <i class="bi bi-box-arrow-up-right"></i></span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-links" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Links</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-links">    
-        <li>
-    <a class="dropdown-item" href="https://dossgollin-lab.github.io/SimOptDecisions/">
- <span class="dropdown-text">SimOptDecisions <i class="bi bi-box-arrow-up-right"></i></span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://cee.rice.edu/">
- <span class="dropdown-text">Rice CEVE <i class="bi bi-box-arrow-up-right"></i></span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://ai4urbanresilience.rice.edu/">
- <span class="dropdown-text">AI 4 Urban Resilience <i class="bi bi-box-arrow-up-right"></i></span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://github.com/dossgollin-lab/">
- <span class="dropdown-text"><i class="bi bi-github"></i> GitHub <i class="bi bi-box-arrow-up-right"></i></span></a>
   </li>  
     </ul>
   </li>
@@ -226,13 +218,18 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>We’re pleased to see share a new preprint, “Peer-reviewed climate change research has a transparency problem. The scientific community needs to do better” <span class="citation" data-cites="pollack_transparency:2024">(<a href="#ref-pollack_transparency:2024" role="doc-biblioref"><strong>pollack_transparency:2024?</strong></a>)</span>. This effort was led by Adam Pollack at Dartmourth and evolved out of many long discussions with colleagues in climate modeling, decision science, economics, engineering, environmental policy and social science, geosciences, hydrology, law, library science, philosophy, and statistics about the role of openness, transparency, and reproducibility in climate change research.</p>
+<p>We’re pleased to see share a new preprint, “Peer-reviewed climate change research has a transparency problem. The scientific community needs to do better” <span class="citation" data-cites="pollack_transparency:2026">(<a href="#ref-pollack_transparency:2026" role="doc-biblioref">Pollack et al. 2026</a>)</span>. This effort was led by Adam Pollack at Dartmourth and evolved out of many long discussions with colleagues in climate modeling, decision science, economics, engineering, environmental policy and social science, geosciences, hydrology, law, library science, philosophy, and statistics about the role of openness, transparency, and reproducibility in climate change research.</p>
 <p>In this article, we articulate why transparency and openness matter in climate change research. We also sample papers in the “top” climate change journals and find that only five percent of our sample meets the minimal standard of fully open data and code required for reproducibility and replicability as defined by the National Academies of Sciences, Engineering, and Medicine. We conclude by recognizing the challenges involved and setting commitments to improve the transparency of our own research. We hope you will join us in these commitments and in broader discussions about the role of transparency in climate change research!</p>
-<p>Read the abstract <a href="../../bibliography/publications/forthcoming/pollack_transparency_2024.qmd">here</a>.</p>
+<p>Read the abstract <a href="../../bibliography/publications/article/pollack_transparency_2026.html">here</a>.</p>
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-pollack_transparency:2026" class="csl-entry" role="listitem">
+Pollack, Adam B., Lisa Auermuller, Casey D. Burleyson, et al. 2026. <span>“Unlocking the Benefits of Transparent and Reusable Science for Climate Risk Management.”</span> <em>Proceedings of the National Academy of Sciences</em> 123 (3): e2422157123. <a href="https://doi.org/10.1073/pnas.2422157123">https://doi.org/10.1073/pnas.2422157123</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

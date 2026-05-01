@@ -6,9 +6,9 @@
       version="2.0">
 <channel>
 <title>Doss-Gollin Lab @ Rice CEVE</title>
-<link>https://dossgollin-lab.github.io/</link>
-<atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
-<description>The Doss-Gollin Research Group at Rice CEVE develops Bayesian statistical and machine learning tools for climate risk, flood hazard, and community-engaged infrastructure planning.</description>
+<link>https://dossgollin-lab.github.io/news.html</link>
+<atom:link href="https://dossgollin-lab.github.io/news.xml" rel="self" type="application/rss+xml"/>
+<description>All news and announcements from the Doss-Gollin Research Group.</description>
 <generator>quarto-1.9.37</generator>
 <lastBuildDate>Tue, 20 Jan 2026 00:00:00 GMT</lastBuildDate>
 <item>
@@ -33,92 +33,6 @@
   <category>News</category>
   <guid>https://dossgollin-lab.github.io/posts/2026/2026-01-20-wsj-flood-risk.html</guid>
   <pubDate>Tue, 20 Jan 2026 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Unlocking The Benefits Of Transparent And Reusable Science For Climate Risk Management</title>
-  <dc:creator>Adam B. Pollack</dc:creator>
-  <dc:creator>Lisa Auermuller</dc:creator>
-  <dc:creator>Casey D. Burleyson</dc:creator>
-  <dc:creator>Jentry Campbell</dc:creator>
-  <dc:creator>Madison Condon</dc:creator>
-  <dc:creator>Courtney Cooper</dc:creator>
-  <dc:creator>Matteo Coronese</dc:creator>
-  <dc:creator>Sönke Dangendorf</dc:creator>
-  <dc:creator>**James Doss-Gollin**</dc:creator>
-  <dc:creator>Prabhat Hegde</dc:creator>
-  <dc:creator>Casey Helgeson</dc:creator>
-  <dc:creator>Robert E. Kopp</dc:creator>
-  <dc:creator>Jan Kwakkel</dc:creator>
-  <dc:creator>Corey Lesk</dc:creator>
-  <dc:creator>Justin Mankin</dc:creator>
-  <dc:creator>Robert E. Nicholas</dc:creator>
-  <dc:creator>Jennie Rice</dc:creator>
-  <dc:creator>Samantha Roth</dc:creator>
-  <dc:creator>Vivek Srikrishnan</dc:creator>
-  <dc:creator>Moira Scheeler</dc:creator>
-  <dc:creator>Nancy Tuana</dc:creator>
-  <dc:creator>Chris Vernon</dc:creator>
-  <dc:creator>Mengqi Zhao</dc:creator>
-  <dc:creator>Klaus Keller</dc:creator>
-  <link>https://dossgollin-lab.github.io/bibliography/publications/article/pollack_transparency_2026.html</link>
-  <description><![CDATA[ 
-<p>People around the world seek climate risk information to guide their decisions. For instance, projections about future flood risk inform where households choose to live, how lenders manage credit risks, and which communities receive federal funding. Yet data limitations and fundamental validation challenges raise important concerns about the reliability of such projections. The principles of transparency and reusability help address these concerns by enabling scrutiny of assumptions and methods, development of foundational data and tools, and consistent application of evaluation standards. While there is ongoing debate about how much transparency commercial climate risk services should provide, many expect noncommercial actors to lead the way on operationalizing transparency and reusability to fulfill their knowledge-building role in the climate risk ecosystem. However, despite prominent success stories, we find a substantial gap between principles and practice: Only four percent of the most-cited peer-reviewed climate risk studies in recent years fully share their data and code although this is a widely accepted minimum standard for transparency. We highlight low-cost measures that noncommercial researchers can take now to improve transparency and reusability. We also emphasize that transformative progress requires substantial investment, cross-sector collaboration, and careful consideration of tradeoffs, data rights, and multiple perspectives on equity. We hope this perspective accelerates both immediate actions and longer-term conversations to improve the ability of science to effectively support timely, evidence-based, and sound climate risk management.</p>
-<section id="bibtex" class="level2">
-<h2 data-anchor-id="bibtex">BibTeX</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">pollack_transparency:2026</span>,</span>
-<span id="cb1-2">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">urldate</span> = {2026-01-14},</span>
-<span id="cb1-3">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">url</span> = {https://www.pnas.org/doi/10.1073/pnas.2422157123},</span>
-<span id="cb1-4">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">doi</span> = {10.1073/pnas.2422157123},</span>
-<span id="cb1-5">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">publisher</span> = {Proceedings of the National Academy of Sciences},</span>
-<span id="cb1-6">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">pages</span> = {e2422157123},</span>
-<span id="cb1-7">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">number</span> = {3},</span>
-<span id="cb1-8">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">volume</span> = {123},</span>
-<span id="cb1-9">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">shortjournal</span> = {Proc. Natl. Acad. Sci.},</span>
-<span id="cb1-10">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">journaltitle</span> = {Proceedings of the National Academy of Sciences},</span>
-<span id="cb1-11">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">date</span> = {2026-01-20},</span>
-<span id="cb1-12">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">author</span> = {Pollack, Adam B. and Auermuller, Lisa and Burleyson, Casey D. and Campbell, Jentry and Condon, Madison and Cooper, Courtney and Coronese, Matteo and Dangendorf, Sönke and Doss-Gollin, James and Hegde, Prabhat and Helgeson, Casey and Kopp, Robert E. and Kwakkel, Jan and Lesk, Corey and Mankin, Justin and Nicholas, Robert E. and Rice, Jennie and Roth, Samantha and Srikrishnan, Vivek and Scheeler, Moira and Tuana, Nancy and Vernon, Chris and Zhao, Mengqi and Keller, Klaus},</span>
-<span id="cb1-13">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">title</span> = {Unlocking the Benefits of Transparent and Reusable Science for Climate Risk Management},</span>
-<span id="cb1-14">}</span></code></pre></div></div>
-
-
-
-</section>
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
-<div id="ref-pollack_transparency:2026" class="csl-entry">
-Pollack, A. B., Auermuller, L., Burleyson, C. D., Campbell, J., Condon, M., Cooper, C., et al. (2026). Unlocking the benefits of transparent and reusable science for climate risk management. <em>Proceedings of the National Academy of Sciences</em>, <em>123</em>(3), e2422157123. <a href="https://doi.org/10.1073/pnas.2422157123">https://doi.org/10.1073/pnas.2422157123</a>
-</div>
-</div></section></div> ]]></description>
-  <guid>https://dossgollin-lab.github.io/bibliography/publications/article/pollack_transparency_2026.html</guid>
-  <pubDate>Tue, 20 Jan 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://dossgollin-lab.github.io/bibliography/_assets/img/pubs/pollack_transparency_2026.png" medium="image" type="image/png" height="99" width="144"/>
 </item>
 <item>
   <title>New PNAS Paper on the Need for Transparent Climate-Risk Research</title>
@@ -208,72 +122,6 @@ Pollack, A. B., Auermuller, L., Burleyson, C. D., Campbell, J., Condon, M., Coop
   <category>Events</category>
   <guid>https://dossgollin-lab.github.io/posts/2025/2025-11-17-stats-colloquium.html</guid>
   <pubDate>Mon, 17 Nov 2025 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>UNSAFE: An UNcertain Structure And Fragility Ensemble Framework For Property-Level Flood Risk Estimation</title>
-  <dc:creator>Adam Pollack</dc:creator>
-  <dc:creator>**James Doss-Gollin**</dc:creator>
-  <dc:creator>Vivek Srikrishnan</dc:creator>
-  <dc:creator>Klaus Keller</dc:creator>
-  <link>https://dossgollin-lab.github.io/bibliography/publications/article/pollack_unsafe_2025.html</link>
-  <description><![CDATA[ 
-<p>Pollack et al., (2025). UNSAFE: An UNcertain Structure And Fragility Ensemble framework for property-level flood risk estimation. Journal of Open Source Software, 10(115), 7527, https://doi.org/10.21105/joss.07527</p>
-<section id="bibtex" class="level2">
-<h2 data-anchor-id="bibtex">BibTeX</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">pollack_unsafe:2025</span>,</span>
-<span id="cb1-2">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">urldate</span> = {2025-11-13},</span>
-<span id="cb1-3">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">url</span> = {https://joss.theoj.org/papers/10.21105/joss.07527},</span>
-<span id="cb1-4">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">doi</span> = {10.21105/joss.07527},</span>
-<span id="cb1-5">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">issn</span> = {2475-9066},</span>
-<span id="cb1-6">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">pages</span> = {7527},</span>
-<span id="cb1-7">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">number</span> = {115},</span>
-<span id="cb1-8">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">volume</span> = {10},</span>
-<span id="cb1-9">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">shortjournal</span> = {J. Open Source Software},</span>
-<span id="cb1-10">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">journaltitle</span> = {Journal of Open Source Software},</span>
-<span id="cb1-11">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">date</span> = {2025-11-13},</span>
-<span id="cb1-12">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">author</span> = {Pollack, Adam and Doss-Gollin, James and Srikrishnan, Vivek and Keller, Klaus},</span>
-<span id="cb1-13">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">title</span> = {{{UNSAFE}}: An {{UNcertain}} Structure and Fragility Ensemble Framework for Property-Level Flood Risk Estimation},</span>
-<span id="cb1-14">}</span></code></pre></div></div>
-
-
-
-</section>
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
-<div id="ref-pollack_unsafe:2025" class="csl-entry">
-Pollack, A., Doss-Gollin, J., Srikrishnan, V., &amp; Keller, K. (2025). <span>UNSAFE</span>: An <span>UNcertain</span> structure and fragility ensemble framework for property-level flood risk estimation. <em>Journal of Open Source Software</em>, <em>10</em>(115), 7527. <a href="https://doi.org/10.21105/joss.07527">https://doi.org/10.21105/joss.07527</a>
-</div>
-</div></section></div> ]]></description>
-  <guid>https://dossgollin-lab.github.io/bibliography/publications/article/pollack_unsafe_2025.html</guid>
-  <pubDate>Thu, 13 Nov 2025 00:00:00 GMT</pubDate>
-  <media:content url="https://dossgollin-lab.github.io/bibliography/_assets/img/pubs/pollack_unsafe_2025.png" medium="image" type="image/png" height="89" width="144"/>
 </item>
 <item>
   <title>New Paper on Diffusion for Precipitation Downscaling Published in IEEE TGRS</title>
@@ -371,74 +219,6 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
   <category>Publications</category>
   <guid>https://dossgollin-lab.github.io/posts/2025/2025-08-26-lu-spatiotemporal.html</guid>
   <pubDate>Tue, 26 Aug 2025 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases In Daily Extreme Rainfall Across The Western Gulf Coast</title>
-  <dc:creator>*Yuchen Lu*</dc:creator>
-  <dc:creator>Benjamin Seiyon Lee</dc:creator>
-  <dc:creator>**James Doss-Gollin**</dc:creator>
-  <link>https://dossgollin-lab.github.io/bibliography/publications/article/lu_spatiotemporal_2025.html</link>
-  <description><![CDATA[ 
-<p>Precipitation exceedance probabilities are widely used in engineering design, risk assessment, and floodplain management. While common approaches like National Oceanographic and Atmospheric Administration (NOAA) Atlas 14 assume that extreme precipitation characteristics are stationary over time, this assumption may underestimate current and future hazards due to anthropogenic climate change. However, the incorporation of nonstationarity in statistical modeling of extreme precipitation has faced practical challenges, which have restricted its applications. In particular, random sampling variability challenges the reliable estimation of trends and parameters, especially when observational records are limited. To address this methodological gap, we propose the Spatially Varying Covariates Model, a hierarchical Bayesian spatial framework that integrates nonstationarity and regionalization for robust frequency analysis of extreme precipitation. This model draws from extreme value theory, spatial statistics, and Bayesian statistics, and is validated through cross-validation and multiple performance metrics. Applying this framework to a case study of daily rainfall in the Western Gulf Coast, we identify robustly increasing trends in extreme precipitation intensity and variability throughout the study area, with notable spatial heterogeneity. This flexible model accommodates stations with varying observation records, yields smooth return level estimates, and can be straightforwardly adapted to the analysis of precipitation frequencies at different durations and for other regions.</p>
-<section id="bibtex" class="level2">
-<h2 data-anchor-id="bibtex">BibTeX</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">lu_spatiotemporal:2025</span>,</span>
-<span id="cb1-2">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">urldate</span> = {2025-08-23},</span>
-<span id="cb1-3">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">url</span> = {https://dx.doi.org/10.1088/2752-5295/adf56e},</span>
-<span id="cb1-4">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">doi</span> = {10.1088/2752-5295/adf56e},</span>
-<span id="cb1-5">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">issn</span> = {2752-5295},</span>
-<span id="cb1-6">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">publisher</span> = {IOP Publishing},</span>
-<span id="cb1-7">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">pages</span> = {035016},</span>
-<span id="cb1-8">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">number</span> = {3},</span>
-<span id="cb1-9">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">volume</span> = {4},</span>
-<span id="cb1-10">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">shortjournal</span> = {Environ. Res.: Clim.},</span>
-<span id="cb1-11">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">journaltitle</span> = {Environmental Research: Climate},</span>
-<span id="cb1-12">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">date</span> = {2025-08},</span>
-<span id="cb1-13">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">author</span> = {Lu, Yuchen and Seiyon Lee, Benjamin and Doss-Gollin, James},</span>
-<span id="cb1-14">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">title</span> = {Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall across the Western Gulf Coast},</span>
-<span id="cb1-15">}</span></code></pre></div></div>
-
-
-
-</section>
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
-<div id="ref-lu_spatiotemporal:2025" class="csl-entry">
-Lu, Y., Seiyon Lee, B., &amp; Doss-Gollin, J. (2025). Bayesian spatiotemporal nonstationary model quantifies robust increases in daily extreme rainfall across the western gulf coast. <em>Environmental Research: Climate</em>, <em>4</em>(3), 035016. <a href="https://doi.org/10.1088/2752-5295/adf56e">https://doi.org/10.1088/2752-5295/adf56e</a>
-</div>
-</div></section></div> ]]></description>
-  <guid>https://dossgollin-lab.github.io/bibliography/publications/article/lu_spatiotemporal_2025.html</guid>
-  <pubDate>Fri, 01 Aug 2025 00:00:00 GMT</pubDate>
-  <media:content url="https://dossgollin-lab.github.io/bibliography/_assets/img/pubs/lu_spatiotemporal_2025.png" medium="image" type="image/png" height="93" width="144"/>
 </item>
 <item>
   <title>Press Coverage Following the Guadalupe Flood</title>
@@ -747,65 +527,102 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
   <pubDate>Fri, 24 Jan 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Downscaling Extreme Precipitation With Wasserstein Regularized Diffusion</title>
-  <dc:creator>Yuhao Liu</dc:creator>
-  <dc:creator>**James Doss-Gollin**</dc:creator>
-  <dc:creator>Qiushi Dai</dc:creator>
-  <dc:creator>Ashok Veeraraghavan</dc:creator>
-  <dc:creator>Guha Balakrishnan</dc:creator>
-  <link>https://dossgollin-lab.github.io/bibliography/publications/article/liu_generative_2025.html</link>
+  <title>Doss-Gollin Lab at AGU 2024</title>
+  <link>https://dossgollin-lab.github.io/posts/2024/2024-12-05-agu.html</link>
   <description><![CDATA[ 
-<p>Understanding the risks posed by extreme rainfall events requires analysis of precipitation fields with high resolution (to assess localized hazards) and extensive historical coverage (to capture sufficient examples of rare occurrences). Radar and mesonet networks provide precipitation fields at 1 km resolution but with limited historical and geographical coverage, while gauge-based records and reanalysis products cover decades of time on a global scale, but only at 30–50 km resolution. To help provide high-resolution precipitation estimates over long time scales, this study presents Wasserstein Regularized Diffusion (WassDiff), a diffusion framework to downscale (super-resolve) precipitation fields from low-resolution gauge and reanalysis products. Crucially, unlike related deep generative models, WassDiff integrates a Wasserstein distribution-matching regularizer to the denoising process to reduce empirical biases at extreme intensities. Comprehensive evaluations demonstrate that WassDiff quantitatively outperforms existing state-of-the-art generative downscaling methods at recovering extreme weather phenomena such as tropical storms and cold fronts. Case studies further qualitatively demonstrate WassDiff’s ability to reproduce realistic fine-scale structures and accurate peak intensities of these phenomena. By unlocking decades of high-resolution rainfall information from globally available coarse records, WassDiff offers a practical pathway toward more accurate flood-risk assessments and climate-adaptation planning.</p>
-<section id="bibtex" class="level2">
-<h2 data-anchor-id="bibtex">BibTeX</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">liu_generative:2025</span>,</span>
-<span id="cb1-2">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">urldate</span> = {2025-09-20},</span>
-<span id="cb1-3">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">url</span> = {https://ieeexplore.ieee.org/document/11172297},</span>
-<span id="cb1-4">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">doi</span> = {10.1109/TGRS.2025.3611872},</span>
-<span id="cb1-5">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">issn</span> = {1558-0644},</span>
-<span id="cb1-6">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">pages</span> = {1--1},</span>
-<span id="cb1-7">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">shortjournal</span> = {IEEE Trans. Geosci. Remote Sens.},</span>
-<span id="cb1-8">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">journaltitle</span> = {IEEE Transactions on Geoscience and Remote Sensing},</span>
-<span id="cb1-9">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">date</span> = {2025},</span>
-<span id="cb1-10">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">author</span> = {Liu, Yuhao and Doss-Gollin, James and Dai, Qiushi and Veeraraghavan, Ashok and Balakrishnan, Guha},</span>
-<span id="cb1-11">  <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">title</span> = {Downscaling Extreme Precipitation with Wasserstein Regularized Diffusion},</span>
-<span id="cb1-12">}</span></code></pre></div></div>
 
+
+
+
+<p>We look forward to seeing you at AGU 2024! Our friends at the <a href="https://ai4urbanresilience.rice.edu/">AI for Urban Resilience</a> cluster (formerly AI4ClimateRRR) will be at the conference as well.</p>
+<section id="tuesday" class="level3">
+<h3 class="anchored" data-anchor-id="tuesday">Tuesday</h3>
+<ul>
+<li>Poster: <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1709468">GC23D-0279Graph Residual Transformer + Gated Recurrent Unit (GRU) for Global Numerical Weather Prediction</a></li>
+<li>Poster: <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1621742">PP21C-0473Changes in Texas Rainfall Characteristics During the Last Deglaciation in Speleothem Proxies and Water Isotope-enabled Model Simulations</a></li>
+<li>Talk: <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1711820">GC24H-01Assessing and Managing Climate Risks to Electricity Systems in an Era of Climate Change and Energy Transition</a></li>
+<li>Talk: <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1624973">NH23G-06TxRAIN-Observational: A Hierarchical Bayesian Spatial Framework to Assess Nonstationary Rainfall Intensity, Frequency, and Duration in Texas</a></li>
+</ul>
+</section>
+<section id="thursday" class="level3">
+<h3 class="anchored" data-anchor-id="thursday">Thursday</h3>
+<ul>
+<li>Poster Session: <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Session/224843">NH41C - Hybrid Modeling and Digital Twin Systems for Flood Hazard Prediction and Risk Assessment at Different Spatial Scales</a></li>
+<li>Poster: <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1638085">NH41C-2328Pluvial Flood Emulation with Hydraulics-informed Message Passing</a></li>
+</ul>
+</section>
+<section id="friday" class="level3">
+<h3 class="anchored" data-anchor-id="friday">Friday</h3>
+<ul>
+<li>Talk: <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1711605">NH51A-01Advancing Urban Flood Hazard Characterization through Machine Learning: Challenges and Opportunities</a></li>
+</ul>
 
 
 </section>
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
-<div id="ref-liu_generative:2025" class="csl-entry">
-Liu, Y., Doss-Gollin, J., Dai, Q., Veeraraghavan, A., &amp; Balakrishnan, G. (2025). Downscaling extreme precipitation with wasserstein regularized diffusion. <em>IEEE Transactions on Geoscience and Remote Sensing</em>, 1–1. <a href="https://doi.org/10.1109/TGRS.2025.3611872">https://doi.org/10.1109/TGRS.2025.3611872</a>
+
+ ]]></description>
+  <guid>https://dossgollin-lab.github.io/posts/2024/2024-12-05-agu.html</guid>
+  <pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Announcing AI for Climate Risk and Resilience at Rice</title>
+  <link>https://dossgollin-lab.github.io/posts/2024/2024-08-23-ai4climaterrr.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We’re delighted to announce the launch of a new project, <em>AI for Climate Risk and Resilience at Rice</em> (AI4ClimateRRR), which will bring together researchers from across the university to develop new tools for understanding and addressing climate risks. AI4ClimateRRR is a cluster within the Ken Kennedy Institute. Monthly meetings are available to the Rice community.</p>
+<p>The initiative has since evolved into the <a href="https://ai4urbanresilience.rice.edu/">AI for Urban Resilience</a> cluster at the Ken Kennedy Institute.</p>
+
+
+
+ ]]></description>
+  <category>News</category>
+  <guid>https://dossgollin-lab.github.io/posts/2024/2024-08-23-ai4climaterrr.html</guid>
+  <pubDate>Fri, 23 Aug 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Welcome Dongwook!</title>
+  <link>https://dossgollin-lab.github.io/posts/2024/2024-08-22-welcome-dongwook.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We’re delighted to welcome <a href="../../people/grad-students/dongwook-kim.html">Dongwook Kim</a> to the lab! Dongwook joins us Burin Co., Ltd.&nbsp;in Seoul, where he was working as a research engineer. Prior that that, he earned a BS and MS at Hanyang University. Dongwook’s interests include water resources, flood risk, tropical cyclones, and infrastructure risk assessment.</p>
+
+
+
+ ]]></description>
+  <category>Welcome</category>
+  <guid>https://dossgollin-lab.github.io/posts/2024/2024-08-22-welcome-dongwook.html</guid>
+  <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Pluvial Flood Emulation with Hydraulics-informed Message Passing accepted to ICML 2024</title>
+  <link>https://dossgollin-lab.github.io/posts/2024/2024-06-09-kazadi-icml.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Our paper titled “Pluvial Flood Emulation with Hydraulics-informed Message Passing” has been accepted to the 2024 International Conference on Machine Learning (ICML) <span class="citation" data-cites="kazadi_icml:2024">(Kazadi et al. 2024)</span>.</p>
+<p>Given a geographical region and precipitation data, our model predicts water depths in an auto-regressive fashion using a message-passing framework inspired by the conservation of momentum and mass as expressed in the shallow-water equations. This allows the model to effectively capture the propagation of water flow, particularly during the early stages of flooding when the water is scarce.</p>
+<p>Our empirical results, based on a dataset covering 9 regions and 7 historical precipitation events, demonstrate that our model outperforms existing baselines, providing accurate simulations even in complex topographies. This solution achieves accurate results using real ground elevation data. Additionally, our model excels in predicting flood dynamics for unseen storms and watersheds, showcasing its robustness and generalization capabilities.</p>
+<p>For more details, see <a href="../../bibliography/publications/conference/kazadi_icml_2024.html">here</a>. This is an exciting space, and we are looking forward to sharing more updates on our ongoing research in this critical area!</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-kazadi_icml:2024" class="csl-entry">
+Kazadi, Arnold, James Doss-Gollin, and Arlei Silva. 2024. <span>“Pluvial Flood Emulation with Hydraulics-Informed Message Passing.”</span> <em>Forty-<span>First International Conference</span> on <span>Machine Learning</span></em>, June 24. <a href="https://openreview.net/forum?id=kIHIA6Lr0B">https://openreview.net/forum?id=kIHIA6Lr0B</a>.
 </div>
 </div></section></div> ]]></description>
-  <guid>https://dossgollin-lab.github.io/bibliography/publications/article/liu_generative_2025.html</guid>
-  <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-  <media:content url="https://dossgollin-lab.github.io/bibliography/_assets/img/pubs/liu_generative_2025.png" medium="image" type="image/png" height="122" width="144"/>
+  <category>Publications</category>
+  <guid>https://dossgollin-lab.github.io/posts/2024/2024-06-09-kazadi-icml.html</guid>
+  <pubDate>Sun, 09 Jun 2024 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
