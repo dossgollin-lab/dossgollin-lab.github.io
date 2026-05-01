@@ -1,5 +1,6 @@
 ---
 title: "True Furrh"
+position: "Co-Advised Ph.D. Student"
 sortby: "Furrh, True"
 primary_advisor: "Philip Bedient"
 started: "Spring 2022"

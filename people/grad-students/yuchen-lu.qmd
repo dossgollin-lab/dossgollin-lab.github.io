@@ -1,5 +1,6 @@
 ---
 title: "Yuchen Lu"
+position: "Ph.D. Student"
 sortby: "Lu, Yuchen"
 started: "Fall 2021"
 ended: "Current"

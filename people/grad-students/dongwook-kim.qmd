@@ -1,5 +1,6 @@
 ---
 title: "Dongwook Kim"
+position: "Ph.D. Student"
 sortby: "Kim, Dongwook"
 started: "Fall 2024"
 ended: "Current"
