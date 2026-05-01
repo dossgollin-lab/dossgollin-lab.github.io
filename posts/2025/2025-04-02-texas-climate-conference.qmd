@@ -1,5 +1,6 @@
 ---
 title: "Join Us at the Texas Climate Conference 2025"
+description: "James helped organize the Texas Climate Conference 2025 at Rice, where Katharine Hayhoe delivered the keynote on Gulf Coast climate challenges."
 categories: Events
 date: 2025-04-02
 ---

@@ -24,7 +24,7 @@ listing:
     date-format: "YYYY"
     page-size: 50
     fields: [date, title, author, details]
-    field-display-names: 
+    field-display-names:
         date: "Date"
         title: "Title"
         author: "Authors"
@@ -46,8 +46,6 @@ format:
     page-layout: full
     toc: false
 ---
-
-# Publications
 
 :::: {.panel-tabset}
 ## Journal Papers

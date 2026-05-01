@@ -1,0 +1,4 @@
+<div class="papers-listing">
+<% for (const item of items) { %><a class="paper-item" href="<%- item.path %>"><div class="paper-thumb"><% if (item.image) { %><img src="<%- item.image %>" alt="" loading="lazy"><% } %></div><div class="paper-body"><div class="paper-title"><%- item.title %></div><% if (item.details) { %><div class="paper-venue"><%- item.details %></div><% } %></div></a>
+<% } %>
+</div>

@@ -1,5 +1,6 @@
 ---
 title: "NSF Grant to Study Flood Resilience in Rural Texas"
+description: "NSF awarded our team a $1M CHIRRP grant to study flood resilience in rural Texas communities, with James co-leading alongside Avi Gori (Rice), Keri Stephens (UT-Austin), and Andrew Juan (TAMU)."
 categories: News
 date: 2025-01-24
 ---

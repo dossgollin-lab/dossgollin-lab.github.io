@@ -34,33 +34,26 @@ website:
   navbar:
     right:
       - href: people/index.qmd
+        text: "People"
       - href: research.qmd
+        text: "Research"
       - href: publications.qmd
-      - href: teaching.qmd
+        text: "Publications"
       - href: contact.qmd
+        text: "Contact"
       - text: "Join Us"
         menu:
           - href: joinus/open-positions.qmd
           - href: joinus/phd.qmd
           - href: joinus/postdoc.qmd
           - href: joinus/undergrad.qmd
-      - text: "lab guide"
+      - text: "Lab Guide"
         menu:
           - href: culture/values.qmd
           - href: culture/harassment-policy.qmd
           - href: culture/expectations.qmd
           - text: "Wiki (Members Only) <i class='bi bi-box-arrow-up-right'></i>"
             href: https://github.com/dossgollin-lab/lab-guide/wiki
-      - text: "Links"
-        menu:
-          - text: "SimOptDecisions <i class='bi bi-box-arrow-up-right'></i>"
-            href: https://dossgollin-lab.github.io/SimOptDecisions/
-          - text: "Rice CEVE <i class='bi bi-box-arrow-up-right'></i>"
-            href: https://cee.rice.edu/
-          - text: "AI 4 Urban Resilience <i class='bi bi-box-arrow-up-right'></i>"
-            href: https://ai4urbanresilience.rice.edu/
-          - text: "<i class='bi bi-github'></i> GitHub <i class='bi bi-box-arrow-up-right'></i>"
-            href: https://github.com/dossgollin-lab/
 
 
 format:

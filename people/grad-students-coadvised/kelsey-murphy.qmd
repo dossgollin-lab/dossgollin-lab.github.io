@@ -1,5 +1,6 @@
 ---
 title: "Kelsey Murphy"
+position: "Co-Advised Ph.D. Student"
 sortby: "Murphy, Kelsey"
 primary_advisor: "Sylvia Dee"
 started: "Fall 2021"

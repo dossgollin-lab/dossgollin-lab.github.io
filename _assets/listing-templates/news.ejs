@@ -1,0 +1,18 @@
+<%
+  function isPlaceholder(s) {
+    return typeof s === 'string' && /<!--\s*desc\(/.test(s);
+  }
+  function pickText(item) {
+    if (item.description && !isPlaceholder(item.description)) {
+      return item.description;
+    }
+    return item.title;
+  }
+%>
+<ul class="news-listing">
+<% for (const item of items) { %>
+  <li class="news-item">
+    <% if (item.date) { %><span class="news-date"><%= item.date %>.</span> <% } %><a class="news-link" href="<%- item.path %>"><%- pickText(item) %></a>
+  </li>
+<% } %>
+</ul>

@@ -1,5 +1,6 @@
 ---
 title: "CERCAT Funding for Tropical Cyclone Hazard Assessment Project"
+description: "CERCAT funded our project on a nonstationary joint probability method for tropical cyclone hazard assessment."
 categories: News
 date: 2025-09-02
 ---

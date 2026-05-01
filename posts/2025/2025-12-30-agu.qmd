@@ -1,5 +1,6 @@
 ---
 title: "Doss-Gollin Lab at AGU 2025"
+description: "James and Yuchen traveled to AGU 2025: Yuchen presented her hierarchical Bayesian rainfall IDF poster, James gave a talk on the TxRain framework, and James chaired sessions on urban flood risk and catastrophe modeling."
 categories: Events
 date: 2025-12-30
 ---

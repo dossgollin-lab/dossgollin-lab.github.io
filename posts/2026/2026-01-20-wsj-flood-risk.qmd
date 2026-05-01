@@ -1,5 +1,6 @@
 ---
 title: "James Quoted in WSJ Article on Flood Risk Scores"
+description: "James spoke with the Wall Street Journal about the accuracy and limitations of national property-level flood risk scores."
 categories: News
 date: 2026-01-20
 ---

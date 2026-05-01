@@ -1,0 +1,12 @@
+---
+title: "James Speaks at Rice Statistics Colloquium"
+description: "James gave an invited talk at the Rice Statistics Department colloquium on statistical modeling for nonstationary hydroclimate hazards."
+categories: [Talks, Events]
+date: 2025-11-17
+---
+
+James gave an invited talk at the [Rice Statistics Department Colloquium](https://events.rice.edu/statistics/event/405960-statistics-colloquium-james-doss-gollin-rice-ceve) on November 17, 2025, titled **"Statistical Modeling for Nonstationary Hydroclimate Hazards: Challenges and Opportunities."**
+
+The talk surveyed the lab's recent work on probabilistic models for nonstationary precipitation extremes — including the [Bayesian spatiotemporal framework](../../bibliography/publications/article/lu_spatiotemporal_2025.qmd) led by [Yuchen Lu](../../people/grad-students/yuchen-lu.qmd) — and discussed open methodological challenges in extreme value theory, regionalization, and integrating climate-model projections with short observational records.
+
+Thanks to the Rice Statistics department for the invitation and for a great discussion afterward.
