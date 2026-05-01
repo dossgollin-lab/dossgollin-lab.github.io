@@ -9,6 +9,8 @@ listing:
       sort:
           - "date desc"
           - "title desc"
+      sort-ui: false
+      filter-ui: false
       table-striped: true
       table-hover: true
       page-size: 8
@@ -25,7 +27,9 @@ listing:
       grid-columns: 1
       sort: false
       max-items: 7
-      fields: [title, date, details]
+      fields: [image, title, date, details]
+      field-display-names:
+          details: " "
       date-format: "YYYY"
       contents:
           - bibliography/publications/article/pollack_transparency_2026.qmd

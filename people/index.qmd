@@ -1,6 +1,5 @@
 ---
 title: People
-description: "Members of the Doss-Gollin Research Group at Rice CEVE — PI, graduate students, co-advised students, and alumni."
 listing:
     - id: pi
       contents: "pi/*.qmd"
@@ -9,6 +8,8 @@ listing:
       grid-columns: 3
       sort: sortby
       fields: [image, title, position]
+      field-display-names:
+          position: " "
       grid-item-align: left
 
     - id: grad-students
@@ -18,6 +19,8 @@ listing:
       grid-columns: 3
       sort: sortby
       fields: [image, title, position]
+      field-display-names:
+          position: " "
       grid-item-align: left
 
     - id: grad-students-coadvised
@@ -27,6 +30,8 @@ listing:
       grid-columns: 3
       sort: sortby
       fields: [image, title, position]
+      field-display-names:
+          position: " "
       grid-item-align: left
 
     # - id: undergrads
@@ -50,8 +55,6 @@ listing:
           ended: "Ended"
 ---
 
-## Current People
-
 ::: {#pi}
 :::
 
@@ -60,11 +63,6 @@ listing:
 
 ::: {#grad-students-coadvised}
 :::
-
-<!--
-::: {#undergrads}
-:::
--->
 
 ## Alumni
 
