@@ -21,7 +21,7 @@ end
 -- The input file is something like /path/to/project/bibliography/publications/article/foo.qmd
 -- We strip the "bibliography/publications/..." suffix to get the project root.
 local function get_project_root(input_file)
-  -- Match everything up to (but not including) "bibliography/"
+  -- Matches greedily up to the last "bibliography/publications/" — works for any subdirectory.
   local root = string.match(input_file, "^(.*/)bibliography/publications/")
   return root
 end
@@ -43,7 +43,8 @@ function Pandoc(doc)
   local summary_text = read_file(summary_path)
   if not summary_text or summary_text == "" then return doc end
 
-  local summary_doc = pandoc.read(summary_text, "markdown")
+  local ok, summary_doc = pcall(pandoc.read, summary_text, "markdown")
+  if not ok or not summary_doc then return doc end
 
   local header = pandoc.Header(
     3,
