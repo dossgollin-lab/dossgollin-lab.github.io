@@ -1,5 +1,6 @@
 ---
 title: "Updated Thoughts on the Guadalupe Flood"
+description: "James reflects on the Guadalupe River flood — building in the floodway, gaps in real-time gauges and forecasting, and the trade-off between certainty and lead time in warnings."
 categories: [News, Floods, Texas]
 date: 2025-07-08
 ---

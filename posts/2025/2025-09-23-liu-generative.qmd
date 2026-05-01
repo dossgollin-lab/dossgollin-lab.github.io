@@ -1,5 +1,6 @@
 ---
 title: "New Paper on Diffusion for Precipitation Downscaling Published in IEEE TGRS"
+description: "Yuhao Liu (Rice ECE), James, and coauthors published WassDiff — a Wasserstein-regularized diffusion model for downscaling extreme precipitation — in IEEE TGRS."
 subtitle: "Yuhao Liu's first-author paper introduces a novel generative AI model to improve the prediction of extreme rainfall."
 categories: Publications
 date: 2025-09-23

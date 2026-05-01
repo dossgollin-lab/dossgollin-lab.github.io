@@ -2,8 +2,6 @@ project:
   type: website
   preview:
     port: 4200
-  post-render:
-    - uv run scripts/post-render-pub-links.py
 
 execute:
   freeze: auto  # Re-render only when source changes
@@ -36,9 +34,13 @@ website:
   navbar:
     right:
       - href: people/index.qmd
+        text: "People"
       - href: research.qmd
+        text: "Research"
       - href: publications.qmd
+        text: "Publications"
       - href: contact.qmd
+        text: "Contact"
       - text: "Join Us"
         menu:
           - href: joinus/open-positions.qmd
@@ -66,8 +68,6 @@ format:
     code-annotations: hover
     html-math-method: mathjax
     date-format: long
-    filters:
-      - _filters/pub-summary.lua
 
 # references
 bibliography: bibliography/my-papers.bib

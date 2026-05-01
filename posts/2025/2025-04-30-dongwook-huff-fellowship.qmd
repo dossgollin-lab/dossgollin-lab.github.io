@@ -1,0 +1,14 @@
+---
+title: "Dongwook Kim Wins Huff Graduate Fellowship"
+description: "Dongwook Kim received the Karen and John Huff Graduate Fellowship in Civil and Environmental Engineering at Rice."
+categories: Congratulations
+date: 2025-04-30
+---
+
+Congratulations to [Dongwook Kim](../../people/grad-students/dongwook-kim.qmd), recipient of the **Karen and John Huff Graduate Fellowship in Civil and Environmental Engineering** at Rice!
+The Huff Fellowship recognizes outstanding graduate students in CEVE.
+
+Dongwook joined the lab in Fall 2024 and is co-advised with [Avi Gori](https://gori.blogs.rice.edu/).
+His research uses synthetic aperture radar (SAR) and deep learning to map flood extents in urban and rural environments, contributing to ongoing work on flood hazard characterization in rural Texas.
+
+Well-deserved, Dongwook!

@@ -1,67 +1,24 @@
 ---
-title: People
+title: Lab Members
 listing:
-    - id: pi
-      contents: "pi/*.qmd"
-      type: grid
-      image-height: 225px
-      grid-columns: 3
-      sort: sortby
-      fields: [image, title, position]
-      field-display-names:
-          position: " "
-      grid-item-align: left
-
-    - id: grad-students
-      contents: "grad-students/*.qmd"
-      type: grid
-      image-height: 225px
-      grid-columns: 3
-      sort: sortby
-      fields: [image, title, position]
-      field-display-names:
-          position: " "
-      grid-item-align: left
-
-    - id: grad-students-coadvised
-      contents: "grad-students-coadvised/*.qmd"
-      type: grid
-      image-height: 225px
-      grid-columns: 3
-      sort: sortby
-      fields: [image, title, position]
-      field-display-names:
-          position: " "
-      grid-item-align: left
-
-    # - id: undergrads
-    #   contents: "undergrad-students/*.qmd"
-    #   type: grid
-    #   image-height: 225px
-    #   grid-columns: 3
-    #   sort: sortby
-    #   fields: [image, title, position]
-    #   grid-item-align: left
+    - id: lab-members
+      template: ../_assets/listing-templates/lab-members.ejs
+      sort: false
+      contents:
+          - "pi/james-doss-gollin.qmd"
+          - "grad-students/yuchen-lu.qmd"
+          - "grad-students/dongwook-kim.qmd"
+          - "grad-students-coadvised/kelsey-murphy.qmd"
+          - "grad-students-coadvised/true-furrh.qmd"
 
     - id: alumni
       contents: "alumni/*.qmd"
-      type: table
+      template: ../_assets/listing-templates/alumni.ejs
       sort: [ended desc, sortby]
       fields: [title, position, started, ended]
-      field-display-names:
-          title: "Name"
-          position: "Role"
-          started: "Started"
-          ended: "Ended"
 ---
 
-::: {#pi}
-:::
-
-::: {#grad-students}
-:::
-
-::: {#grad-students-coadvised}
+::: {#lab-members}
 :::
 
 ## Alumni

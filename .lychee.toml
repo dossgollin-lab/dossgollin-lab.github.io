@@ -30,4 +30,6 @@ exclude = [
     "^mailto:",
     # Private lab-guide repo / wiki — visible to lab members when authenticated.
     "^https?://github\\.com/dossgollin-lab/lab-guide",
+    # KVUE returns HTTP/2 protocol errors against lychee but loads fine in browsers.
+    "^https?://(www\\.)?kvue\\.com/",
 ]

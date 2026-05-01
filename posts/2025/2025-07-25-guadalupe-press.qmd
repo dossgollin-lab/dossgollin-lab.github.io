@@ -1,0 +1,19 @@
+---
+title: "Press Coverage Following the Guadalupe Flood"
+description: "James spoke with KEYE, Fox26, AP, ABC13, KVUE, and the Wall Street Journal about flash flood hydrology and the Guadalupe River disaster."
+categories: [News, Media, Floods, Texas]
+date: 2025-07-25
+---
+
+In the weeks following the [Guadalupe River flood](2025-07-08-guadalupe-flood.qmd), James spoke with several outlets about flash flood hydrology, the limits of real-time forecasting in the Texas Hill Country, and the gap between issuing weather warnings and protecting lives.
+
+- [Historic Texas Flooding](https://mms.tveyes.com/Transcript.asp?StationID=2370&DateTime=7%2F25%2F2025+6%3A31%3A37+PM&LineNumber=&MediaStationID=2370&playclip=True&RefPage=&pbc=WatchlistTerm%3A1599598) — KEYE-AUS (CBS), July 25, 2025
+- [Houston's Morning Show](https://mms.tveyes.com/Transcript.asp?StationID=979&DateTime=7%2F10%2F2025+8%3A31%3A51+AM&LineNumber=&MediaStationID=979&playclip=True&RefPage=&pbc=WatchlistTerm%3A1599598) — Fox26 Houston, July 10, 2025
+- [Breaking down the force of water in the Texas floods](https://apnews.com/article/flash-floods-texas-hill-country-hydrology-51901309407b21b65cbbc6c04206f627) — AP News (Michael Phillis), July 10, 2025
+- [Here are some things you can do to be better prepared for major flooding](https://apnews.com/article/flood-hurricane-emergency-disaster-prepare-abb8f9cc9ab16c89a3937638739c6663) — Associated Press (Caleigh Wells), July 10, 2025
+- [ABC13 interview on flooding in Houston vs. Central Texas](https://www.facebook.com/watch/?v=1931096184096338) — ABC13 (Luke Jones), July 9, 2025
+- [After deadly flooding in Central Texas, state lawmakers look to prevent similar tragedies](https://www.kvue.com/article/news/politics/special-session/central-texas-flooding-special-session/269-2e5a87d4-ec92-4fb8-b850-748de1a6cbbe) — KVUE (Daniel Perreault), July 9, 2025
+- [New Flood Warning System Greenlit Shortly Before Deadly Texas Disaster](https://www.wsj.com/us-news/climate-environment/texas-guadalupe-flood-threat-system-06c29954) — The Wall Street Journal (Joseph De Avila), July 9, 2025
+- [Questions arise on how emergency warning systems work after Central Texas flood](https://abc13.com/post/questions-arise-how-emergency-warning-systems-work-central-texas-flood/17024010/) — ABC13 (Tom Abrahams), July 8, 2025
+
+For James's longer-form perspective on the event, see the [original post](2025-07-08-guadalupe-flood.qmd).

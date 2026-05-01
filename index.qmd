@@ -2,7 +2,7 @@
 description: "The Doss-Gollin Research Group at Rice CEVE develops Bayesian statistical and machine learning tools for climate risk, flood hazard, and community-engaged infrastructure planning."
 listing:
     - id: news-listings
-      type: table
+      template: _assets/listing-templates/news.ejs
       contents:
           - "posts/*/*.qmd"
           - "posts/*/*.md"
@@ -11,71 +11,85 @@ listing:
           - "title desc"
       sort-ui: false
       filter-ui: false
-      table-striped: true
-      table-hover: true
-      page-size: 8
+      max-items: 12
       categories: false
-      fields: [date, title]
-      field-display-names:
-          date: Date
-          title: Title
+      fields: [date, title, description]
       feed: true
-      date-format: iso
+      date-format: "MMM YYYY"
 
     - id: featured-papers
-      type: grid
-      grid-columns: 1
+      template: _assets/listing-templates/papers.ejs
       sort: false
-      max-items: 7
-      fields: [image, title, date, details]
-      field-display-names:
-          details: " "
-      date-format: "YYYY"
+      max-items: 8
+      fields: [image, title, details]
       contents:
           - bibliography/publications/article/pollack_transparency_2026.qmd
+          - bibliography/publications/article/pollack_unsafe_2025.qmd
           - bibliography/publications/article/liu_generative_2025.qmd
-          - bibliography/publications/article/liu_functional_2025.qmd
           - bibliography/publications/article/lu_spatiotemporal_2025.qmd
-          - bibliography/publications/article/odonnell_cesm_2025.qmd
-          - bibliography/publications/article/haider_mrb_2025.qmd
           - bibliography/publications/article/kazadi_floodgnn-gru_2024.qmd
+          - bibliography/publications/article/doss-gollin_subjective_2023.qmd
+          - bibliography/publications/article/doss-gollin_txtreme_2021.qmd
 
 format:
   html:
     page-layout: full
 ---
 
+::: {.home-page}
+
+::: {.home-hero}
+
+::: {.grid .align-items-center}
+
+::: {.g-col-12 .g-col-md-5 .home-hero-video}
 <iframe
-    width="100%"
     src="https://www.youtube-nocookie.com/embed/gI2I8Cq-14g"
-    title="YouTube video player"
-    frameborder="0"
+    title="Overview of the Doss-Gollin Research Group"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen>
 </iframe>
+:::
 
-Our infrastructure was designed for a world that no longer exists.
-Today, these systems face converging pressures from climate extremes, aging assets, and demographic shifts.
+::: {.g-col-12 .g-col-md-7 .home-hero-text}
+The **Doss-Gollin Research Group** at [Rice CEVE](https://ceve.rice.edu) builds probabilistic hazard models that enable climate risk analysis and bottom-up decision support for complex infrastructure systems, with a focus on urban flooding.
+We integrate Earth science, AI, and decision analysis to characterize nonstationary hazards, quantify their impacts on the built environment, and design adaptive risk-management strategies.
+We co-develop these tools with structural engineers, water managers, industry, and community organizations.
+:::
 
-We develop probabilistic and machine learning models to understand how rainfall and compound flood drivers are changing, how those changes create risk for critical urban infrastructure, and how to make robust decisions despite deep uncertainty.
-Our work spans Bayesian statistical modeling, AI-accelerated flood emulation, and adaptive decision frameworks, always motivated by helping communities understand and manage these risks.
+:::
+
+:::
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-lg-6}
+::: {.g-col-12 .g-col-lg-6 .home-news-col}
 
+::: {.section-header-with-link}
 ### News
+
+[all news →](news.qmd){.see-all-link}
+:::
 
 ::: {#news-listings}
 :::
 
 :::
 
-::: {.g-col-12 .g-col-lg-6}
+::: {.g-col-lg-1}
+:::
 
-### Recent Work
+::: {.g-col-12 .g-col-lg-5 .home-papers-col}
+
+::: {.section-header-with-link}
+### Featured Papers
+
+[all publications →](publications.qmd){.see-all-link}
+:::
 
 ::: {#featured-papers}
+:::
+
 :::
 
 :::

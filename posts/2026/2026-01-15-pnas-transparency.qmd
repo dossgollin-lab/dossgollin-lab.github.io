@@ -1,5 +1,6 @@
 ---
 title: "New PNAS Paper on the Need for Transparent Climate-Risk Research"
+description: "Adam Pollack (Iowa), James, and coauthors argue in a new PNAS paper that climate-risk research needs more transparency and reusability."
 categories: Publications
 date: 2026-01-15
 ---

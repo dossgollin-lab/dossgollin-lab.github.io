@@ -1,0 +1,21 @@
+<%
+function yearOnly(s) {
+  if (!s) return '';
+  var m = String(s).match(/(\d{4})/);
+  return m ? m[1] : String(s);
+}
+function fmtRange(started, ended) {
+  var s = yearOnly(started);
+  var e = yearOnly(ended);
+  if (!s && !e) return '';
+  if (s && e && s !== e) return s + '–' + e;
+  return e || s;
+}
+%>
+<ul class="alumni-list">
+<% for (const item of items) { %>
+  <li class="alumni-item">
+    <a href="<%- item.path %>"><%- item.title %></a><% if (item.position) { %>, <%= item.position %><% } %><% var range = fmtRange(item.started, item.ended); if (range) { %> (<%= range %>)<% } %>
+  </li>
+<% } %>
+</ul>

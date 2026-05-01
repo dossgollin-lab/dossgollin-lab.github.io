@@ -93,6 +93,96 @@ $code-block-bg: $light-gray !default;
     margin: 0 !important;
 }
 
+// Hide page description in the title block on individual post/page views.
+// The description is preserved for SEO meta, social cards, and listing summaries.
+.quarto-title-block .description {
+    display: none;
+}
+
+// Publications page: truncate long author lists on grid cards
+#pubs-article .listing-author {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+// People page: lab members grid (custom EJS template)
+.lab-members-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.75rem 1.5rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    .lab-members-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.member-card {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+.member-photo {
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    background-color: $light-gray;
+}
+
+.member-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.member-name {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-top: 0.65rem;
+    line-height: 1.2;
+}
+
+.member-position {
+    font-size: 0.85rem;
+    color: $dark-gray;
+    margin-top: 0.1rem;
+    line-height: 1.3;
+}
+
+.member-card:hover .member-name {
+    color: $rice-blue;
+}
+
+// People page: alumni bullet list
+.alumni-list {
+    list-style: disc;
+    padding-left: 1.25rem;
+}
+
+.alumni-list .alumni-item {
+    margin-bottom: 0.4rem;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.alumni-list .alumni-item a {
+    color: var(--bs-body-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.alumni-list .alumni-item a:hover {
+    color: $rice-blue;
+    text-decoration: underline;
+}
+
 // Research theme cards
 .research-card {
     background-color: #f8f9fa;
@@ -107,4 +197,159 @@ $code-block-bg: $light-gray !default;
 .research-card .callout-title-container {
     font-weight: 600;
     color: $rice-blue;
+}
+
+// Home page: width-constrained wrapper used with page-layout: full
+.home-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+// Home page: hero box (video + intro side-by-side)
+.home-hero {
+    background-color: #f5f5f7;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.home-hero .home-hero-video {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.home-hero .home-hero-video iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.home-hero .home-hero-text {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.home-hero .home-hero-text > :last-child {
+    margin-bottom: 0;
+}
+
+// Home page: section headers with right-aligned "see all" link
+.section-header-with-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    gap: 1rem;
+}
+
+.section-header-with-link h3 {
+    margin: 0;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.section-header-with-link .see-all-link {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    color: $dark-gray;
+}
+
+// Home page: compact paper rows (rendered by custom EJS template)
+.home-papers-col .papers-listing {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-papers-col .paper-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.65rem 0;
+    border-bottom: 1px solid var(--bs-border-color, #e5e5e5);
+    color: inherit;
+    text-decoration: none;
+}
+
+.home-papers-col .paper-item:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.home-papers-col .paper-item:hover .paper-title {
+    color: $rice-blue;
+}
+
+.home-papers-col .paper-item:last-child {
+    border-bottom: 0;
+}
+
+.home-papers-col .paper-thumb {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: $light-gray;
+}
+
+.home-papers-col .paper-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.home-papers-col .paper-body {
+    min-width: 0;
+}
+
+.home-papers-col .paper-title {
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--bs-body-color);
+}
+
+.home-papers-col .paper-venue {
+    font-size: 0.78rem;
+    color: $dark-gray;
+    line-height: 1.3;
+    margin-top: 0.2rem;
+}
+
+// Home page: news bullet list (rendered by custom EJS template)
+.home-news-col .news-listing {
+    list-style: disc;
+    padding-left: 1.25rem;
+    margin: 0;
+}
+
+.home-news-col .news-listing .news-item {
+    margin-bottom: 0.55rem;
+    font-size: 0.875rem;
+    line-height: 1.4;
+}
+
+.home-news-col .news-listing .news-item:last-child {
+    margin-bottom: 0;
+}
+
+.home-news-col .news-listing .news-date {
+    color: $dark-gray;
+}
+
+.home-news-col .news-listing .news-link {
+    color: var(--bs-body-color);
+    text-decoration: none;
+}
+
+.home-news-col .news-listing .news-link:hover {
+    color: $rice-blue;
+    text-decoration: underline;
 }

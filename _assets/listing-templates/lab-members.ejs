@@ -1,0 +1,13 @@
+<%
+function resolveImage(item) {
+  var src = item.image || (item.about && item.about.image);
+  if (!src) return '';
+  // Person QMDs are at people/<role>/<name>.qmd and use ../../_assets/...
+  // The listing renders at people/index.html, which only needs ../_assets/...
+  return String(src).replace(/^\.\.\/\.\.\//, '../');
+}
+%>
+<div class="lab-members-grid">
+<% for (const item of items) { %><% var imgSrc = resolveImage(item); %><a class="member-card" href="<%- item.path %>"><div class="member-photo"><% if (imgSrc) { %><img src="<%- imgSrc %>" alt="" loading="lazy"><% } %></div><div class="member-name"><%- item.title %></div><% if (item.position) { %><div class="member-position"><%= item.position %></div><% } %></a>
+<% } %>
+</div>

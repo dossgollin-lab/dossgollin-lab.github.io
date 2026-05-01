@@ -1,0 +1,28 @@
+---
+title: "News"
+description: "All news and announcements from the Doss-Gollin Research Group."
+listing:
+    - id: all-news
+      type: table
+      contents:
+          - "posts/*/*.qmd"
+          - "posts/*/*.md"
+      sort:
+          - "date desc"
+          - "title desc"
+      sort-ui: false
+      filter-ui: true
+      table-striped: true
+      table-hover: true
+      page-size: 25
+      categories: false
+      fields: [date, title]
+      field-display-names:
+          date: Date
+          title: Title
+      feed: true
+      date-format: iso
+---
+
+::: {#all-news}
+:::

@@ -1,5 +1,6 @@
 ---
-title: "Congratulations to Yuchen Lu for Passing Her Thesis Proposal!"
+title: "Congratulations Yuchen!"
+description: "Yuchen Lu passed her PhD thesis proposal on probabilistic analysis of nonstationary hydroclimate extremes."
 categories: Congratulations
 date: 2025-04-30
 ---

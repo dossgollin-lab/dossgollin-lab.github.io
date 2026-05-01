@@ -1,5 +1,6 @@
 ---
 title: "New Paper on Bayesian Spatiotemporal Analysis of Extreme Rainfall in Environmental Research: Climate"
+description: "Yuchen Lu published her first first-author paper, on Bayesian spatiotemporal modeling of nonstationary extreme rainfall, open-access in Environmental Research: Climate."
 subtitle: Yuchen Lu's first-author paper demonstrates robust increases in Gulf Coast extreme rainfall using novel statistical framework.
 categories: Publications
 date: 2025-08-26

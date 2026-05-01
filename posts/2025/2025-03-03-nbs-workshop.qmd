@@ -1,5 +1,6 @@
 ---
 title: "Successful Nature-Based Solutions Workshop at Rice University"
+description: "James co-organized the Nature-Based Solutions for a Resilient Gulf Coast Workshop at Rice, bringing together experts from academia, government, non-profits, and industry."
 subtitle: "Exploring strategies for a resilient Gulf Coast"
 categories: Events
 date: 2025-03-03
