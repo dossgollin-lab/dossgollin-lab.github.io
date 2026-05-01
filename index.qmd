@@ -1,24 +1,40 @@
 ---
 description: "The Doss-Gollin Research Group at Rice CEVE develops Bayesian statistical and machine learning tools for climate risk, flood hazard, and community-engaged infrastructure planning."
 listing:
-    id: news-listings
-    type: table
-    contents:
-        - "posts/*/*.qmd"
-        - "posts/*/*.md"
-    sort:
-        - "date desc"
-        - "title desc"
-    table-striped: true
-    table-hover: true
-    page-size: 8
-    categories: false
-    fields: [date, title]
-    field-display-names:
-        date: Date
-        title: Title
-    feed: true
-    date-format: iso
+    - id: news-listings
+      type: table
+      contents:
+          - "posts/*/*.qmd"
+          - "posts/*/*.md"
+      sort:
+          - "date desc"
+          - "title desc"
+      table-striped: true
+      table-hover: true
+      page-size: 8
+      categories: false
+      fields: [date, title]
+      field-display-names:
+          date: Date
+          title: Title
+      feed: true
+      date-format: iso
+
+    - id: featured-papers
+      type: grid
+      grid-columns: 1
+      sort: false
+      max-items: 7
+      fields: [title, date, details]
+      date-format: "YYYY"
+      contents:
+          - bibliography/publications/article/pollack_transparency_2026.qmd
+          - bibliography/publications/article/liu_generative_2025.qmd
+          - bibliography/publications/article/liu_functional_2025.qmd
+          - bibliography/publications/article/lu_spatiotemporal_2025.qmd
+          - bibliography/publications/article/odonnell_cesm_2025.qmd
+          - bibliography/publications/article/haider_mrb_2025.qmd
+          - bibliography/publications/article/kazadi_floodgnn-gru_2024.qmd
 
 format:
   html:
