@@ -5,7 +5,7 @@ listing:
   - id: pubs-article
     contents:
         - /bibliography/publications/article/*.qmd
-    type: grid
+    template: _assets/listing-templates/papers-grid.ejs
     sort: "date desc"
     categories: false
     sort-ui: [date, author desc, title]

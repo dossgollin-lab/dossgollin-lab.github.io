@@ -1,0 +1,19 @@
+<%
+  function renderAuthors(item) {
+    let authors = item.author;
+    if (typeof authors === "string") {
+      authors = authors.split(/,\s+/).filter(s => s.length);
+    } else if (!Array.isArray(authors)) {
+      authors = [];
+    }
+    const max = 5;
+    return authors.length > max
+      ? authors.slice(0, max).join(", ") + ", et al."
+      : authors.join(", ");
+  }
+%>
+<div class="papers-grid grid">
+<% for (const item of items) { %>
+<div class="g-col-12 g-col-sm-6 g-col-lg-4"><a class="paper-card" href="<%- item.path %>"><% if (item.image) { %><div class="paper-card-thumb"><img src="<%- item.image %>" alt="" loading="lazy"></div><% } %><div class="paper-card-body"><div class="paper-card-title"><%- item.title %></div><% const authorDisplay = renderAuthors(item); if (authorDisplay) { %><div class="paper-card-authors"><%- authorDisplay %></div><% } %><% if (item.date) { %><div class="paper-card-date"><%- item.date %></div><% } %></div></a></div>
+<% } %>
+</div>

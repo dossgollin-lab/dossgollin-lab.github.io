@@ -21,7 +21,7 @@ Run the validator + lychee locally before committing. Install tools with `brew i
 
 ## Repository Structure
 
-- **bibliography/**: Git submodule linked to `jdossgollin/my-papers`. Contains BibTeX files and auto-generated publication QMD files. Update with:
+- **bibliography/**: Git submodule linked to `dossgollin-lab/publications`. Contains BibTeX files and auto-generated publication QMD files. Update with:
 
   ```bash
   git submodule update --remote --recursive
