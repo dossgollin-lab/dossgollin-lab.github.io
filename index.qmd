@@ -27,7 +27,7 @@ listing:
           - bibliography/publications/article/pollack_unsafe_2025.qmd
           - bibliography/publications/article/liu_generative_2025.qmd
           - bibliography/publications/article/lu_spatiotemporal_2025.qmd
-          - bibliography/publications/article/kazadi_floodgnn-gru_2024.qmd
+          - bibliography/publications/conference/kazadi_icml_2024.qmd
           - bibliography/publications/article/doss-gollin_subjective_2023.qmd
           - bibliography/publications/article/doss-gollin_txtreme_2021.qmd
 

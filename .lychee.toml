@@ -32,4 +32,6 @@ exclude = [
     "^https?://github\\.com/dossgollin-lab/lab-guide",
     # KVUE returns HTTP/2 protocol errors against lychee but loads fine in browsers.
     "^https?://(www\\.)?kvue\\.com/",
+    # libro.fm trips lychee with an SSL hostname-mismatch error but loads fine in browsers.
+    "^https?://(www\\.)?libro\\.fm/",
 ]
