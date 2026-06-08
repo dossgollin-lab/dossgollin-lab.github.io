@@ -6,6 +6,8 @@ format:
     toc: true
 ---
 
+[← Back to Join Us](/joinus/index.qmd)
+
 ::: {.callout-info}
 ## Credit
 
@@ -20,7 +22,7 @@ There are three main ways to do research as an undergraduate:
 1. As a senior thesis
 1. For pay
 
-Please see our [Open Positions](/joinus/open-positions.qmd) page for advertised positions, although you're always welcome to reach out if you have a specific idea (see below).
+Please see our [Join Us](/joinus/index.qmd) page for advertised positions, although you're always welcome to reach out if you have a specific idea (see below).
 
 ### Research for Credit
 
@@ -47,7 +49,7 @@ If you are interested in having me supervise your senior thesis project, I recom
 If you want to work in lab and earn money, there are two different options.
 The lab can pay you as a research assistant, typically 5-10 hours per week at $12 per hour or as discussed.
 We have a limited number of hours available each semester, so these positions are competitive.
-Open positions may be posted on our [Open Positions](/joinus/open-positions.qmd) page, but if you have concrete ideas you can propose a project (see below).
+Open positions may be posted on our [Join Us](/joinus/index.qmd) page, but if you have concrete ideas you can propose a project (see below).
 
 We can apply for an undergraduate research fellowship to fund your time in lab.
 Because these fellowships are intended to support your academic development, undergraduate fellows will be required to participate in lab meetings.
