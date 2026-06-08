@@ -9,8 +9,26 @@
 <link>https://dossgollin-lab.github.io/news.html</link>
 <atom:link href="https://dossgollin-lab.github.io/news.xml" rel="self" type="application/rss+xml"/>
 <description>All news and announcements from the Doss-Gollin Research Group.</description>
-<generator>quarto-1.9.37</generator>
-<lastBuildDate>Tue, 20 Jan 2026 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Tue, 12 May 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>James Receives NSF CAREER Award to Study Urban Flood Infrastructure</title>
+  <link>https://dossgollin-lab.github.io/posts/2026/2026-05-12-nsf-career-award.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>James received a five-year CAREER award from the National Science Foundation to study how cities can combine green and traditional infrastructure to manage urban flood risk.</p>
+<p>Read the <a href="https://engineering.rice.edu/news/doss-gollin-receives-national-science-foundations-career-award">Rice Engineering story</a> or the <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2543303">NSF award abstract</a>.</p>
+
+
+
+ ]]></description>
+  <category>News</category>
+  <guid>https://dossgollin-lab.github.io/posts/2026/2026-05-12-nsf-career-award.html</guid>
+  <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>James Quoted in WSJ Article on Flood Risk Scores</title>
   <link>https://dossgollin-lab.github.io/posts/2026/2026-01-20-wsj-flood-risk.html</link>
@@ -598,31 +616,6 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
   <category>Welcome</category>
   <guid>https://dossgollin-lab.github.io/posts/2024/2024-08-22-welcome-dongwook.html</guid>
   <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Pluvial Flood Emulation with Hydraulics-informed Message Passing accepted to ICML 2024</title>
-  <link>https://dossgollin-lab.github.io/posts/2024/2024-06-09-kazadi-icml.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Our paper titled “Pluvial Flood Emulation with Hydraulics-informed Message Passing” has been accepted to the 2024 International Conference on Machine Learning (ICML) <span class="citation" data-cites="kazadi_icml:2024">(Kazadi et al. 2024)</span>.</p>
-<p>Given a geographical region and precipitation data, our model predicts water depths in an auto-regressive fashion using a message-passing framework inspired by the conservation of momentum and mass as expressed in the shallow-water equations. This allows the model to effectively capture the propagation of water flow, particularly during the early stages of flooding when the water is scarce.</p>
-<p>Our empirical results, based on a dataset covering 9 regions and 7 historical precipitation events, demonstrate that our model outperforms existing baselines, providing accurate simulations even in complex topographies. This solution achieves accurate results using real ground elevation data. Additionally, our model excels in predicting flood dynamics for unseen storms and watersheds, showcasing its robustness and generalization capabilities.</p>
-<p>For more details, see <a href="../../bibliography/publications/conference/kazadi_icml_2024.html">here</a>. This is an exciting space, and we are looking forward to sharing more updates on our ongoing research in this critical area!</p>
-
-
-
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
-<div id="ref-kazadi_icml:2024" class="csl-entry">
-Kazadi, Arnold, James Doss-Gollin, and Arlei Silva. 2024. <span>“Pluvial Flood Emulation with Hydraulics-Informed Message Passing.”</span> <em>Forty-<span>First International Conference</span> on <span>Machine Learning</span></em>, June 24. <a href="https://openreview.net/forum?id=kIHIA6Lr0B">https://openreview.net/forum?id=kIHIA6Lr0B</a>.
-</div>
-</div></section></div> ]]></description>
-  <category>Publications</category>
-  <guid>https://dossgollin-lab.github.io/posts/2024/2024-06-09-kazadi-icml.html</guid>
-  <pubDate>Sun, 09 Jun 2024 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
