@@ -43,7 +43,8 @@ website:
         text: "Contact"
       - text: "Join Us"
         menu:
-          - href: joinus/open-positions.qmd
+          - text: "Join Us"
+            href: joinus/index.qmd
           - href: joinus/phd.qmd
           - href: joinus/postdoc.qmd
           - href: joinus/undergrad.qmd

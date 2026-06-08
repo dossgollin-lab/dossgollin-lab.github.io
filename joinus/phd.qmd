@@ -6,12 +6,14 @@ format:
     toc: true
 ---
 
+[← Back to Join Us](/joinus/index.qmd)
+
 I welcome prospective Ph.D. students interested in the quantitative study of climate hazard, risk, and resilience.
 Our research bridges climate science, hydrology, statistics, and decision science to address challenges in climate hazard, risk, and resilience.
 
 ## Open Positions
 
-Current openings are listed on the [Open Positions](/joinus/open-positions.qmd) page.
+Current openings are listed on the [Join Us](/joinus/index.qmd) page.
 If you have external funding or a research idea that aligns with the group's work, reach out even if no position is posted.
 
 ## How to Apply
