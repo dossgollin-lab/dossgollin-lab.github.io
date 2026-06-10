@@ -1,0 +1,40 @@
+---
+title: "Dafa Briliant Herdiansyah"
+position: "Undergraduate Research Intern"
+sortby: "Herdiansyah, Dafa Briliant"
+started: "Summer 2026"
+ended: "Current"
+toc: false
+about:
+    id: person-profile
+    image: "../../_assets/img/people/dafaherdiansyah.jpg"
+    template: trestles
+    links:
+        -   icon: github
+            text: Github
+            href: https://github.com/dafabriliant
+        -   icon: linkedin
+            text: LinkedIn
+            href: https://www.linkedin.com/in/dafabriliant/
+        -   icon: envelope
+            text: Email
+            href: mailto:dafabrilianth@gmail.com
+
+format:
+  html:
+    page-layout: full
+---
+
+:::{#person-profile}
+## Bio
+
+Dafa Briliant Herdiansyah is a third-year Civil Engineering student at Nanyang Technological University, currently working as a Summer Research Intern at Rice University's Doss-Gollin Lab.
+Dafa is deeply interested in climate-resilient infrastructure systems, flood risk modeling, and sustainability.
+He brings technical and project management experience from previous internships at Siemens Mobility and Obayashi Singapore, as well as an international perspective from his academic exchange at Boğaziçi University.
+
+## Education
+
+- **Nanyang Technological University** | Singapore<br />B.Eng. in Civil Engineering, Expected 2027
+- **Boğaziçi University** | Istanbul, Turkey<br />Academic Exchange Program, Fall 2025
+
+:::

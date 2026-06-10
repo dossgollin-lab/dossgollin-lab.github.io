@@ -15,7 +15,7 @@ function fmtRange(started, ended) {
 <ul class="alumni-list">
 <% for (const item of items) { %>
   <li class="alumni-item">
-    <a href="<%- item.path %>"><%- item.title %></a><% if (item.position) { %>, <%= item.position %><% } %><% var range = fmtRange(item.started, item.ended); if (range) { %> (<%= range %>)<% } %>
+    <a href="<%- item.path %>"><%- item.title %></a><% if (item.position) { %>, <%= item.position %><% } %><% var range = fmtRange(item.started, item.ended); if (range) { %> (<%= range %>)<% } %><% if (item.next) { %> &rarr; <span class="alumni-next"><%= item.next %></span><% } %>
   </li>
 <% } %>
 </ul>

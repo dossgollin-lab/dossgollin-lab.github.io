@@ -10,12 +10,13 @@ listing:
           - "grad-students/dongwook-kim.qmd"
           - "grad-students-coadvised/kelsey-murphy.qmd"
           - "grad-students-coadvised/true-furrh.qmd"
+          - "undergrad-students/dafa-herdiansyah.qmd"
 
     - id: alumni
       contents: "alumni/*.qmd"
       template: ../_assets/listing-templates/alumni.ejs
       sort: [ended desc, sortby]
-      fields: [title, position, started, ended]
+      fields: [title, position, started, ended, next]
 ---
 
 ::: {#lab-members}
