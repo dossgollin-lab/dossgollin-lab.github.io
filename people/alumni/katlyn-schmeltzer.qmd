@@ -4,6 +4,7 @@ sortby: "Schmeltzer, Katlyn"
 position: "Graduate RA"
 started: "2025"
 ended: "2025"
+next: "GSI Environmental Inc."
 toc: false
 about:
     id: person-profile
@@ -13,6 +14,9 @@ about:
         -   icon: github
             text: Github
             href: https://github.com/kes20-rice
+        -   icon: linkedin
+            text: LinkedIn
+            href: https://www.linkedin.com/in/katlynschmeltzer/
         -   icon: envelope
             text: Email
             href: mailto:kes20@rice.edu
