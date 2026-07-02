@@ -1,0 +1,27 @@
+---
+title: "New Paper on Spatiotemporal Rainfall Variability and Flood Risk Published in npj Natural Hazards"
+description: "John (Jack) Baer, James, and coauthors show that design storms systematically misrepresent flood hazard and risk by neglecting the spatial and temporal structure of rainfall."
+subtitle: "John (Jack) Baer's first-author paper shows that design storms underestimate flood inundation frequency and expected annual damage by neglecting spatiotemporal rainfall variability."
+categories: Publications
+date: 2026-07-02
+bibliography: ../../bibliography/my-papers.bib
+---
+
+A new paper, "Neglecting Spatiotemporal Rainfall Variability Misrepresents Flood Hazard and Risk," has been published in *npj Natural Hazards* [@baer_designstorm:2026].
+The work is led by John (Jack) Baer of the University of North Carolina at Chapel Hill, with coauthors Antonia Sebastian, Lauren E. Grimley, [James Doss-Gollin](/people/pi/james-doss-gollin.qmd), Daniel B. Wright, Mohammad Ashar Hussain, and Marissa K. Webber.
+
+Flood risk assessments underpin land-use planning, infrastructure design, and insurance requirements worldwide.
+Many of these assessments rely on design storms, which assume a one-to-one relationship between the frequency of storms, flooding, and damage.
+They also neglect the spatial and temporal structure of rainfall.
+This paper shows that these assumptions can lead to systematic misrepresentation of flood hazard and risk.
+
+Using a coastal watershed in North Carolina, the study compares design storm-based estimates with those from stochastic storm transposition, a probabilistic framework that generates synthetic events with realistic rainfall fields.
+Both methods produce similar basin-averaged rainfall statistics.
+Even so, design storms underestimate flood inundation frequency by 31–35% and expected annual damage by 93% relative to stochastic storm transposition.
+These results show how complex storm-flood-damage relationships raise risk from smaller, more frequent storms, and they illustrate that accounting for spatiotemporal rainfall variability is necessary for accurate risk assessment.
+
+![Spatial distribution of differences in flood hazard between the stochastic storm transposition ensemble mean and the mean design storm estimates for a coastal watershed in North Carolina. Blue pixels indicate locations where stochastic storm transposition predicts more frequent flooding (shorter return periods); red pixels indicate locations where design storms predict more frequent flooding. Stochastic storm transposition produces higher flood hazard across most of the watershed, while higher design storm hazard estimates are confined to small, isolated areas. Figure from @baer_designstorm:2026, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).](/_assets/img/news/2026-06-27-baer-designstorm-fig1.png)
+
+Read the paper at [doi.org/10.1038/s44304-026-00208-5](https://doi.org/10.1038/s44304-026-00208-5).
+
+For more details, see [here](/bibliography/publications/article/baer_designstorm_2026.qmd).
