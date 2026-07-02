@@ -1,24 +1,5 @@
 [
   {
-    "listing": "/people/index.html",
-    "items": [
-      "/people/pi/james-doss-gollin.html",
-      "/people/grad-students/yuchen-lu.html",
-      "/people/grad-students/dongwook-kim.html",
-      "/people/grad-students-coadvised/kelsey-murphy.html",
-      "/people/grad-students-coadvised/true-furrh.html",
-      "/people/undergrad-students/dafa-herdiansyah.html",
-      "/people/alumni/jonah-schaechter.html",
-      "/people/alumni/Zain-Rahman.html",
-      "/people/alumni/katlyn-schmeltzer.html",
-      "/people/alumni/kyle-olcott.html",
-      "/people/alumni/kristina-cibor.html",
-      "/people/alumni/alyssa-graham.html",
-      "/people/alumni/sophia-prieto.html",
-      "/people/alumni/john-cook.html"
-    ]
-  },
-  {
     "listing": "/news.html",
     "items": [
       "/posts/2026/2026-05-12-nsf-career-award.html",
@@ -65,6 +46,25 @@
       "/posts/2021/2021-06-24-agu21.html",
       "/posts/2021/2021-05-18-txtremes.html",
       "/posts/2020/2020-11-10-dmdu-2020.html"
+    ]
+  },
+  {
+    "listing": "/people/index.html",
+    "items": [
+      "/people/pi/james-doss-gollin.html",
+      "/people/grad-students/yuchen-lu.html",
+      "/people/grad-students/dongwook-kim.html",
+      "/people/grad-students-coadvised/kelsey-murphy.html",
+      "/people/grad-students-coadvised/true-furrh.html",
+      "/people/undergrad-students/dafa-herdiansyah.html",
+      "/people/alumni/jonah-schaechter.html",
+      "/people/alumni/Zain-Rahman.html",
+      "/people/alumni/katlyn-schmeltzer.html",
+      "/people/alumni/kyle-olcott.html",
+      "/people/alumni/kristina-cibor.html",
+      "/people/alumni/alyssa-graham.html",
+      "/people/alumni/sophia-prieto.html",
+      "/people/alumni/john-cook.html"
     ]
   },
   {
