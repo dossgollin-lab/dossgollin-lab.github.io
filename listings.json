@@ -2,6 +2,8 @@
   {
     "listing": "/news.html",
     "items": [
+      "/posts/2026/2026-07-02-baer-designstorm.html",
+      "/posts/2026/2026-07-02-yuchen-defense.html",
       "/posts/2026/2026-05-12-nsf-career-award.html",
       "/posts/2026/2026-01-20-wsj-flood-risk.html",
       "/posts/2026/2026-01-15-pnas-transparency.html",
@@ -70,6 +72,7 @@
   {
     "listing": "/publications.html",
     "items": [
+      "/bibliography/publications/article/baer_designstorm_2026.html",
       "/bibliography/publications/article/pollack_transparency_2026.html",
       "/bibliography/publications/article/murphy_interannual_2026.html",
       "/bibliography/publications/article/odonnell_whiplash_2026.html",
@@ -100,7 +103,6 @@
       "/bibliography/publications/conference/kazadi_neurips_2022.html",
       "/bibliography/publications/conference/araujojunior_simposio_2014.html",
       "/bibliography/publications/conference/doss-gollin_simposio_2014.html",
-      "/bibliography/publications/forthcoming/baer_designstorm_2026.html",
       "/bibliography/publications/forthcoming/pollack_unrefined_2025.html",
       "/bibliography/publications/forthcoming/hancock_robust21stcenturyhydrologicaltrendsinthemississippiriverbasinfromcmip6_2025.html"
     ]
@@ -108,6 +110,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026/2026-07-02-baer-designstorm.html",
+      "/posts/2026/2026-07-02-yuchen-defense.html",
       "/posts/2026/2026-05-12-nsf-career-award.html",
       "/posts/2026/2026-01-20-wsj-flood-risk.html",
       "/posts/2026/2026-01-15-pnas-transparency.html",

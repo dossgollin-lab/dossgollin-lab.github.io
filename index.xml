@@ -10,7 +10,68 @@
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>The Doss-Gollin Research Group at Rice CEVE develops Bayesian statistical and machine learning tools for climate risk, flood hazard, and community-engaged infrastructure planning.</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Tue, 12 May 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 02 Jul 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>New Paper on Spatiotemporal Rainfall Variability and Flood Risk Published in npj Natural Hazards</title>
+  <link>https://dossgollin-lab.github.io/posts/2026/2026-07-02-baer-designstorm.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A new paper, “Neglecting Spatiotemporal Rainfall Variability Misrepresents Flood Hazard and Risk,” has been published in <em>npj Natural Hazards</em> <span class="citation" data-cites="baer_designstorm:2026">(Baer et al. 2026)</span>. The work is led by John (Jack) Baer of the University of North Carolina at Chapel Hill, with coauthors Antonia Sebastian, Lauren E. Grimley, <a href="../../people/pi/james-doss-gollin.html">James Doss-Gollin</a>, Daniel B. Wright, Mohammad Ashar Hussain, and Marissa K. Webber.</p>
+<p>Flood risk assessments underpin land-use planning, infrastructure design, and insurance requirements worldwide. Many of these assessments rely on design storms, which assume a one-to-one relationship between the frequency of storms, flooding, and damage. They also neglect the spatial and temporal structure of rainfall. This paper shows that these assumptions can lead to systematic misrepresentation of flood hazard and risk.</p>
+<p>Using a coastal watershed in North Carolina, the study compares design storm-based estimates with those from stochastic storm transposition, a probabilistic framework that generates synthetic events with realistic rainfall fields. Both methods produce similar basin-averaged rainfall statistics. Even so, design storms underestimate flood inundation frequency by 31–35% and expected annual damage by 93% relative to stochastic storm transposition. These results show how complex storm-flood-damage relationships raise risk from smaller, more frequent storms, and they illustrate that accounting for spatiotemporal rainfall variability is necessary for accurate risk assessment.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://dossgollin-lab.github.io/_assets/img/news/2026-06-27-baer-designstorm-fig1.png" class="img-fluid figure-img"></p>
+<figcaption>Spatial distribution of differences in flood hazard between the stochastic storm transposition ensemble mean and the mean design storm estimates for a coastal watershed in North Carolina. Blue pixels indicate locations where stochastic storm transposition predicts more frequent flooding (shorter return periods); red pixels indicate locations where design storms predict more frequent flooding. Stochastic storm transposition produces higher flood hazard across most of the watershed, while higher design storm hazard estimates are confined to small, isolated areas. Figure from <span class="citation" data-cites="baer_designstorm:2026">Baer et al. (2026)</span>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
+</figure>
+</div>
+<p>Read the paper at <a href="https://doi.org/10.1038/s44304-026-00208-5">doi.org/10.1038/s44304-026-00208-5</a>.</p>
+<p>For more details, see <a href="../../bibliography/publications/article/baer_designstorm_2026.html">here</a>.</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-baer_designstorm:2026" class="csl-entry">
+Baer, John A., Antonia Sebastian, Lauren E. Grimley, et al. 2026. <span>“Neglecting Spatiotemporal Rainfall Variability Misrepresents Flood Hazard and Risk.”</span> <em>Npj Natural Hazards</em>, ahead of print, June 27. <a href="https://doi.org/10.1038/s44304-026-00208-5">https://doi.org/10.1038/s44304-026-00208-5</a>.
+</div>
+</div></section></div> ]]></description>
+  <category>Publications</category>
+  <guid>https://dossgollin-lab.github.io/posts/2026/2026-07-02-baer-designstorm.html</guid>
+  <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Join Us for Yuchen Lu’s PhD Thesis Defense!</title>
+  <link>https://dossgollin-lab.github.io/posts/2026/2026-07-02-yuchen-defense.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We are so pleased to announce that <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> will defend her PhD thesis, “Probabilistic Analysis of Nonstationary Hydroclimate Extremes!” Please join us to celebrate this milestone.</p>
+<ul>
+<li><strong>Date:</strong> July 15, 2026</li>
+<li><strong>Time:</strong> 10:00 am (CT)</li>
+<li><strong>Location:</strong> Ryon Lab 112</li>
+</ul>
+<p>Her defense committee is Dr.&nbsp;James Doss-Gollin (Chair), <a href="https://profiles.rice.edu/faculty/avantika-gori">Dr.&nbsp;Avantika Gori</a>, <a href="https://profiles.rice.edu/faculty/philip-bedient">Dr.&nbsp;Philip Bedient</a>, and <a href="https://profiles.rice.edu/faculty/katherine-b-ensor">Dr.&nbsp;Katherine Ensor</a>.</p>
+<p>Please join us to celebrate at Valhalla in the afternoon (time TBC)!</p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Hydroclimate extremes, including extreme rainfall and tropical cyclones, pose substantial threats to communities, infrastructure systems, and ecosystems. Probabilistic characterization of these extremes is essential for risk assessment, infrastructure design, and climate adaptation. Many commonly used approaches for estimating hydroclimate hazards assume stationarity, even though observations and climate projections show that they are influenced by climate variability and long-term climate change. However, accounting for this nonstationarity is challenging because observations of rare events are sparse in time and space, while climate model products contain systematic biases. To address these, this dissertation develops statistical frameworks that incorporate nonstationarity into probabilistic analyses of hydroclimate extremes using limited observational records. The first study develops a hierarchical Bayesian space-time framework for nonstationary analysis of extreme rainfall probabilities. By incorporating time-varying climate covariates and spatial pooling, the framework reduces sampling variability and estimates spatially coherent changes in daily rainfall extremes. The second chapter extends this analysis to multi-duration rainfall frequency estimates by incorporating duration dependence. This work addresses the challenge of maintaining coherence across both space and durations. The third chapter develops a nonstationary joint probability framework for characterizing tropical cyclone parameters relevant to hazard analysis. This approach mitigates the challenge of limited local records by using regional changes in storm characteristics to inform local-scale analyses. Together, these three studies address a common problem in hydroclimate risk analysis: how to estimate changing extremes from limited and spatially heterogeneous observations. Across rainfall and tropical cyclone applications, the proposed frameworks improve the stability, spatial coherence, and physical interpretability of nonstationary hazard estimates. These methods provide a basis for more robust infrastructure design and climate adaptation planning under changing hydroclimate risk.</p>
+<p><img src="https://dossgollin-lab.github.io/_assets/img/news/2026-07-15-yuchen-defense.jpg" class="img-fluid" alt="PhD thesis defense flyer for Yuchen Lu, &quot;Probabilistic Analysis of Nonstationary Hydroclimate Extremes,&quot; July 15, 2026 at 10:00 am CT in Ryon Lab 112."></p>
+
+
+</section>
+
+ ]]></description>
+  <category>News</category>
+  <guid>https://dossgollin-lab.github.io/posts/2026/2026-07-02-yuchen-defense.html</guid>
+  <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>James Receives NSF CAREER Award to Study Urban Flood Infrastructure</title>
   <link>https://dossgollin-lab.github.io/posts/2026/2026-05-12-nsf-career-award.html</link>
@@ -90,7 +151,7 @@ background-color: null;
 font-style: inherit;">pollack_transparency:2026</span>,</span>
 <span id="cb1-2">  <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">file</span> = {/Users/jd82/Zotero/storage/JUMRBR77/Pollack et al. - 2026 - Unlocking the benefits of transparent and reusable science for climate risk management.pdf},</span>
+font-style: inherit;">file</span> = {/Users/jd82/Zotero/storage/I2VV8F52/extracted-pymupdf.md;/Users/jd82/Zotero/storage/JUMRBR77/Pollack et al. - 2026 - Unlocking the benefits of transparent and reusable science for climate risk management.pdf},</span>
 <span id="cb1-3">  <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">langid</span> = {english},</span>
@@ -254,7 +315,7 @@ background-color: null;
 font-style: inherit;">pollack_unsafe:2025</span>,</span>
 <span id="cb1-2">  <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">file</span> = {/Users/jd82/Zotero/storage/KPA52VVI/Pollack et al. - 2025 - UNSAFE An UNcertain Structure And Fragility Ensemble framework for property-level flood risk estima.pdf},</span>
+font-style: inherit;">file</span> = {/Users/jd82/Zotero/storage/2G3IICRB/extracted-docling.md;/Users/jd82/Zotero/storage/KPA52VVI/Pollack et al. - 2025 - UNSAFE An UNcertain Structure And Fragility Ensemble framework for property-level flood risk estima.pdf},</span>
 <span id="cb1-3">  <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">langid</span> = {english},</span>
@@ -425,7 +486,7 @@ background-color: null;
 font-style: inherit;">lu_spatiotemporal:2025</span>,</span>
 <span id="cb1-2">  <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">file</span> = {/Users/jd82/Zotero/storage/VLUHZNJA/Lu et al. - 2025 - Bayesian spatiotemporal nonstationary model quantifies robust increases in daily extreme rainfall ac.pdf},</span>
+font-style: inherit;">file</span> = {/Users/jd82/Zotero/storage/EJIQ36CH/extracted-docling.md;/Users/jd82/Zotero/storage/VLUHZNJA/Lu et al. - 2025 - Bayesian spatiotemporal nonstationary model quantifies robust increases in daily extreme rainfall ac.pdf;/Users/jd82/Zotero/storage/W58PRA8K/extracted-pymupdf.md},</span>
 <span id="cb1-3">  <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">langid</span> = {english},</span>
@@ -740,56 +801,6 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
   <category>Events</category>
   <guid>https://dossgollin-lab.github.io/posts/2025/2025-03-03-nbs-workshop.html</guid>
   <pubDate>Mon, 03 Mar 2025 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Bayesian Model Reveals Rising Extreme Rainfall on Gulf Coast</title>
-  <link>https://dossgollin-lab.github.io/posts/2025/2025-02-05-preprint-bayesian-precip.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Our preprint, led by <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> and titled “Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the Western Gulf Coast”, is now live on ArXiV <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu et al. 2025)</span>.</p>
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>We develop a novel Bayesian hierarchical model, the Spatially Varying Covariates Model, to address the challenges of estimating nonstationary extreme precipitation probabilities. Traditional models often assume stationarity, potentially underestimating risks due to climate change. Our model integrates nonstationarity and regionalization, leveraging spatial statistics and extreme value theory to provide robust estimates of extreme precipitation events. We validate our approach using daily rainfall data from the Western Gulf Coast, revealing significant increases in extreme precipitation intensity and variability, particularly around Houston and New Orleans.</p>
-<p>Our model demonstrates superior performance compared to traditional stationary models and nonstationary models that do not incorporate spatial pooling. Through rigorous cross-validation, we show that our estimates are well-calibrated and reliable, even at ungauged locations. The findings indicate a 10-35% increase in extreme rainfall over the past 80 years, with the largest changes in coastal areas. Compared to NOAA Atlas 14, our model suggests that current guidelines may underestimate future risks, highlighting the need for updated engineering designs to account for climate change impacts. This framework offers a practical and theoretically sound method for estimating nonstationary extreme precipitation probabilities, applicable to various regions and climate variables.</p>
-</section>
-<section id="read-more" class="level2">
-<h2 class="anchored" data-anchor-id="read-more">Read More</h2>
-<p>Our paper is currently undergoing peer review, so results should be treated as preliminary. For more details, see <a href="../../bibliography/publications/article/lu_spatiotemporal_2025.html">here</a>.</p>
-
-
-
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
-<div id="ref-lu_spatiotemporal:2025" class="csl-entry">
-Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the Western Gulf Coast.”</span> <em>Environmental Research: Climate</em> 4 (3): 035016. <a href="https://doi.org/10.1088/2752-5295/adf56e">https://doi.org/10.1088/2752-5295/adf56e</a>.
-</div>
-</div></section></div> ]]></description>
-  <category>Publications</category>
-  <guid>https://dossgollin-lab.github.io/posts/2025/2025-02-05-preprint-bayesian-precip.html</guid>
-  <pubDate>Wed, 05 Feb 2025 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>NSF Grant to Study Flood Resilience in Rural Texas</title>
-  <link>https://dossgollin-lab.github.io/posts/2025/2025-01-24-nsf-rural-flood.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>We’re excited to announce that Rice University, in collaboration with The University of Texas at Austin and Texas A&amp;M University’s Institute for Disaster Resilient Texas (IDRT), has been awarded a $1 million grant from the National Science Foundation’s Confronting Hazards, Impacts and Risks for a Resilient Planet Program (CHIRRP). <a href="../../people/pi/james-doss-gollin.html">James Doss-Gollin</a> and <a href="https://gori.blogs.rice.edu/team/">Avantika Gori</a> (Rice) will join Keri Stephens (UT Austin), and Andrew Juan (TAMU) on a project to develop transformative approaches for improving flood resilience in rural Texas communities.</p>
-<p>The project aims to create a performance-based framework that bridges critical gaps in flood hazard assessment and mitigation strategies for rural communities. Working in the rural communities of <a href="https://maps.app.goo.gl/au1qoQeuwNLF7Pp68">Fort Hancock</a> and <a href="https://maps.app.goo.gl/XxeSF3fvVr41vHXE7">Premont</a>, Texas, we will develop new methods to characterize flood risks and co-design mitigation strategies that reflect local priorities. We’re particularly focused on identifying adaptations that address both frequent and extreme flood events, and that are scalable to communities with similar characteristics.</p>
-<p>For more details, see the <a href="https://idrt.tamug.edu/idrt-team-builds-upon-drip-work-for-new-nsf-grant/">press release from IDRT</a> or <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2440167">the NSF award</a>).</p>
-
-
-
- ]]></description>
-  <category>News</category>
-  <guid>https://dossgollin-lab.github.io/posts/2025/2025-01-24-nsf-rural-flood.html</guid>
-  <pubDate>Fri, 24 Jan 2025 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

@@ -10,7 +10,68 @@
 <atom:link href="https://dossgollin-lab.github.io/news.xml" rel="self" type="application/rss+xml"/>
 <description>All news and announcements from the Doss-Gollin Research Group.</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Tue, 12 May 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 02 Jul 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>New Paper on Spatiotemporal Rainfall Variability and Flood Risk Published in npj Natural Hazards</title>
+  <link>https://dossgollin-lab.github.io/posts/2026/2026-07-02-baer-designstorm.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A new paper, “Neglecting Spatiotemporal Rainfall Variability Misrepresents Flood Hazard and Risk,” has been published in <em>npj Natural Hazards</em> <span class="citation" data-cites="baer_designstorm:2026">(Baer et al. 2026)</span>. The work is led by John (Jack) Baer of the University of North Carolina at Chapel Hill, with coauthors Antonia Sebastian, Lauren E. Grimley, <a href="../../people/pi/james-doss-gollin.html">James Doss-Gollin</a>, Daniel B. Wright, Mohammad Ashar Hussain, and Marissa K. Webber.</p>
+<p>Flood risk assessments underpin land-use planning, infrastructure design, and insurance requirements worldwide. Many of these assessments rely on design storms, which assume a one-to-one relationship between the frequency of storms, flooding, and damage. They also neglect the spatial and temporal structure of rainfall. This paper shows that these assumptions can lead to systematic misrepresentation of flood hazard and risk.</p>
+<p>Using a coastal watershed in North Carolina, the study compares design storm-based estimates with those from stochastic storm transposition, a probabilistic framework that generates synthetic events with realistic rainfall fields. Both methods produce similar basin-averaged rainfall statistics. Even so, design storms underestimate flood inundation frequency by 31–35% and expected annual damage by 93% relative to stochastic storm transposition. These results show how complex storm-flood-damage relationships raise risk from smaller, more frequent storms, and they illustrate that accounting for spatiotemporal rainfall variability is necessary for accurate risk assessment.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://dossgollin-lab.github.io/_assets/img/news/2026-06-27-baer-designstorm-fig1.png" class="img-fluid figure-img"></p>
+<figcaption>Spatial distribution of differences in flood hazard between the stochastic storm transposition ensemble mean and the mean design storm estimates for a coastal watershed in North Carolina. Blue pixels indicate locations where stochastic storm transposition predicts more frequent flooding (shorter return periods); red pixels indicate locations where design storms predict more frequent flooding. Stochastic storm transposition produces higher flood hazard across most of the watershed, while higher design storm hazard estimates are confined to small, isolated areas. Figure from <span class="citation" data-cites="baer_designstorm:2026">Baer et al. (2026)</span>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
+</figure>
+</div>
+<p>Read the paper at <a href="https://doi.org/10.1038/s44304-026-00208-5">doi.org/10.1038/s44304-026-00208-5</a>.</p>
+<p>For more details, see <a href="../../bibliography/publications/article/baer_designstorm_2026.html">here</a>.</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-baer_designstorm:2026" class="csl-entry">
+Baer, John A., Antonia Sebastian, Lauren E. Grimley, et al. 2026. <span>“Neglecting Spatiotemporal Rainfall Variability Misrepresents Flood Hazard and Risk.”</span> <em>Npj Natural Hazards</em>, ahead of print, June 27. <a href="https://doi.org/10.1038/s44304-026-00208-5">https://doi.org/10.1038/s44304-026-00208-5</a>.
+</div>
+</div></section></div> ]]></description>
+  <category>Publications</category>
+  <guid>https://dossgollin-lab.github.io/posts/2026/2026-07-02-baer-designstorm.html</guid>
+  <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Join Us for Yuchen Lu’s PhD Thesis Defense!</title>
+  <link>https://dossgollin-lab.github.io/posts/2026/2026-07-02-yuchen-defense.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We are so pleased to announce that <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> will defend her PhD thesis, “Probabilistic Analysis of Nonstationary Hydroclimate Extremes!” Please join us to celebrate this milestone.</p>
+<ul>
+<li><strong>Date:</strong> July 15, 2026</li>
+<li><strong>Time:</strong> 10:00 am (CT)</li>
+<li><strong>Location:</strong> Ryon Lab 112</li>
+</ul>
+<p>Her defense committee is Dr.&nbsp;James Doss-Gollin (Chair), <a href="https://profiles.rice.edu/faculty/avantika-gori">Dr.&nbsp;Avantika Gori</a>, <a href="https://profiles.rice.edu/faculty/philip-bedient">Dr.&nbsp;Philip Bedient</a>, and <a href="https://profiles.rice.edu/faculty/katherine-b-ensor">Dr.&nbsp;Katherine Ensor</a>.</p>
+<p>Please join us to celebrate at Valhalla in the afternoon (time TBC)!</p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Hydroclimate extremes, including extreme rainfall and tropical cyclones, pose substantial threats to communities, infrastructure systems, and ecosystems. Probabilistic characterization of these extremes is essential for risk assessment, infrastructure design, and climate adaptation. Many commonly used approaches for estimating hydroclimate hazards assume stationarity, even though observations and climate projections show that they are influenced by climate variability and long-term climate change. However, accounting for this nonstationarity is challenging because observations of rare events are sparse in time and space, while climate model products contain systematic biases. To address these, this dissertation develops statistical frameworks that incorporate nonstationarity into probabilistic analyses of hydroclimate extremes using limited observational records. The first study develops a hierarchical Bayesian space-time framework for nonstationary analysis of extreme rainfall probabilities. By incorporating time-varying climate covariates and spatial pooling, the framework reduces sampling variability and estimates spatially coherent changes in daily rainfall extremes. The second chapter extends this analysis to multi-duration rainfall frequency estimates by incorporating duration dependence. This work addresses the challenge of maintaining coherence across both space and durations. The third chapter develops a nonstationary joint probability framework for characterizing tropical cyclone parameters relevant to hazard analysis. This approach mitigates the challenge of limited local records by using regional changes in storm characteristics to inform local-scale analyses. Together, these three studies address a common problem in hydroclimate risk analysis: how to estimate changing extremes from limited and spatially heterogeneous observations. Across rainfall and tropical cyclone applications, the proposed frameworks improve the stability, spatial coherence, and physical interpretability of nonstationary hazard estimates. These methods provide a basis for more robust infrastructure design and climate adaptation planning under changing hydroclimate risk.</p>
+<p><img src="https://dossgollin-lab.github.io/_assets/img/news/2026-07-15-yuchen-defense.jpg" class="img-fluid" alt="PhD thesis defense flyer for Yuchen Lu, &quot;Probabilistic Analysis of Nonstationary Hydroclimate Extremes,&quot; July 15, 2026 at 10:00 am CT in Ryon Lab 112."></p>
+
+
+</section>
+
+ ]]></description>
+  <category>News</category>
+  <guid>https://dossgollin-lab.github.io/posts/2026/2026-07-02-yuchen-defense.html</guid>
+  <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>James Receives NSF CAREER Award to Study Urban Flood Infrastructure</title>
   <link>https://dossgollin-lab.github.io/posts/2026/2026-05-12-nsf-career-award.html</link>
@@ -581,41 +642,6 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
  ]]></description>
   <guid>https://dossgollin-lab.github.io/posts/2024/2024-12-05-agu.html</guid>
   <pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Announcing AI for Climate Risk and Resilience at Rice</title>
-  <link>https://dossgollin-lab.github.io/posts/2024/2024-08-23-ai4climaterrr.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>We’re delighted to announce the launch of a new project, <em>AI for Climate Risk and Resilience at Rice</em> (AI4ClimateRRR), which will bring together researchers from across the university to develop new tools for understanding and addressing climate risks. AI4ClimateRRR is a cluster within the Ken Kennedy Institute. Monthly meetings are available to the Rice community.</p>
-<p>The initiative has since evolved into the <a href="https://ai4urbanresilience.rice.edu/">AI for Urban Resilience</a> cluster at the Ken Kennedy Institute.</p>
-
-
-
- ]]></description>
-  <category>News</category>
-  <guid>https://dossgollin-lab.github.io/posts/2024/2024-08-23-ai4climaterrr.html</guid>
-  <pubDate>Fri, 23 Aug 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Welcome Dongwook!</title>
-  <link>https://dossgollin-lab.github.io/posts/2024/2024-08-22-welcome-dongwook.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>We’re delighted to welcome <a href="../../people/grad-students/dongwook-kim.html">Dongwook Kim</a> to the lab! Dongwook joins us Burin Co., Ltd.&nbsp;in Seoul, where he was working as a research engineer. Prior that that, he earned a BS and MS at Hanyang University. Dongwook’s interests include water resources, flood risk, tropical cyclones, and infrastructure risk assessment.</p>
-
-
-
- ]]></description>
-  <category>Welcome</category>
-  <guid>https://dossgollin-lab.github.io/posts/2024/2024-08-22-welcome-dongwook.html</guid>
-  <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

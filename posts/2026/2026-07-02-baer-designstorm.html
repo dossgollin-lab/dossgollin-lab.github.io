@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="The Doss-Gollin Research Group at Rice CEVE develops Bayesian statistical and machine learning tools for climate risk, flood hazard, and community-engaged infrastructure planning.">
+<meta name="dcterms.date" content="2026-07-02">
+<meta name="description" content="John (Jack) Baer, James, and coauthors show that design storms systematically misrepresent flood hazard and risk by neglecting the spatial and temporal structure of rainfall.">
 
-<title>Doss-Gollin Lab @ Rice CEVE</title>
+<title>New Paper on Spatiotemporal Rainfall Variability and Flood Risk Published in npj Natural Hazards – Doss-Gollin Lab @ Rice CEVE</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -24,28 +25,45 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cf55baf3d695d554bdd7a8547022b7dd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-cf55baf3d695d554bdd7a8547022b7dd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,112 +90,24 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-news-listings .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      page: 25,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-project","listing-execute","listing-website","listing-format","listing-bibliography","listing-biblio-style","listing-link-external-newwindow","listing-engines","listing-_quarto-vars","listing-language","listing-title","listing-categories","listing-date","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-subtitle"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-news-listings'] = new List('listing-news-listings', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-featured-papers .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-details',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-project","listing-execute","listing-website","listing-format","listing-bibliography","listing-biblio-style","listing-link-external-newwindow","listing-engines","listing-_quarto-vars","listing-language","listing-title","listing-author","listing-date","listing-details","listing-year","listing-volume","listing-issue","listing-pages","listing-csl","listing-nocite","listing-image","listing-about","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-featured-papers'] = new List('listing-featured-papers', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="alternate" type="application/rss+xml" title="Doss-Gollin Lab @ Rice CEVE" href="index.xml" data-external="1"><meta property="og:title" content="Doss-Gollin Lab @ Rice CEVE">
-<meta property="og:description" content="The Doss-Gollin Research Group at Rice CEVE develops Bayesian statistical and machine learning tools for climate risk, flood hazard, and community-engaged infrastructure planning.">
-<meta property="og:image" content="https://dossgollin-lab.github.io/bibliography/_assets/img/pubs/pollack_transparency_2026.png">
+<meta property="og:title" content="New Paper on Spatiotemporal Rainfall Variability and Flood Risk Published in npj Natural Hazards – Doss-Gollin Lab @ Rice CEVE">
+<meta property="og:description" content="John (Jack) Baer, James, and coauthors show that design storms systematically misrepresent flood hazard and risk by neglecting the spatial and temporal structure of rainfall.">
+<meta property="og:image" content="https://dossgollin-lab.github.io/_assets/img/news/2026-06-27-baer-designstorm-fig1.png">
 <meta property="og:site_name" content="Doss-Gollin Lab @ Rice CEVE">
-<meta property="og:image:alt" content="">
-<meta property="og:image:height" content="4198">
-<meta property="og:image:width" content="6094">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:width" content="1072">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Doss-Gollin Lab @ Rice CEVE</span>
     </a>
   </div>
@@ -188,19 +118,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./people/index.html"> 
+    <a class="nav-link" href="../../people/index.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="../../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -209,19 +139,19 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-join-us">    
         <li>
-    <a class="dropdown-item" href="./joinus/index.html">
+    <a class="dropdown-item" href="../../joinus/index.html">
  <span class="dropdown-text">Join Us</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./joinus/phd.html">
+    <a class="dropdown-item" href="../../joinus/phd.html">
  <span class="dropdown-text">Prospective PhD Students</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./joinus/postdoc.html">
+    <a class="dropdown-item" href="../../joinus/postdoc.html">
  <span class="dropdown-text">Postdoctoral Opportunities</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./joinus/undergrad.html">
+    <a class="dropdown-item" href="../../joinus/undergrad.html">
  <span class="dropdown-text">Undergraduate Research</span></a>
   </li>  
     </ul>
@@ -232,15 +162,15 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-lab-guide">    
         <li>
-    <a class="dropdown-item" href="./culture/values.html">
+    <a class="dropdown-item" href="../../culture/values.html">
  <span class="dropdown-text">Our Values</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./culture/harassment-policy.html">
+    <a class="dropdown-item" href="../../culture/harassment-policy.html">
  <span class="dropdown-text">Harassment Policy</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./culture/expectations.html">
+    <a class="dropdown-item" href="../../culture/expectations.html">
  <span class="dropdown-text">Expectations</span></a>
   </li>  
         <li>
@@ -257,182 +187,67 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">New Paper on Spatiotemporal Rainfall Variability and Flood Risk Published in npj Natural Hazards</h1>
+<p class="subtitle lead">John (Jack) Baer’s first-author paper shows that design storms underestimate flood inundation frequency and expected annual damage by neglecting spatiotemporal rainfall variability.</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Publications</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    John (Jack) Baer, James, and coauthors show that design storms systematically misrepresent flood hazard and risk by neglecting the spatial and temporal structure of rainfall.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 2, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>A new paper, “Neglecting Spatiotemporal Rainfall Variability Misrepresents Flood Hazard and Risk,” has been published in <em>npj Natural Hazards</em> <span class="citation" data-cites="baer_designstorm:2026">(<a href="#ref-baer_designstorm:2026" role="doc-biblioref">Baer et al. 2026</a>)</span>. The work is led by John (Jack) Baer of the University of North Carolina at Chapel Hill, with coauthors Antonia Sebastian, Lauren E. Grimley, <a href="../../people/pi/james-doss-gollin.html">James Doss-Gollin</a>, Daniel B. Wright, Mohammad Ashar Hussain, and Marissa K. Webber.</p>
+<p>Flood risk assessments underpin land-use planning, infrastructure design, and insurance requirements worldwide. Many of these assessments rely on design storms, which assume a one-to-one relationship between the frequency of storms, flooding, and damage. They also neglect the spatial and temporal structure of rainfall. This paper shows that these assumptions can lead to systematic misrepresentation of flood hazard and risk.</p>
+<p>Using a coastal watershed in North Carolina, the study compares design storm-based estimates with those from stochastic storm transposition, a probabilistic framework that generates synthetic events with realistic rainfall fields. Both methods produce similar basin-averaged rainfall statistics. Even so, design storms underestimate flood inundation frequency by 31–35% and expected annual damage by 93% relative to stochastic storm transposition. These results show how complex storm-flood-damage relationships raise risk from smaller, more frequent storms, and they illustrate that accounting for spatiotemporal rainfall variability is necessary for accurate risk assessment.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../_assets/img/news/2026-06-27-baer-designstorm-fig1.png" class="img-fluid figure-img"></p>
+<figcaption>Spatial distribution of differences in flood hazard between the stochastic storm transposition ensemble mean and the mean design storm estimates for a coastal watershed in North Carolina. Blue pixels indicate locations where stochastic storm transposition predicts more frequent flooding (shorter return periods); red pixels indicate locations where design storms predict more frequent flooding. Stochastic storm transposition produces higher flood hazard across most of the watershed, while higher design storm hazard estimates are confined to small, isolated areas. Figure from <span class="citation" data-cites="baer_designstorm:2026">Baer et al. (<a href="#ref-baer_designstorm:2026" role="doc-biblioref">2026</a>)</span>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
+</figure>
+</div>
+<p>Read the paper at <a href="https://doi.org/10.1038/s44304-026-00208-5">doi.org/10.1038/s44304-026-00208-5</a>.</p>
+<p>For more details, see <a href="../../bibliography/publications/article/baer_designstorm_2026.html">here</a>.</p>
 
 
 
 
-<div class="home-page">
-<div class="home-hero">
-<div class="grid align-items-center">
-<div class="g-col-12 g-col-md-5 home-hero-video">
-<iframe src="https://www.youtube-nocookie.com/embed/gI2I8Cq-14g" title="Overview of the Doss-Gollin Research Group" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
-</iframe>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-baer_designstorm:2026" class="csl-entry" role="listitem">
+Baer, John A., Antonia Sebastian, Lauren E. Grimley, et al. 2026. <span>“Neglecting Spatiotemporal Rainfall Variability Misrepresents Flood Hazard and Risk.”</span> <em>Npj Natural Hazards</em>, ahead of print, June 27. <a href="https://doi.org/10.1038/s44304-026-00208-5">https://doi.org/10.1038/s44304-026-00208-5</a>.
 </div>
-<div class="g-col-12 g-col-md-7 home-hero-text">
-<p>The <strong>Doss-Gollin Research Group</strong> at <a href="https://ceve.rice.edu">Rice CEVE</a> builds probabilistic hazard models that enable climate risk analysis and bottom-up decision support for complex infrastructure systems, with a focus on urban flooding. We integrate Earth science, AI, and decision analysis to characterize nonstationary hazards, quantify their impacts on the built environment, and design adaptive risk-management strategies. We co-develop these tools with structural engineers, water managers, industry, and community organizations.</p>
-</div>
-</div>
-</div>
-<div class="grid">
-<div class="g-col-12 g-col-lg-6 home-news-col">
-<section id="news" class="level3 section-header-with-link">
-<h3 class="anchored" data-anchor-id="news">News</h3>
-<p><a href="./news.html" class="see-all-link">all news →</a></p>
-</section>
-<div id="listing-news-listings" class="quarto-listing quarto-listing-container-custom">
-<ul class="news-listing">
-<li class="news-item">
-<span class="news-date">Jul 2026.</span> <a class="news-link" href="./posts/2026/2026-07-02-baer-designstorm.html">John (Jack) Baer, James, and coauthors show that design storms systematically misrepresent flood hazard and risk by neglecting the spatial and temporal structure of rainfall.</a>
-</li>
-<li class="news-item">
-<span class="news-date">Jul 2026.</span> <a class="news-link" href="./posts/2026/2026-07-02-yuchen-defense.html">Yuchen Lu will defend her PhD thesis on probabilistic analysis of nonstationary hydroclimate extremes on July 15, 2026. Everyone is welcome, with a celebration to follow at Valhalla.</a>
-</li>
-<li class="news-item">
-<span class="news-date">May 2026.</span> <a class="news-link" href="./posts/2026/2026-05-12-nsf-career-award.html">James received a five-year NSF CAREER award to study how cities can combine flood and stormwater infrastructure to manage flood risk.</a>
-</li>
-<li class="news-item">
-<span class="news-date">Jan 2026.</span> <a class="news-link" href="./posts/2026/2026-01-20-wsj-flood-risk.html">James spoke with the Wall Street Journal about the accuracy and limitations of national property-level flood risk scores.</a>
-</li>
-<li class="news-item">
-<span class="news-date">Jan 2026.</span> <a class="news-link" href="./posts/2026/2026-01-15-pnas-transparency.html">Adam Pollack (Iowa), James, and coauthors argue in a new PNAS paper that climate-risk research needs more transparency and reusability.</a>
-</li>
-<li class="news-item">
-<span class="news-date">Dec 2025.</span> <a class="news-link" href="./posts/2025/2025-12-30-agu.html">James and Yuchen traveled to AGU 2025: Yuchen presented her hierarchical Bayesian rainfall IDF poster, James gave a talk on the TxRain framework, and James chaired sessions on urban flood risk and catastrophe modeling.</a>
-</li>
-<li class="news-item">
-<span class="news-date">Nov 2025.</span> <a class="news-link" href="./posts/2025/2025-11-17-stats-colloquium.html">James gave an invited talk at the Rice Statistics Department colloquium on statistical modeling for nonstationary hydroclimate hazards.</a>
-</li>
-<li class="news-item">
-<span class="news-date">Sep 2025.</span> <a class="news-link" href="./posts/2025/2025-09-23-liu-generative.html">Yuhao Liu (Rice ECE), James, and coauthors published WassDiff — a Wasserstein-regularized diffusion model for downscaling extreme precipitation — in IEEE TGRS.</a>
-</li>
-<li class="news-item">
-<span class="news-date">Sep 2025.</span> <a class="news-link" href="./posts/2025/2025-09-02-cercat-tropical-cyclone.html">CERCAT funded our project on a nonstationary joint probability method for tropical cyclone hazard assessment.</a>
-</li>
-<li class="news-item">
-<span class="news-date">Aug 2025.</span> <a class="news-link" href="./posts/2025/2025-08-26-lu-spatiotemporal.html">Yuchen Lu published her first first-author paper, on Bayesian spatiotemporal modeling of nonstationary extreme rainfall, open-access in Environmental Research: Climate.</a>
-</li>
-<li class="news-item">
-<span class="news-date">Jul 2025.</span> <a class="news-link" href="./posts/2025/2025-07-25-guadalupe-press.html">James spoke with KEYE, Fox26, AP, ABC13, KVUE, and the Wall Street Journal about flash flood hydrology and the Guadalupe River disaster.</a>
-</li>
-<li class="news-item">
-<span class="news-date">Jul 2025.</span> <a class="news-link" href="./posts/2025/2025-07-08-guadalupe-flood.html">James reflects on the Guadalupe River flood — building in the floodway, gaps in real-time gauges and forecasting, and the trade-off between certainty and lead time in warnings.</a>
-</li>
-</ul>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</div>
-<div class="g-col-lg-1">
-
-</div>
-<div class="g-col-12 g-col-lg-5 home-papers-col">
-<section id="featured-papers" class="level3 section-header-with-link">
-<h3 class="anchored" data-anchor-id="featured-papers">Featured Papers</h3>
-<p><a href="./publications.html" class="see-all-link">all publications →</a></p>
-</section>
-<div id="listing-featured-papers" class="quarto-listing quarto-listing-container-custom">
-<div class="papers-listing">
-<a class="paper-item" href="./bibliography/publications/article/pollack_transparency_2026.html">
-<div class="paper-thumb">
-<img src="./bibliography/_assets/img/pubs/pollack_transparency_2026.png" alt="" loading="lazy">
-</div>
-<div class="paper-body">
-<div class="paper-title">
-Unlocking The Benefits Of Transparent And Reusable Science For Climate Risk Management
-</div>
-<div class="paper-venue">
-Proceedings of the National Academy of Sciences
-</div>
-</div>
-</a> <a class="paper-item" href="./bibliography/publications/article/pollack_unsafe_2025.html">
-<div class="paper-thumb">
-<img src="./bibliography/_assets/img/pubs/pollack_unsafe_2025.png" alt="" loading="lazy">
-</div>
-<div class="paper-body">
-<div class="paper-title">
-UNSAFE: An UNcertain Structure And Fragility Ensemble Framework For Property-Level Flood Risk Estimation
-</div>
-<div class="paper-venue">
-Journal of Open Source Software
-</div>
-</div>
-</a> <a class="paper-item" href="./bibliography/publications/article/liu_generative_2025.html">
-<div class="paper-thumb">
-<img src="./bibliography/_assets/img/pubs/liu_generative_2025.png" alt="" loading="lazy">
-</div>
-<div class="paper-body">
-<div class="paper-title">
-Downscaling Extreme Precipitation With Wasserstein Regularized Diffusion
-</div>
-<div class="paper-venue">
-IEEE Transactions on Geoscience and Remote Sensing
-</div>
-</div>
-</a> <a class="paper-item" href="./bibliography/publications/article/lu_spatiotemporal_2025.html">
-<div class="paper-thumb">
-<img src="./bibliography/_assets/img/pubs/lu_spatiotemporal_2025.png" alt="" loading="lazy">
-</div>
-<div class="paper-body">
-<div class="paper-title">
-Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases In Daily Extreme Rainfall Across The Western Gulf Coast
-</div>
-<div class="paper-venue">
-Environmental Research: Climate
-</div>
-</div>
-</a> <a class="paper-item" href="./bibliography/publications/article/kazadi_floodgnn-gru_2024.html">
-<div class="paper-thumb">
-<img src="./bibliography/_assets/img/pubs/kazadi_floodgnn-gru_2024.png" alt="" loading="lazy">
-</div>
-<div class="paper-body">
-<div class="paper-title">
-FloodGNN-GRU: A Spatio-Temporal Graph Neural Network For Flood Prediction
-</div>
-<div class="paper-venue">
-Environmental Data Science
-</div>
-</div>
-</a> <a class="paper-item" href="./bibliography/publications/article/doss-gollin_subjective_2023.html">
-<div class="paper-thumb">
-<img src="./bibliography/_assets/img/pubs/doss-gollin_subjective_2023.jpg" alt="" loading="lazy">
-</div>
-<div class="paper-body">
-<div class="paper-title">
-A Subjective Bayesian Framework For Synthesizing Deep Uncertainties In Climate Risk Management
-</div>
-<div class="paper-venue">
-Earth's Future
-</div>
-</div>
-</a> <a class="paper-item" href="./bibliography/publications/article/doss-gollin_txtreme_2021.html">
-<div class="paper-thumb">
-<img src="./bibliography/_assets/img/pubs/doss-gollin_txtreme_2021.jpg" alt="" loading="lazy">
-</div>
-<div class="paper-body">
-<div class="paper-title">
-How Unprecedented Was The February 2021 Texas Cold Snap?
-</div>
-<div class="paper-venue">
-Environmental Research Letters
-</div>
-</div>
-</a><p><a class="paper-item" href="./bibliography/publications/article/doss-gollin_txtreme_2021.html"></a></p>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</div>
-</div>
-</div>
-
-
-
-
-</main> <!-- /main -->
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
