@@ -1,20 +1,25 @@
 ---
-title: "Join Us for Yuchen Lu's PhD Thesis Defense!"
-description: "Yuchen Lu will defend her PhD thesis on probabilistic analysis of nonstationary hydroclimate extremes on July 15, 2026. Everyone is welcome, with a celebration to follow at Valhalla."
+title: "Congratulations, Dr. Yuchen Lu!"
+description: "Yuchen Lu successfully defended her PhD thesis, \"Probabilistic Analysis of Nonstationary Hydroclimate Extremes,\" on July 15, 2026."
 categories: News
-date: 2026-07-02
+date: 2026-07-16
 ---
 
-We are so pleased to announce that [Yuchen Lu](../../people/grad-students/yuchen-lu.qmd) will defend her PhD thesis, "Probabilistic Analysis of Nonstationary Hydroclimate Extremes!"
-Please join us to celebrate this milestone.
+We are tremendously proud of [Dr. Yuchen Lu](../../people/grad-students/yuchen-lu.qmd), who defended her PhD thesis, "Probabilistic Analysis of Nonstationary Hydroclimate Extremes," on July 15, 2026 in Ryon Lab 112.
 
-- **Date:** July 15, 2026
-- **Time:** 10:00 am (CT)
-- **Location:** Ryon Lab 112
+![Yuchen Lu and friends after her defense](/_assets/img/news/2026-07-15-yuchen-defense-group.jpg)
 
-Her defense committee is Dr. James Doss-Gollin (Chair), [Dr. Avantika Gori](https://profiles.rice.edu/faculty/avantika-gori), [Dr. Philip Bedient](https://profiles.rice.edu/faculty/philip-bedient), and [Dr. Katherine Ensor](https://profiles.rice.edu/faculty/katherine-b-ensor).
+Yuchen's dissertation develops statistical frameworks for estimating rainfall and tropical cyclone probabilities that change over time.
+Standard engineering practice assumes these probabilities are fixed, and relaxing that assumption is hard when records of rare events are short and unevenly distributed in space.
+Her methods address that problem, and they give engineers a more defensible basis for infrastructure design and adaptation planning.
 
-Please join us to celebrate at Valhalla in the afternoon (time TBC)!
+Thanks to her committee members [Dr. Philip Bedient](https://profiles.rice.edu/faculty/philip-bedient), [Dr. Avantika Gori](https://profiles.rice.edu/faculty/avantika-gori), and [Dr. Katherine Ensor](https://profiles.rice.edu/faculty/katherine-b-ensor) for their guidance and feedback, and to her friends, funders, and teachers for their support.
+
+![Yuchen Lu with her thesis committee](/_assets/img/news/2026-07-15-yuchen-committee.jpg)
+
+![Yuchen hangs her tie at Valhalla, following Rice tradition.](/_assets/img/news/2026-07-15-yuchen-valhalla.jpg)
+
+Congratulations, Dr. Lu!
 
 ## Abstract
 
@@ -32,5 +37,3 @@ This approach mitigates the challenge of limited local records by using regional
 Together, these three studies address a common problem in hydroclimate risk analysis: how to estimate changing extremes from limited and spatially heterogeneous observations.
 Across rainfall and tropical cyclone applications, the proposed frameworks improve the stability, spatial coherence, and physical interpretability of nonstationary hazard estimates.
 These methods provide a basis for more robust infrastructure design and climate adaptation planning under changing hydroclimate risk.
-
-![](/_assets/img/news/2026-07-15-yuchen-defense.jpg){fig-alt="PhD thesis defense flyer for Yuchen Lu, \"Probabilistic Analysis of Nonstationary Hydroclimate Extremes,\" July 15, 2026 at 10:00 am CT in Ryon Lab 112."}
