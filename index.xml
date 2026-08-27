@@ -355,7 +355,7 @@ background-color: null;
 font-style: inherit;">volume</span> = {10},</span>
 <span id="cb1-11">  <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">shortjournal</span> = {J. Open Source Software},</span>
+font-style: inherit;">shortjournal</span> = {J. Open Source Softw.},</span>
 <span id="cb1-12">  <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">journaltitle</span> = {Journal of Open Source Software},</span>
@@ -529,7 +529,7 @@ background-color: null;
 font-style: inherit;">volume</span> = {4},</span>
 <span id="cb1-12">  <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">shortjournal</span> = {Environ. Res.: Clim.},</span>
+font-style: inherit;">shortjournal</span> = {Environ. Res. Clim.},</span>
 <span id="cb1-13">  <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">journaltitle</span> = {Environmental Research: Climate},</span>

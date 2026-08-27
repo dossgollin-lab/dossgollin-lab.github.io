@@ -131,6 +131,7 @@
     "listing": "/publications.html",
     "items": [
       "/bibliography/publications/article/baer_designstorm_2026.html",
+      "/bibliography/publications/article/hancock_mississippitrends_2026.html",
       "/bibliography/publications/article/pollack_transparency_2026.html",
       "/bibliography/publications/article/murphy_interannual_2026.html",
       "/bibliography/publications/article/odonnell_whiplash_2026.html",
@@ -156,13 +157,12 @@
       "/bibliography/publications/article/rozer_lossestimates_2019.html",
       "/bibliography/publications/article/doss-gollin_pyfloods_2018.html",
       "/bibliography/publications/article/farnham_credibly_2018.html",
-      "/bibliography/publications/article/doss-gollin_rwh_2015.html",
+      "/bibliography/publications/article/doss-gollin_rwh_2016.html",
       "/bibliography/publications/conference/kazadi_icml_2024.html",
       "/bibliography/publications/conference/kazadi_neurips_2022.html",
       "/bibliography/publications/conference/araujojunior_simposio_2014.html",
       "/bibliography/publications/conference/doss-gollin_simposio_2014.html",
-      "/bibliography/publications/forthcoming/pollack_unrefined_2025.html",
-      "/bibliography/publications/forthcoming/hancock_robust21stcenturyhydrologicaltrendsinthemississippiriverbasinfromcmip6_2025.html"
+      "/bibliography/publications/forthcoming/pollack_unrefined_2025.html"
     ]
   }
 ]
