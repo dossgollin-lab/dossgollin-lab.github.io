@@ -6,32 +6,68 @@ format:
     toc: true
 ---
 
+[← Back to Join Us](/joinus/index.qmd)
+
 I welcome prospective Ph.D. students interested in the quantitative study of climate hazard, risk, and resilience.
 Our research bridges climate science, hydrology, statistics, and decision science to address challenges in climate hazard, risk, and resilience.
 
+## What we work on
+
+Right now the group is heavily focused on urban flooding, along two lines:
+
+- **Decision-making under uncertainty**: managing trade-offs for adaptation decisions, moving past traditional and computationally expensive cost-benefit analysis.
+- **Hazard characterization**: modeling probabilistic rainfall and building physics-informed machine learning tools to quantify flood impacts, so that many adaptations can be analyzed under a range of possible conditions.
+
+Related topics that interest me but fall outside what the group will take on in the next year or two -- cloud seeding, cloud cover and radiation -- are better pursued with a faculty member whose primary work is in that area.
+I am happy to suggest people to contact.
+
+## Who fits
+
+Students come in from physics, math, statistics, computer science, and engineering, not only from hydrology or climate science.
+Some domain knowledge has to be picked up, but curious and motivated students with quantitative training who have not yet been taught "how we do things" often ask questions that people trained inside the field would not think to ask.
+
 ## Open Positions
 
-Current openings are listed on the [Open Positions](/joinus/open-positions.qmd) page.
+Current openings are listed on the [Join Us](/joinus/index.qmd) page.
 If you have external funding or a research idea that aligns with the group's work, reach out even if no position is posted.
 
 ## How to Apply
 
 All candidates must apply through Rice University's formal application process.
-I strongly encourage you to reach out before applying to assess whether our group is a good fit for your goals.
+I strongly encourage you to get in touch before applying, through the form in step 2 below, to assess whether our group is a good fit for your goals.
 
 ### Application Process
 
 1. **Self-Assessment**: Review [our publications](/publications.qmd) and [lab values](/culture/values.qmd) to determine whether your research interests and working style align with our group.
 
-2. **Initial Contact**: Email me with your CV and a brief description of your research interests and how they align with the group's work.
-   **Note**: Generic emails that don't demonstrate familiarity with the group's work won't receive a response.
+2. **Prospective Student Information Form**: Submit the [Prospective Student Information Form](https://docs.google.com/forms/d/e/1FAIpQLSfGtXe4UM3mghwbb6blxNQQioBH4YUnO1vtIeR7EVkfcYcUKA/viewform).
+   It asks for your CV, transcript, and a brief statement of interest.
+   I know that at this stage you are reaching out to many groups, so I've kept the form as short as possible.
+   I review submissions regularly and will follow up within a week or two.
+   Please use the form rather than emailing your materials.
+   If Google Forms is not accessible in your location, email me and I will send you the questions directly.
 
-3. **Video Chat**: If there's good alignment based on your email, I'll schedule a video chat to discuss your interests, goals, and potential research directions.
+3. **Papers**: If there's good alignment based on your submission, I'll send a few papers that give a sense of what the group does.
+   Read them and tell me what you thought: what caught your attention, what you'd want to do differently, what you didn't follow.
+   I'm not asking whether you can summarize a paper -- AI tools do that well.
+   I want to know what you're excited about and how you think.
+
+4. **Video Chat**: If something in the papers grabbed you, I'll schedule a video chat to talk about what you made of them, along with your interests, goals, and potential research directions.
    This is a casual conversation to assess mutual fit.
 
-4. **Formal Application**: You must apply to the **Ph.D. program in Civil and Environmental Engineering** at Rice University, regardless of our preliminary conversations.
+5. **Formal Application**: You must apply to the **Ph.D. program in Civil and Environmental Engineering** at Rice University, regardless of our preliminary conversations.
    See the [department's graduate programs page](https://cee.rice.edu/academics/graduate-programs/phd-program) and [Rice's graduate admission guidelines](https://graduate.rice.edu/admissions/how-to-apply) for requirements and deadlines.
    Rice offers [Application Fee Waiver Weeks](https://graduate.rice.edu/application-fee-waiver-weeks) to reduce financial barriers to applying.
+
+### Before you apply
+
+You cannot and should not have your entire career mapped out yet.
+Still, I encourage every prospective student to think hard about four things:
+
+1. **The scientific questions you actually want to answer.** Most applicants coming from outside the field do not have a well-calibrated sense of this yet, and that is fine. It is still worth thinking about.
+1. **The end-users you want to engage with.** A Ph.D. means learning to write for scientists and researchers. Beyond that, do you want to be your favorite scientist's favorite scientist? Someone influencing local policy? Someone assessing national flood policy? In practice this gets driven by your research, but it shapes what you should look for. In my case, undergraduate work on drinking water supply with rural communities in Paraguay and Brazil got me interested in how we fund, manage, and design infrastructure, and how we recover from extremes.
+1. **Your day-to-day life.** For our group this mostly means sitting at a computer coding, with occasional fieldwork and stakeholder interviews.
+1. **The group dynamics and mentoring style you thrive in.** Do you want a supervisor who checks in frequently, or someone you talk to about more independent research? Do you want to look at plots with your lab mates and run projects together, or learn about their work while mostly doing your own thing and collaborating on specific tasks and tools? No style is right, but it is worth thinking hard about.
 
 ### How to write a good application
 

@@ -4,6 +4,7 @@ sortby: "Cook, John"
 position: "Undergraduate RA"
 started: "2021"
 ended: "2021"
+next: "GSI Environmental Inc."
 toc: false
 about:
     id: person-profile

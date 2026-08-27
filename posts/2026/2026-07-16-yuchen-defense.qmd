@@ -1,0 +1,39 @@
+---
+title: "Congratulations, Dr. Yuchen Lu!"
+description: "Yuchen Lu successfully defended her PhD thesis, \"Probabilistic Analysis of Nonstationary Hydroclimate Extremes,\" on July 15, 2026."
+categories: News
+date: 2026-07-16
+---
+
+We are tremendously proud of [Dr. Yuchen Lu](../../people/grad-students/yuchen-lu.qmd), who defended her PhD thesis, "Probabilistic Analysis of Nonstationary Hydroclimate Extremes," on July 15, 2026 in Ryon Lab 112.
+
+![Yuchen Lu and friends after her defense](/_assets/img/news/2026-07-15-yuchen-defense-group.jpg)
+
+Yuchen's dissertation develops statistical frameworks for estimating rainfall and tropical cyclone probabilities that change over time.
+Standard engineering practice assumes these probabilities are fixed, and relaxing that assumption is hard when records of rare events are short and unevenly distributed in space.
+Her methods address that problem, and they give engineers a more defensible basis for infrastructure design and adaptation planning.
+
+Thanks to her committee members [Dr. Philip Bedient](https://profiles.rice.edu/faculty/philip-bedient), [Dr. Avantika Gori](https://profiles.rice.edu/faculty/avantika-gori), and [Dr. Katherine Ensor](https://profiles.rice.edu/faculty/katherine-b-ensor) for their guidance and feedback, and to her friends, funders, and teachers for their support.
+
+![Yuchen Lu with her thesis committee](/_assets/img/news/2026-07-15-yuchen-committee.jpg)
+
+![Yuchen hangs her tie at Valhalla, following Rice tradition.](/_assets/img/news/2026-07-15-yuchen-valhalla.jpg)
+
+Congratulations, Dr. Lu!
+
+## Abstract
+
+Hydroclimate extremes, including extreme rainfall and tropical cyclones, pose substantial threats to communities, infrastructure systems, and ecosystems.
+Probabilistic characterization of these extremes is essential for risk assessment, infrastructure design, and climate adaptation.
+Many commonly used approaches for estimating hydroclimate hazards assume stationarity, even though observations and climate projections show that they are influenced by climate variability and long-term climate change.
+However, accounting for this nonstationarity is challenging because observations of rare events are sparse in time and space, while climate model products contain systematic biases.
+To address these, this dissertation develops statistical frameworks that incorporate nonstationarity into probabilistic analyses of hydroclimate extremes using limited observational records.
+The first study develops a hierarchical Bayesian space-time framework for nonstationary analysis of extreme rainfall probabilities.
+By incorporating time-varying climate covariates and spatial pooling, the framework reduces sampling variability and estimates spatially coherent changes in daily rainfall extremes.
+The second chapter extends this analysis to multi-duration rainfall frequency estimates by incorporating duration dependence.
+This work addresses the challenge of maintaining coherence across both space and durations.
+The third chapter develops a nonstationary joint probability framework for characterizing tropical cyclone parameters relevant to hazard analysis.
+This approach mitigates the challenge of limited local records by using regional changes in storm characteristics to inform local-scale analyses.
+Together, these three studies address a common problem in hydroclimate risk analysis: how to estimate changing extremes from limited and spatially heterogeneous observations.
+Across rainfall and tropical cyclone applications, the proposed frameworks improve the stability, spatial coherence, and physical interpretability of nonstationary hazard estimates.
+These methods provide a basis for more robust infrastructure design and climate adaptation planning under changing hydroclimate risk.
