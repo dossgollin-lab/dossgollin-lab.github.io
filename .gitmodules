@@ -1,4 +1,4 @@
 [submodule "bibliography"]
 	path = bibliography
-	url = https://github.com/jdossgollin/my-papers.git
+	url = https://github.com/dossgollin-lab/publications.git
 	branch = master
