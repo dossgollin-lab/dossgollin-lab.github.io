@@ -1,0 +1,20 @@
+---
+title: "Kelsey Murphy"
+sortby: "Murphy, Kelsey"
+position: "Co-Advised Ph.D. Student"
+started: "2021"
+ended: "2026"
+next: "Postdoc, UT Austin"
+toc: false
+about:
+    id: person-profile
+    image: "../../_assets/img/people/kmurphy.jpg"
+    template: jolla
+    links:
+        -   icon: linkedin
+            text: LinkedIN
+            href: https://www.linkedin.com/in/kelsey-murphy-7809b7186
+        -   icon: envelope
+            text: Email
+            href: mailto:kam23@rice.edu
+---

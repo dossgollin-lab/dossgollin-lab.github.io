@@ -4,6 +4,7 @@ sortby: "Cibor, Kristina"
 position: "Graduate RA"
 started: "2021"
 ended: "2022"
+next: "Context Labs BV"
 toc: false
 about:
     id: person-profile

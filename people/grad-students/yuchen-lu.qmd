@@ -1,5 +1,5 @@
 ---
-title: "Yuchen Lu"
+title: "Dr. Yuchen Lu"
 position: "Graduate Researcher"
 sortby: "Lu, Yuchen"
 started: "Fall 2021"

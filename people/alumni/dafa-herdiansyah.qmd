@@ -1,0 +1,20 @@
+---
+title: "Dafa Briliant Herdiansyah"
+sortby: "Herdiansyah, Dafa Briliant"
+position: "Undergraduate Research Intern"
+started: "2026"
+ended: "2026"
+next: "Senior year, Nanyang Technological University"
+toc: false
+about:
+    id: person-profile
+    image: "../../_assets/img/people/dafaherdiansyah.jpg"
+    template: jolla
+    links:
+        -   icon: github
+            text: Github
+            href: https://github.com/dafabriliant
+        -   icon: linkedin
+            text: LinkedIn
+            href: https://www.linkedin.com/in/dafabriliant/
+---

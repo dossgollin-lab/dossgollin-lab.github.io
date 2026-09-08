@@ -8,9 +8,8 @@ listing:
           - "pi/james-doss-gollin.qmd"
           - "grad-students/yuchen-lu.qmd"
           - "grad-students/dongwook-kim.qmd"
-          - "grad-students-coadvised/kelsey-murphy.qmd"
+          - "grad-students-coadvised/jingyi-chen.qmd"
           - "grad-students-coadvised/true-furrh.qmd"
-          - "undergrad-students/dafa-herdiansyah.qmd"
 
     - id: alumni
       contents: "alumni/*.qmd"

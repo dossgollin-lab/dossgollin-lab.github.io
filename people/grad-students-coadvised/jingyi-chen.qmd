@@ -1,0 +1,38 @@
+---
+title: "Jingyi Chen"
+position: "Co-Advised Ph.D. Student"
+sortby: "Chen, Jingyi"
+primary_advisor: "Xingqu Qian"
+started: "Fall 2025"
+ended: "Current"
+toc: false
+about:
+    id: person-profile
+    image: "../../_assets/img/people/jingyichen.jpg"
+    template: trestles
+    links:
+        -   icon: envelope
+            text: Email
+            href: mailto:jc358@rice.edu
+        -   icon: linkedin
+            text: LinkedIn
+            href: https://www.linkedin.com/in/jingyi-chen-8aa4722b1
+
+format:
+  html:
+    page-layout: full
+---
+
+:::{#person-profile}
+## Bio
+
+Jingyi Chen is a Ph.D. student in the Department of Civil and Environmental Engineering at Rice University, co-advised with [Xingqu Qian](https://mobix.blogs.rice.edu/).
+Her research interests center on understanding and managing climate-related risks through the integration of machine learning, optimization, and uncertainty quantification.
+She is particularly interested in developing computational methods and efficient algorithms to represent complex environmental systems and support decision-making under uncertainty.
+Her broader interests include flood risk, graph neural networks, and combinatorial optimization.
+
+## Education
+
+- **Georgia Institute of Technology** | Atlanta, GA<br />MS
+- **Sichuan University** | Chengdu, China<br />BS
+:::
