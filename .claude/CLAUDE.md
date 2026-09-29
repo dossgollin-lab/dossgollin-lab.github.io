@@ -6,7 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a Quarto-based website for the Doss-Gollin Research Group at Rice University.
 The site is automatically deployed to GitHub Pages via GitHub Actions when changes are pushed to the `master` branch.
-Directly editing the site is prohibited, so all changes must be made by forking, pushing, and then opening a pull request.
+Direct pushes to `master` are not allowed, so every change goes on its own branch off `master` and reaches `master` through a pull request.
+PRs are squash-merged, so never commit on `master` itself; after a merge, `git switch master && git pull` fast-forwards cleanly.
 
 ## Build Commands
 
