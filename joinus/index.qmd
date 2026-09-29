@@ -42,8 +42,8 @@ See our [page for prospective undergraduates](undergrad.qmd) for application ins
 ::: {.callout-note appearance="minimal" icon=false .research-card}
 ## PhD Students
 
-The application window for fall 2026 PhD positions has closed.
-Interested students should check back in early fall 2026 for new openings.
+We have no openings for PhD students to start in spring 2027.
+There may be funding for students to start in fall 2027, through Rice's regular application cycle this winter.
 If you have a very specific project idea that aligns with our research, feel free to reach out directly.
 
 See our [page for prospective PhD students](phd.qmd) for more information.
