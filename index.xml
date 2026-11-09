@@ -9,7 +9,7 @@
 <link>https://dossgollin-lab.github.io/</link>
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>The Doss-Gollin Research Group at Rice CEVE develops Bayesian statistical and machine learning tools for climate risk, flood hazard, and community-engaged infrastructure planning.</description>
-<generator>quarto-1.10.18</generator>
+<generator>quarto-1.11.9</generator>
 <lastBuildDate>Thu, 16 Jul 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Congratulations, Dr. Yuchen Lu!</title>
@@ -552,7 +552,7 @@ font-style: inherit;">title</span> = {Bayesian Spatiotemporal Nonstationary Mode
 </section>
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
 <div id="ref-lu_spatiotemporal:2025" class="csl-entry">
-Lu, Y., Seiyon Lee, B., &amp; Doss-Gollin, J. (2025). Bayesian spatiotemporal nonstationary model quantifies robust increases in daily extreme rainfall across the western gulf coast. <em>Environmental Research: Climate</em>, <em>4</em>(3), 035016. <a href="https://doi.org/10.1088/2752-5295/adf56e">https://doi.org/10.1088/2752-5295/adf56e</a>
+Lu, Y., Lee, B. S., &amp; Doss-Gollin, J. (2025). Bayesian spatiotemporal nonstationary model quantifies robust increases in daily extreme rainfall across the western gulf coast. <em>Environmental Research: Climate</em>, <em>4</em>(3), 035016. <a href="https://doi.org/10.1088/2752-5295/adf56e">https://doi.org/10.1088/2752-5295/adf56e</a>
 </div>
 </div></section></div> ]]></description>
   <guid>https://dossgollin-lab.github.io/bibliography/publications/article/lu_spatiotemporal_2025.html</guid>
