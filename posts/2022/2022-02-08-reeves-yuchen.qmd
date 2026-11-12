@@ -4,4 +4,4 @@ categories: Opportunities
 date: 2022-02-08
 ---
 
-Congratulations to [Yuchen Lu](../../people/alumni/yuchen-lu.qmd), winner of the 2022 H.W. Reeves Endowed Scholarship, administered by the department of Civil and Environmental Engineering!
+Congratulations to [Yuchen Lu](../../people/yuchen-lu.qmd), winner of the 2022 H.W. Reeves Endowed Scholarship, administered by the department of Civil and Environmental Engineering!

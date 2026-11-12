@@ -1,6 +1,8 @@
 ---
 title: "Kelsey Murphy"
 sortby: "Murphy, Kelsey"
+aliases:
+    - /people/alumni/kelsey-murphy.html
 position: "Co-Advised Ph.D. Student"
 started: "2021"
 ended: "2026"
@@ -8,7 +10,7 @@ next: "Postdoc, UT Austin"
 toc: false
 about:
     id: person-profile
-    image: "../../_assets/img/people/kmurphy.jpg"
+    image: "../_assets/img/people/kmurphy.jpg"
     image-alt: "Photo of Kelsey Murphy"
     template: jolla
     links:

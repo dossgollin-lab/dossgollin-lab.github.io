@@ -2,12 +2,15 @@
 title: "Dr. Yuchen Lu"
 position: "Ph.D. Student"
 sortby: "Lu, Yuchen"
+aliases:
+    - /people/grad-students/yuchen-lu.html
 started: "Fall 2021"
 ended: "2026"
+next: "Climate Data Scientist, Yunyao Aerospace"
 toc: false
 about:
     id: person-profile
-    image: "../../_assets/img/people/yuchenlu.jpg"
+    image: "../_assets/img/people/yuchenlu.jpg"
     image-alt: "Photo of Yuchen Lu"
     template: trestles
     links:

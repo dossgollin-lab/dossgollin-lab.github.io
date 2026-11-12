@@ -1,13 +1,15 @@
 ---
 title: "Zain Rahman"
 sortby: "Rahman, Zain"
+aliases:
+    - /people/alumni/Zain-Rahman.html
 started: "Fall 2024" # eg Fall 2024
 ended: "2025" # Or end date if applicable
 toc: false
 position: "Undergraduate RA"
 about:
     id: person-profile
-    image: "../../_assets/img/people/zrahman.png"
+    image: "../_assets/img/people/zrahman.png"
     image-alt: "Photo of Zain Rahman"
     template: trestles # Choose from options below
     links:

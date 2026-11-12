@@ -78,14 +78,28 @@ TEACHING_DIR = REPO_ROOT / "teaching"
 ASSETS_IMG_DIR = REPO_ROOT / "_assets" / "img"
 PEOPLE_IMG_DIR = ASSETS_IMG_DIR / "people"
 
-# People subdirectories and their specific requirements
-PEOPLE_SUBDIRS = {
-    "pi": {"required": ["title", "sortby", "started"], "needs_ended": False},
-    "grad-students": {"required": ["title", "sortby", "started"], "needs_ended": False},
-    "grad-students-coadvised": {"required": ["title", "sortby", "started", "primary_advisor"], "needs_ended": False},
-    "alumni": {"required": ["title", "sortby", "started", "ended", "position"], "needs_ended": True},
-    "undergrad-students": {"required": ["title", "sortby", "started"], "needs_ended": False},
-}
+# People pages all live in people/<name>.qmd, so a page's URL never changes when
+# its role does. Requirements depend on frontmatter instead of folder:
+# everyone needs these fields; alumni (ended != "Current") also need a position;
+# current co-advised students also need a primary_advisor.
+PEOPLE_REQUIRED = ["title", "sortby", "started", "ended"]
+ALUMNI_REQUIRED = ["position"]
+COADVISED_REQUIRED = ["primary_advisor"]
+
+
+def people_pages() -> list[Path]:
+    """All person pages (everything in people/ except the index)."""
+    return sorted(f for f in PEOPLE_DIR.glob("*.qmd") if f.name != "index.qmd")
+
+
+def required_people_fields(frontmatter: dict) -> list[str]:
+    """Required frontmatter fields for one person page."""
+    required = list(PEOPLE_REQUIRED)
+    if str(frontmatter.get("ended", "")).strip() != "Current":
+        required += ALUMNI_REQUIRED
+    elif "co-advised" in str(frontmatter.get("position", "")).lower():
+        required += COADVISED_REQUIRED
+    return required
 
 
 def extract_frontmatter(filepath: Path) -> Optional[dict]:
@@ -110,63 +124,55 @@ def validate_people_pages() -> list[ValidationResult]:
     """Validate all people QMD files have required fields."""
     results = []
 
-    for subdir, config in PEOPLE_SUBDIRS.items():
-        subdir_path = PEOPLE_DIR / subdir
-        if not subdir_path.exists():
+    for qmd_file in people_pages():
+        rel_path = qmd_file.relative_to(REPO_ROOT)
+        frontmatter = extract_frontmatter(qmd_file)
+
+        if frontmatter is None:
+            results.append(ValidationResult(
+                Severity.ERROR,
+                str(rel_path),
+                "Could not parse YAML frontmatter"
+            ))
             continue
 
-        for qmd_file in subdir_path.glob("*.qmd"):
-            if qmd_file.name == "index.qmd":
-                continue
-
-            rel_path = qmd_file.relative_to(REPO_ROOT)
-            frontmatter = extract_frontmatter(qmd_file)
-
-            if frontmatter is None:
+        # Check required fields
+        for field in required_people_fields(frontmatter):
+            if field not in frontmatter or not frontmatter[field]:
                 results.append(ValidationResult(
                     Severity.ERROR,
                     str(rel_path),
-                    "Could not parse YAML frontmatter"
+                    f"Missing required field: {field}"
                 ))
-                continue
 
-            # Check required fields
-            for field in config["required"]:
-                if field not in frontmatter or not frontmatter[field]:
+        # Check sortby format (should be "LastName, FirstName")
+        sortby = frontmatter.get("sortby", "")
+        if sortby and "," not in sortby:
+            results.append(ValidationResult(
+                Severity.WARNING,
+                str(rel_path),
+                f"sortby field '{sortby}' should be 'LastName, FirstName' format"
+            ))
+
+        # Check about.image exists
+        about = frontmatter.get("about", {})
+        if isinstance(about, dict):
+            image_path = about.get("image", "")
+            if image_path:
+                # Resolve relative path from the QMD file's location
+                abs_image_path = (qmd_file.parent / image_path).resolve()
+                if not abs_image_path.exists():
                     results.append(ValidationResult(
                         Severity.ERROR,
                         str(rel_path),
-                        f"Missing required field: {field}"
+                        f"Profile image not found: {image_path}"
                     ))
-
-            # Check sortby format (should be "LastName, FirstName")
-            sortby = frontmatter.get("sortby", "")
-            if sortby and "," not in sortby:
+            else:
                 results.append(ValidationResult(
                     Severity.WARNING,
                     str(rel_path),
-                    f"sortby field '{sortby}' should be 'LastName, FirstName' format"
+                    "No profile image specified in about.image"
                 ))
-
-            # Check about.image exists
-            about = frontmatter.get("about", {})
-            if isinstance(about, dict):
-                image_path = about.get("image", "")
-                if image_path:
-                    # Resolve relative path from the QMD file's location
-                    abs_image_path = (qmd_file.parent / image_path).resolve()
-                    if not abs_image_path.exists():
-                        results.append(ValidationResult(
-                            Severity.ERROR,
-                            str(rel_path),
-                            f"Profile image not found: {image_path}"
-                        ))
-                else:
-                    results.append(ValidationResult(
-                        Severity.WARNING,
-                        str(rel_path),
-                        "No profile image specified in about.image"
-                    ))
 
     return results
 
@@ -353,26 +359,18 @@ def validate_image_references() -> list[ValidationResult]:
     referenced_images = set()
 
     # Collect all referenced images from people pages
-    for subdir in PEOPLE_SUBDIRS.keys():
-        subdir_path = PEOPLE_DIR / subdir
-        if not subdir_path.exists():
+    for qmd_file in people_pages():
+        frontmatter = extract_frontmatter(qmd_file)
+        if frontmatter is None:
             continue
 
-        for qmd_file in subdir_path.glob("*.qmd"):
-            if qmd_file.name == "index.qmd":
-                continue
-
-            frontmatter = extract_frontmatter(qmd_file)
-            if frontmatter is None:
-                continue
-
-            about = frontmatter.get("about", {})
-            if isinstance(about, dict):
-                image_path = about.get("image", "")
-                if image_path:
-                    abs_path = (qmd_file.parent / image_path).resolve()
-                    if abs_path.exists():
-                        referenced_images.add(abs_path)
+        about = frontmatter.get("about", {})
+        if isinstance(about, dict):
+            image_path = about.get("image", "")
+            if image_path:
+                abs_path = (qmd_file.parent / image_path).resolve()
+                if abs_path.exists():
+                    referenced_images.add(abs_path)
 
     # Find orphaned images (warning only)
     if PEOPLE_IMG_DIR.exists():

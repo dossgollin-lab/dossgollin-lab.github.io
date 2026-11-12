@@ -1,13 +1,15 @@
 ---
 title: "Jonah Schaechter"
 sortby: "Schaechter, Jonah"
+aliases:
+    - /people/alumni/jonah-schaechter.html
 started: "2024"
 ended: "2025"
 toc: false
 position: "Graduate RA"
 about:
     id: person-profile
-    image: "../../_assets/img/people/jschaechter.jpg"
+    image: "../_assets/img/people/jschaechter.jpg"
     image-alt: "Photo of Jonah Schaechter"
     template: trestles
     links:

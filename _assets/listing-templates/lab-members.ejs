@@ -2,9 +2,8 @@
 function resolveImage(item) {
   var src = item.image || (item.about && item.about.image);
   if (!src) return '';
-  // Person QMDs are at people/<role>/<name>.qmd and use ../../_assets/...
-  // The listing renders at people/index.html, which only needs ../_assets/...
-  return String(src).replace(/^\.\.\/\.\.\//, '../');
+  // Person QMDs sit next to people/index.qmd, so their ../_assets/... paths work as is.
+  return String(src);
 }
 %>
 <div class="lab-members-grid">

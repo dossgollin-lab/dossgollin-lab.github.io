@@ -7,7 +7,7 @@ date: 2025-08-26
 bibliography: ../../bibliography/my-papers.bib
 ---
 
-Congratulations to [Yuchen Lu](../../people/alumni/yuchen-lu.qmd) on her first first-author paper, "Bayesian spatiotemporal nonstationary model quantifies robust increases in daily extreme rainfall across the Western Gulf Coast," which has been published open-access in Environmental Research: Climate [@lu_spatiotemporal:2025]!
+Congratulations to [Yuchen Lu](../../people/yuchen-lu.qmd) on her first first-author paper, "Bayesian spatiotemporal nonstationary model quantifies robust increases in daily extreme rainfall across the Western Gulf Coast," which has been published open-access in Environmental Research: Climate [@lu_spatiotemporal:2025]!
 
 This research represents the first step in Yuchen's work, funded by Rice and the Texas Water Development Board, on incorporating robust estimates of nonstationarity into precipitation frequency estimates. She is currently working with colleagues at TAMU and TWDB to incorporate these insights and methods into Intensity-Duration-Frequency (IDF) curves for Texas, and we will be presenting updates at the upcoming AGU Fall meeting.
 

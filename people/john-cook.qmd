@@ -1,6 +1,8 @@
 ---
 title: "John Cook"
 sortby: "Cook, John"
+aliases:
+    - /people/alumni/john-cook.html
 position: "Undergraduate RA"
 started: "2021"
 ended: "2021"
@@ -8,7 +10,7 @@ next: "GSI Environmental Inc."
 toc: false
 about:
     id: person-profile
-    image: "../../_assets/img/people/jcook.jpg"
+    image: "../_assets/img/people/jcook.jpg"
     image-alt: "Photo of John Cook"
     template: jolla
     links:

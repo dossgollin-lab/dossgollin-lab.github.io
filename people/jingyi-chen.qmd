@@ -2,12 +2,14 @@
 title: "Jingyi Chen"
 position: "Ph.D. Student"
 sortby: "Chen, Jingyi"
+aliases:
+    - /people/grad-students-coadvised/jingyi-chen.html
 started: "Fall 2025"
 ended: "Current"
 toc: false
 about:
     id: person-profile
-    image: "../../_assets/img/people/jingyichen.jpg"
+    image: "../_assets/img/people/jingyichen.jpg"
     image-alt: "Photo of Jingyi Chen"
     template: trestles
     links:

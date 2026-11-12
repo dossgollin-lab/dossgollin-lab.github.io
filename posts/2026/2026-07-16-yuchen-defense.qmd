@@ -5,7 +5,7 @@ categories: News
 date: 2026-07-16
 ---
 
-We are tremendously proud of [Dr. Yuchen Lu](../../people/alumni/yuchen-lu.qmd), who defended her PhD thesis, "Probabilistic Analysis of Nonstationary Hydroclimate Extremes," on July 15, 2026 in Ryon Lab 112.
+We are tremendously proud of [Dr. Yuchen Lu](../../people/yuchen-lu.qmd), who defended her PhD thesis, "Probabilistic Analysis of Nonstationary Hydroclimate Extremes," on July 15, 2026 in Ryon Lab 112.
 
 ![Yuchen Lu and friends after her defense](/_assets/img/news/2026-07-15-yuchen-defense-group.jpg)
 

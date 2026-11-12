@@ -28,7 +28,7 @@ Run the validator + lychee locally before committing. Install tools with `brew i
   git submodule update --remote --recursive
   ```
 
-- **people/**: Group member pages organized by role (pi/, grad-students/, grad-students-coadvised/, alumni/, undergrad-students/)
+- **people/**: One page per group member, current or former, at `people/<name>.qmd`
 - **posts/**: News and announcements organized by year (YYYY/)
 - **_assets/**: Images, theme files, and references
 
@@ -41,7 +41,10 @@ Run the validator + lychee locally before committing. Install tools with `brew i
 
 ### People Pages
 
-Located in `people/<role>/<name>.qmd`.
+Located in `people/<name>.qmd`, flat, so a person's URL never changes when their role does.
+Never move or rename a person page; if an old URL must survive, add it under `aliases:`.
+The current-members grid lists pages by name in `people/index.qmd`; the alumni list picks up every page whose `ended` is not `"Current"`.
+When someone leaves, set `ended` to the year, add `next:` (where they went), and remove them from the current-members list.
 Required frontmatter:
 
 ```yaml
@@ -50,10 +53,12 @@ title: "Full Name"
 sortby: "LastName, FirstName"  # Controls display order
 started: "Season YYYY"
 ended: "Current" or "YYYY"
-position: "Role Title"  # For alumni table
+position: "Role Title"  # Required for alumni; shown in the alumni list
+next: "Role, Organization"  # Optional; where an alum went next
+primary_advisor: "Name"  # Required for current co-advised students
 about:
     id: person-profile
-    image: "../../_assets/img/people/filename.jpg" # A **square** image in _assets/img/people/
+    image: "../_assets/img/people/filename.jpg" # A **square** image in _assets/img/people/
     template: trestles  # or jolla for simple profiles; see https://quarto.org/docs/websites/website-about.html
     links:
         - icon: github
