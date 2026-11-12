@@ -67,7 +67,7 @@ div.csl-indent {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-939b79b0a8ac863eb4fe46099ec3107b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-e8c2ebe56d5037c51a65a47a6df2cb18.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -101,7 +101,7 @@ div.csl-indent {
 <meta property="og:site_name" content="Doss-Gollin Lab @ Rice CEVE">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
+<body class="nav-fixed news-post fullcontent quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -194,6 +194,11 @@ div.csl-indent {
     
 <!-- main -->
 <main class="content" id="quarto-document-content" tabindex="-1">
+<a id="skip-link" class="visually-hidden-focusable skip-link" href="#quarto-document-content">Skip to main content</a>
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -229,7 +234,7 @@ div.csl-indent {
 </header>
 
 
-<p>A new paper “Downscaling Extreme Precipitation with Wasserstein Regularized Diffusion,” published in IEEE Transactions on Geoscience and Remote Sensing <span class="citation" data-cites="liu_generative:2025">(<a href="#ref-liu_generative:2025" role="doc-biblioref">Liu et al. 2025</a>)</span>. This work is led by <a href="https://www.yuhaoliu.net/">Yuhao Liu</a>, a PhD student in Electrical and Computer Engineering, and is the culmination of extensive brainstorming and research collaboration with coauthors <a href="https://profiles.rice.edu/faculty/ashok-veeraraghavan">Ashok Veeraraghavan</a>, <a href="https://profiles.rice.edu/faculty/guha-balakrishnan">Guha Balakrishnan</a>, and Qiushi Dai as well as <a href="../../people/pi/james-doss-gollin.html">James Doss-Gollin</a>.</p>
+<p>A new paper “Downscaling Extreme Precipitation with Wasserstein Regularized Diffusion,” published in IEEE Transactions on Geoscience and Remote Sensing <span class="citation" data-cites="liu_generative:2025">(<a href="#ref-liu_generative:2025" role="doc-biblioref">Liu et al. 2025</a>)</span>. This work is led by <a href="https://www.yuhaoliu.net/">Yuhao Liu</a>, a PhD student in Electrical and Computer Engineering, and is the culmination of extensive brainstorming and research collaboration with coauthors <a href="https://profiles.rice.edu/faculty/ashok-veeraraghavan">Ashok Veeraraghavan</a>, <a href="https://profiles.rice.edu/faculty/guha-balakrishnan">Guha Balakrishnan</a>, and Qiushi Dai as well as <a href="../../people/james-doss-gollin.html">James Doss-Gollin</a>.</p>
 <p>Many assessments of rainfall and flood hazard require high-resolution precipitation data (e.g., 1-4 km). While coarse global datasets from reanalysis products exist, and fine-grained radar data is available for recent years, there is a critical gap in producing long-term, high-resolution historical datasets needed for robust climate and hydrological modeling. Existing deep learning methods for this <em>downscaling</em> or <em>super-resolution</em> task often fail to accurately capture the statistical properties of the most extreme, and therefore most dangerous, events.</p>
 <p>We developed Wasserstein Regularized Diffusion (<code>WassDiff</code>), a novel generative AI framework. Unlike other diffusion models that can replicate the general distribution of rainfall, <code>WassDiff</code> is specifically designed to get the tails of the distribution right. It integrates a Wasserstein distribution-matching regularizer directly into the denoising process. This forces the model to pay close attention to the frequency and magnitude of extreme values, reducing the biases commonly seen in generative models for climate data.</p>
 <p>Experiments show that <code>WassDiff</code> generates high-resolution precipitation fields that are more physically realistic and statistically accurate than those from competing models. It more faithfully reproduces the spatial patterns and, most importantly, the statistical characteristics of extreme rainfall, making it a more reliable tool for climate impact studies.</p>
@@ -804,9 +809,9 @@ Liu, Yuhao, James Doss-Gollin, Qiushi Dai, Ashok Veeraraghavan, and Guha Balakri
 </div>   
     <div class="nav-footer-center">
 <p><a href="https://bsky.app/profile/jdossgollin.bsky.social" title="BlueSky"><i class="bi bi-bluesky"></i></a> &nbsp; <a href="https://www.linkedin.com/in/jamesdossgollin" title="LinkedIn"><i class="bi bi-linkedin"></i></a> &nbsp; <a href="https://github.com/dossgollin-lab" title="GitHub"><i class="bi bi-github"></i></a></p>
-<div class="toc-actions"><ul><li><a href="https://www.github.com/dossgollin-lab/dossgollin-lab.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+</div>
     <div class="nav-footer-right">
-<p><a href="mailto:jdossgollin@rice.edu">jdossgollin@rice.edu</a><br> View source <a href="https://www.github.com/dossgollin-lab/dossgollin-lab.github.io">on GitHub</a></p>
+<p><a href="mailto:jdossgollin@rice.edu">jdossgollin@rice.edu</a></p>
 </div>
   </div>
 </footer>

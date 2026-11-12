@@ -15,11 +15,16 @@
   <title>Congratulations, Dr. Yuchen Lu!</title>
   <link>https://dossgollin-lab.github.io/posts/2026/2026-07-16-yuchen-defense.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
 
-<p>We are tremendously proud of <a href="../../people/grad-students/yuchen-lu.html">Dr.&nbsp;Yuchen Lu</a>, who defended her PhD thesis, “Probabilistic Analysis of Nonstationary Hydroclimate Extremes,” on July 15, 2026 in Ryon Lab 112.</p>
+<p>We are tremendously proud of <a href="../../people/yuchen-lu.html">Dr.&nbsp;Yuchen Lu</a>, who defended her PhD thesis, “Probabilistic Analysis of Nonstationary Hydroclimate Extremes,” on July 15, 2026 in Ryon Lab 112.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://dossgollin-lab.github.io/_assets/img/news/2026-07-15-yuchen-defense-group.jpg" class="img-fluid figure-img"></p>
@@ -57,11 +62,16 @@
   <title>New Paper on Spatiotemporal Rainfall Variability and Flood Risk Published in npj Natural Hazards</title>
   <link>https://dossgollin-lab.github.io/posts/2026/2026-07-02-baer-designstorm.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
 
-<p>A new paper, “Neglecting Spatiotemporal Rainfall Variability Misrepresents Flood Hazard and Risk,” has been published in <em>npj Natural Hazards</em> <span class="citation" data-cites="baer_designstorm:2026">(Baer et al. 2026)</span>. The work is led by John (Jack) Baer of the University of North Carolina at Chapel Hill, with coauthors Antonia Sebastian, Lauren E. Grimley, <a href="../../people/pi/james-doss-gollin.html">James Doss-Gollin</a>, Daniel B. Wright, Mohammad Ashar Hussain, and Marissa K. Webber.</p>
+<p>A new paper, “Neglecting Spatiotemporal Rainfall Variability Misrepresents Flood Hazard and Risk,” has been published in <em>npj Natural Hazards</em> <span class="citation" data-cites="baer_designstorm:2026">(Baer et al. 2026)</span>. The work is led by John (Jack) Baer of the University of North Carolina at Chapel Hill, with coauthors Antonia Sebastian, Lauren E. Grimley, <a href="../../people/james-doss-gollin.html">James Doss-Gollin</a>, Daniel B. Wright, Mohammad Ashar Hussain, and Marissa K. Webber.</p>
 <p>Flood risk assessments underpin land-use planning, infrastructure design, and insurance requirements worldwide. Many of these assessments rely on design storms, which assume a one-to-one relationship between the frequency of storms, flooding, and damage. They also neglect the spatial and temporal structure of rainfall. This paper shows that these assumptions can lead to systematic misrepresentation of flood hazard and risk.</p>
 <p>Using a coastal watershed in North Carolina, the study compares design storm-based estimates with those from stochastic storm transposition, a probabilistic framework that generates synthetic events with realistic rainfall fields. Both methods produce similar basin-averaged rainfall statistics. Even so, design storms underestimate flood inundation frequency by 31–35% and expected annual damage by 93% relative to stochastic storm transposition. These results show how complex storm-flood-damage relationships raise risk from smaller, more frequent storms, and they illustrate that accounting for spatiotemporal rainfall variability is necessary for accurate risk assessment.</p>
 <div class="quarto-figure quarto-figure-center">
@@ -89,6 +99,11 @@ Baer, John A., Antonia Sebastian, Lauren E. Grimley, et al. 2026. <span>“Negle
   <title>James Receives NSF CAREER Award to Study Urban Flood Infrastructure</title>
   <link>https://dossgollin-lab.github.io/posts/2026/2026-05-12-nsf-career-award.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
@@ -107,6 +122,11 @@ Baer, John A., Antonia Sebastian, Lauren E. Grimley, et al. 2026. <span>“Negle
   <title>James Quoted in WSJ Article on Flood Risk Scores</title>
   <link>https://dossgollin-lab.github.io/posts/2026/2026-01-20-wsj-flood-risk.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
@@ -130,6 +150,11 @@ Baer, John A., Antonia Sebastian, Lauren E. Grimley, et al. 2026. <span>“Negle
   <title>New PNAS Paper on the Need for Transparent Climate-Risk Research</title>
   <link>https://dossgollin-lab.github.io/posts/2026/2026-01-15-pnas-transparency.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
@@ -150,6 +175,11 @@ Baer, John A., Antonia Sebastian, Lauren E. Grimley, et al. 2026. <span>“Negle
   <title>Doss-Gollin Lab at AGU 2025</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-12-30-agu.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
@@ -163,14 +193,14 @@ Baer, John A., Antonia Sebastian, Lauren E. Grimley, et al. 2026. <span>“Negle
 <figcaption>Yuchen Lu presenting her poster at AGU 2025</figcaption>
 </figure>
 </div>
-<p><a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> presented a poster titled “A Hierarchical Bayesian Spatial Framework to Assess Nonstationary Rainfall Intensity, Frequency, and Duration in Texas” (NH13D-0410). The work proposes a hierarchical Bayesian spatial model that efficiently pools information across space and jointly models precipitation across multiple time durations, enabling nonstationary IDF curve analysis across Texas.</p>
+<p><a href="../../people/yuchen-lu.html">Yuchen Lu</a> presented a poster titled “A Hierarchical Bayesian Spatial Framework to Assess Nonstationary Rainfall Intensity, Frequency, and Duration in Texas” (NH13D-0410). The work proposes a hierarchical Bayesian spatial model that efficiently pools information across space and jointly models precipitation across multiple time durations, enabling nonstationary IDF curve analysis across Texas.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://dossgollin-lab.github.io/_assets/img/news/2025-12-15-agu-james-talk.jpeg" class="img-fluid figure-img" style="width:70.0%"></p>
 <figcaption>James Doss-Gollin giving his talk at AGU 2025</figcaption>
 </figure>
 </div>
-<p><a href="../../people/pi/james-doss-gollin.html">James Doss-Gollin</a> delivered a talk titled “TxRain: A Bayesian framework for integrating historical observations and model projections to develop nonstationary IDF curves” (H24A-07). This work addresses the challenge of developing nonstationary extreme rainfall models by integrating accurate but short weather station records with long-term climate model projections. James was also a coauthor on several other presentations at the conference.</p>
+<p><a href="../../people/james-doss-gollin.html">James Doss-Gollin</a> delivered a talk titled “TxRain: A Bayesian framework for integrating historical observations and model projections to develop nonstationary IDF curves” (H24A-07). This work addresses the challenge of developing nonstationary extreme rainfall models by integrating accurate but short weather station records with long-term climate model projections. James was also a coauthor on several other presentations at the conference.</p>
 </section>
 <section id="session-convening" class="level2">
 <h2 class="anchored" data-anchor-id="session-convening">Session Convening</h2>
@@ -199,12 +229,17 @@ Baer, John A., Antonia Sebastian, Lauren E. Grimley, et al. 2026. <span>“Negle
   <title>James Speaks at Rice Statistics Colloquium</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-11-17-stats-colloquium.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
 
 <p>James gave an invited talk at the <a href="https://events.rice.edu/statistics/event/405960-statistics-colloquium-james-doss-gollin-rice-ceve">Rice Statistics Department Colloquium</a> on November 17, 2025, titled <strong>“Statistical Modeling for Nonstationary Hydroclimate Hazards: Challenges and Opportunities.”</strong></p>
-<p>The talk surveyed the lab’s recent work on probabilistic models for nonstationary precipitation extremes — including the <a href="../../bibliography/publications/article/lu_spatiotemporal_2025.html">Bayesian spatiotemporal framework</a> led by <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> — and discussed open methodological challenges in extreme value theory, regionalization, and integrating climate-model projections with short observational records.</p>
+<p>The talk surveyed the lab’s recent work on probabilistic models for nonstationary precipitation extremes — including the <a href="../../bibliography/publications/article/lu_spatiotemporal_2025.html">Bayesian spatiotemporal framework</a> led by <a href="../../people/yuchen-lu.html">Yuchen Lu</a> — and discussed open methodological challenges in extreme value theory, regionalization, and integrating climate-model projections with short observational records.</p>
 <p>Thanks to the Rice Statistics department for the invitation and for a great discussion afterward.</p>
 
 
@@ -219,11 +254,16 @@ Baer, John A., Antonia Sebastian, Lauren E. Grimley, et al. 2026. <span>“Negle
   <title>New Paper on Diffusion for Precipitation Downscaling Published in IEEE TGRS</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-09-23-liu-generative.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
 
-<p>A new paper “Downscaling Extreme Precipitation with Wasserstein Regularized Diffusion,” published in IEEE Transactions on Geoscience and Remote Sensing <span class="citation" data-cites="liu_generative:2025">(Liu et al. 2025)</span>. This work is led by <a href="https://www.yuhaoliu.net/">Yuhao Liu</a>, a PhD student in Electrical and Computer Engineering, and is the culmination of extensive brainstorming and research collaboration with coauthors <a href="https://profiles.rice.edu/faculty/ashok-veeraraghavan">Ashok Veeraraghavan</a>, <a href="https://profiles.rice.edu/faculty/guha-balakrishnan">Guha Balakrishnan</a>, and Qiushi Dai as well as <a href="../../people/pi/james-doss-gollin.html">James Doss-Gollin</a>.</p>
+<p>A new paper “Downscaling Extreme Precipitation with Wasserstein Regularized Diffusion,” published in IEEE Transactions on Geoscience and Remote Sensing <span class="citation" data-cites="liu_generative:2025">(Liu et al. 2025)</span>. This work is led by <a href="https://www.yuhaoliu.net/">Yuhao Liu</a>, a PhD student in Electrical and Computer Engineering, and is the culmination of extensive brainstorming and research collaboration with coauthors <a href="https://profiles.rice.edu/faculty/ashok-veeraraghavan">Ashok Veeraraghavan</a>, <a href="https://profiles.rice.edu/faculty/guha-balakrishnan">Guha Balakrishnan</a>, and Qiushi Dai as well as <a href="../../people/james-doss-gollin.html">James Doss-Gollin</a>.</p>
 <p>Many assessments of rainfall and flood hazard require high-resolution precipitation data (e.g., 1-4 km). While coarse global datasets from reanalysis products exist, and fine-grained radar data is available for recent years, there is a critical gap in producing long-term, high-resolution historical datasets needed for robust climate and hydrological modeling. Existing deep learning methods for this <em>downscaling</em> or <em>super-resolution</em> task often fail to accurately capture the statistical properties of the most extreme, and therefore most dangerous, events.</p>
 <p>We developed Wasserstein Regularized Diffusion (<code>WassDiff</code>), a novel generative AI framework. Unlike other diffusion models that can replicate the general distribution of rainfall, <code>WassDiff</code> is specifically designed to get the tails of the distribution right. It integrates a Wasserstein distribution-matching regularizer directly into the denoising process. This forces the model to pay close attention to the frequency and magnitude of extreme values, reducing the biases commonly seen in generative models for climate data.</p>
 <p>Experiments show that <code>WassDiff</code> generates high-resolution precipitation fields that are more physically realistic and statistically accurate than those from competing models. It more faithfully reproduces the spatial patterns and, most importantly, the statistical characteristics of extreme rainfall, making it a more reliable tool for climate impact studies.</p>
@@ -258,6 +298,11 @@ Liu, Yuhao, James Doss-Gollin, Qiushi Dai, Ashok Veeraraghavan, and Guha Balakri
   <title>CERCAT Funding for Tropical Cyclone Hazard Assessment Project</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-09-02-cercat-tropical-cyclone.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
@@ -279,11 +324,16 @@ Liu, Yuhao, James Doss-Gollin, Qiushi Dai, Ashok Veeraraghavan, and Guha Balakri
   <title>New Paper on Bayesian Spatiotemporal Analysis of Extreme Rainfall in Environmental Research: Climate</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-08-26-lu-spatiotemporal.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
 
-<p>Congratulations to <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> on her first first-author paper, “Bayesian spatiotemporal nonstationary model quantifies robust increases in daily extreme rainfall across the Western Gulf Coast,” which has been published open-access in Environmental Research: Climate <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu et al. 2025)</span>!</p>
+<p>Congratulations to <a href="../../people/yuchen-lu.html">Yuchen Lu</a> on her first first-author paper, “Bayesian spatiotemporal nonstationary model quantifies robust increases in daily extreme rainfall across the Western Gulf Coast,” which has been published open-access in Environmental Research: Climate <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu et al. 2025)</span>!</p>
 <p>This research represents the first step in Yuchen’s work, funded by Rice and the Texas Water Development Board, on incorporating robust estimates of nonstationarity into precipitation frequency estimates. She is currently working with colleagues at TAMU and TWDB to incorporate these insights and methods into Intensity-Duration-Frequency (IDF) curves for Texas, and we will be presenting updates at the upcoming AGU Fall meeting.</p>
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
@@ -316,6 +366,11 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
   <title>Press Coverage Following the Guadalupe Flood</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-07-25-guadalupe-press.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
@@ -347,6 +402,11 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
   <title>Updated Thoughts on the Guadalupe Flood</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-07-08-guadalupe-flood.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
@@ -408,6 +468,11 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
   <title>James on Telemundo Special Bajo la Amenaza del Golfo</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-06-01-telemundo.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
@@ -432,11 +497,16 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
   <title>Dongwook Kim Wins Huff Graduate Fellowship</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-04-30-dongwook-huff-fellowship.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
 
-<p>Congratulations to <a href="../../people/grad-students/dongwook-kim.html">Dongwook Kim</a>, recipient of the <strong>Karen and John Huff Graduate Fellowship in Civil and Environmental Engineering</strong> at Rice! The Huff Fellowship recognizes outstanding graduate students in CEVE.</p>
+<p>Congratulations to <a href="../../people/dongwook-kim.html">Dongwook Kim</a>, recipient of the <strong>Karen and John Huff Graduate Fellowship in Civil and Environmental Engineering</strong> at Rice! The Huff Fellowship recognizes outstanding graduate students in CEVE.</p>
 <p>Dongwook joined the lab in Fall 2024 and is co-advised with <a href="https://gori.blogs.rice.edu/">Avi Gori</a>. His research uses synthetic aperture radar (SAR) and deep learning to map flood extents in urban and rural environments, contributing to ongoing work on flood hazard characterization in rural Texas.</p>
 <p>Well-deserved, Dongwook!</p>
 
@@ -451,11 +521,16 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
   <title>Congratulations Yuchen!</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-04-30-yuchen-proposal.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
 
-<p>We are thrilled to announce that <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> has successfully passed her thesis proposal defense titled “Probabilistic Analysis of Nonstationary Hydroclimate Extremes!” ]This marks a significant milestone as Yuchen becomes the first PhD candidate in our research group.</p>
+<p>We are thrilled to announce that <a href="../../people/yuchen-lu.html">Yuchen Lu</a> has successfully passed her thesis proposal defense titled “Probabilistic Analysis of Nonstationary Hydroclimate Extremes!” ]This marks a significant milestone as Yuchen becomes the first PhD candidate in our research group.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://dossgollin-lab.github.io/_assets/img/news/2025-04-30-yuchen-proposal.jpeg" class="img-fluid figure-img"></p>
@@ -481,6 +556,11 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
   <title>Join Us at the Texas Climate Conference 2025</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-04-02-texas-climate-conference.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
@@ -532,6 +612,11 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
   <title>Successful Nature-Based Solutions Workshop at Rice University</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-03-03-nbs-workshop.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
@@ -572,11 +657,16 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
   <title>Bayesian Model Reveals Rising Extreme Rainfall on Gulf Coast</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-02-05-preprint-bayesian-precip.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
 
-<p>Our preprint, led by <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> and titled “Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the Western Gulf Coast”, is now live on ArXiV <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu et al. 2025)</span>.</p>
+<p>Our preprint, led by <a href="../../people/yuchen-lu.html">Yuchen Lu</a> and titled “Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the Western Gulf Coast”, is now live on ArXiV <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu et al. 2025)</span>.</p>
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
 <p>We develop a novel Bayesian hierarchical model, the Spatially Varying Covariates Model, to address the challenges of estimating nonstationary extreme precipitation probabilities. Traditional models often assume stationarity, potentially underestimating risks due to climate change. Our model integrates nonstationarity and regionalization, leveraging spatial statistics and extreme value theory to provide robust estimates of extreme precipitation events. We validate our approach using daily rainfall data from the Western Gulf Coast, revealing significant increases in extreme precipitation intensity and variability, particularly around Houston and New Orleans.</p>
@@ -603,13 +693,18 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
   <title>NSF Grant to Study Flood Resilience in Rural Texas</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-01-24-nsf-rural-flood.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
 
-<p>We’re excited to announce that Rice University, in collaboration with The University of Texas at Austin and Texas A&amp;M University’s Institute for Disaster Resilient Texas (IDRT), has been awarded a $1 million grant from the National Science Foundation’s Confronting Hazards, Impacts and Risks for a Resilient Planet Program (CHIRRP). <a href="../../people/pi/james-doss-gollin.html">James Doss-Gollin</a> and <a href="https://gori.blogs.rice.edu/team/">Avantika Gori</a> (Rice) will join Keri Stephens (UT Austin), and Andrew Juan (TAMU) on a project to develop transformative approaches for improving flood resilience in rural Texas communities.</p>
+<p>We’re excited to announce that Rice University, in collaboration with The University of Texas at Austin and Texas A&amp;M University’s Institute for Disaster Resilient Texas (IDRT), has been awarded a $1 million grant from the National Science Foundation’s Confronting Hazards, Impacts and Risks for a Resilient Planet Program (CHIRRP). <a href="../../people/james-doss-gollin.html">James Doss-Gollin</a> and <a href="https://gori.blogs.rice.edu/team/">Avantika Gori</a> (Rice) will join Keri Stephens (UT Austin), and Andrew Juan (TAMU) on a project to develop transformative approaches for improving flood resilience in rural Texas communities.</p>
 <p>The project aims to create a performance-based framework that bridges critical gaps in flood hazard assessment and mitigation strategies for rural communities. Working in the rural communities of <a href="https://maps.app.goo.gl/au1qoQeuwNLF7Pp68">Fort Hancock</a> and <a href="https://maps.app.goo.gl/XxeSF3fvVr41vHXE7">Premont</a>, Texas, we will develop new methods to characterize flood risks and co-design mitigation strategies that reflect local priorities. We’re particularly focused on identifying adaptations that address both frequent and extreme flood events, and that are scalable to communities with similar characteristics.</p>
-<p>For more details, see the <a href="https://idrt.tamug.edu/idrt-team-builds-upon-drip-work-for-new-nsf-grant/">press release from IDRT</a> or <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2440167">the NSF award</a>).</p>
+<p>For more details, see the <a href="https://web.archive.org/web/20260606161942/https://idrt.tamug.edu/idrt-team-builds-upon-drip-work-for-new-nsf-grant/">press release from IDRT</a> or <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2440167">the NSF award</a>).</p>
 
 
 
@@ -622,6 +717,11 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
   <title>Doss-Gollin Lab at AGU 2024</title>
   <link>https://dossgollin-lab.github.io/posts/2024/2024-12-05-agu.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 

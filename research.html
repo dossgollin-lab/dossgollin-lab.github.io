@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-939b79b0a8ac863eb4fe46099ec3107b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e8c2ebe56d5037c51a65a47a6df2cb18.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,8 +78,11 @@ ul.task-list li input[type="checkbox"] {
 
 <meta property="og:title" content="Research – Doss-Gollin Lab @ Rice CEVE">
 <meta property="og:description" content="Research themes of the Doss-Gollin Lab: nonstationary rainfall and tropical cyclone hazards, urban flood modeling, and community-engaged adaptation planning.">
-<meta property="og:image" content="https://dossgollin-lab.github.io/_assets/img/logos/twdb.svg">
+<meta property="og:image" content="https://dossgollin-lab.github.io/bibliography/_assets/img/pubs/lu_spatiotemporal_2025.png">
 <meta property="og:site_name" content="Doss-Gollin Lab @ Rice CEVE">
+<meta property="og:image:alt" content="Maps of estimated 100-year daily rainfall at weather stations along the western Gulf Coast, fit to the full station network and to five station subsets">
+<meta property="og:image:height" content="528">
+<meta property="og:image:width" content="1200">
 </head>
 
 <body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
@@ -175,6 +178,11 @@ ul.task-list li input[type="checkbox"] {
     
 <!-- main -->
 <main class="content column-page" id="quarto-document-content" tabindex="-1">
+<a id="skip-link" class="visually-hidden-focusable skip-link" href="#quarto-document-content">Skip to main content</a>
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -200,6 +208,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="page-intro">
 <p>Urban climate risks are growing, but so is the complexity of managing them. For example, planners managing flood risks must choose how to design, prioritize, and sequence combinations of green and gray infrastructure, centralized and decentralized systems, drainage and retention across a city or watershed. Our research asks:</p>
 <ul>
 <li>How are rainfall extremes, tropical cyclones, and other climate hazards changing, and how do we represent associated uncertainty?</li>
@@ -207,70 +216,39 @@ ul.task-list li input[type="checkbox"] {
 <li>How can planners make robust investment decisions despite deep uncertainty in future conditions?</li>
 </ul>
 <p>We explore these questions through four interrelated research themes:</p>
-<div class="grid mb-5">
-<div class="g-col-12 g-col-md-6">
-<div class="research-card callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Probabilistic Hydroclimate Hazard
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<div class="grid research-themes mb-5">
+<div class="g-col-12 g-col-md-6 research-theme">
+<p><img src="bibliography/_assets/img/pubs/lu_spatiotemporal_2025.png" class="img-fluid" alt="Maps of estimated 100-year daily rainfall at weather stations along the western Gulf Coast, fit to the full station network and to five station subsets"></p>
+<section id="probabilistic-hydroclimate-hazard" class="level2">
+<h2 class="anchored" data-anchor-id="probabilistic-hydroclimate-hazard">Probabilistic Hydroclimate Hazard</h2>
 <p>Design standards for flood infrastructure typically assume a stationary climate and spatial uniformity. Yet rainfall extremes are intensifying, and their space-time structure shapes downstream impacts. We develop hierarchical Bayesian models and generative machine learning methods that characterize nonstationary hydroclimate extremes and produce realistic scenarios for decision-relevant analysis.</p>
 <p><strong>Read more:</strong> <a href="./bibliography/publications/article/liu_generative_2025.html"><span class="citation" data-cites="liu_generative:2025">Liu et al. (2025)</span></a>, <a href="./bibliography/publications/article/lu_spatiotemporal_2025.html"><span class="citation" data-cites="lu_spatiotemporal:2025">Lu et al. (2025)</span></a>.</p>
+</section>
 </div>
-</div>
-</div>
-<div class="g-col-12 g-col-md-6">
-<div class="research-card callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>AI-Accelerated Flood Modeling
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<div class="g-col-12 g-col-md-6 research-theme">
+<p><img src="bibliography/_assets/img/pubs/kazadi_floodgnn-gru_2024.png" class="img-fluid" alt="Diagram of the FloodGNN-GRU model, which steps a graph neural network forward in time to predict flood depths"></p>
+<section id="ai-accelerated-flood-modeling" class="level2">
+<h2 class="anchored" data-anchor-id="ai-accelerated-flood-modeling">AI-Accelerated Flood Modeling</h2>
 <p>Physics-based 2D hydrodynamic models illuminate urban flood behavior, but they omit critical processes, are difficult to build, and are too expensive to run at the ensemble sizes that uncertainty quantification demands. We develop physics-informed machine learning emulators — including graph neural networks — that simulate compound urban flood processes rapidly and at high resolution.</p>
 <p><strong>Read more:</strong> <a href="./bibliography/publications/article/kazadi_floodgnn-gru_2024.html"><span class="citation" data-cites="kazadi_floodgnn-gru:2024">Kazadi, Doss-Gollin, Sebastian, et al. (2024)</span></a>, <a href="./bibliography/publications/conference/kazadi_icml_2024.html"><span class="citation" data-cites="kazadi_icml:2024">Kazadi, Doss-Gollin, and Silva (2024)</span></a>.</p>
+</section>
 </div>
-</div>
-</div>
-<div class="g-col-12 g-col-md-6">
-<div class="research-card callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Infrastructure and Systems Risk
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<div class="g-col-12 g-col-md-6 research-theme">
+<p><img src="bibliography/_assets/img/pubs/pollack_unsafe_2025.png" class="img-fluid" alt="Histograms of expected annual flood losses across an ensemble of property-level estimates, comparing two sets of depth-damage functions"></p>
+<section id="infrastructure-and-systems-risk" class="level2">
+<h2 class="anchored" data-anchor-id="infrastructure-and-systems-risk">Infrastructure and Systems Risk</h2>
 <p>Flood hazard becomes risk only when it interacts with people, buildings, and infrastructure. Working with structural engineers, economists, and community partners, we quantify how flooding translates into damage, disruption, and cascading consequences — from flooded roads that sever access to medical and emergency services to infrastructure failures that propagate across interconnected systems.</p>
 <p><strong>Read more:</strong> <a href="./bibliography/publications/article/rozer_lossestimates_2019.html"><span class="citation" data-cites="rozer_lossestimates:2019">Rözer et al. (2019)</span></a>, <a href="./bibliography/publications/article/doss-gollin_txtreme_2021.html"><span class="citation" data-cites="doss-gollin_txtreme:2021">Doss-Gollin et al. (2021)</span></a>, <a href="./bibliography/publications/article/pollack_unsafe_2025.html"><span class="citation" data-cites="pollack_unsafe:2025">Pollack et al. (2025)</span></a>.</p>
+</section>
 </div>
-</div>
-</div>
-<div class="g-col-12 g-col-md-6">
-<div class="research-card callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Adaptive Decision Making Under Uncertainty
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<div class="g-col-12 g-col-md-6 research-theme">
+<p><img src="bibliography/_assets/img/pubs/doss-gollin_subjective_2023.jpg" class="img-fluid" alt="Diagram linking uncertainties such as ice sheet dynamics, emissions scenario, sea level, and storm surge to a house-elevation decision and its cost and damage outcomes"></p>
+<section id="adaptive-decision-making-under-uncertainty" class="level2">
+<h2 class="anchored" data-anchor-id="adaptive-decision-making-under-uncertainty">Adaptive Decision Making Under Uncertainty</h2>
 <p>Planning flood resilience is a combinatorial problem: which mix of green and gray, centralized and decentralized investments to deploy, where, and in what sequence. Current guidance offers little help. We develop decision frameworks that help planners sequence and prioritize investments, balance competing objectives, and adapt as conditions and knowledge evolve under deep uncertainty.</p>
 <p><strong>Read more:</strong> <a href="./bibliography/publications/article/doss-gollin_subjective_2023.html"><span class="citation" data-cites="doss-gollin_subjective:2023">Doss-Gollin and Keller (2023)</span></a>, <a href="./bibliography/publications/article/zhou_mesoscale_2023.html"><span class="citation" data-cites="zhou_mesoscale:2023">Zhou et al. (2023)</span></a>.</p>
-</div>
-</div>
+</section>
 </div>
 </div>
 <section id="research-support" class="level2">
@@ -278,77 +256,21 @@ ul.task-list li input[type="checkbox"] {
 <p>We would like to thank the following organizations for their research funding and/or in-kind support.</p>
 <section id="active-support" class="level3">
 <h3 class="anchored" data-anchor-id="active-support">Active Support</h3>
-<div class="grid justify-content-center align-items-center">
-<div class="g-col-6 g-col-md-3 text-center">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://www.twdb.texas.gov/" target="_blank"><img src="_assets/img/logos/twdb.svg" class="img-fluid figure-img"></a></p>
-<figcaption>Texas Water Development Board</figcaption>
-</figure>
-</div>
-</div>
-<div class="g-col-6 g-col-md-3 text-center">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://www.nsf.gov/" target="_blank"><img src="_assets/img/logos/NSF.png" class="img-fluid figure-img"></a></p>
-<figcaption>National Science Foundation</figcaption>
-</figure>
-</div>
-</div>
-<div class="g-col-6 g-col-md-3 text-center">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://ai.rice.edu" target="_blank"><img src="_assets/img/logos/k2i.png" class="img-fluid figure-img"></a></p>
-<figcaption>Ken Kennedy Institute</figcaption>
-</figure>
-</div>
-</div>
-<div class="g-col-6 g-col-md-3 text-center">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://www.catmodeling.org/home" target="_blank"><img src="_assets/img/logos/cercat.png" class="img-fluid figure-img"></a></p>
-<figcaption>Consortium for Enhancing Resilience and Catastrophe Modeling (CERCat)</figcaption>
-</figure>
-</div>
-</div>
-</div>
+<ul class="funder-list">
+<li><a href="https://www.twdb.texas.gov/" target="_blank" rel="noopener"><img src="_assets/img/logos/twdb.svg" alt="Texas Water Development Board"></a></li>
+<li><a href="https://www.nsf.gov/" target="_blank" rel="noopener"><img src="_assets/img/logos/NSF.png" alt="National Science Foundation"></a></li>
+<li><a href="https://ai.rice.edu" target="_blank" rel="noopener"><img src="_assets/img/logos/k2i.png" alt="Ken Kennedy Institute"></a></li>
+<li><a href="https://www.catmodeling.org/home" target="_blank" rel="noopener"><img src="_assets/img/logos/cercat.png" alt="Consortium for Enhancing Resilience and Catastrophe Modeling (CERCat)"></a></li>
+</ul>
 </section>
 <section id="past-support" class="level3">
 <h3 class="anchored" data-anchor-id="past-support">Past Support</h3>
-<div class="grid justify-content-center align-items-center">
-<div class="g-col-6 g-col-md-3 text-center">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://www.100kstrongamericas.org/" target="_blank"><img src="_assets/img/logos/100k-strong.jpg" class="img-fluid figure-img"></a></p>
-<figcaption>100,000 Strong in the Americas</figcaption>
-</figure>
-</div>
-</div>
-<div class="g-col-6 g-col-md-3 text-center">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://research.rice.edu/cvent/" target="_blank"><img src="_assets/img/logos/creative-ventures.png" class="img-fluid figure-img"></a></p>
-<figcaption>Rice Creative Ventures</figcaption>
-</figure>
-</div>
-</div>
-<div class="g-col-6 g-col-md-3 text-center">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://elevenlabs.io/" target="_blank"><img src="_assets/img/logos/elevenlabs-logo-black.svg" class="img-fluid figure-img"></a></p>
-<figcaption>Eleven Labs</figcaption>
-</figure>
-</div>
-</div>
-<div class="g-col-6 g-col-md-3 text-center">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://www.nvidia.com/" target="_blank"><img src="_assets/img/logos/nvidia.png" class="img-fluid figure-img"></a></p>
-<figcaption>NVIDIA Academic Grant Program</figcaption>
-</figure>
-</div>
-</div>
-</div>
+<ul class="funder-list">
+<li><a href="https://www.100kstrongamericas.org/" target="_blank" rel="noopener"><img src="_assets/img/logos/100k-strong.jpg" alt="100,000 Strong in the Americas"></a></li>
+<li><a href="https://research.rice.edu/cvent/" target="_blank" rel="noopener"><img src="_assets/img/logos/creative-ventures.png" alt="Rice Creative Ventures"></a></li>
+<li><a href="https://elevenlabs.io/" target="_blank" rel="noopener"><img src="_assets/img/logos/elevenlabs-logo-black.svg" alt="Eleven Labs"></a></li>
+<li><a href="https://www.nvidia.com/" target="_blank" rel="noopener"><img src="_assets/img/logos/nvidia.png" alt="NVIDIA Academic Grant Program"></a></li>
+</ul>
 
 
 </section>
@@ -903,9 +825,9 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
 <p><a href="https://bsky.app/profile/jdossgollin.bsky.social" title="BlueSky"><i class="bi bi-bluesky"></i></a> &nbsp; <a href="https://www.linkedin.com/in/jamesdossgollin" title="LinkedIn"><i class="bi bi-linkedin"></i></a> &nbsp; <a href="https://github.com/dossgollin-lab" title="GitHub"><i class="bi bi-github"></i></a></p>
-<div class="toc-actions"><ul><li><a href="https://www.github.com/dossgollin-lab/dossgollin-lab.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+</div>
     <div class="nav-footer-right">
-<p><a href="mailto:jdossgollin@rice.edu">jdossgollin@rice.edu</a><br> View source <a href="https://www.github.com/dossgollin-lab/dossgollin-lab.github.io">on GitHub</a></p>
+<p><a href="mailto:jdossgollin@rice.edu">jdossgollin@rice.edu</a></p>
 </div>
   </div>
 </footer>

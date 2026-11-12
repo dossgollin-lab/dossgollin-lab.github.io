@@ -104,7 +104,7 @@ div.csl-indent {
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-939b79b0a8ac863eb4fe46099ec3107b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-e8c2ebe56d5037c51a65a47a6df2cb18.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -263,6 +263,11 @@ div.csl-indent {
   </a>
 </div>
       <div class="about-contents"><main class="content column-page" id="quarto-document-content" tabindex="-1">
+<a id="skip-link" class="visually-hidden-focusable skip-link" href="#quarto-document-content">Skip to main content</a>
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 <p>Machine Learning (ML) has emerged as a promising alternative to numerical methods for physics-based simulation due to its flexibility and efficiency. Flood modeling is a key case study for ML-based simulation due to its relevance as a tool for supporting preventive and emergency measures to mitigate flood risks. However, the complexity of the topography or domain (ground elevation) and the sparsity of the time-evolving precipitations (external forcing) can be challenging for most existing ML approaches for simulating flooding processes in space and time. Another critical challenge is incorporating physics domain knowledge (hydraulics) into these data-driven models. This paper addresses these challenges by introducing a hydraulics-informed graph neural network for flood simulation. Given a (geographical) region and precipitation data, our model predicts water depths in an auto-regressive fashion. We propose a message-passing framework inspired by the conservation of momentum and mass expressed in the shallow-water equations, which describe the physical process of a flooding event. Empirical results on a dataset covering 9 regions and 7 historical precipitation events demonstrate that our model outperforms the best baseline, and can capture the propagation of water flow more effectively, especially at the very early stage of the flooding event when the amount of water in the domain is scarce. Differently from some of the most recent methods for ML-based simulation, which tend to work well only when the domain is a smooth surface (e.g., flat terrain), we show that our solution achieves accurate results for real ground elevation data.</p>
 <section id="bibtex" class="level2">
 <h2 data-anchor-id="bibtex">BibTeX</h2>
@@ -832,9 +837,9 @@ Kazadi, A., Doss-Gollin, J., &amp; Silva, A. (2024). Pluvial flood emulation wit
 </div>   
     <div class="nav-footer-center">
 <p><a href="https://bsky.app/profile/jdossgollin.bsky.social" title="BlueSky"><i class="bi bi-bluesky"></i></a> &nbsp; <a href="https://www.linkedin.com/in/jamesdossgollin" title="LinkedIn"><i class="bi bi-linkedin"></i></a> &nbsp; <a href="https://github.com/dossgollin-lab" title="GitHub"><i class="bi bi-github"></i></a></p>
-<div class="toc-actions"><ul><li><a href="https://www.github.com/dossgollin-lab/dossgollin-lab.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+</div>
     <div class="nav-footer-right">
-<p><a href="mailto:jdossgollin@rice.edu">jdossgollin@rice.edu</a><br> View source <a href="https://www.github.com/dossgollin-lab/dossgollin-lab.github.io">on GitHub</a></p>
+<p><a href="mailto:jdossgollin@rice.edu">jdossgollin@rice.edu</a></p>
 </div>
   </div>
 </footer>

@@ -48,7 +48,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-939b79b0a8ac863eb4fe46099ec3107b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-e8c2ebe56d5037c51a65a47a6df2cb18.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -85,9 +85,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-execute','listing-website','listing-format','listing-bibliography','listing-biblio-style','listing-link-external-newwindow','listing-engines','listing-_quarto-vars','listing-language','listing-title','listing-sortby','listing-position','listing-started','listing-ended','listing-toc','listing-about','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-primary_advisor',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-project','listing-execute','listing-website','listing-format','listing-bibliography','listing-biblio-style','listing-link-external-newwindow','listing-engines','listing-_quarto-vars','listing-language','listing-title','listing-sortby','listing-aliases','listing-position','listing-started','listing-ended','listing-toc','listing-about','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-primary_advisor',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-execute","listing-website","listing-format","listing-bibliography","listing-biblio-style","listing-link-external-newwindow","listing-engines","listing-_quarto-vars","listing-language","listing-title","listing-sortby","listing-position","listing-started","listing-ended","listing-toc","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-primary_advisor"],
+      searchColumns: ["listing-project","listing-execute","listing-website","listing-format","listing-bibliography","listing-biblio-style","listing-link-external-newwindow","listing-engines","listing-_quarto-vars","listing-language","listing-title","listing-sortby","listing-aliases","listing-position","listing-started","listing-ended","listing-toc","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-primary_advisor"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -109,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-position','listing-started','listing-ended','listing-next',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-execute","listing-website","listing-format","listing-bibliography","listing-biblio-style","listing-link-external-newwindow","listing-engines","listing-_quarto-vars","listing-language","listing-title","listing-sortby","listing-started","listing-ended","listing-toc","listing-position","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-next"],
+      searchColumns: ["listing-project","listing-execute","listing-website","listing-format","listing-bibliography","listing-biblio-style","listing-link-external-newwindow","listing-engines","listing-_quarto-vars","listing-language","listing-title","listing-sortby","listing-aliases","listing-position","listing-started","listing-ended","listing-next","listing-toc","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -252,6 +252,11 @@ window.Quarto = {
     
 <!-- main -->
 <main class="content" id="quarto-document-content" tabindex="-1">
+<a id="skip-link" class="visually-hidden-focusable skip-link" href="#quarto-document-content">Skip to main content</a>
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -274,7 +279,7 @@ window.Quarto = {
 
 <div id="listing-lab-members" class="quarto-listing quarto-listing-container-custom">
 <div class="lab-members-grid">
-<a class="member-card" href="../people/pi/james-doss-gollin.html">
+<a class="member-card" href="../people/james-doss-gollin.html">
 <div class="member-photo">
 <img src="../_assets/img/people/jdossgollin.jpeg" alt="" loading="lazy">
 </div>
@@ -284,17 +289,7 @@ Dr.&nbsp;James Doss-Gollin
 <div class="member-position">
 Assistant Professor
 </div>
-</a> <a class="member-card" href="../people/grad-students/yuchen-lu.html">
-<div class="member-photo">
-<img src="../_assets/img/people/yuchenlu.jpg" alt="" loading="lazy">
-</div>
-<div class="member-name">
-Dr.&nbsp;Yuchen Lu
-</div>
-<div class="member-position">
-Graduate Researcher
-</div>
-</a> <a class="member-card" href="../people/grad-students/dongwook-kim.html">
+</a> <a class="member-card" href="../people/dongwook-kim.html">
 <div class="member-photo">
 <img src="../_assets/img/people/dongwook.jpeg" alt="" loading="lazy">
 </div>
@@ -304,7 +299,7 @@ Dongwook Kim
 <div class="member-position">
 Ph.D.&nbsp;Student
 </div>
-</a> <a class="member-card" href="../people/grad-students-coadvised/jingyi-chen.html">
+</a> <a class="member-card" href="../people/jingyi-chen.html">
 <div class="member-photo">
 <img src="../_assets/img/people/jingyichen.jpg" alt="" loading="lazy">
 </div>
@@ -312,9 +307,9 @@ Ph.D.&nbsp;Student
 Jingyi Chen
 </div>
 <div class="member-position">
-Co-Advised Ph.D.&nbsp;Student
+Ph.D.&nbsp;Student
 </div>
-</a> <a class="member-card" href="../people/grad-students-coadvised/true-furrh.html">
+</a> <a class="member-card" href="../people/true-furrh.html">
 <div class="member-photo">
 <img src="../_assets/img/people/tfurrh.png" alt="" loading="lazy">
 </div>
@@ -324,7 +319,7 @@ True Furrh
 <div class="member-position">
 Co-Advised Ph.D.&nbsp;Student
 </div>
-</a><p><a class="member-card" href="../people/grad-students-coadvised/true-furrh.html"></a></p>
+</a><p><a class="member-card" href="../people/true-furrh.html"></a></p>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
@@ -333,34 +328,37 @@ Co-Advised Ph.D.&nbsp;Student
 <div id="listing-alumni" class="quarto-listing quarto-listing-container-custom">
 <ul class="alumni-list">
 <li class="alumni-item">
-<a href="../people/alumni/dafa-herdiansyah.html">Dafa Briliant Herdiansyah</a>, Undergraduate Research Intern (2026) → <span class="alumni-next">Senior year, Nanyang Technological University</span>
+<a href="../people/dafa-herdiansyah.html">Dafa Briliant Herdiansyah</a>, Undergraduate Research Intern (2026) → <span class="alumni-next">Senior year, Nanyang Technological University</span>
 </li>
 <li class="alumni-item">
-<a href="../people/alumni/kelsey-murphy.html">Kelsey Murphy</a>, Co-Advised Ph.D.&nbsp;Student (2021–2026) → <span class="alumni-next">Postdoc, UT Austin</span>
+<a href="../people/yuchen-lu.html">Dr.&nbsp;Yuchen Lu</a>, Ph.D.&nbsp;Student (2021–2026) → <span class="alumni-next">Climate Data Scientist, Yunyao Aerospace</span>
 </li>
 <li class="alumni-item">
-<a href="../people/alumni/Zain-Rahman.html">Zain Rahman</a>, Undergraduate RA (2024–2025)
+<a href="../people/kelsey-murphy.html">Kelsey Murphy</a>, Co-Advised Ph.D.&nbsp;Student (2021–2026) → <span class="alumni-next">Postdoc, UT Austin</span>
 </li>
 <li class="alumni-item">
-<a href="../people/alumni/jonah-schaechter.html">Jonah Schaechter</a>, Graduate RA (2024–2025)
+<a href="../people/zain-rahman.html">Zain Rahman</a>, Undergraduate RA (2024–2025)
 </li>
 <li class="alumni-item">
-<a href="../people/alumni/katlyn-schmeltzer.html">Katlyn Schmeltzer</a>, Graduate RA (2025) → <span class="alumni-next">GSI Environmental Inc.</span>
+<a href="../people/jonah-schaechter.html">Jonah Schaechter</a>, Graduate RA (2024–2025)
 </li>
 <li class="alumni-item">
-<a href="../people/alumni/kyle-olcott.html">Kyle Olcott</a>, Undergraduate RA (2022–2023)
+<a href="../people/katlyn-schmeltzer.html">Katlyn Schmeltzer</a>, Graduate RA (2025) → <span class="alumni-next">GSI Environmental Inc.</span>
 </li>
 <li class="alumni-item">
-<a href="../people/alumni/kristina-cibor.html">Kristina Cibor</a>, Graduate RA (2021–2022) → <span class="alumni-next">Context Labs BV</span>
+<a href="../people/kyle-olcott.html">Kyle Olcott</a>, Undergraduate RA (2022–2023)
 </li>
 <li class="alumni-item">
-<a href="../people/alumni/alyssa-graham.html">Alyssa Graham</a>, Graduate RA (2021–2022) → <span class="alumni-next">Arcadis</span>
+<a href="../people/kristina-cibor.html">Kristina Cibor</a>, Graduate RA (2021–2022) → <span class="alumni-next">Context Labs BV</span>
 </li>
 <li class="alumni-item">
-<a href="../people/alumni/sophia-prieto.html">Sophia Prieto</a>, Undergraduate RA (2021–2022)
+<a href="../people/alyssa-graham.html">Alyssa Graham</a>, Graduate RA (2021–2022) → <span class="alumni-next">Arcadis</span>
 </li>
 <li class="alumni-item">
-<a href="../people/alumni/john-cook.html">John Cook</a>, Undergraduate RA (2021) → <span class="alumni-next">GSI Environmental Inc.</span>
+<a href="../people/sophia-prieto.html">Sophia Prieto</a>, Undergraduate RA (2021–2022)
+</li>
+<li class="alumni-item">
+<a href="../people/john-cook.html">John Cook</a>, Undergraduate RA (2021) → <span class="alumni-next">GSI Environmental Inc.</span>
 </li>
 </ul>
 <div class="listing-no-matching d-none">No matching items</div>
@@ -919,9 +917,9 @@ Co-Advised Ph.D.&nbsp;Student
 </div>   
     <div class="nav-footer-center">
 <p><a href="https://bsky.app/profile/jdossgollin.bsky.social" title="BlueSky"><i class="bi bi-bluesky"></i></a> &nbsp; <a href="https://www.linkedin.com/in/jamesdossgollin" title="LinkedIn"><i class="bi bi-linkedin"></i></a> &nbsp; <a href="https://github.com/dossgollin-lab" title="GitHub"><i class="bi bi-github"></i></a></p>
-<div class="toc-actions"><ul><li><a href="https://www.github.com/dossgollin-lab/dossgollin-lab.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+</div>
     <div class="nav-footer-right">
-<p><a href="mailto:jdossgollin@rice.edu">jdossgollin@rice.edu</a><br> View source <a href="https://www.github.com/dossgollin-lab/dossgollin-lab.github.io">on GitHub</a></p>
+<p><a href="mailto:jdossgollin@rice.edu">jdossgollin@rice.edu</a></p>
 </div>
   </div>
 </footer>

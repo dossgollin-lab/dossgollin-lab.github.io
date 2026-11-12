@@ -15,11 +15,16 @@
   <title>Congratulations, Dr. Yuchen Lu!</title>
   <link>https://dossgollin-lab.github.io/posts/2026/2026-07-16-yuchen-defense.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
 
-<p>We are tremendously proud of <a href="../../people/grad-students/yuchen-lu.html">Dr.&nbsp;Yuchen Lu</a>, who defended her PhD thesis, “Probabilistic Analysis of Nonstationary Hydroclimate Extremes,” on July 15, 2026 in Ryon Lab 112.</p>
+<p>We are tremendously proud of <a href="../../people/yuchen-lu.html">Dr.&nbsp;Yuchen Lu</a>, who defended her PhD thesis, “Probabilistic Analysis of Nonstationary Hydroclimate Extremes,” on July 15, 2026 in Ryon Lab 112.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://dossgollin-lab.github.io/_assets/img/news/2026-07-15-yuchen-defense-group.jpg" class="img-fluid figure-img"></p>
@@ -57,11 +62,16 @@
   <title>New Paper on Spatiotemporal Rainfall Variability and Flood Risk Published in npj Natural Hazards</title>
   <link>https://dossgollin-lab.github.io/posts/2026/2026-07-02-baer-designstorm.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
 
-<p>A new paper, “Neglecting Spatiotemporal Rainfall Variability Misrepresents Flood Hazard and Risk,” has been published in <em>npj Natural Hazards</em> <span class="citation" data-cites="baer_designstorm:2026">(Baer et al. 2026)</span>. The work is led by John (Jack) Baer of the University of North Carolina at Chapel Hill, with coauthors Antonia Sebastian, Lauren E. Grimley, <a href="../../people/pi/james-doss-gollin.html">James Doss-Gollin</a>, Daniel B. Wright, Mohammad Ashar Hussain, and Marissa K. Webber.</p>
+<p>A new paper, “Neglecting Spatiotemporal Rainfall Variability Misrepresents Flood Hazard and Risk,” has been published in <em>npj Natural Hazards</em> <span class="citation" data-cites="baer_designstorm:2026">(Baer et al. 2026)</span>. The work is led by John (Jack) Baer of the University of North Carolina at Chapel Hill, with coauthors Antonia Sebastian, Lauren E. Grimley, <a href="../../people/james-doss-gollin.html">James Doss-Gollin</a>, Daniel B. Wright, Mohammad Ashar Hussain, and Marissa K. Webber.</p>
 <p>Flood risk assessments underpin land-use planning, infrastructure design, and insurance requirements worldwide. Many of these assessments rely on design storms, which assume a one-to-one relationship between the frequency of storms, flooding, and damage. They also neglect the spatial and temporal structure of rainfall. This paper shows that these assumptions can lead to systematic misrepresentation of flood hazard and risk.</p>
 <p>Using a coastal watershed in North Carolina, the study compares design storm-based estimates with those from stochastic storm transposition, a probabilistic framework that generates synthetic events with realistic rainfall fields. Both methods produce similar basin-averaged rainfall statistics. Even so, design storms underestimate flood inundation frequency by 31–35% and expected annual damage by 93% relative to stochastic storm transposition. These results show how complex storm-flood-damage relationships raise risk from smaller, more frequent storms, and they illustrate that accounting for spatiotemporal rainfall variability is necessary for accurate risk assessment.</p>
 <div class="quarto-figure quarto-figure-center">
@@ -89,6 +99,11 @@ Baer, John A., Antonia Sebastian, Lauren E. Grimley, et al. 2026. <span>“Negle
   <title>James Receives NSF CAREER Award to Study Urban Flood Infrastructure</title>
   <link>https://dossgollin-lab.github.io/posts/2026/2026-05-12-nsf-career-award.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
@@ -107,6 +122,11 @@ Baer, John A., Antonia Sebastian, Lauren E. Grimley, et al. 2026. <span>“Negle
   <title>James Quoted in WSJ Article on Flood Risk Scores</title>
   <link>https://dossgollin-lab.github.io/posts/2026/2026-01-20-wsj-flood-risk.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
@@ -154,6 +174,11 @@ Baer, John A., Antonia Sebastian, Lauren E. Grimley, et al. 2026. <span>“Negle
   <dc:creator>Klaus Keller</dc:creator>
   <link>https://dossgollin-lab.github.io/bibliography/publications/article/pollack_transparency_2026.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 <p>People around the world seek climate risk information to guide their decisions. For instance, projections about future flood risk inform where households choose to live, how lenders manage credit risks, and which communities receive federal funding. Yet data limitations and fundamental validation challenges raise important concerns about the reliability of such projections. The principles of transparency and reusability help address these concerns by enabling scrutiny of assumptions and methods, development of foundational data and tools, and consistent application of evaluation standards. While there is ongoing debate about how much transparency commercial climate risk services should provide, many expect noncommercial actors to lead the way on operationalizing transparency and reusability to fulfill their knowledge-building role in the climate risk ecosystem. However, despite prominent success stories, we find a substantial gap between principles and practice: Only four percent of the most-cited peer-reviewed climate risk studies in recent years fully share their data and code although this is a widely accepted minimum standard for transparency. We highlight low-cost measures that noncommercial researchers can take now to improve transparency and reusability. We also emphasize that transformative progress requires substantial investment, cross-sector collaboration, and careful consideration of tradeoffs, data rights, and multiple perspectives on equity. We hope this perspective accelerates both immediate actions and longer-term conversations to improve the ability of science to effectively support timely, evidence-based, and sound climate risk management.</p>
 <section id="bibtex" class="level2">
 <h2 data-anchor-id="bibtex">BibTeX</h2>
@@ -225,6 +250,11 @@ Pollack, A. B., Auermuller, L., Burleyson, C. D., Campbell, J., Condon, M., Coop
   <title>New PNAS Paper on the Need for Transparent Climate-Risk Research</title>
   <link>https://dossgollin-lab.github.io/posts/2026/2026-01-15-pnas-transparency.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
@@ -245,6 +275,11 @@ Pollack, A. B., Auermuller, L., Burleyson, C. D., Campbell, J., Condon, M., Coop
   <title>Doss-Gollin Lab at AGU 2025</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-12-30-agu.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
@@ -258,14 +293,14 @@ Pollack, A. B., Auermuller, L., Burleyson, C. D., Campbell, J., Condon, M., Coop
 <figcaption>Yuchen Lu presenting her poster at AGU 2025</figcaption>
 </figure>
 </div>
-<p><a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> presented a poster titled “A Hierarchical Bayesian Spatial Framework to Assess Nonstationary Rainfall Intensity, Frequency, and Duration in Texas” (NH13D-0410). The work proposes a hierarchical Bayesian spatial model that efficiently pools information across space and jointly models precipitation across multiple time durations, enabling nonstationary IDF curve analysis across Texas.</p>
+<p><a href="../../people/yuchen-lu.html">Yuchen Lu</a> presented a poster titled “A Hierarchical Bayesian Spatial Framework to Assess Nonstationary Rainfall Intensity, Frequency, and Duration in Texas” (NH13D-0410). The work proposes a hierarchical Bayesian spatial model that efficiently pools information across space and jointly models precipitation across multiple time durations, enabling nonstationary IDF curve analysis across Texas.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://dossgollin-lab.github.io/_assets/img/news/2025-12-15-agu-james-talk.jpeg" class="img-fluid figure-img" style="width:70.0%"></p>
 <figcaption>James Doss-Gollin giving his talk at AGU 2025</figcaption>
 </figure>
 </div>
-<p><a href="../../people/pi/james-doss-gollin.html">James Doss-Gollin</a> delivered a talk titled “TxRain: A Bayesian framework for integrating historical observations and model projections to develop nonstationary IDF curves” (H24A-07). This work addresses the challenge of developing nonstationary extreme rainfall models by integrating accurate but short weather station records with long-term climate model projections. James was also a coauthor on several other presentations at the conference.</p>
+<p><a href="../../people/james-doss-gollin.html">James Doss-Gollin</a> delivered a talk titled “TxRain: A Bayesian framework for integrating historical observations and model projections to develop nonstationary IDF curves” (H24A-07). This work addresses the challenge of developing nonstationary extreme rainfall models by integrating accurate but short weather station records with long-term climate model projections. James was also a coauthor on several other presentations at the conference.</p>
 </section>
 <section id="session-convening" class="level2">
 <h2 class="anchored" data-anchor-id="session-convening">Session Convening</h2>
@@ -294,12 +329,17 @@ Pollack, A. B., Auermuller, L., Burleyson, C. D., Campbell, J., Condon, M., Coop
   <title>James Speaks at Rice Statistics Colloquium</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-11-17-stats-colloquium.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
 
 <p>James gave an invited talk at the <a href="https://events.rice.edu/statistics/event/405960-statistics-colloquium-james-doss-gollin-rice-ceve">Rice Statistics Department Colloquium</a> on November 17, 2025, titled <strong>“Statistical Modeling for Nonstationary Hydroclimate Hazards: Challenges and Opportunities.”</strong></p>
-<p>The talk surveyed the lab’s recent work on probabilistic models for nonstationary precipitation extremes — including the <a href="../../bibliography/publications/article/lu_spatiotemporal_2025.html">Bayesian spatiotemporal framework</a> led by <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> — and discussed open methodological challenges in extreme value theory, regionalization, and integrating climate-model projections with short observational records.</p>
+<p>The talk surveyed the lab’s recent work on probabilistic models for nonstationary precipitation extremes — including the <a href="../../bibliography/publications/article/lu_spatiotemporal_2025.html">Bayesian spatiotemporal framework</a> led by <a href="../../people/yuchen-lu.html">Yuchen Lu</a> — and discussed open methodological challenges in extreme value theory, regionalization, and integrating climate-model projections with short observational records.</p>
 <p>Thanks to the Rice Statistics department for the invitation and for a great discussion afterward.</p>
 
 
@@ -318,6 +358,11 @@ Pollack, A. B., Auermuller, L., Burleyson, C. D., Campbell, J., Condon, M., Coop
   <dc:creator>Klaus Keller</dc:creator>
   <link>https://dossgollin-lab.github.io/bibliography/publications/article/pollack_unsafe_2025.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 <p>Pollack et al., (2025). UNSAFE: An UNcertain Structure And Fragility Ensemble framework for property-level flood risk estimation. Journal of Open Source Software, 10(115), 7527, https://doi.org/10.21105/joss.07527</p>
 <section id="bibtex" class="level2">
 <h2 data-anchor-id="bibtex">BibTeX</h2>
@@ -389,11 +434,16 @@ Pollack, A., Doss-Gollin, J., Srikrishnan, V., &amp; Keller, K. (2025). <span>UN
   <title>New Paper on Diffusion for Precipitation Downscaling Published in IEEE TGRS</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-09-23-liu-generative.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
 
-<p>A new paper “Downscaling Extreme Precipitation with Wasserstein Regularized Diffusion,” published in IEEE Transactions on Geoscience and Remote Sensing <span class="citation" data-cites="liu_generative:2025">(Liu et al. 2025)</span>. This work is led by <a href="https://www.yuhaoliu.net/">Yuhao Liu</a>, a PhD student in Electrical and Computer Engineering, and is the culmination of extensive brainstorming and research collaboration with coauthors <a href="https://profiles.rice.edu/faculty/ashok-veeraraghavan">Ashok Veeraraghavan</a>, <a href="https://profiles.rice.edu/faculty/guha-balakrishnan">Guha Balakrishnan</a>, and Qiushi Dai as well as <a href="../../people/pi/james-doss-gollin.html">James Doss-Gollin</a>.</p>
+<p>A new paper “Downscaling Extreme Precipitation with Wasserstein Regularized Diffusion,” published in IEEE Transactions on Geoscience and Remote Sensing <span class="citation" data-cites="liu_generative:2025">(Liu et al. 2025)</span>. This work is led by <a href="https://www.yuhaoliu.net/">Yuhao Liu</a>, a PhD student in Electrical and Computer Engineering, and is the culmination of extensive brainstorming and research collaboration with coauthors <a href="https://profiles.rice.edu/faculty/ashok-veeraraghavan">Ashok Veeraraghavan</a>, <a href="https://profiles.rice.edu/faculty/guha-balakrishnan">Guha Balakrishnan</a>, and Qiushi Dai as well as <a href="../../people/james-doss-gollin.html">James Doss-Gollin</a>.</p>
 <p>Many assessments of rainfall and flood hazard require high-resolution precipitation data (e.g., 1-4 km). While coarse global datasets from reanalysis products exist, and fine-grained radar data is available for recent years, there is a critical gap in producing long-term, high-resolution historical datasets needed for robust climate and hydrological modeling. Existing deep learning methods for this <em>downscaling</em> or <em>super-resolution</em> task often fail to accurately capture the statistical properties of the most extreme, and therefore most dangerous, events.</p>
 <p>We developed Wasserstein Regularized Diffusion (<code>WassDiff</code>), a novel generative AI framework. Unlike other diffusion models that can replicate the general distribution of rainfall, <code>WassDiff</code> is specifically designed to get the tails of the distribution right. It integrates a Wasserstein distribution-matching regularizer directly into the denoising process. This forces the model to pay close attention to the frequency and magnitude of extreme values, reducing the biases commonly seen in generative models for climate data.</p>
 <p>Experiments show that <code>WassDiff</code> generates high-resolution precipitation fields that are more physically realistic and statistically accurate than those from competing models. It more faithfully reproduces the spatial patterns and, most importantly, the statistical characteristics of extreme rainfall, making it a more reliable tool for climate impact studies.</p>
@@ -428,6 +478,11 @@ Liu, Yuhao, James Doss-Gollin, Qiushi Dai, Ashok Veeraraghavan, and Guha Balakri
   <title>CERCAT Funding for Tropical Cyclone Hazard Assessment Project</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-09-02-cercat-tropical-cyclone.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
@@ -449,11 +504,16 @@ Liu, Yuhao, James Doss-Gollin, Qiushi Dai, Ashok Veeraraghavan, and Guha Balakri
   <title>New Paper on Bayesian Spatiotemporal Analysis of Extreme Rainfall in Environmental Research: Climate</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-08-26-lu-spatiotemporal.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
 
-<p>Congratulations to <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> on her first first-author paper, “Bayesian spatiotemporal nonstationary model quantifies robust increases in daily extreme rainfall across the Western Gulf Coast,” which has been published open-access in Environmental Research: Climate <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu et al. 2025)</span>!</p>
+<p>Congratulations to <a href="../../people/yuchen-lu.html">Yuchen Lu</a> on her first first-author paper, “Bayesian spatiotemporal nonstationary model quantifies robust increases in daily extreme rainfall across the Western Gulf Coast,” which has been published open-access in Environmental Research: Climate <span class="citation" data-cites="lu_spatiotemporal:2025">(Lu et al. 2025)</span>!</p>
 <p>This research represents the first step in Yuchen’s work, funded by Rice and the Texas Water Development Board, on incorporating robust estimates of nonstationarity into precipitation frequency estimates. She is currently working with colleagues at TAMU and TWDB to incorporate these insights and methods into Intensity-Duration-Frequency (IDF) curves for Texas, and we will be presenting updates at the upcoming AGU Fall meeting.</p>
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
@@ -489,6 +549,11 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
   <dc:creator>**James Doss-Gollin**</dc:creator>
   <link>https://dossgollin-lab.github.io/bibliography/publications/article/lu_spatiotemporal_2025.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 <p>Precipitation exceedance probabilities are widely used in engineering design, risk assessment, and floodplain management. While common approaches like National Oceanographic and Atmospheric Administration (NOAA) Atlas 14 assume that extreme precipitation characteristics are stationary over time, this assumption may underestimate current and future hazards due to anthropogenic climate change. However, the incorporation of nonstationarity in statistical modeling of extreme precipitation has faced practical challenges, which have restricted its applications. In particular, random sampling variability challenges the reliable estimation of trends and parameters, especially when observational records are limited. To address this methodological gap, we propose the Spatially Varying Covariates Model, a hierarchical Bayesian spatial framework that integrates nonstationarity and regionalization for robust frequency analysis of extreme precipitation. This model draws from extreme value theory, spatial statistics, and Bayesian statistics, and is validated through cross-validation and multiple performance metrics. Applying this framework to a case study of daily rainfall in the Western Gulf Coast, we identify robustly increasing trends in extreme precipitation intensity and variability throughout the study area, with notable spatial heterogeneity. This flexible model accommodates stations with varying observation records, yields smooth return level estimates, and can be straightforwardly adapted to the analysis of precipitation frequencies at different durations and for other regions.</p>
 <section id="bibtex" class="level2">
 <h2 data-anchor-id="bibtex">BibTeX</h2>
@@ -563,6 +628,11 @@ Lu, Y., Lee, B. S., &amp; Doss-Gollin, J. (2025). Bayesian spatiotemporal nonsta
   <title>Press Coverage Following the Guadalupe Flood</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-07-25-guadalupe-press.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
@@ -594,6 +664,11 @@ Lu, Y., Lee, B. S., &amp; Doss-Gollin, J. (2025). Bayesian spatiotemporal nonsta
   <title>Updated Thoughts on the Guadalupe Flood</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-07-08-guadalupe-flood.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
@@ -655,6 +730,11 @@ Lu, Y., Lee, B. S., &amp; Doss-Gollin, J. (2025). Bayesian spatiotemporal nonsta
   <title>James on Telemundo Special Bajo la Amenaza del Golfo</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-06-01-telemundo.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
@@ -679,11 +759,16 @@ Lu, Y., Lee, B. S., &amp; Doss-Gollin, J. (2025). Bayesian spatiotemporal nonsta
   <title>Dongwook Kim Wins Huff Graduate Fellowship</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-04-30-dongwook-huff-fellowship.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
 
-<p>Congratulations to <a href="../../people/grad-students/dongwook-kim.html">Dongwook Kim</a>, recipient of the <strong>Karen and John Huff Graduate Fellowship in Civil and Environmental Engineering</strong> at Rice! The Huff Fellowship recognizes outstanding graduate students in CEVE.</p>
+<p>Congratulations to <a href="../../people/dongwook-kim.html">Dongwook Kim</a>, recipient of the <strong>Karen and John Huff Graduate Fellowship in Civil and Environmental Engineering</strong> at Rice! The Huff Fellowship recognizes outstanding graduate students in CEVE.</p>
 <p>Dongwook joined the lab in Fall 2024 and is co-advised with <a href="https://gori.blogs.rice.edu/">Avi Gori</a>. His research uses synthetic aperture radar (SAR) and deep learning to map flood extents in urban and rural environments, contributing to ongoing work on flood hazard characterization in rural Texas.</p>
 <p>Well-deserved, Dongwook!</p>
 
@@ -698,11 +783,16 @@ Lu, Y., Lee, B. S., &amp; Doss-Gollin, J. (2025). Bayesian spatiotemporal nonsta
   <title>Congratulations Yuchen!</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-04-30-yuchen-proposal.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
 
-<p>We are thrilled to announce that <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> has successfully passed her thesis proposal defense titled “Probabilistic Analysis of Nonstationary Hydroclimate Extremes!” ]This marks a significant milestone as Yuchen becomes the first PhD candidate in our research group.</p>
+<p>We are thrilled to announce that <a href="../../people/yuchen-lu.html">Yuchen Lu</a> has successfully passed her thesis proposal defense titled “Probabilistic Analysis of Nonstationary Hydroclimate Extremes!” ]This marks a significant milestone as Yuchen becomes the first PhD candidate in our research group.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://dossgollin-lab.github.io/_assets/img/news/2025-04-30-yuchen-proposal.jpeg" class="img-fluid figure-img"></p>
@@ -728,6 +818,11 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
   <title>Join Us at the Texas Climate Conference 2025</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-04-02-texas-climate-conference.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
@@ -779,6 +874,11 @@ Lu, Yuchen, Benjamin Seiyon Lee, and James Doss-Gollin. 2025. <span>“Bayesian 
   <title>Successful Nature-Based Solutions Workshop at Rice University</title>
   <link>https://dossgollin-lab.github.io/posts/2025/2025-03-03-nbs-workshop.html</link>
   <description><![CDATA[ 
+Skip to main content
+<script>
+  // Quarto inserts this after the navbar; move it to the top so it is the first tab stop.
+  document.body.prepend(document.getElementById("skip-link"));
+</script>
 
 
 
