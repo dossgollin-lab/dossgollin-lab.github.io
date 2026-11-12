@@ -8,7 +8,7 @@ bibliography: ../../bibliography/my-papers.bib
 ---
 
 A new paper, "Neglecting Spatiotemporal Rainfall Variability Misrepresents Flood Hazard and Risk," has been published in *npj Natural Hazards* [@baer_designstorm:2026].
-The work is led by John (Jack) Baer of the University of North Carolina at Chapel Hill, with coauthors Antonia Sebastian, Lauren E. Grimley, [James Doss-Gollin](/people/pi/james-doss-gollin.qmd), Daniel B. Wright, Mohammad Ashar Hussain, and Marissa K. Webber.
+The work is led by John (Jack) Baer of the University of North Carolina at Chapel Hill, with coauthors Antonia Sebastian, Lauren E. Grimley, [James Doss-Gollin](/people/james-doss-gollin.qmd), Daniel B. Wright, Mohammad Ashar Hussain, and Marissa K. Webber.
 
 Flood risk assessments underpin land-use planning, infrastructure design, and insurance requirements worldwide.
 Many of these assessments rely on design storms, which assume a one-to-one relationship between the frequency of storms, flooding, and damage.

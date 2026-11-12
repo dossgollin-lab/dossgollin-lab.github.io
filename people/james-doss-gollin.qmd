@@ -1,6 +1,8 @@
 ---
 title: "Dr. James Doss-Gollin"
 sortby: "Doss-Gollin, James"
+aliases:
+    - /people/pi/james-doss-gollin.html
 position: "Assistant Professor"
 started: "Spring 2021"
 ended: "Current"
@@ -8,7 +10,8 @@ toc: false
 
 about:
     id: person-profile
-    image: "../../_assets/img/people/jdossgollin.jpeg"
+    image: "../_assets/img/people/jdossgollin.jpeg"
+    image-alt: "Photo of James Doss-Gollin"
     template: trestles
     links:
     -   icon: envelope

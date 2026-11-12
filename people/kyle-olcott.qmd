@@ -1,13 +1,16 @@
 ---
 title: "Kyle Olcott"
 sortby: "Olcott, Kyle"
+aliases:
+    - /people/alumni/kyle-olcott.html
 position: "Undergraduate RA"
 started: "2022"
 ended: "2023"
 toc: false
 about:
     id: person-profile
-    image: "../../_assets/img/people/kolcott.jpg"
+    image: "../_assets/img/people/kolcott.jpg"
+    image-alt: "Photo of Kyle Olcott"
     template: jolla
     links:
         -   icon: envelope

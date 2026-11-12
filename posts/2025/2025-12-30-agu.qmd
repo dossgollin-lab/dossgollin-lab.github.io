@@ -11,12 +11,12 @@ The Doss-Gollin Lab had an active presence at AGU 2025, held December 15-19 in N
 
 ![Yuchen Lu presenting her poster at AGU 2025](/_assets/img/news/2025-12-15-agu-yuchen-poster.jpeg){fig-align="center" width="70%"}
 
-[Yuchen Lu](../../people/grad-students/yuchen-lu.qmd) presented a poster titled "A Hierarchical Bayesian Spatial Framework to Assess Nonstationary Rainfall Intensity, Frequency, and Duration in Texas" (NH13D-0410).
+[Yuchen Lu](../../people/yuchen-lu.qmd) presented a poster titled "A Hierarchical Bayesian Spatial Framework to Assess Nonstationary Rainfall Intensity, Frequency, and Duration in Texas" (NH13D-0410).
 The work proposes a hierarchical Bayesian spatial model that efficiently pools information across space and jointly models precipitation across multiple time durations, enabling nonstationary IDF curve analysis across Texas.
 
 ![James Doss-Gollin giving his talk at AGU 2025](/_assets/img/news/2025-12-15-agu-james-talk.jpeg){fig-align="center" width="70%"}
 
-[James Doss-Gollin](../../people/pi/james-doss-gollin.qmd) delivered a talk titled "TxRain: A Bayesian framework for integrating historical observations and model projections to develop nonstationary IDF curves" (H24A-07).
+[James Doss-Gollin](../../people/james-doss-gollin.qmd) delivered a talk titled "TxRain: A Bayesian framework for integrating historical observations and model projections to develop nonstationary IDF curves" (H24A-07).
 This work addresses the challenge of developing nonstationary extreme rainfall models by integrating accurate but short weather station records with long-term climate model projections.
 James was also a coauthor on several other presentations at the conference.
 

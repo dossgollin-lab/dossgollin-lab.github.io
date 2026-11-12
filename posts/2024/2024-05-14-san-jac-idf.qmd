@@ -8,7 +8,7 @@ Earlier this month, persistent and intense rainfall to the northeast of Houston 
 Our sincere best wishes are with everyone affected!
 
 As we look to risk assessment, it's important to determine how extreme this rainfall really was.
-[Yuchen Lu](../../people/grad-students/yuchen-lu.qmd), a third-year PhD student, compared the rainfall at different durations to Atlas 14 estimates of rainfall probability, finding that this was a 10 to 25-year event depending on how it's analyzed.
+[Yuchen Lu](../../people/yuchen-lu.qmd), a third-year PhD student, compared the rainfall at different durations to Atlas 14 estimates of rainfall probability, finding that this was a 10 to 25-year event depending on how it's analyzed.
 This underscores the importance of vulnerability reduction and flood preparedness.
 
 You can find Yuchen's more detailed analysis [here](https://dossgollin-lab.github.io/SanJac2024_IDF/) or the source code [on GitHub](https://github.com/dossgollin-lab/SanJac2024_IDF).

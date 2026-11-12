@@ -3,62 +3,53 @@ title: "Join Us"
 format:
   html:
     page-layout: full
-    toc: true
+    toc: false
 ---
 
-Join us to build probabilistic hazard models for climate risk analysis and bottom-up decision support, with a focus on urban flooding.
+Join us to bridge Earth science, data science, engineering, and decision analysis to help communities understand and manage evolving climate risks.
 
-Successful members have strong technical training in applied math, machine learning, and Earth science.
-However, curiosity, critical thinking, and willingness to learn matter more than a perfect background.
+Because this work is interdisciplinary, strong technical training in applied math, machine learning, Earth science, and optimization is an important building block for your future research.
+However, curiosity, critical thinking, and motivation to learn matter more than any specific training, and nobody has deep training across every domain.
 
 To get a feel for the group, see our [values](/culture/values.qmd) and [expectations](/culture/expectations.qmd).
 To start a conversation about a role, read the relevant page below and email James.
 
 ## Roles and current openings
 
+::: {.grid .join-roles}
+
+::: {.g-col-12 .g-col-md-4 .join-role}
+### Undergraduates
+
+[Open]{.join-role-status}
+
+We welcome highly motivated and creative Rice undergraduates to work for pay or credit on research projects.
+
+[Prospective undergraduates →](undergrad.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-4 .join-role}
+### PhD Students
+
+[Recruiting]{.join-role-status}
+
+We are recruiting outstanding candidates for doctoral study.
+
+[Prospective PhD students →](phd.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-4 .join-role}
+### Postdocs
+
+[Not actively recruiting]{.join-role-status}
+
+We welcome inquiries from exceptional candidates with external funding or interest in developing joint proposals.
+
+[Prospective postdocs →](postdoc.qmd)
+:::
+
+:::
+
 ::: {.callout-note}
 We are not able to offer opportunities to high school students or unpaid volunteers.
-:::
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-4}
-::: {.callout-note appearance="minimal" icon=false .research-card}
-## Undergraduates
-
-We welcome highly motivated and creative undergraduates to work for pay or credit on cutting-edge projects.
-
-Current opportunities focus on:
-
-- Flood adaptation in Houston and rural Texas communities
-- Machine learning for climate risk and flood modeling
-- Software tools for environmental research
-
-See our [page for prospective undergraduates](undergrad.qmd) for application instructions.
-:::
-:::
-
-::: {.g-col-12 .g-col-md-4}
-::: {.callout-note appearance="minimal" icon=false .research-card}
-## PhD Students
-
-We have no openings for PhD students to start in spring 2027.
-There may be funding for students to start in fall 2027, through Rice's regular application cycle this winter.
-If you have a very specific project idea that aligns with our research, feel free to reach out directly.
-
-See our [page for prospective PhD students](phd.qmd) for more information.
-:::
-:::
-
-::: {.g-col-12 .g-col-md-4}
-::: {.callout-note appearance="minimal" icon=false .research-card}
-## Postdocs
-
-We are not actively recruiting a postdoc at this time, but welcome inquiries from exceptional candidates with external funding or interest in developing joint proposals.
-Research topics are flexible and can be tailored to align your interests with the group's expertise in climate science, hydrology, risk analysis, and decision science.
-
-See our [page for prospective postdocs](postdoc.qmd) for more information.
-:::
-:::
-
 :::

@@ -5,7 +5,7 @@ categories: Congratulations
 date: 2025-04-30
 ---
 
-We are thrilled to announce that [Yuchen Lu](../../people/grad-students/yuchen-lu.qmd) has successfully passed her thesis proposal defense titled "Probabilistic Analysis of Nonstationary Hydroclimate Extremes!"
+We are thrilled to announce that [Yuchen Lu](../../people/yuchen-lu.qmd) has successfully passed her thesis proposal defense titled "Probabilistic Analysis of Nonstationary Hydroclimate Extremes!"
 ]This marks a significant milestone as Yuchen becomes the first PhD candidate in our research group.
 
 ![Yuchen and her committee members](/_assets/img/news/2025-04-30-yuchen-proposal.jpeg)

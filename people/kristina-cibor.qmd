@@ -1,6 +1,8 @@
 ---
 title: "Kristina Cibor"
 sortby: "Cibor, Kristina"
+aliases:
+    - /people/alumni/kristina-cibor.html
 position: "Graduate RA"
 started: "2021"
 ended: "2022"
@@ -8,6 +10,7 @@ next: "Context Labs BV"
 toc: false
 about:
     id: person-profile
-    image: "../../_assets/img/people/kcibor.jpg"
+    image: "../_assets/img/people/kcibor.jpg"
+    image-alt: "Photo of Kristina Cibor"
     template: jolla
 ---

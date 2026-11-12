@@ -33,9 +33,15 @@ $black: #000 !default;
 
 $rice-blue: #00205B;
 $light-gray: #E0E2E6;
-$dark-gray: #7C7E7F;
-$midnight-blue: #191970;
+$dark-gray: #5F6266; // secondary text; Rice gray #7C7E7F fails WCAG AA on white
 $medium-blue: #4D9AD4;
+$rich-blue: #0A509E;
+
+// Typography: IBM Plex Sans body with IBM Plex Serif headings
+$web-font-path: "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Serif:wght@500;600&display=swap";
+$font-family-sans-serif: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "IBM Plex Serif", Georgia, serif;
+$headings-font-weight: 600;
 
 // Navbar
 $navbar-bg: $rice-blue !default;
@@ -43,7 +49,7 @@ $navbar-fg: $light-gray !default;
 $navbar-hl: $white !default;
 
 // Links
-$link-color: $dark-gray !default;
+$link-color: $rich-blue !default;
 
 // Code blocks
 $code-block-bg: $light-gray !default;
@@ -58,6 +64,30 @@ $code-block-bg: $light-gray !default;
     color: $navbar-hl;
 }
 
+// Sentence-case navbar links instead of Sandstone's 13px uppercase
+.navbar .nav-link {
+    font-size: 0.95rem;
+    text-transform: none;
+}
+
+.navbar .nav-link.active {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.4em;
+}
+
+// Visible keyboard focus on the navy navbar
+.navbar .nav-link:focus-visible,
+.navbar .navbar-brand:focus-visible {
+    outline: 2px solid $white;
+    outline-offset: 2px;
+    box-shadow: none;
+}
+
+a {
+    text-underline-offset: 0.15em;
+}
+
 // overrides Sandstone selectors for tabset links
 .nav-tabs .nav-link,
 .nav-tabs .nav-link:hover,
@@ -67,7 +97,7 @@ $code-block-bg: $light-gray !default;
 
 // make blockquote text dark enough
 .blockquote {
-    color: $medium-blue;
+    color: $rich-blue;
 }
 
 // Enable hover dropdowns for navbar (desktop only)
@@ -100,6 +130,32 @@ $code-block-bg: $light-gray !default;
 }
 
 // Publications page: truncate long author lists on grid cards
+// Publications page: journal under the title, then authors in normal case
+#listing-pubs-article .quarto-grid-item .card-other-values {
+    order: 1;
+    margin-top: 0.35rem;
+    font-size: 0.85rem;
+}
+
+#listing-pubs-article .quarto-grid-item .card-other-values td:first-of-type {
+    display: none;
+}
+
+#listing-pubs-article .quarto-grid-item .card-other-values td.details {
+    padding: 0;
+    font-style: italic;
+    color: $dark-gray;
+}
+
+#listing-pubs-article .quarto-grid-item .card-attribution {
+    order: 2;
+    flex-grow: 0;
+    align-items: baseline;
+    padding-top: 0.6rem;
+    text-transform: none;
+    color: $dark-gray;
+}
+
 #pubs-article .listing-author {
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -174,13 +230,15 @@ $code-block-bg: $light-gray !default;
 
 .alumni-list .alumni-item a {
     color: var(--bs-body-color);
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: $light-gray;
     font-weight: 500;
 }
 
 .alumni-list .alumni-item a:hover {
     color: $rice-blue;
     text-decoration: underline;
+    text-decoration-color: currentColor;
 }
 
 // Research theme cards
@@ -195,6 +253,8 @@ $code-block-bg: $light-gray !default;
 }
 
 .research-card .callout-title-container {
+    font-family: $headings-font-family;
+    font-size: 1.25rem;
     font-weight: 600;
     color: $rice-blue;
 }
@@ -208,31 +268,44 @@ $code-block-bg: $light-gray !default;
 
 // Home page: hero box (video + intro side-by-side)
 .home-hero {
-    background-color: #f5f5f7;
-    border-radius: 0.5rem;
-    padding: 1.5rem;
+    padding: 1rem 0 2rem;
     margin-bottom: 2rem;
+    border-bottom: 1px solid $light-gray;
 }
 
-.home-hero .home-hero-video {
-    position: relative;
+.home-hero .home-video {
+    display: block;
+    color: $rich-blue;
+}
+
+.home-hero .home-video img {
+    display: block;
     width: 100%;
     aspect-ratio: 16 / 9;
+    object-fit: cover;
     border-radius: 0.25rem;
-    overflow: hidden;
 }
 
-.home-hero .home-hero-video iframe {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
+.home-hero .home-video-caption {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.home-hero .home-video:hover .home-video-caption {
+    text-decoration: underline;
 }
 
 .home-hero .home-hero-text {
-    font-size: 0.95rem;
-    line-height: 1.5;
+    font-size: 1.15rem;
+    line-height: 1.55;
+    text-wrap: pretty;
+}
+
+@media (max-width: 576px) {
+    .home-hero .home-hero-text {
+        font-size: 1.05rem;
+    }
 }
 
 .home-hero .home-hero-text > :last-child {
@@ -245,20 +318,33 @@ $code-block-bg: $light-gray !default;
     justify-content: space-between;
     align-items: baseline;
     margin-top: 0;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid $light-gray;
     gap: 1rem;
 }
 
-.section-header-with-link h3 {
+.section-header-with-link h2 {
     margin: 0;
-    font-size: 1.15rem;
+    padding-bottom: 0;
+    border-bottom: 0;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 
+.section-header-with-link p {
+    margin: 0;
+}
+
 .section-header-with-link .see-all-link {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     white-space: nowrap;
-    color: $dark-gray;
+    color: $rich-blue;
+    text-decoration: none;
+}
+
+.section-header-with-link .see-all-link:hover {
+    text-decoration: underline;
 }
 
 // Home page: compact paper rows (rendered by custom EJS template)
@@ -323,33 +409,167 @@ $code-block-bg: $light-gray !default;
     margin-top: 0.2rem;
 }
 
-// Home page: news bullet list (rendered by custom EJS template)
+// Home page: news list with a date column (rendered by custom EJS template)
 .home-news-col .news-listing {
-    list-style: disc;
-    padding-left: 1.25rem;
+    list-style: none;
+    padding-left: 0;
     margin: 0;
 }
 
 .home-news-col .news-listing .news-item {
-    margin-bottom: 0.55rem;
-    font-size: 0.875rem;
-    line-height: 1.4;
+    display: grid;
+    grid-template-columns: 4.5rem 1fr;
+    gap: 1rem;
+    align-items: baseline;
+    padding: 0.65rem 0;
+    border-bottom: 1px solid var(--bs-border-color, #e5e5e5);
+    font-size: 0.9rem;
+    line-height: 1.45;
 }
 
 .home-news-col .news-listing .news-item:last-child {
-    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+@media (max-width: 576px) {
+    .home-news-col .news-listing .news-item {
+        grid-template-columns: 1fr;
+        gap: 0.15rem;
+    }
 }
 
 .home-news-col .news-listing .news-date {
     color: $dark-gray;
+    font-size: 0.8rem;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
 }
 
 .home-news-col .news-listing .news-link {
     color: var(--bs-body-color);
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: $light-gray;
 }
 
 .home-news-col .news-listing .news-link:hover {
     color: $rice-blue;
     text-decoration: underline;
+    text-decoration-color: currentColor;
+}
+// Footer: align with the full-width page content column
+.nav-footer {
+    max-width: 1170px;
+    margin-inline: auto;
+}
+
+// Join Us page: role columns with a top rule instead of callout boxes
+#roles-and-current-openings > h2 {
+    border-bottom: 0;
+}
+
+.join-role {
+    border-top: 2px solid $rice-blue;
+    padding-top: 1rem;
+}
+
+.join-role h3 {
+    margin-top: 0;
+    font-size: 1.35rem;
+}
+
+.join-role .join-role-status {
+    display: block;
+    margin-top: -0.25rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: $dark-gray;
+}
+
+// Prospective PhD page: collapsible FAQ answers
+#faqs details {
+    border-bottom: 1px solid $light-gray;
+    padding: 0.75rem 0;
+}
+
+#faqs summary {
+    font-weight: 600;
+    color: var(--bs-body-color);
+    cursor: pointer;
+}
+
+#faqs details[open] summary {
+    margin-bottom: 0.75rem;
+}
+
+// Research page: theme sections, each led by a figure from its main paper
+.research-theme .quarto-figure {
+    margin-bottom: 1rem;
+}
+
+.research-theme img {
+    width: 100%;
+    height: 240px;
+    padding: 0.5rem;
+    object-fit: contain;
+    background-color: $white;
+    border: 1px solid $light-gray;
+    border-radius: 4px;
+}
+
+// Intro prose at a readable line length on full-width pages
+.page-intro {
+    max-width: 70ch;
+}
+
+.research-theme h2 {
+    border-bottom: 0;
+    margin-top: 0;
+    font-size: 1.4rem;
+}
+
+// Research page: funder logos in one row at a common height
+.funder-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem 3rem;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem;
+}
+
+.funder-list img {
+    display: block;
+    height: 52px;
+    width: auto;
+    max-width: 170px;
+    object-fit: contain;
+}
+
+// News posts: drop the category chips (no page lists posts by category)
+// and the "Published" label, leaving the date under the title
+.news-post .quarto-title .quarto-categories,
+.news-post .quarto-title-meta-heading {
+    display: none;
+}
+
+.news-post .quarto-title-meta-contents {
+    color: $dark-gray;
+}
+
+// Skip link: hidden until focused with the keyboard
+.skip-link:focus {
+    position: fixed !important;
+    top: 0.5rem;
+    left: 0.5rem;
+    z-index: 2000;
+    padding: 0.5rem 1rem;
+    background: $white;
+    color: $rice-blue;
+    border: 2px solid $rice-blue;
+}
+
+// News archive: keep ISO dates on one line
+#listing-all-news .listing-date {
+    white-space: nowrap;
 }

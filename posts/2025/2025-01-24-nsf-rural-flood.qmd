@@ -6,10 +6,10 @@ date: 2025-01-24
 ---
 
 We're excited to announce that Rice University, in collaboration with The University of Texas at Austin and Texas A&M University's Institute for Disaster Resilient Texas (IDRT), has been awarded a $1 million grant from the National Science Foundation's Confronting Hazards, Impacts and Risks for a Resilient Planet Program (CHIRRP).
-[James Doss-Gollin](../../people/pi/james-doss-gollin.qmd) and [Avantika Gori](https://gori.blogs.rice.edu/team/) (Rice) will join Keri Stephens (UT Austin), and Andrew Juan (TAMU) on a project to develop transformative approaches for improving flood resilience in rural Texas communities.
+[James Doss-Gollin](../../people/james-doss-gollin.qmd) and [Avantika Gori](https://gori.blogs.rice.edu/team/) (Rice) will join Keri Stephens (UT Austin), and Andrew Juan (TAMU) on a project to develop transformative approaches for improving flood resilience in rural Texas communities.
 
 The project aims to create a performance-based framework that bridges critical gaps in flood hazard assessment and mitigation strategies for rural communities.
 Working in the rural communities of [Fort Hancock](https://maps.app.goo.gl/au1qoQeuwNLF7Pp68) and [Premont](https://maps.app.goo.gl/XxeSF3fvVr41vHXE7), Texas, we will develop new methods to characterize flood risks and co-design mitigation strategies that reflect local priorities.
 We're particularly focused on identifying adaptations that address both frequent and extreme flood events, and that are scalable to communities with similar characteristics.
 
-For more details, see the [press release from IDRT](https://idrt.tamug.edu/idrt-team-builds-upon-drip-work-for-new-nsf-grant/) or [the NSF award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2440167)).
+For more details, see the [press release from IDRT](https://web.archive.org/web/20260606161942/https://idrt.tamug.edu/idrt-team-builds-upon-drip-work-for-new-nsf-grant/) or [the NSF award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2440167)).

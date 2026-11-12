@@ -12,7 +12,7 @@ listing:
     filter-ui: [date, title, author, details]
     date-format: "YYYY"
     page-size: 50
-    fields: [date, title, author, image]
+    fields: [date, title, author, image, details]
   - id: pubs-conference
     contents:
         - /bibliography/publications/conference/*.qmd
@@ -65,3 +65,28 @@ format:
 
 
 ::::
+
+```{=html}
+<script>
+// Shorten long author lists to the first MAX_AUTHORS names plus "et al.".
+// Hidden names stay in the DOM so the Filter box still matches them.
+// This runs before Quarto's listing script initializes.
+(function () {
+  const MAX_AUTHORS = 3;
+  document.querySelectorAll(".listing-author").forEach(function (el) {
+    const html = el.innerHTML.trim();
+    const authors = html.split(/,\s*/);
+    if (authors.length <= MAX_AUTHORS + 1) return;
+    el.innerHTML =
+      authors.slice(0, MAX_AUTHORS).join(", ") +
+      ', <span aria-hidden="true">et al.</span>' +
+      '<span class="visually-hidden">' + authors.slice(MAX_AUTHORS).join(", ") + "</span>";
+    el.title = html.replace(/<[^>]+>/g, "");
+  });
+  // Card thumbnails repeat the title next to them, so mark them decorative.
+  document.querySelectorAll(".quarto-listing img:not([alt])").forEach(function (img) {
+    img.alt = "";
+  });
+})();
+</script>
+```

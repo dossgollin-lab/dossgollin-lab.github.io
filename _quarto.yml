@@ -11,7 +11,6 @@ website:
   title: "Doss-Gollin Lab @ Rice CEVE"
   site-url: https://dossgollin-lab.github.io/
   repo-url: https://www.github.com/dossgollin-lab/dossgollin-lab.github.io
-  repo-actions: [issue]
   open-graph: true
 
   search:
@@ -28,8 +27,7 @@ website:
       <a href="https://www.linkedin.com/in/jamesdossgollin" title="LinkedIn"><i class="bi bi-linkedin"></i></a> &nbsp;
       <a href="https://github.com/dossgollin-lab" title="GitHub"><i class="bi bi-github"></i></a>
     right: |
-      [jdossgollin@rice.edu](mailto:jdossgollin@rice.edu)<br>
-      View source [on GitHub]({{< var website.repo-url >}})
+      [jdossgollin@rice.edu](mailto:jdossgollin@rice.edu)
 
   navbar:
     right:
@@ -62,6 +60,7 @@ format:
     #theme: _assets/theme/theme-rice.scss
     #css: styles.css
     theme: [sandstone, _assets/theme/theme-rice.scss]
+    include-before-body: _assets/html/skip-link.html
     toc: false
     anchor-sections: true
     code-overflow: wrap

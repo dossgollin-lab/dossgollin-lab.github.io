@@ -4,7 +4,7 @@ categories: Welcome
 date: 2024-08-22
 ---
 
-We're delighted to welcome [Dongwook Kim](../../people/grad-students/dongwook-kim.qmd) to the lab!
+We're delighted to welcome [Dongwook Kim](../../people/dongwook-kim.qmd) to the lab!
 Dongwook joins us Burin Co., Ltd. in Seoul, where he was working as a research engineer.
 Prior that that, he earned a BS and MS at Hanyang University.
 Dongwook's interests include water resources, flood risk, tropical cyclones, and infrastructure risk assessment.

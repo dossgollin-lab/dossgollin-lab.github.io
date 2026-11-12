@@ -5,14 +5,15 @@ listing:
       template: ../_assets/listing-templates/lab-members.ejs
       sort: false
       contents:
-          - "pi/james-doss-gollin.qmd"
-          - "grad-students/yuchen-lu.qmd"
-          - "grad-students/dongwook-kim.qmd"
-          - "grad-students-coadvised/jingyi-chen.qmd"
-          - "grad-students-coadvised/true-furrh.qmd"
+          - "james-doss-gollin.qmd"
+          - "dongwook-kim.qmd"
+          - "jingyi-chen.qmd"
+          - "true-furrh.qmd"
 
     - id: alumni
-      contents: "alumni/*.qmd"
+      contents: "*.qmd"
+      exclude:
+          ended: "Current"
       template: ../_assets/listing-templates/alumni.ejs
       sort: [ended desc, sortby]
       fields: [title, position, started, ended, next]

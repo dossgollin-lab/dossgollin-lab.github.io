@@ -1,13 +1,16 @@
 ---
 title: "Sophia Prieto"
 sortby: "Prieto, Sophia"
+aliases:
+    - /people/alumni/sophia-prieto.html
 position: "Undergraduate RA"
 started: "2021"
 ended: "2022"
 toc: false
 about:
     id: person-profile
-    image: "../../_assets/img/people/sprieto.jpg"
+    image: "../_assets/img/people/sprieto.jpg"
+    image-alt: "Photo of Sophia Prieto"
     template: jolla
     links:
         -   icon: envelope

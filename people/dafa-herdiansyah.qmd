@@ -1,6 +1,8 @@
 ---
 title: "Dafa Briliant Herdiansyah"
 sortby: "Herdiansyah, Dafa Briliant"
+aliases:
+    - /people/alumni/dafa-herdiansyah.html
 position: "Undergraduate Research Intern"
 started: "2026"
 ended: "2026"
@@ -8,7 +10,8 @@ next: "Senior year, Nanyang Technological University"
 toc: false
 about:
     id: person-profile
-    image: "../../_assets/img/people/dafaherdiansyah.jpg"
+    image: "../_assets/img/people/dafaherdiansyah.jpg"
+    image-alt: "Photo of Dafa Briliant Herdiansyah"
     template: jolla
     links:
         -   icon: github
