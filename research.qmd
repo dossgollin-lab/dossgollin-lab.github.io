@@ -8,6 +8,7 @@ format:
     suppress-bibliography: true
 ---
 
+::: {.page-intro}
 Urban climate risks are growing, but so is the complexity of managing them.
 For example, planners managing flood risks must choose how to design, prioritize, and sequence combinations of green and gray infrastructure, centralized and decentralized systems, drainage and retention across a city or watershed.
 Our research asks:
@@ -17,6 +18,7 @@ Our research asks:
 - How can planners make robust investment decisions despite deep uncertainty in future conditions?
 
 We explore these questions through four interrelated research themes:
+:::
 
 ::: {.grid .research-themes .mb-5}
 

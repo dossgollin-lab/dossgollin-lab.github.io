@@ -11,6 +11,9 @@ format:
 I welcome prospective Ph.D. students interested in the quantitative study of climate hazard, risk, and resilience.
 Our research bridges climate science, hydrology, statistics, and decision science.
 
+To get started, fill out the [Prospective Student Information Form](https://docs.google.com/forms/d/e/1FAIpQLSfGtXe4UM3mghwbb6blxNQQioBH4YUnO1vtIeR7EVkfcYcUKA/viewform).
+The [application process](#application-process) below explains what happens next.
+
 ## What we work on
 
 Right now the group is heavily focused on urban flooding, along two lines:

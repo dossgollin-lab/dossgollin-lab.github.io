@@ -57,6 +57,8 @@ format:
 The **Doss-Gollin Research Group** at [Rice University's Department of Civil and Environmental Engineering](https://ceve.rice.edu) studies how flood risk in cities is changing, and how to plan infrastructure that holds up as it does.
 We build probabilistic hazard models and decision-support tools, integrating Earth science, AI, and decision analysis to characterize changing hazards, quantify their impacts on the built environment, and design adaptive risk-management strategies.
 We co-develop these tools with structural engineers, water managers, industry, and community organizations.
+
+Prospective students and postdocs: see [how to join the group](joinus/index.qmd).
 :::
 
 :::
