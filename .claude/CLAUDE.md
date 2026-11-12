@@ -107,3 +107,5 @@ Other image conventions:
 GitHub Actions workflow (`.github/workflows/publish-quarto.yml`) renders and publishes to `gh-pages` branch on push to `master`. The workflow also updates the bibliography submodule before rendering.
 
 The `.github/workflows/pr-checks.yml` workflow runs on every pull request: it validates frontmatter, renders the site, and runs [lychee](https://lychee.cli.rs/) against the rendered HTML. Link-check config lives in `.lychee.toml` and is shared with the local `lychee` invocation.
+
+@learned-preferences.md

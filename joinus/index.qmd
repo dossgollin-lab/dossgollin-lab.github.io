@@ -42,11 +42,9 @@ See our [page for prospective undergraduates](undergrad.qmd) for application ins
 ::: {.callout-note appearance="minimal" icon=false .research-card}
 ## PhD Students
 
-The application window for fall 2026 PhD positions has closed.
-Interested students should check back in early fall 2026 for new openings.
-If you have a very specific project idea that aligns with our research, feel free to reach out directly.
-
-See our [page for prospective PhD students](phd.qmd) for more information.
+PhD openings vary from year to year.
+If you are interested, fill out the prospective student form on our [page for prospective PhD students](phd.qmd) and James will follow up.
+If you have a specific project idea that aligns with our research, mention it in the form.
 :::
 :::
 

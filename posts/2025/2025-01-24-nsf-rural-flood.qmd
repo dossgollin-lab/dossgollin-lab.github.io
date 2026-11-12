@@ -12,4 +12,4 @@ The project aims to create a performance-based framework that bridges critical g
 Working in the rural communities of [Fort Hancock](https://maps.app.goo.gl/au1qoQeuwNLF7Pp68) and [Premont](https://maps.app.goo.gl/XxeSF3fvVr41vHXE7), Texas, we will develop new methods to characterize flood risks and co-design mitigation strategies that reflect local priorities.
 We're particularly focused on identifying adaptations that address both frequent and extreme flood events, and that are scalable to communities with similar characteristics.
 
-For more details, see the [press release from IDRT](https://idrt.tamug.edu/idrt-team-builds-upon-drip-work-for-new-nsf-grant/) or [the NSF award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2440167)).
+For more details, see the [press release from IDRT](https://web.archive.org/web/20260606161942/https://idrt.tamug.edu/idrt-team-builds-upon-drip-work-for-new-nsf-grant/) or [the NSF award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2440167)).

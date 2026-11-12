@@ -38,6 +38,8 @@ format:
 
 ::: {.home-page}
 
+<h1 class="visually-hidden">Doss-Gollin Research Group</h1>
+
 ::: {.home-hero}
 
 ::: {.grid .align-items-center}
@@ -66,7 +68,7 @@ We co-develop these tools with structural engineers, water managers, industry, a
 ::: {.g-col-12 .g-col-lg-6 .home-news-col}
 
 ::: {.section-header-with-link}
-### News
+## News
 
 [all news →](news.qmd){.see-all-link}
 :::
@@ -82,7 +84,7 @@ We co-develop these tools with structural engineers, water managers, industry, a
 ::: {.g-col-12 .g-col-lg-5 .home-papers-col}
 
 ::: {.section-header-with-link}
-### Featured Papers
+## Featured Papers
 
 [all publications →](publications.qmd){.see-all-link}
 :::
