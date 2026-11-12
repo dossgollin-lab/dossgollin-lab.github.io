@@ -9,5 +9,6 @@ toc: false
 about:
     id: person-profile
     image: "../../_assets/img/people/kcibor.jpg"
+    image-alt: "Photo of Kristina Cibor"
     template: jolla
 ---

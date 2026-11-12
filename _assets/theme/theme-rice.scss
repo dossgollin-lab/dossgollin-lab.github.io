@@ -130,6 +130,32 @@ a {
 }
 
 // Publications page: truncate long author lists on grid cards
+// Publications page: journal under the title, then authors in normal case
+#listing-pubs-article .quarto-grid-item .card-other-values {
+    order: 1;
+    margin-top: 0.35rem;
+    font-size: 0.85rem;
+}
+
+#listing-pubs-article .quarto-grid-item .card-other-values td:first-of-type {
+    display: none;
+}
+
+#listing-pubs-article .quarto-grid-item .card-other-values td.details {
+    padding: 0;
+    font-style: italic;
+    color: $dark-gray;
+}
+
+#listing-pubs-article .quarto-grid-item .card-attribution {
+    order: 2;
+    flex-grow: 0;
+    align-items: baseline;
+    padding-top: 0.6rem;
+    text-transform: none;
+    color: $dark-gray;
+}
+
 #pubs-article .listing-author {
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -204,13 +230,15 @@ a {
 
 .alumni-list .alumni-item a {
     color: var(--bs-body-color);
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: $light-gray;
     font-weight: 500;
 }
 
 .alumni-list .alumni-item a:hover {
     color: $rice-blue;
     text-decoration: underline;
+    text-decoration-color: currentColor;
 }
 
 // Research theme cards
@@ -245,20 +273,27 @@ a {
     border-bottom: 1px solid $light-gray;
 }
 
-.home-hero .home-hero-video {
-    position: relative;
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    border-radius: 0.25rem;
-    overflow: hidden;
+.home-hero .home-video {
+    display: block;
+    color: $rich-blue;
 }
 
-.home-hero .home-hero-video iframe {
-    position: absolute;
-    inset: 0;
+.home-hero .home-video img {
+    display: block;
     width: 100%;
-    height: 100%;
-    border: 0;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 0.25rem;
+}
+
+.home-hero .home-video-caption {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.home-hero .home-video:hover .home-video-caption {
+    text-decoration: underline;
 }
 
 .home-hero .home-hero-text {
@@ -412,10 +447,123 @@ a {
 
 .home-news-col .news-listing .news-link {
     color: var(--bs-body-color);
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: $light-gray;
 }
 
 .home-news-col .news-listing .news-link:hover {
     color: $rice-blue;
     text-decoration: underline;
+    text-decoration-color: currentColor;
+}
+// Footer: align with the full-width page content column
+.nav-footer {
+    max-width: 1170px;
+    margin-inline: auto;
+}
+
+// Join Us page: role columns with a top rule instead of callout boxes
+#roles-and-current-openings > h2 {
+    border-bottom: 0;
+}
+
+.join-role {
+    border-top: 2px solid $rice-blue;
+    padding-top: 1rem;
+}
+
+.join-role h3 {
+    margin-top: 0;
+    font-size: 1.35rem;
+}
+
+.join-role .join-role-status {
+    display: block;
+    margin-top: -0.25rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: $dark-gray;
+}
+
+// Prospective PhD page: collapsible FAQ answers
+#faqs details {
+    border-bottom: 1px solid $light-gray;
+    padding: 0.75rem 0;
+}
+
+#faqs summary {
+    font-weight: 600;
+    color: var(--bs-body-color);
+    cursor: pointer;
+}
+
+#faqs details[open] summary {
+    margin-bottom: 0.75rem;
+}
+
+// Research page: theme sections, each led by a figure from its main paper
+.research-theme .quarto-figure {
+    margin-bottom: 1rem;
+}
+
+.research-theme img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    object-position: top;
+    border: 1px solid $light-gray;
+    border-radius: 4px;
+}
+
+.research-theme h2 {
+    border-bottom: 0;
+    margin-top: 0;
+    font-size: 1.4rem;
+}
+
+// Research page: funder logos in one row at a common height
+.funder-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem 3rem;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem;
+}
+
+.funder-list img {
+    display: block;
+    height: 52px;
+    width: auto;
+    max-width: 170px;
+    object-fit: contain;
+}
+
+// News posts: drop the category chips (no page lists posts by category)
+// and the "Published" label, leaving the date under the title
+.news-post .quarto-title .quarto-categories,
+.news-post .quarto-title-meta-heading {
+    display: none;
+}
+
+.news-post .quarto-title-meta-contents {
+    color: $dark-gray;
+}
+
+// Skip link: hidden until focused with the keyboard
+.skip-link:focus {
+    position: fixed !important;
+    top: 0.5rem;
+    left: 0.5rem;
+    z-index: 2000;
+    padding: 0.5rem 1rem;
+    background: $white;
+    color: $rice-blue;
+    border: 2px solid $rice-blue;
+}
+
+// News archive: keep ISO dates on one line
+#listing-all-news .listing-date {
+    white-space: nowrap;
 }

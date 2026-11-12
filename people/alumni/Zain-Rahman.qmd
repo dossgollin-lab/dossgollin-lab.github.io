@@ -8,6 +8,7 @@ position: "Undergraduate RA"
 about:
     id: person-profile
     image: "../../_assets/img/people/zrahman.png"
+    image-alt: "Photo of Zain Rahman"
     template: trestles # Choose from options below
     links:
         - icon: envelope

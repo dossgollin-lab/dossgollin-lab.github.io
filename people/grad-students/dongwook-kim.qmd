@@ -8,6 +8,7 @@ toc: false
 about:
     id: person-profile
     image: "../../_assets/img/people/dongwook.jpeg"
+    image-alt: "Photo of Dongwook Kim"
     template: trestles
     links:
         -   icon: envelope

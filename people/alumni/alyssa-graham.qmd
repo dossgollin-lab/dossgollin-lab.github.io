@@ -9,6 +9,7 @@ toc: false
 about:
     id: person-profile
     image: "../../_assets/img/people/agraham.jpg"
+    image-alt: "Photo of Alyssa Graham"
     template: jolla
     links:
         -   icon: envelope

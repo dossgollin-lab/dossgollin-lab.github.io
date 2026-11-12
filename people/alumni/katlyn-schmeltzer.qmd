@@ -9,6 +9,7 @@ toc: false
 about:
     id: person-profile
     image: "../../_assets/img/people/kschmeltzer.jpg"
+    image-alt: "Photo of Katlyn Schmeltzer"
     template: jolla
     links:
         -   icon: github

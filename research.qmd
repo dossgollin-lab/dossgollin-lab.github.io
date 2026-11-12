@@ -18,10 +18,11 @@ Our research asks:
 
 We explore these questions through four interrelated research themes:
 
-::: {.grid .mb-5}
+::: {.grid .research-themes .mb-5}
 
-::: {.g-col-12 .g-col-md-6}
-::: {.callout-note appearance="minimal" icon=false .research-card}
+::: {.g-col-12 .g-col-md-6 .research-theme}
+![](bibliography/_assets/img/pubs/lu_spatiotemporal_2025.png){fig-alt="Maps of estimated 100-year daily rainfall at weather stations along the western Gulf Coast, fit to the full station network and to five station subsets"}
+
 ## Probabilistic Hydroclimate Hazard
 
 Design standards for flood infrastructure typically assume a stationary climate and spatial uniformity.
@@ -30,10 +31,10 @@ We develop hierarchical Bayesian models and generative machine learning methods 
 
 **Read more:** [@liu_generative:2025](/bibliography/publications/article/liu_generative_2025.qmd), [@lu_spatiotemporal:2025](/bibliography/publications/article/lu_spatiotemporal_2025.qmd).
 :::
-:::
 
-::: {.g-col-12 .g-col-md-6}
-::: {.callout-note appearance="minimal" icon=false .research-card}
+::: {.g-col-12 .g-col-md-6 .research-theme}
+![](bibliography/_assets/img/pubs/kazadi_floodgnn-gru_2024.png){fig-alt="Diagram of the FloodGNN-GRU model, which steps a graph neural network forward in time to predict flood depths"}
+
 ## AI-Accelerated Flood Modeling
 
 Physics-based 2D hydrodynamic models illuminate urban flood behavior, but they omit critical processes, are difficult to build, and are too expensive to run at the ensemble sizes that uncertainty quantification demands.
@@ -41,10 +42,10 @@ We develop physics-informed machine learning emulators — including graph neura
 
 **Read more:** [@kazadi_floodgnn-gru:2024](/bibliography/publications/article/kazadi_floodgnn-gru_2024.qmd), [@kazadi_icml:2024](/bibliography/publications/conference/kazadi_icml_2024.qmd).
 :::
-:::
 
-::: {.g-col-12 .g-col-md-6}
-::: {.callout-note appearance="minimal" icon=false .research-card}
+::: {.g-col-12 .g-col-md-6 .research-theme}
+![](bibliography/_assets/img/pubs/pollack_unsafe_2025.png){fig-alt="Histograms of expected annual flood losses across an ensemble of property-level estimates, comparing two sets of depth-damage functions"}
+
 ## Infrastructure and Systems Risk
 
 Flood hazard becomes risk only when it interacts with people, buildings, and infrastructure.
@@ -52,10 +53,10 @@ Working with structural engineers, economists, and community partners, we quanti
 
 **Read more:** [@rozer_lossestimates:2019](/bibliography/publications/article/rozer_lossestimates_2019.qmd), [@doss-gollin_txtreme:2021](/bibliography/publications/article/doss-gollin_txtreme_2021.qmd), [@pollack_unsafe:2025](/bibliography/publications/article/pollack_unsafe_2025.qmd).
 :::
-:::
 
-::: {.g-col-12 .g-col-md-6}
-::: {.callout-note appearance="minimal" icon=false .research-card}
+::: {.g-col-12 .g-col-md-6 .research-theme}
+![](bibliography/_assets/img/pubs/doss-gollin_subjective_2023.jpg){fig-alt="Diagram linking uncertainties such as ice sheet dynamics, emissions scenario, sea level, and storm surge to a house-elevation decision and its cost and damage outcomes"}
+
 ## Adaptive Decision Making Under Uncertainty
 
 Planning flood resilience is a combinatorial problem: which mix of green and gray, centralized and decentralized investments to deploy, where, and in what sequence.
@@ -64,7 +65,7 @@ We develop decision frameworks that help planners sequence and prioritize invest
 
 **Read more:** [@doss-gollin_subjective:2023](/bibliography/publications/article/doss-gollin_subjective_2023.qmd), [@zhou_mesoscale:2023](/bibliography/publications/article/zhou_mesoscale_2023.qmd).
 :::
-:::
+
 :::
 
 ## Research Support
@@ -73,44 +74,22 @@ We would like to thank the following organizations for their research funding an
 
 ### Active Support
 
-::: {.grid .justify-content-center .align-items-center}
-
-::: {.g-col-6 .g-col-md-3 .text-center}
-[![Texas Water Development Board](_assets/img/logos/twdb.svg)](https://www.twdb.texas.gov/){target=_blank}
-:::
-
-::: {.g-col-6 .g-col-md-3 .text-center}
-[![National Science Foundation](_assets/img/logos/NSF.png)](https://www.nsf.gov/){target=_blank}
-:::
-
-::: {.g-col-6 .g-col-md-3 .text-center}
-[![Ken Kennedy Institute](_assets/img/logos/k2i.png)](https://ai.rice.edu){target=_blank}
-:::
-
-::: {.g-col-6 .g-col-md-3 .text-center}
-[![Consortium for Enhancing Resilience and Catastrophe Modeling (CERCat)](_assets/img/logos/cercat.png)](https://www.catmodeling.org/home){target=_blank}
-:::
-
-:::
+```{=html}
+<ul class="funder-list">
+<li><a href="https://www.twdb.texas.gov/" target="_blank" rel="noopener"><img src="_assets/img/logos/twdb.svg" alt="Texas Water Development Board"></a></li>
+<li><a href="https://www.nsf.gov/" target="_blank" rel="noopener"><img src="_assets/img/logos/NSF.png" alt="National Science Foundation"></a></li>
+<li><a href="https://ai.rice.edu" target="_blank" rel="noopener"><img src="_assets/img/logos/k2i.png" alt="Ken Kennedy Institute"></a></li>
+<li><a href="https://www.catmodeling.org/home" target="_blank" rel="noopener"><img src="_assets/img/logos/cercat.png" alt="Consortium for Enhancing Resilience and Catastrophe Modeling (CERCat)"></a></li>
+</ul>
+```
 
 ### Past Support
 
-::: {.grid .justify-content-center .align-items-center}
-
-::: {.g-col-6 .g-col-md-3 .text-center}
-[![100,000 Strong in the Americas](_assets/img/logos/100k-strong.jpg)](https://www.100kstrongamericas.org/){target=_blank}
-:::
-
-::: {.g-col-6 .g-col-md-3 .text-center}
-[![Rice Creative Ventures](_assets/img/logos/creative-ventures.png)](https://research.rice.edu/cvent/){target=_blank}
-:::
-
-::: {.g-col-6 .g-col-md-3 .text-center}
-[![Eleven Labs](_assets/img/logos/elevenlabs-logo-black.svg)](https://elevenlabs.io/){target=_blank}
-:::
-
-::: {.g-col-6 .g-col-md-3 .text-center}
-[![NVIDIA Academic Grant Program](_assets/img/logos/nvidia.png)](https://www.nvidia.com/){target=_blank}
-:::
-
-:::
+```{=html}
+<ul class="funder-list">
+<li><a href="https://www.100kstrongamericas.org/" target="_blank" rel="noopener"><img src="_assets/img/logos/100k-strong.jpg" alt="100,000 Strong in the Americas"></a></li>
+<li><a href="https://research.rice.edu/cvent/" target="_blank" rel="noopener"><img src="_assets/img/logos/creative-ventures.png" alt="Rice Creative Ventures"></a></li>
+<li><a href="https://elevenlabs.io/" target="_blank" rel="noopener"><img src="_assets/img/logos/elevenlabs-logo-black.svg" alt="Eleven Labs"></a></li>
+<li><a href="https://www.nvidia.com/" target="_blank" rel="noopener"><img src="_assets/img/logos/nvidia.png" alt="NVIDIA Academic Grant Program"></a></li>
+</ul>
+```

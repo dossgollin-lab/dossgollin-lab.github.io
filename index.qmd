@@ -11,7 +11,7 @@ listing:
           - "title desc"
       sort-ui: false
       filter-ui: false
-      max-items: 12
+      max-items: 6
       categories: false
       fields: [date, title, description]
       feed: true
@@ -45,17 +45,17 @@ format:
 ::: {.grid .align-items-center}
 
 ::: {.g-col-12 .g-col-md-5 .home-hero-video}
-<iframe
-    src="https://www.youtube-nocookie.com/embed/gI2I8Cq-14g"
-    title="Overview of the Doss-Gollin Research Group"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen>
-</iframe>
+```{=html}
+<a class="home-video" href="https://www.youtube.com/watch?v=gI2I8Cq-14g">
+  <img src="_assets/img/home/overview-video.jpg" alt="">
+  <span class="home-video-caption">Watch an overview of the group on YouTube</span>
+</a>
+```
 :::
 
 ::: {.g-col-12 .g-col-md-7 .home-hero-text}
-The **Doss-Gollin Research Group** at [Rice CEVE](https://ceve.rice.edu) builds probabilistic hazard models that enable climate risk analysis and bottom-up decision support for complex infrastructure systems, with a focus on urban flooding.
-We integrate Earth science, AI, and decision analysis to characterize nonstationary hazards, quantify their impacts on the built environment, and design adaptive risk-management strategies.
+The **Doss-Gollin Research Group** at [Rice University's Department of Civil and Environmental Engineering](https://ceve.rice.edu) studies how flood risk in cities is changing, and how to plan infrastructure that holds up as it does.
+We build probabilistic hazard models and decision-support tools, integrating Earth science, AI, and decision analysis to characterize changing hazards, quantify their impacts on the built environment, and design adaptive risk-management strategies.
 We co-develop these tools with structural engineers, water managers, industry, and community organizations.
 :::
 

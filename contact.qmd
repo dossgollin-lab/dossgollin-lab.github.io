@@ -9,14 +9,12 @@ format:
 ::::: {.columns}
 :::: {.column width="40%"}
 
-### James Doss-Gollin
+## James Doss-Gollin
 
-|  |  |
-|-------|-------|
-| <i class="bi bi-envelope"></i> | [jdossgollin@rice.edu](mailto:jdossgollin@rice.edu) |
-| <i class="bi bi-pin-map"></i> | Ryon Lab #215 |
+<i class="bi bi-envelope" aria-hidden="true"></i> [jdossgollin@rice.edu](mailto:jdossgollin@rice.edu)\
+<i class="bi bi-pin-map" aria-hidden="true"></i> Ryon Lab #215
 
-### Mailing Address
+## Mailing Address
 
 Rice University<br />
 Department of Civil and Environmental Engineering<br />
@@ -24,7 +22,7 @@ Department of Civil and Environmental Engineering<br />
 Ryon Lab 204-MS 318<br />
 Houston, Texas 77005<br />
 
-### Useful Links
+## Useful Links
 
 - [Rice visitors guide](https://www.rice.edu/visit-rice)
 - [Parking information](https://parking.rice.edu/visitor)
@@ -37,8 +35,8 @@ Houston, Texas 77005<br />
 ::::
 :::: {.column width="55%"}
 <iframe
+      title="Map of Ryon Engineering Laboratory at Rice University"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1081.9907415262999!2d-95.40124256735432!3d29.720716237669073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c07c6b7c621f%3A0xaae236e51aa76d26!2sRyon%20Engineering%20Laboratory!5e0!3m2!1sen!2sus!4v1584225312482!5m2!1sen!2sus"
-      width="100%" height="450" frameborder="0" style="border: 0;" allowfullscreen="" aria-hidden="false"
-      tabindex="0"></iframe>
+      width="100%" height="450" frameborder="0" style="border: 0;" allowfullscreen=""></iframe>
 ::::
 :::::

@@ -9,6 +9,7 @@ toc: false
 about:
     id: person-profile
     image: "../../_assets/img/people/tfurrh.png"
+    image-alt: "Photo of True Furrh"
     template: jolla
     links:
         -   icon: envelope

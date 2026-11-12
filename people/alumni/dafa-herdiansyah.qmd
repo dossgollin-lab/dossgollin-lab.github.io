@@ -9,6 +9,7 @@ toc: false
 about:
     id: person-profile
     image: "../../_assets/img/people/dafaherdiansyah.jpg"
+    image-alt: "Photo of Dafa Briliant Herdiansyah"
     template: jolla
     links:
         -   icon: github

@@ -1,20 +1,21 @@
 ---
 title: "Dr. Yuchen Lu"
-position: "Graduate Researcher"
+position: "Ph.D. Student"
 sortby: "Lu, Yuchen"
 started: "Fall 2021"
-ended: "Current"
+ended: "2026"
 toc: false
 about:
     id: person-profile
     image: "../../_assets/img/people/yuchenlu.jpg"
+    image-alt: "Photo of Yuchen Lu"
     template: trestles
     links:
         -   icon: github
             text: Github
             href: https://github.com/yuchenluv
         -   icon: linkedin
-            text: LinkedIN
+            text: LinkedIn
             href: https://www.linkedin.com/in/yuchenluv
         -   icon: envelope
             text: Email
@@ -30,9 +31,9 @@ format:
 :::{#person-profile}
 ## Bio
 
-Yuchen Lu is a graduate researcher in the Civil and Environmental Engineering department at Rice University.
+Yuchen Lu was a Ph.D. student in the Civil and Environmental Engineering department at Rice University.
 She defended her Ph.D. thesis, "Probabilistic Analysis of Nonstationary Hydroclimate Extremes," on July 15, 2026.
-Yuchen completed a BS at Zhongnan University of Economics and Law in China and a MS in Civil and Environmental Engineering at Carnegie Mellon University.
+Yuchen completed a BE at Zhongnan University of Economics and Law in China and a MS in Civil and Environmental Engineering at Carnegie Mellon University.
 She is interested in infrastructure adaptation in the face of climate change.
 
 ## Education

@@ -9,6 +9,7 @@ toc: false
 about:
     id: person-profile
     image: "../../_assets/img/people/jcook.jpg"
+    image-alt: "Photo of John Cook"
     template: jolla
     links:
         -   icon: envelope
