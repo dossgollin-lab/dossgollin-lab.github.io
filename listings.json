@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/news.html",
     "items": [
       "/posts/2026/2026-07-16-yuchen-defense.html",
       "/posts/2026/2026-07-02-baer-designstorm.html",
@@ -47,14 +47,7 @@
       "/posts/2021/2021-08-27-nsf-eager-sai.html",
       "/posts/2021/2021-06-24-agu21.html",
       "/posts/2021/2021-05-18-txtremes.html",
-      "/posts/2020/2020-11-10-dmdu-2020.html",
-      "/bibliography/publications/article/pollack_transparency_2026.html",
-      "/bibliography/publications/article/pollack_unsafe_2025.html",
-      "/bibliography/publications/article/liu_generative_2025.html",
-      "/bibliography/publications/article/lu_spatiotemporal_2025.html",
-      "/bibliography/publications/article/kazadi_floodgnn-gru_2024.html",
-      "/bibliography/publications/article/doss-gollin_subjective_2023.html",
-      "/bibliography/publications/article/doss-gollin_txtreme_2021.html"
+      "/posts/2020/2020-11-10-dmdu-2020.html"
     ]
   },
   {
@@ -116,7 +109,7 @@
     ]
   },
   {
-    "listing": "/news.html",
+    "listing": "/index.html",
     "items": [
       "/posts/2026/2026-07-16-yuchen-defense.html",
       "/posts/2026/2026-07-02-baer-designstorm.html",
@@ -163,7 +156,14 @@
       "/posts/2021/2021-08-27-nsf-eager-sai.html",
       "/posts/2021/2021-06-24-agu21.html",
       "/posts/2021/2021-05-18-txtremes.html",
-      "/posts/2020/2020-11-10-dmdu-2020.html"
+      "/posts/2020/2020-11-10-dmdu-2020.html",
+      "/bibliography/publications/article/pollack_transparency_2026.html",
+      "/bibliography/publications/article/pollack_unsafe_2025.html",
+      "/bibliography/publications/article/liu_generative_2025.html",
+      "/bibliography/publications/article/lu_spatiotemporal_2025.html",
+      "/bibliography/publications/article/kazadi_floodgnn-gru_2024.html",
+      "/bibliography/publications/article/doss-gollin_subjective_2023.html",
+      "/bibliography/publications/article/doss-gollin_txtreme_2021.html"
     ]
   }
 ]
