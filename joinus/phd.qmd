@@ -8,36 +8,17 @@ format:
 
 [← Back to Join Us](/joinus/index.qmd)
 
-I welcome prospective Ph.D. students interested in the quantitative study of climate hazard, risk, and resilience.
+We welcome prospective Ph.D. students interested in the quantitative study of climate hazard, risk, and resilience.
 Our research bridges climate science, hydrology, statistics, and decision science.
 
-To get started, fill out the [Prospective Student Information Form](https://docs.google.com/forms/d/e/1FAIpQLSfGtXe4UM3mghwbb6blxNQQioBH4YUnO1vtIeR7EVkfcYcUKA/viewform).
-The [application process](#application-process) below explains what happens next.
-
-## What we work on
-
-Right now the group is heavily focused on urban flooding, along two lines:
-
-- **Decision-making under uncertainty**: managing trade-offs for adaptation decisions, moving past traditional and computationally expensive cost-benefit analysis.
-- **Hazard characterization**: modeling probabilistic rainfall and building physics-informed machine learning tools to quantify flood impacts, so that many adaptations can be analyzed under a range of possible conditions.
-
-Related topics that interest me but fall outside what the group will take on in the next year or two -- cloud seeding, cloud cover and radiation -- are better pursued with a faculty member whose primary work is in that area.
-I am happy to suggest people to contact.
-
-## Who fits
-
-Students come in from physics, math, statistics, computer science, and engineering, not only from hydrology or climate science.
-Some domain knowledge has to be picked up, but curious and motivated students with quantitative training who have not yet been taught "how we do things" often ask questions that people trained inside the field would not think to ask.
-
-## Open Positions
-
-Current openings are listed on the [Join Us](/joinus/index.qmd) page.
-If you have external funding or a research idea that aligns with the group's work, reach out even if no position is posted.
+Strong applicants come not only from hydrology, climate science, or civil engineering but from physics, applied math, statistics, computer science, operations research, and related disciplines.
+Some domain knowledge has to be picked up, but **all curious and motivated students with strong quantitative foundations should consider themselves qualified to apply.**
+Our work is interdisciplinary, and nobody starts (or completes!) their Ph.D. with expertise in all relevant disciplines.
 
 ## How to Apply
 
-All candidates must apply through Rice University's formal application process.
-I strongly encourage you to get in touch before applying, through the form in step 2 below, to assess whether our group is a good fit for your goals.
+All candidates **must apply through Rice University's formal application process**.
+However, we strongly encourage you to get in touch before applying, through the form in step 2 below, to assess whether our group is a good fit for your goals.
 
 ### Application Process
 
@@ -45,17 +26,17 @@ I strongly encourage you to get in touch before applying, through the form in st
 
 2. **Prospective Student Information Form**: Submit the [Prospective Student Information Form](https://docs.google.com/forms/d/e/1FAIpQLSfGtXe4UM3mghwbb6blxNQQioBH4YUnO1vtIeR7EVkfcYcUKA/viewform).
    It asks for your CV, transcript, and a brief statement of interest.
-   I know that at this stage you are reaching out to many groups, so I've kept the form as short as possible.
-   I review submissions regularly and will follow up within a week or two.
+   We know that at this stage you are reaching out to many groups, so we've kept the form as short as possible.
+   James reviews submissions regularly and will follow up within a week or two.
    Please use the form rather than emailing your materials.
-   If Google Forms is not accessible in your location, email me and I will send you the questions directly.
+   If Google Forms is not accessible in your location, email James and we will send you the questions directly.
 
-3. **Papers**: If there's good alignment based on your submission, I'll send a few papers that give a sense of what the group does.
-   Read them and tell me what you thought: what caught your attention, what you'd want to do differently, what you didn't follow.
-   I'm not asking whether you can summarize a paper -- AI tools do that well.
-   I want to know what you're excited about and how you think.
+3. **Papers**: If there's good alignment based on your submission, we'll send a few papers that give a sense of what the group does.
+   Read them and tell us what you thought: what caught your attention, what you'd want to do differently, what you didn't follow.
+   We're not asking whether you can summarize a paper -- AI tools do that well.
+   We want to know what you're excited about and how you think.
 
-4. **Video Chat**: If something in the papers grabbed you, I'll schedule a video chat to talk about what you made of them, along with your interests, goals, and potential research directions.
+4. **Video Chat**: If something in the papers grabbed you, James will schedule a video chat to talk about what you made of them, along with your interests, goals, and potential research directions.
    This is a casual conversation to assess mutual fit.
 
 5. **Formal Application**: You must apply to the **Ph.D. program in Civil and Environmental Engineering** at Rice University, regardless of our preliminary conversations.
@@ -65,10 +46,10 @@ I strongly encourage you to get in touch before applying, through the form in st
 ### Before you apply
 
 You cannot and should not have your entire career mapped out yet.
-Still, I encourage every prospective student to think hard about four things:
+Still, we encourage every prospective student to think hard about four things:
 
 1. **The scientific questions you actually want to answer.** Most applicants coming from outside the field do not have a well-calibrated sense of this yet, and that is fine. It is still worth thinking about.
-1. **The end-users you want to engage with.** A Ph.D. means learning to write for scientists and researchers. Beyond that, do you want to be your favorite scientist's favorite scientist? Someone influencing local policy? Someone assessing national flood policy? In practice this gets driven by your research, but it shapes what you should look for. In my case, undergraduate work on drinking water supply with rural communities in Paraguay and Brazil got me interested in how we fund, manage, and design infrastructure, and how we recover from extremes.
+1. **The end-users you want to engage with.** A Ph.D. means learning to write for scientists and researchers. Beyond that, do you want to be your favorite scientist's favorite scientist? Someone influencing local policy? Someone assessing national flood policy? In practice this gets driven by your research, but it shapes what you should look for. For James, undergraduate work on drinking water supply with rural communities in Paraguay and Brazil sparked an interest in how we fund, manage, and design infrastructure, and how we recover from extremes.
 1. **Your day-to-day life.** For our group this mostly means sitting at a computer coding, with occasional fieldwork and stakeholder interviews.
 1. **The group dynamics and mentoring style you thrive in.** Do you want a supervisor who checks in frequently, or someone you talk to about more independent research? Do you want to look at plots with your lab mates and run projects together, or learn about their work while mostly doing your own thing and collaborating on specific tasks and tools? No style is right, but it is worth thinking hard about.
 
@@ -134,7 +115,7 @@ Look at their web pages and papers and look for research groups that appeal to y
 <details>
 <summary>How often do students usually travel for conferences?</summary>
 
-After the first year (primarily classes) I aim to fund students to go to the American Geophysical Union Fall Meeting (1 week in December) or the American Society of Civil Engineers Environment / Water Resources Institute annual meeting (1 week in May).
+After the first year (primarily classes) we aim to fund students to go to the American Geophysical Union Fall Meeting (1 week in December) or the American Society of Civil Engineers Environment / Water Resources Institute annual meeting (1 week in May).
 There are also lots of smaller and more targeted workshops that are often great experiences -- they often have some student travel grants and with planning we can often fund student travel.
 
 </details>
@@ -142,7 +123,7 @@ There are also lots of smaller and more targeted workshops that are often great 
 <details>
 <summary>What are things you wish more students knew before joining your program?</summary>
 
-*I got some feedback from current students for this.*
+*We got some feedback from current students for this.*
 
 1. Balancing course requirements (roughly 6 courses -- see student handbook for details) and research can be a challenge, especially for first-year graduate students who generally have the heaviest courseloads.
 1. For anyone doing modeling or data-driven work, most of your day will be spent (i) reading, (ii) writing, or (iii) coding. You should strive to improve your effectiveness in all three areas and plan to spend much of your day at a computer (which also means being deliberate about getting out of your computer!)
@@ -153,16 +134,16 @@ There are also lots of smaller and more targeted workshops that are often great 
 <details>
 <summary>What is the worst quality of life pain point that your students go through?</summary>
 
-*I got some feedback from current students for this.*
+*We got some feedback from current students for this.*
 
-1. Trying to learn how to do research while also taking a heavy courseload can make for a tough first semester (this was also my experience).
+1. Trying to learn how to do research while also taking a heavy courseload can make for a tough first semester (this was also James's experience).
 
 </details>
 
 <details>
 <summary>How has the lab planned and handled for student's growth throughout their graduate program?</summary>
 
-*I got some feedback from current students for this.*
+*We got some feedback from current students for this.*
 We're still figuring this out and will continue to adapt as we learn more.
 Students learn best from each other, so we have regular reading groups, where we meet (often with friends from other groups) to discuss papers.
 We help each other prepare for conferences, give each other feedback on papers, etc.
