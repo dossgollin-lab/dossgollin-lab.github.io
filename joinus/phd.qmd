@@ -8,36 +8,17 @@ format:
 
 [← Back to Join Us](/joinus/index.qmd)
 
-I welcome prospective Ph.D. students interested in the quantitative study of climate hazard, risk, and resilience.
+We welcome prospective Ph.D. students interested in the quantitative study of climate hazard, risk, and resilience.
 Our research bridges climate science, hydrology, statistics, and decision science.
 
-To get started, fill out the [Prospective Student Information Form](https://docs.google.com/forms/d/e/1FAIpQLSfGtXe4UM3mghwbb6blxNQQioBH4YUnO1vtIeR7EVkfcYcUKA/viewform).
-The [application process](#application-process) below explains what happens next.
-
-## What we work on
-
-Right now the group is heavily focused on urban flooding, along two lines:
-
-- **Decision-making under uncertainty**: managing trade-offs for adaptation decisions, moving past traditional and computationally expensive cost-benefit analysis.
-- **Hazard characterization**: modeling probabilistic rainfall and building physics-informed machine learning tools to quantify flood impacts, so that many adaptations can be analyzed under a range of possible conditions.
-
-Related topics that interest me but fall outside what the group will take on in the next year or two -- cloud seeding, cloud cover and radiation -- are better pursued with a faculty member whose primary work is in that area.
-I am happy to suggest people to contact.
-
-## Who fits
-
-Students come in from physics, math, statistics, computer science, and engineering, not only from hydrology or climate science.
-Some domain knowledge has to be picked up, but curious and motivated students with quantitative training who have not yet been taught "how we do things" often ask questions that people trained inside the field would not think to ask.
-
-## Open Positions
-
-Current openings are listed on the [Join Us](/joinus/index.qmd) page.
-If you have external funding or a research idea that aligns with the group's work, reach out even if no position is posted.
+Strong applicants come not only from hydrology, climate science, or civil engineering but from physics, applied math, statistics, computer science, operations research, and related disciplines.
+Some domain knowledge has to be picked up, but **all curious and motivated students with strong quantitative foundations should consider themselves qualified to apply.**
+Our work is interdisciplinary, and nobody starts (or completes!) their Ph.D. with expertise in all relevant disciplines.
 
 ## How to Apply
 
-All candidates must apply through Rice University's formal application process.
-I strongly encourage you to get in touch before applying, through the form in step 2 below, to assess whether our group is a good fit for your goals.
+All candidates **must apply through Rice University's formal application process**.
+However, I strongly encourage you to get in touch before applying, through the form in step 2 below, to assess whether our group is a good fit for your goals.
 
 ### Application Process
 
